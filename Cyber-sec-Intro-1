@@ -1,6 +1,40 @@
 Security & Definition :
 =======================
-Software/IT Definition : Protecting data, app, DB's, servers, Assets and Cloud information.
+Software/IT Definition : Protecting of data, App, DB's, Servers, Assets and Cloud information from any damage.
+Protecting entair organizatioin related to data, related to assets, related to servers, related to Dbs and etc.
+In general most of the hacking will happen through internet.
+
+What is threat actor:
+=====================
+Threat actor is nothing but an attacker. who ever do trying to hack that is called treat actor.
+
+Attacker/Hacker/Intruders/Threat Actor Aim/ Objectives :(main objectives)
+=========================================================================
+1. Easy way to earning money.
+2. Stealing of Data.
+
+Hacker Types :
+=============
+There are 3 types of hacker/attackers/threat actors those 3 are
+ 1. Black Hat - Real hackers - Will compromise the system/app/db/server/cloud > finally they ask money.
+ 2. White Hat - Ethical Security hackers-fixing the issues and vulnerabilities.(These are we can call attacker/ threat-actor/Intruders). whatever the hacking the Black-Hat hacker doing The White-Hat hackers will fixing those issue or vulnerabilities.  
+ 3. Grey Hat  - In between Black and White - They aren't malicious, but they are not always ethical either.
+
+Note: Black-Hat hackers are Offensive, White-hat hackers are Defensive.
+
+Branches or Subdomains of security:
+===================================
+There are different types of security technologies we have.
+1. Information Security 
+2. Physical Security 
+3. Endpoint Security
+4. Network Security
+5. Application Security
+6. Cloud Security
+7. Product Security
+8. Cyber Security (SIEM, SOC) & VAPT (ATTACKER)-Black-Box, Grey, WhiteBox, SAST(Code reviews) And DAST.
+9. Infra Security.
+
 
 
 
