@@ -53,5 +53,5 @@ Abbrivations/Acronyms In Cyber-Security :
  -----------------------------------------------
           WIPS (Wireless Intrusion Prevention System) actively prevents and blocks security threats in wireless networks, automatically taking actions to stop malicious activities. 
           WIDS (Wireless Intrusion Detection System) detects and alerts on suspicious wireless network behavior but does not proactively prevent threats, requiring manual intervention for response.
- > 
+          Rogue : Wireless Attacker / Hacker / Intruder.
 
