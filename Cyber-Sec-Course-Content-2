@@ -54,6 +54,11 @@ Topics :
        > Cryptography (It ntg but a masking, in simple words logical reasoning using some computer algorithms).(Ex if we want to download sensitive data like bank statement, 
           they are using this technique to encrypt the data by using cryptography controlls.(Simpy it's a logical reasoning and mathematical operations.
 
+5) Server security(Infra Security) : (Vulnarability management)
+------------------------------------
+  Eaither physical servers/Virtual(cloud) servers. We will run a scan on all these servers for identify any security bug/issues are existing. These issues will fix by respective teams like windows team. linux team. operations team & etc.
+
+
 
 
 
