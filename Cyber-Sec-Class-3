@@ -39,9 +39,19 @@ Abbrivations/Acronyms In Cyber-Security :
  > IPS : IPS stands for Intrusion Prevention System. An Intrusion Prevention System is a security solution designed to monitor, detect, and actively prevent unauthorized access, attacks, or security breaches on a network or system. 
          IPS builds upon the capabilities of an Intrusion Detection System (IDS) by not only identifying malicious activities but also taking automated actions to block or mitigate those activities in real-time.
  
- > HIPS & HIDS : HIPS (Host-based Intrusion Prevention System) actively blocks and prevents security threats in real-time, automatically taking actions to stop malicious activities. It'll work on host level
-                HIDS (Host-based Intrusion Detection System) detects and alerts on suspicious behavior but does not proactively prevent threats, requiring manual intervention for response. It'll also work on host level.
+ > HIPS & HIDS : (These are works on Host level)
+------------------------------------------------
+         HIPS (Host-based Intrusion Prevention System) actively blocks and prevents security threats in real-time, automatically taking actions to stop malicious activities. It'll work on host level
+         HIDS (Host-based Intrusion Detection System) detects and alerts on suspicious behavior but does not proactively prevent threats, requiring manual intervention for response. It'll also work on host level.
 
- > NIPS & NIDS : NIPS (Network Intrusion Prevention System) actively blocks and prevents malicious network activities in real-time, enhancing security by automatically taking measures to stop threats. It works on Network level.
-                  NIDS (Network Intrusion Detection System) detects and alerts on suspicious network behavior but does not actively prevent threats, relying on manual intervention for response. It also works on Network level.
+ > NIPS & NIDS : (These works on Network level)
+-----------------------------------------------
+          NIPS (Network Intrusion Prevention System) actively blocks and prevents malicious network activities in real-time, enhancing security by automatically taking measures to stop threats. It works on Network level.
+          NIDS (Network Intrusion Detection System) detects and alerts on suspicious network behavior but does not actively prevent threats, relying on manual intervention for response. It also works on Network level.
+
+ > WIPS & WIDS : (These are Works on Wifi Level)
+ -----------------------------------------------
+          WIPS (Wireless Intrusion Prevention System) actively prevents and blocks security threats in wireless networks, automatically taking actions to stop malicious activities. 
+          WIDS (Wireless Intrusion Detection System) detects and alerts on suspicious wireless network behavior but does not proactively prevent threats, requiring manual intervention for response.
+ > 
 
