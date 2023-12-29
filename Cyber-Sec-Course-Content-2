@@ -33,7 +33,7 @@ Topics :
        > AntiVirus or EDR (Ntg but a next generation Antivirus)
        > DLP (DATA Loss or DATA leak prevention
        > FIM (File integrity monitoring)
-       > HIDS/HAPS (Host  Intrusion Detection System, Host Intrusion Prevention System)
+       > HIDS/HIPS (Host  Intrusion Detection System, Host Intrusion Prevention System)
        > Encryption ( Encryption Data at Rest )
 
 3) Network Security : ( This we will use entire WAN/LAN level in an Organization for network security)
