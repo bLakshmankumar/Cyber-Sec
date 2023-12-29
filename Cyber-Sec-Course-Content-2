@@ -1,0 +1,27 @@
+Cyber-Security Course Content for Soc Operations : 
+==================================================
+
+Topics :
+--------
+1) Networking Concepts (It's related to computer networks ex : LAN, WAN, MAN(metro area netwrok).
+     Inside this network concept we have some sub concepts
+        > OSI Layer Approach (Open system Interconnection). 
+           ( Here we have 7 layers approach and it'll comepletely explain about back-end communication between the servers )
+        > TCP/IP Layer Approach 
+           ( Here we have 4 layer concept ) 
+        > IP Address & Classification of IP addresses Concepts [ Ip address is ntg but a 32 bit octa 4 decimal unique identification number for a device in a network ].
+             Ex wew have this ip : 198.89.98.1 = 32 bit.
+            [ Ex : 198.89.98.1 : 4 decimals, Each and every decimal is an octa, and Octa value is 8, So how many decimals we have totally 4(8+8+8+8)= 32 bits.]
+
+            Classification/Types of IP Address : By using this we can identify whether some perticuler hacking belongs from internal employ side or extrenal hacker side.
+        > DNS/DNS Records (Domain name system/server)
+        > Static IP and Dynamic IP (Dynamic Host configuration protocla(DHCP) (In the org level for evey laptop every desktop we use dynamic ip so the dynamic address allocation done by using DHCP server).
+        > Ports & Protocals (Protocal is ntg but a rules and regulations we use ports for communication purpose protocal represents the type of port)
+          [ Ex : Port(80) & Protocal(Http)].
+        > Network architecture diagram 
+        > TCP Flags, TCP Packets, IP Packet [ Whenever we want to enable any communication we should enable the flag, For enable flag we can call true condition = 1 For desable flag we can call false condition = 0,
+           and all communiccation will flow using ip packets only]
+
+
+             
+                                
