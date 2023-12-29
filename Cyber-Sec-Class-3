@@ -27,6 +27,10 @@ Abbrivations/Acronyms In Cyber-Security :
  > EDR : Endpoint Detection and Response(Advanced technology) [It is a category of cybersecurity tools and solutions that focus on detecting and responding to security incidents at the endpoint level.
         Endpoints refer to individual devices such as desktops, laptops, servers, and mobile devices in a network]
 
- > DLR : Data Loss/Leak Prevention [DLP is a set of tools and processes designed to prevent unauthorized access, use, disclosure, or transmission of sensitive information. 
+ > DLP : Data Loss/Leak Prevention [DLP is a set of tools and processes designed to prevent unauthorized access, use, disclosure, or transmission of sensitive information. 
          The primary goal of DLP is to protect sensitive data from being accidentally or intentionally leaked or exposed to unauthorized individuals or entities].
+
+ > FIM : FIM stands for File Integrity Monitoring. It is a security feature and process that involves monitoring and validating the integrity of files on a computer system. The primary goal of File Integrity Monitoring is to detect and alert on any unauthorized or unexpected changes to critical system files, configuration files, and directories.
+         This helps in identifying potential security incidents, such as unauthorized modifications, malware infections, or system compromises
+         
 
