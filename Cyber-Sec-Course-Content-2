@@ -50,7 +50,9 @@ Topics :
           Under SDLC Lifecycke we have requirement phase, Design phase, Development Phase, Testing Phase finally Release & Operation Phase.
        > WAF (Web Application FireWall)
        > OWASP TOP 10 (Open Worldwide Application Security Project) (TOP 10 IS explain about top 10 attacks).
-       > Penetration Testing (Security Testing)
+       > Penetration Testing (Security Testing) [Here we check any security bug/issue is involved]
+       > Cryptography (It ntg but a masking, in simple words logical reasoning using some computer algorithms).(Ex if we want to download sensitive data like bank statement, 
+          they are using this technique to encrypt the data by using cryptography controlls.(Simpy it's a logical reasoning and mathematical operations.
 
 
 
