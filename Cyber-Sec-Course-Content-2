@@ -4,6 +4,7 @@ Cyber-Security Course Content for Soc Operations :
 Topics :
 --------
 1) Networking Concepts (It's related to computer networks ex : LAN, WAN, MAN(metro area netwrok).
+----------------------
      Inside this network concept we have some sub concepts
         > OSI Layer Approach (Open system Interconnection). 
            ( Here we have 7 layers approach and it'll comepletely explain about back-end communication between the servers )
@@ -25,6 +26,31 @@ Topics :
           These servers will be used by different teams across the company.
        
         > *Network and CyberSecurity* : (Important Topic) ( we are going to discuss 45 attacks)
+
+2) EndPoint Security/EndPoint Protection :
+------------------------------------------
+     In the EndPoint Security we are going to discuss these below topics.
+       > AntiVirus or EDR (Ntg but a next generation Antivirus)
+       > DLP (DATA Loss or DATA leak prevention
+       > FIM (File integrity monitoring)
+       > HIDS/HAPS (Host  Intrusion Detection System, Host Intrusion Prevention System)
+       > Encryption ( Encryption Data at Rest )
+
+3) Network Security : ( This we will use entire WAN/LAN level in an Organization for network security)
+---------------------
+     In This Network Security we will going to discuss these below topics.
+       > FireWall (Also we can call it as a Next Generation Firewall(NGFW).
+       > Proxy Server
+       > NIDS/NIPS (Network IDS / Network IPS)
+
+4) Application Security :
+-------------------------
+     In This Application Security we will going to discuss these below topics
+       > SDLC LifeCycle ( Here we are going to discuss about sdlc life cycle, Basically this sdlc life cycle is done by developers).
+          Under SDLC Lifecycke we have requirement phase, Design phase, Development Phase, Testing Phase finally Release & Operation Phase.
+       > WAF (Web Application FireWall)
+       > OWASP TOP 10 (Open Worldwide Application Security Project) (TOP 10 IS explain about top 10 attacks).
+       > Penetration Testing 
 
 
 
