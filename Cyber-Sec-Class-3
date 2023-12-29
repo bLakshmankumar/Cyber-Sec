@@ -55,3 +55,18 @@ Abbrivations/Acronyms In Cyber-Security :
           WIDS (Wireless Intrusion Detection System) detects and alerts on suspicious wireless network behavior but does not proactively prevent threats, requiring manual intervention for response.
           Rogue : Wireless Attacker / Hacker / Intruder.
 
+ > MALWARE : Malcious software programming code [ Using coding languages to attacker creates the harmful software and he tries to inject into the DB side, Application side, or server side, Cloud side to compromise the service.
+
+ > FW : Firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+        The primary purpose of a firewall is to establish a barrier between a trusted internal network and untrusted external networks, such as the internet.
+        It acts as a gatekeeper, allowing or blocking traffic based on predefined security rules.
+ 
+ > NGFW : Next-Generation Firewall. Up to Layer number 7, It combines traditional firewall capabilities with advanced security features such as intrusion prevention, deep packet inspection, and application-layer filtering.
+          The purpose of NGFW is to provide more comprehensive and context-aware security, allowing organizations to defend against modern threats, control specific applications, and enforce security policies. 
+
+ > WAF : Web Application Firewall. Dedicated to layer number 7,  It's a security solution designed to protect web applications from various cyber threats, including SQL injection, cross-site scripting, and other vulnerabilities.
+         The purpose of WAF is to filter, monitor, and block HTTP traffic between a web application and the internet, ensuring the security and integrity of web applications.
+
+33:00 min
+
+
