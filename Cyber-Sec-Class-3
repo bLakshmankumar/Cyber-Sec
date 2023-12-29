@@ -31,6 +31,11 @@ Abbrivations/Acronyms In Cyber-Security :
          The primary goal of DLP is to protect sensitive data from being accidentally or intentionally leaked or exposed to unauthorized individuals or entities].
 
  > FIM : FIM stands for File Integrity Monitoring. It is a security feature and process that involves monitoring and validating the integrity of files on a computer system. The primary goal of File Integrity Monitoring is to detect and alert on any unauthorized or unexpected changes to critical system files, configuration files, and directories.
-         This helps in identifying potential security incidents, such as unauthorized modifications, malware infections, or system compromises
-         
+         This helps in identifying potential security incidents, such as unauthorized modifications, malware infections, or system compromises.
+         All malware related attacks comes from files, every file has unique has value, even someone trying to add, delete, modify any file we should monitor what they are trying to do.
+ 
+ > IDS : IDS stands for Intrusion Detection System. An Intrusion Detection System is a security tool or device that monitors network or system activities for malicious or suspicious behavior and alerts administrators or security personnel when such activities are detected. It'll detect but It won't block the attack.
+
+ > IPS : IPS stands for Intrusion Prevention System. An Intrusion Prevention System is a security solution designed to monitor, detect, and actively prevent unauthorized access, attacks, or security breaches on a network or system. 
+         IPS builds upon the capabilities of an Intrusion Detection System (IDS) by not only identifying malicious activities but also taking automated actions to block or mitigate those activities in real-time.
 
