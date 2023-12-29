@@ -21,6 +21,12 @@ Topics :
         > Network architecture diagram 
         > TCP Flags, TCP Packets, IP Packet [ Whenever we want to enable any communication we should enable the flag, For enable flag we can call true condition = 1 For desable flag we can call false condition = 0,
            and all communiccation will flow using ip packets only]
+        > Servers [ We have multiple couple of servers in the org like DNS-SERVER, DHCP-SERVER, SMTP-SERVER, DB-SERVER, APP-SERVER, FILE-SERVER, WINDOWS SERVER, LINUX-SERVER 7 etc)]
+          These servers will be used by different teams across the company.
+       
+        > *Network and CyberSecurity* : (Important Topic)
+
+
 
 
              
