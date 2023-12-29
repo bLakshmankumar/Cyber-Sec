@@ -38,4 +38,6 @@ Abbrivations/Acronyms In Cyber-Security :
 
  > IPS : IPS stands for Intrusion Prevention System. An Intrusion Prevention System is a security solution designed to monitor, detect, and actively prevent unauthorized access, attacks, or security breaches on a network or system. 
          IPS builds upon the capabilities of an Intrusion Detection System (IDS) by not only identifying malicious activities but also taking automated actions to block or mitigate those activities in real-time.
-
+ 
+> HIPS & HIDS : HIPS (Host-based Intrusion Prevention System) actively blocks and prevents security threats in real-time, automatically taking actions to stop malicious activities.
+                HIDS (Host-based Intrusion Detection System) detects and alerts on suspicious behavior but does not proactively prevent threats, requiring manual intervention for response.
