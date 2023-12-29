@@ -1,0 +1,32 @@
+Abbrivations/Acronyms In Cyber-Security :
+=========================================
+ > LAN : Local Area Network [ Local Area Network is a network of interconnected computers and devices within a limited area, such as a home, office, or campus.
+         LANs allow these devices to communicate with each other and share resources, such as files, printers, and internet connections].
+ > WAN : Wide Are Network [ WAN is a type of Geographical network that covers a broad area, often connecting multiple smaller networks, such as Local Area Networks (LANs) or Metropolitan Area Networks (MANs).
+         The primary purpose of a WAN is to facilitate communication and data exchange between geographically distant locations with internet]
+ > MAN :  Metropolitan Area Network [ MANs typically cover a city or a large campus, connecting multiple buildings and LANs within a specific metropolitan area].
+ > DC  : Data Center [ A data center is a facility used to manage computer systems, servers, networking equipment, and components for the purpose of processing, storing, and managing large amounts of data.
+         Data centers play a crucial role in supporting the operations of organizations by providing a secure and controlled environment for IT infrastructure.
+ > DC  : Domain Controller [ A Domain Controller (DC) is a server in a Windows Server-based network that manages security authentication and authorization, as well as organizes and centralizes network resources. 
+         It plays a key role in a Windows Active Directory (AD) environment, which is a directory service used to store and organize information about network resources].
+         It's managed/Controlled by Windows admin team/System admin team.
+
+   > Difference Between Authentication & Authorization : 
+  ======================================================
+      Authentication : Authentication is the process of verifying someone's identity. It's like confirming that you are who you say you are.
+                       For example, when you log into a website by entering your username and password, you are authenticating yourself.
+      Authorization : Authorization, on the other hand, is about determining what actions someone is allowed to perform after they've been authenticated. 
+                      It's like deciding what permissions or access rights you have once your identity is confirmed. For instance, after logging into a system, 
+                      authorization decides whether you have the right to view, edit, or delete specific files or data.
+ > AV : Anti Virus [ An antivirus (or anti-virus) is a type of software designed to detect, prevent, and remove malicious software, commonly known as malware, from computer systems.
+        The primary purpose of antivirus software is to protect computers and networks from various types of harmful programs, including viruses, worms, Trojans, spyware, adware, and other forms of malicious code.
+        [Simply Virus is an Attack and Anti Virus is a Solution for that attack]
+ > AM : Anti Malware [ "Anti-malware" is a broad term that encompasses various types of software designed to detect, prevent, and remove different forms of malicious software, commonly known as malware.
+        Malware is a generic term for any software intentionally created to harm, exploit, or compromise computer systems, networks, or user data.
+        Anti-malware tools are developed to protect computer systems from a range of threats, including viruses, worms, Trojans, spyware, adware, and other types of harmful code.
+ > EDR : Endpoint Detection and Response(Advanced technology) [It is a category of cybersecurity tools and solutions that focus on detecting and responding to security incidents at the endpoint level.
+        Endpoints refer to individual devices such as desktops, laptops, servers, and mobile devices in a network]
+
+ > DLR : Data Loss/Leak Prevention [DLP is a set of tools and processes designed to prevent unauthorized access, use, disclosure, or transmission of sensitive information. 
+         The primary goal of DLP is to protect sensitive data from being accidentally or intentionally leaked or exposed to unauthorized individuals or entities].
+
