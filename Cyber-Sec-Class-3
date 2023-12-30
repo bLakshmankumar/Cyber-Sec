@@ -148,7 +148,7 @@ Abbrivations/Acronyms In Cyber-Security : [ Include Class- 3 & 4 & 5 ]
          It is a systematic process used in various fields, including engineering, healthcare, information technology, and business, to understand the factors contributing to undesired outcomes.
 
  > OWASP : Open Web Application Security Project. OWASP is a nonprofit organization dedicated to improving the security of software.
-           It provides resources, tools, and best practices to address web application security challenges.
+           They will conduct Application Layer attacks Suervays and finally they will make top 10 application attacks.       
 
  > OWASP Top 10: It is a list of the most critical web application security risks, providing a framework for prioritizing efforts to enhance security. 
                  For example, the OWASP Top 10 includes risks like Injection, Cross-Site Scripting (XSS), and Broken Authentication.
