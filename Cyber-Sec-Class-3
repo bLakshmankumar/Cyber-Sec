@@ -61,12 +61,28 @@ Abbrivations/Acronyms In Cyber-Security :
         The primary purpose of a firewall is to establish a barrier between a trusted internal network and untrusted external networks, such as the internet.
         It acts as a gatekeeper, allowing or blocking traffic based on predefined security rules.
  
- > NGFW : Next-Generation Firewall. Up to Layer number 7, It combines traditional firewall capabilities with advanced security features such as intrusion prevention, deep packet inspection, and application-layer filtering.
+ > NGFW : Next-Generation Firewall It'll prevent Layer Number 1 to Layer number 7, It combines traditional firewall capabilities with advanced security features such as intrusion prevention, deep packet inspection, and application-layer filtering.
           The purpose of NGFW is to provide more comprehensive and context-aware security, allowing organizations to defend against modern threats, control specific applications, and enforce security policies. 
 
  > WAF : Web Application Firewall. Dedicated to layer number 7,  It's a security solution designed to protect web applications from various cyber threats, including SQL injection, cross-site scripting, and other vulnerabilities.
          The purpose of WAF is to filter, monitor, and block HTTP traffic between a web application and the internet, ensuring the security and integrity of web applications.
 
-33:00 min
+ > SIEM* : Security Information and Event Management. It's a comprehensive solution that collects, analyzes, and correlates security Log event data from various sources across an organization's IT infrastructure. 
+          The purpose of SIEM is to provide real-time Log monitoring, threat detection, and incident response capabilities, enhancing overall cybersecurity.
+          SIEM is useful for centralizing and analyzing diverse security data, identifying patterns indicative of security threats, and facilitating rapid response to security incidents.
+          It helps organizations meet compliance requirements, improve situational awareness, and strengthen their overall security posture.
+
+ > LOG : Log is ntg but a any action or any computer recorded activity. logs play a crucial role in detecting and investigating security incidents by recording events such as login attempts, configuration changes, or suspicious activities. 
+         Analyzing logs helps enhance system performance, diagnose issues, and strengthen overall information security.
+
+ > UEBA : User and Entity Behavior Analytics. It's a combination of ML+AI+DataAnalytics, Its purpose is to detect and respond to anomalous behavior by users or entities within an organization's network, helping to identify potential security threats. 
+          UEBA leverages machine learning and data analysis to establish a baseline of normal behavior and alert on deviations that may indicate insider threats or compromised accounts.
+          For example, if an employee suddenly accesses sensitive data at unusual hours or from an unexpected location, UEBA can generate an alert, allowing prompt investigation and response.
+          UEBA is valuable for enhancing cybersecurity by providing advanced threat detection based on user behavior patterns.
+          Entity = Asset (Laptop, Macbook, Workstation, Desktop, Servers).
+ 
+
+
+
 
 
