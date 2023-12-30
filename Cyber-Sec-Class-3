@@ -154,6 +154,26 @@ Abbrivations/Acronyms In Cyber-Security :
          RDP enables users to access and control a computer from a remote location, providing a graphical interface to the remote system.
          RDP uses TCP (Transmission Control Protocol) on port 3389 for communication. This port is used for establishing the connection between the client and the remote desktop server.
 
+ > DNS : Domain Name System. Its purpose is to translate human-readable domain names (like www.example.com) into IP addresses, facilitating the routing of network traffic on the internet.
+
+ > DHCP : DHCP stands for Dynamic Host Configuration Protocol. Its purpose is to automatically assign IP addresses and other network configuration information to devices on a network.
+          DHCP eliminates the need for manual IP address configuration by dynamically assigning IP addresses to devices when they join a network.
+          Example: When a computer or device connects to a Wi-Fi network, DHCP assigns it an IP address, subnet mask, and other network parameters, enabling seamless connectivity.
+
+ > ARP : Address Resolution Protocol. Its purpose is to map an IP address to a corresponding physical (MAC) address on a local network.
+         ARP is used to dynamically discover the hardware address (MAC address) associated with a given IP address within a local network.
+         Example: When a device needs to communicate with another device on the same local network, it uses ARP to resolve the IP address to the MAC address, allowing for proper data transmission.
+ 
+ > RARP : RARP stands for Reverse Address Resolution Protocol. Its purpose is to map a MAC address to an IP address, which is the reverse of what ARP does.
+          Example: In diskless workstations that need an IP address to boot over a network, RARP can be used to obtain the IP address associated with the workstation's MAC address.
+
+ > TCP : Transmission Control Protocol. Its purpose is to provide reliable, connection-oriented communication between devices over a network.
+         Example: When you download a file from a server, TCP ensures that all parts of the file are received correctly, and if any packet is lost, it is retransmitted for complete and accurate data transfer.
+
+ > UDP : User Datagram Protocol. UDP is designed for simplicity and efficiency, providing a lightweight, connectionless communication method that does not guarantee reliable delivery.
+         Example: Online gaming often uses UDP for its low-latency characteristics. In gaming, rapid communication of small packets is prioritized over guaranteed delivery, as a slight delay is preferable to a stalled game.
+          
+
 
  
 
