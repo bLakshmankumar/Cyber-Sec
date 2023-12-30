@@ -107,6 +107,23 @@ Abbrivations/Acronyms In Cyber-Security :
 
  > CLI :  Command-Line Interface. It is a text-based interface that allows users to interact with a computer or software by typing commands into a terminal or console. 
 
+ > BCP : Business Continuity Planning. It involves creating strategies and processes to ensure that essential business functions can continue in the face of disruptions such as natural disasters, cyber attacks, or other emergencies.
+         Example: In the event of a data center failure, a company's BCP may include provisions for quickly shifting operations to a backup data center, minimizing downtime and maintaining critical services.
+ 
+ > DR :  Disaster Recovery (DR) involves planning and processes to recover IT systems and data quickly after a disruption, such as a natural disaster, cyber attack, or hardware failure.
+
+ > BIA : Business Impact Analysis (BIA) assesses the potential impact of disruptions on business operations, helping organizations prioritize their resources and develop effective continuity plans.
+         If any service is goes down/Comprmise so what will be the business impact or customer impact.
+
+ > RCA : Root Cause Analysis. The purpose of RCA is to identify and address the underlying causes of problems or incidents rather than just treating their symptoms. 
+         It is a systematic process used in various fields, including engineering, healthcare, information technology, and business, to understand the factors contributing to undesired outcomes.
+
+ > OWASP : Open Web Application Security Project. OWASP is a nonprofit organization dedicated to improving the security of software.
+           It provides resources, tools, and best practices to address web application security challenges.
+
+ > OWASP Top 10: It is a list of the most critical web application security risks, providing a framework for prioritizing efforts to enhance security. 
+                 For example, the OWASP Top 10 includes risks like Injection, Cross-Site Scripting (XSS), and Broken Authentication.
+
 
 
 
