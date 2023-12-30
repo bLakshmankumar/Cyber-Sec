@@ -88,11 +88,13 @@ Abbrivations/Acronyms In Cyber-Security : [ Include Class- 3 & 4 & 5 ]
         The primary purpose of a firewall is to establish a barrier between a trusted internal network and untrusted external networks, such as the internet.
         It acts as a gatekeeper, allowing or blocking traffic based on predefined security rules.
  
- > NGFW : Next-Generation Firewall It'll prevent Layer Number 1 to Layer number 7, It combines traditional firewall capabilities with advanced security features such as intrusion prevention, deep packet inspection, and application-layer filtering.
+ > NGFW : Next-Generation Firewall It'll prevent Layer Number 1 to Layer number 7 Attacks, It combines traditional firewall capabilities with advanced security features such as intrusion prevention, deep packet inspection, and application-layer filtering.
           The purpose of NGFW is to provide more comprehensive and context-aware security, allowing organizations to defend against modern threats, control specific applications, and enforce security policies. 
 
- > WAF : Web Application Firewall. Dedicated to layer number 7,  It's a security solution designed to protect web applications from various cyber threats, including SQL injection, cross-site scripting, and other vulnerabilities.
+ > WAF : Web Application Firewall. Dedicated to layer number 7 Attacks only,  It's a security solution designed to protect web applications from various cyber threats, including SQL injection, cross-site scripting, and other vulnerabilities.
          The purpose of WAF is to filter, monitor, and block HTTP traffic between a web application and the internet, ensuring the security and integrity of web applications.
+          * Example Tools [ AKAMAI, BARACUDA, CITRIX, F5, AWS WAF, AZURE APPLICATION GATEWAY, GOOGLE WAF].
+          * It'll Prevent the Application Layer attacks or OWASP Top 10 Attacks.
 
  > SIEM* : Security Information and Event Management. It's a comprehensive solution that collects, analyzes, and correlates security Log event data from various sources across an organization's IT infrastructure. 
           The purpose of SIEM is to provide real-time Log monitoring, threat detection, and incident response capabilities, enhancing overall cybersecurity.
