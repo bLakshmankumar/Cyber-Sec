@@ -203,6 +203,16 @@ Abbrivations/Acronyms In Cyber-Security :
 ----------
            What all are the consiquences
 
+> Whitelisting : 
+----------------
+           Allowing required accesses (Ex : Ip address, Domain, Hash-value, Website, URL, Application).
+
+> Blocklisting : 
+----------------
+           Blocking/regecting/denie the access for like Ip address, Domain, Proxy, Application.
+
+> 
+
           
 
 
