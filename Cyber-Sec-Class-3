@@ -191,6 +191,18 @@ Abbrivations/Acronyms In Cyber-Security :
   ------------------------
             Vulnerability is a weakness or flaw in a system's design, implementation, or configuration that could be exploited by a threat actor to compromise the system's security, integrity, or availability.
 
+> Likelihood : 
+ -------------
+            How many times it'll occur in one year period.
+
+> What is threat :
+------------------
+           Exploting Vulnaribility is called a threat/risk
+
+> Impact : 
+----------
+           What all are the consiquences
+
           
 
 
