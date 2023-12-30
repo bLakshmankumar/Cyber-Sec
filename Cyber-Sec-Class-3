@@ -81,8 +81,31 @@ Abbrivations/Acronyms In Cyber-Security :
               UEBA is valuable for enhancing cybersecurity by providing advanced threat detection based on user behavior patterns.
               Entity = Asset (Laptop, Macbook, Workstation, Desktop, Servers).
 
- > 
+ > SOAR : Security Orchestration, Automation, and Response. Its purpose is to streamline and automate the incident response process in cybersecurity by integrating various security tools and processes. 
+          SOAR platforms enable organizations to respond to security incidents more efficiently through automation of repetitive tasks and coordination of workflows.
+          For example, in a real-time incident, a SOAR platform might automatically isolate an infected system, gather forensic data, and notify relevant stakeholders, minimizing response time. 
+          SOAR is useful for improving the overall efficiency, consistency, and speed of incident response in the face of evolving cyber threats.
 
+ > CIA/AIC* : What is CIA/AIC Traid : ANS: Confidentiality, Integrity, and Availability.
+
+ > HTTP : Hypertext Transfer Protocol. It is the foundation of data communication on the World Wide Web, defining how messages are formatted and transmitted. It's run on port num 80.
+          HTTP is useful for accessing and interacting with websites, and it operates on a client-server model where a web browser acts as the client requesting resources from a web server.
+
+ > HTTPS : Hypertext Transfer Protocol Secure) is a secure version of HTTP that encrypts data exchanged between a web browser and a server using SSL/TLS protocols. It's run on port num 443.
+           For Example When making an online purchase and entering payment details on an e-commerce site, the use of HTTPS ensures that the transaction data is encrypted, reducing the risk of interception and unauthorized access to sensitive information.
+
+ > SSL : Secure Sockets Layer is a cryptographic protocol that provides secure communication over a computer network, commonly used to secure data transmission on the internet.
+         Example: When you access a website with "https://" in the URL, SSL is likely being used to encrypt the data exchanged between your browser and the website's server, protecting it from potential eavesdropping.
+
+ > SSH : Secure Shell. SSH provides a secure way to access and manage network devices and servers remotely.
+         It encrypts the communication between the client (such as a computer or terminal) and the server, preventing unauthorized access and protecting the confidentiality and integrity of data during remote administration.
+
+ > AD : In a corporate environment, AD facilitates seamless user authentication and access control, ensuring employees can securely log in to their computers and access network resources with appropriate permissions.
+        It's a directory for saving user information, DB information, Server information, and so on.
+
+ > GUI : Graphical User Interface. It refers to a visual way for users to interact with computers and software using graphical elements such as icons, buttons, windows, and menus.
+
+ > 
 
 
 
