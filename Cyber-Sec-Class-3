@@ -211,7 +211,22 @@ Abbrivations/Acronyms In Cyber-Security :
 ----------------
            Blocking/regecting/denie the access for like Ip address, Domain, Proxy, Application.
 
-> 
+> Malware : 
+-----------
+  Malicious software program code, it'll developed by attcker/hacker. We have multiple types of malwares.
+ 
+   Categories in Malware :
+   ----------------------
+    Virus, Warm, Backdoor, Botnet, Logicbom, Adware, Spyware, Mimikatz, Hacking Tool, Root-Kit, Zero-day, RAT.
+
+> Anti-Virus : 
+-------------
+   Anti-virus will prevent virus related attacks. It's a blocking tool.
+
+   Antivirus-tools :
+   -----------------
+     Avast, Nortan, Kaspersky, *Crowdstrike* (Trending tool), Microsoft-Defender, Sophos, Syamtec, Mcafee.
+
 
           
 
