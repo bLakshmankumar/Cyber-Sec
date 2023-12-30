@@ -75,12 +75,13 @@ Abbrivations/Acronyms In Cyber-Security :
  > LOG : Log is ntg but a any action or any computer recorded activity. logs play a crucial role in detecting and investigating security incidents by recording events such as login attempts, configuration changes, or suspicious activities. 
          Analyzing logs helps enhance system performance, diagnose issues, and strengthen overall information security.
 
- > UEBA : User and Entity Behavior Analytics. It's a combination of ML+AI+DataAnalytics, Its purpose is to detect and respond to anomalous behavior by users or entities within an organization's network, helping to identify potential security threats. 
-          UEBA leverages machine learning and data analysis to establish a baseline of normal behavior and alert on deviations that may indicate insider threats or compromised accounts.
-          For example, if an employee suddenly accesses sensitive data at unusual hours or from an unexpected location, UEBA can generate an alert, allowing prompt investigation and response.
-          UEBA is valuable for enhancing cybersecurity by providing advanced threat detection based on user behavior patterns.
-          Entity = Asset (Laptop, Macbook, Workstation, Desktop, Servers).
- 
+ > UEBA/UBA : User and Entity Behavior Analytics. It's a combination of ML+AI+DataAnalytics, Its purpose is to detect and respond to anomalous behavior by users or entities within an organization's network, helping to identify potential security threats. 
+              UEBA leverages machine learning and data analysis to establish a baseline of normal behavior and alert on deviations that may indicate insider threats or compromised accounts.
+              For example, if an employee suddenly accesses sensitive data at unusual hours or from an unexpected location, UEBA can generate an alert, allowing prompt investigation and response.
+              UEBA is valuable for enhancing cybersecurity by providing advanced threat detection based on user behavior patterns.
+              Entity = Asset (Laptop, Macbook, Workstation, Desktop, Servers).
+
+ > 
 
 
 
