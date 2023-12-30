@@ -103,9 +103,9 @@ Abbrivations/Acronyms In Cyber-Security :
  > AD : In a corporate environment, AD facilitates seamless user authentication and access control, ensuring employees can securely log in to their computers and access network resources with appropriate permissions.
         It's a directory for saving user information, DB information, Server information, and so on.
 
- > GUI : Graphical User Interface. It refers to a visual way for users to interact with computers and software using graphical elements such as icons, buttons, windows, and menus.
+ > GUI : Graphical User Interface. It refers to a visual way for users to interact with computers and software using graphical elements such as icons, buttons, windows, and menus. It's userfriendly.
 
- > 
+ > CLI :  Command-Line Interface. It is a text-based interface that allows users to interact with a computer or software by typing commands into a terminal or console. 
 
 
 
