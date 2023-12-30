@@ -140,10 +140,20 @@ Abbrivations/Acronyms In Cyber-Security :
 
  > SMTP : Simple Mail Transfer Protocol. It is a protocol used for the transmission of electronic mail (email) over the internet.
           SMTP typically operates on port 25, and secure versions like SMTPS or STARTTLS are used to enhance the security of email transmission.
+          Also we can call this as an EMAIL SERVER, EXCHANGE SERVER, UCS SERVER, OFFICE/OUTLOOK-365.
 
  > SMTPS : Simple Mail Transfer Protocol Secure. It is a secure version of SMTP that adds a layer of encryption to protect the confidentiality of data during email transmission.
            SMTPS uses encryption, often through TLS (Transport Layer Security) or SSL (Secure Sockets Layer), to secure the communication between the email client and the server.
            SMTPS traditionally uses port 465 for secure communication, although it's worth noting that the modern approach is to use STARTTLS on the standard SMTP port (25) or other designated ports.
+
+ > SNMP : Simple Network Management Protocol. It is a protocol used for network management and monitoring network-attached devices.
+          SNMP allows network administrators to monitor and manage network devices, collect information about their performance, and receive alerts about issues.
+          SNMP primarily uses UDP (User Datagram Protocol) on port 161 for the SNMP agent (the device being monitored) and port 162 for the SNMP manager (the system doing the monitoring).
+
+ > RDP : Remote Desktop Protocol. It is a proprietary protocol developed by Microsoft, which allows a user to connect to and control a remote computer over a network.
+         RDP enables users to access and control a computer from a remote location, providing a graphical interface to the remote system.
+         RDP uses TCP (Transmission Control Protocol) on port 3389 for communication. This port is used for establishing the connection between the client and the remote desktop server.
+
 
  
 
