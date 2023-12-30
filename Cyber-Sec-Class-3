@@ -124,6 +124,27 @@ Abbrivations/Acronyms In Cyber-Security :
  > OWASP Top 10: It is a list of the most critical web application security risks, providing a framework for prioritizing efforts to enhance security. 
                  For example, the OWASP Top 10 includes risks like Injection, Cross-Site Scripting (XSS), and Broken Authentication.
 
+ > CIS : Center for Internet Security. It's an organization providing guidelines and best practices for cybersecurity.
+         CIS aims to enhance cybersecurity readiness and response by developing and promoting best practices, benchmarks, and tools for securing information systems.
 
+ > CERT : PUBLIC/GOVT SECTOR THEY CALL IT AS CERT(COMPUTER EMERGENCY RESPONSE TEAM
+   CSIRT : PVT SECTOR THEY CALL CSIRT( Computer Security Incident Response Team)
+   SIRT :  Security Incident Response Team, It is a group of professionals responsible for managing and responding to cybersecurity incidents within an organization.
+   SOC :
+   -----
+         Security Operations Center. It serves as a centralized unit responsible for monitoring and responding to security incidents within an organization.
+         SOC activities contribute to continuous improvement by analyzing incidents, identifying weaknesses, and implementing measures to strengthen the organization's security defenses.
+
+ > TTP : Tactics, Techniques, and Procedures. TTPs outline the methods, strategies, and procedures used by threat actors to achieve their objectives in cyber attacks.
+         Example: If a threat actor employs a specific technique like spear-phishing emails to deliver malware (Tactic) using social engineering (Technique), security measures can be tailored to detect and prevent such attacks.
+
+ > SMTP : Simple Mail Transfer Protocol. It is a protocol used for the transmission of electronic mail (email) over the internet.
+          SMTP typically operates on port 25, and secure versions like SMTPS or STARTTLS are used to enhance the security of email transmission.
+
+ > SMTPS : Simple Mail Transfer Protocol Secure. It is a secure version of SMTP that adds a layer of encryption to protect the confidentiality of data during email transmission.
+           SMTPS uses encryption, often through TLS (Transport Layer Security) or SSL (Secure Sockets Layer), to secure the communication between the email client and the server.
+           SMTPS traditionally uses port 465 for secure communication, although it's worth noting that the modern approach is to use STARTTLS on the standard SMTP port (25) or other designated ports.
+
+ 
 
 
