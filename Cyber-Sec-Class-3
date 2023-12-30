@@ -264,9 +264,16 @@ Abbrivations/Acronyms In Cyber-Security : [ Include Class- 3 & 4 & 5 ]
 
 > NOC & SOC Teams in Cyber-Security : 
 -------------------------------------
-   NOC : Network Operating Center, 
-   SOC : Security Operating Center.
-
+   NOC : Network Operating Center 
+   -------------------------------
+       Networking team dedicatedly working on below topics .
+       * NPM : Network Performance Monitoring.
+       * APM : Application Performance Monitoring.
+       * SPM : Server Performance Monitoring.
+  
+   SOC : Security Operating Center
+   -------------------------------
+     SOC Team is dedicatedly working on Attacks/Hacking Part, Whether things got compromised or not and incident investigation is done by SOC Team. 
 
    
 
