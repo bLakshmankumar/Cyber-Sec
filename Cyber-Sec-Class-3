@@ -60,7 +60,7 @@ Abbrivations/Acronyms In Cyber-Security :
  > IDS : IDS stands for Intrusion Detection System. An Intrusion Detection System is a security tool or device that monitors network or system activities for malicious or suspicious behavior and alerts administrators or security personnel when such activities are detected. It'll detect but It won't block the attack.
          * It has only Detection capabilities, Not Prevention Capabilities.
          * Whenever abnormal/malicious/Suspicious activity will happen by attackers IDS tool will monitor and give alert notification only, but it'll not block. Required a manual intervention.
-         * IDS and FIM tool both are having the similar Monitoring capabilities only. It won't block anything.
+         * IDS and SIM tool both are having the similar Monitoring capabilities only. It won't block anything.
 
  > IPS : IPS stands for Intrusion Prevention System. An Intrusion Prevention System is a security solution designed to monitor, detect, and actively prevent unauthorized access, attacks, or security breaches on a network or system. 
          IPS builds upon the capabilities of an Intrusion Detection System (IDS) by not only identifying malicious activities but also taking automated actions to block or mitigate those activities in real-time.
