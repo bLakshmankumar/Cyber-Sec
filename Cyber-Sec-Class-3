@@ -1,5 +1,11 @@
 Abbrivations/Acronyms In Cyber-Security :
 =========================================
+ Who is a hacker :
+ -----------------
+         A hacker is an individual who uses technical skills to gain unauthorized access to computer systems, networks,
+         or data with the intent of exploring, exploiting, or manipulating vulnerabilities for various purposes, ranging from ethical testing to malicious activities.
+         Alternative name for a Hacker = Threat-Actor/ Attcker/ Intruder/ Adversary.
+
  > LAN : Local Area Network [ Local Area Network is a network of interconnected computers and devices within a limited area, such as a home, office, or campus.
          LANs allow these devices to communicate with each other and share resources, such as files, printers, and internet connections].
  > WAN : Wide Are Network [ WAN is a type of Geographical network that covers a broad area, often connecting multiple smaller networks, such as Local Area Networks (LANs) or Metropolitan Area Networks (MANs).
