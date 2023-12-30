@@ -52,11 +52,15 @@ Abbrivations/Acronyms In Cyber-Security :
  > DLP : Data Loss/Leak Prevention [DLP is a set of tools and processes designed to prevent unauthorized access, use, disclosure, or transmission of sensitive information. 
          The primary goal of DLP is to protect sensitive data from being accidentally or intentionally leaked or exposed to unauthorized individuals or entities].
 
- > FIM : FIM stands for File Integrity Monitoring. It is a security feature and process that involves monitoring and validating the integrity of files on a computer system. The primary goal of File Integrity Monitoring is to detect and alert on any unauthorized or unexpected changes to critical system files, configuration files, and directories.
+ > FIM : FIM stands for File Integrity Monitoring. It is a security feature and process that involves monitoring and validating the integrity of files on a computer system.
+         The primary goal of File Integrity Monitoring is to detect and alert on any unauthorized or unexpected changes to critical system files, configuration files, and directories.
          This helps in identifying potential security incidents, such as unauthorized modifications, malware infections, or system compromises.
          All malware related attacks comes from files, every file has unique has value, even someone trying to add, delete, modify any file we should monitor what they are trying to do.
  
  > IDS : IDS stands for Intrusion Detection System. An Intrusion Detection System is a security tool or device that monitors network or system activities for malicious or suspicious behavior and alerts administrators or security personnel when such activities are detected. It'll detect but It won't block the attack.
+         * It has only Detection capabilities, Not Prevention Capabilities.
+         * Whenever abnormal/malicious/Suspicious activity will happen by attackers IDS tool will monitor and give alert notification only, but it'll not block. Required a manual intervention.
+         * IDS and FIM tool both are having the similar Monitoring capabilities only. It won't block anything.
 
  > IPS : IPS stands for Intrusion Prevention System. An Intrusion Prevention System is a security solution designed to monitor, detect, and actively prevent unauthorized access, attacks, or security breaches on a network or system. 
          IPS builds upon the capabilities of an Intrusion Detection System (IDS) by not only identifying malicious activities but also taking automated actions to block or mitigate those activities in real-time.
@@ -246,6 +250,19 @@ Abbrivations/Acronyms In Cyber-Security :
    Antivirus-tools :
    -----------------
      Avast, Nortan, Kaspersky, *Crowdstrike* (Trending tool), Microsoft-Defender, Sophos, Syamtec, Mcafee.
+
+> Ethernet/RJ45 Cable :
+-----------------------
+   This is a Physical cable, It'll support speed upto 1GB Only.
+
+> Optical Fiber Cable :
+-----------------------
+   This is also a Physical cable, It'll support speed from 1MB to 1TB. 
+ 
+   Note : These cables we are using only for On-premises Servers.
+
+
+   
 
 
           
