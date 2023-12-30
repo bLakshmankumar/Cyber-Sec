@@ -200,6 +200,10 @@ Abbrivations/Acronyms In Cyber-Security : [ Include Class- 3 & 4 & 5 ]
  > UDP : User Datagram Protocol. UDP is designed for simplicity and efficiency, providing a lightweight, connectionless communication method that does not guarantee reliable delivery.
          Example: Online gaming often uses UDP for its low-latency characteristics. In gaming, rapid communication of small packets is prioritized over guaranteed delivery, as a slight delay is preferable to a stalled game.
 
+ > IP : Internet Protocal, It's a Label/Nemerical number assigned to each and every system in the organization. It's also called as logical address.
+
+ > NIC : Network Interface Card, It'll convert Electrical signals to Data Signals. NICs plays a crucial role in resolving the fundamental challenge of enabling devices to connect to and communicate on a network, whether it's a wired or wireless network.
+
  > NetFlowData : NetFlow is a network protocol developed by Cisco for collecting and monitoring network traffic information.
                  NetFlow data provides insights into network traffic patterns, aiding in traffic analysis, capacity planning, and identifying potential security threats.
                  Example: A network administrator uses NetFlow to identify and prioritize bandwidth-intensive applications, ensuring optimal network performance and addressing potential issues proactively.
