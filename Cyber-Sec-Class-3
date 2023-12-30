@@ -149,9 +149,7 @@ Abbrivations/Acronyms In Cyber-Security : [ Include Class- 3 & 4 & 5 ]
 
  > OWASP : Open Web Application Security Project. OWASP is a nonprofit organization dedicated to improving the security of software.
            They will conduct Application Layer attacks Suervays and finally they will make top 10 application attacks.       
-
- > OWASP Top 10: It is a list of the most critical web application security risks, providing a framework for prioritizing efforts to enhance security. 
-                 For example, the OWASP Top 10 includes risks like Injection, Cross-Site Scripting (XSS), and Broken Authentication.
+           * Example Attacks : SQL Injection, Cross Site Scripting Attack, CSRF (Cross Site Request Forgery) & etc.
 
  > CIS : Center for Internet Security. It's an organization providing guidelines and best practices for cybersecurity.
          CIS aims to enhance cybersecurity readiness and response by developing and promoting best practices, benchmarks, and tools for securing information systems.
