@@ -37,7 +37,7 @@ Abbrivations/Acronyms In Cyber-Security :
         Malware is a generic term for any software intentionally created to harm, exploit, or compromise computer systems, networks, or user data.
         Anti-malware tools are developed to protect computer systems from a range of threats, including viruses, worms, Trojans, spyware, adware, and other types of harmful code.
  
-> EDR : Endpoint Detection and Response(Advanced Threat Detection technology) [It is a category of cybersecurity tools and solutions that focus on detecting and responding to security incidents at the endpoint level.
+> EDR : Endpoint Detection and Response(Advanced Threat Detection technology) [It is a category of cybersecurity tools and solutions that focus on detecting and responding to security incidents at the endpoint level bu using Ml/AI Capabilities.
         Endpoints refer to individual devices such as desktops, laptops, servers, and mobile devices in a network]
           * It has inbuilt features of threat prevention(Malware prevention).
           * It has DLR & FIM Capabilities, And it also has HIDS & HIPS Capabilities.
