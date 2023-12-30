@@ -187,6 +187,10 @@ Abbrivations/Acronyms In Cyber-Security :
             If we use Juniper Router/switches for network flow we can call JFlOW,
             If we use HP Routers/Switches for network flow we can call YES/SFLOW.
 
+ > What is vulnarability : 
+  ------------------------
+            Vulnerability is a weakness or flaw in a system's design, implementation, or configuration that could be exploited by a threat actor to compromise the system's security, integrity, or availability.
+
           
 
 
