@@ -9,11 +9,15 @@ Example:
 
 Layers : 
 ========
- Layer Num        Layer-name                            Description or Feature of the layer                                    PDU(Protocol Data Unit) or Data Format          Attacks
+ Layer Num            Layer-name                                   Description or Feature of the layer                                    PDU(Protocol Data Unit) or Data Format             Attacks
 
-    1           Application-layer         The top layer handles network services directly interacting with end-users.                           DATA                          OWASP TOP 10 ATTACKS    
-                                          It includes protocols for tasks like file transfer, email, and remote login.
-                                          It Uses for Provide or Get the information
+    1           Application-layer(LAYER-7)        The top layer handles network services directly interacting with end-users.                           DATA                            OWASP TOP 10 ATTACKS    
+                                                  It Uses for Provide or Get the information, Here we use https,http protocals
+                                                  Function: Provides network services directly to end-users or applications.
+                                                  Examples: HTTPS, HTTP, SMTP, FTP.
+                                                  Port: 80 (HTTP), 25 (SMTP), 21 (FTP), 443 (HTTPS).
 
-    2 
+    2           Presentation Layer (Layer-6)      Responsible for data translation and encryption/decryption.                                            DATA                              
+                                                  It ensures that data is presented in a readable format and
+                                                  handles data compression and encryption.
     
