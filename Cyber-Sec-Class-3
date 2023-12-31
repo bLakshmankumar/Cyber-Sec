@@ -291,6 +291,16 @@ Abbrivations/Acronyms In Cyber-Security : [ Include Class- 3 & 4 & 5 ]
    -------------------------------
      SOC Team is dedicatedly working on Attacks/Hacking Part, Whether things got compromised or not and incident investigation is done by SOC Team. 
 
+> FALSE POSITIVE : 
+-------------------
+     False Positive is ntg but a Fake-Incident, Here fake alerts will come, without compromising
+
+> TRUE POSITIVE : 
+-----------------
+     True Positive is ntg but a something really happenned and we have to take incident response. Why, Where, When, and how the incident got compromised and also we have to Provider IR(Incident Response).
+
+        
+
    
 
 
