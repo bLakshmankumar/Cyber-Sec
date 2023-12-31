@@ -28,3 +28,11 @@ Layers :
     3           Session Layer (Layer 5)           Manages and establishes communication sessions between applications.                                    DATA 
                                                   It sets up, maintains, and terminates connections, coordinating data exchange.
     
+
+
+
+
+Interview Qns for OSI Layer : 
+=============================
+1)     Data Encryption and decryption or encoding or decoding comes under which layer : ANS > Presentation Layer (Layer-6).
+2) 
