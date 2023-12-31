@@ -214,7 +214,7 @@ Abbrivations/Acronyms In Cyber-Security : [ Include Class- 3 & 4 & 5 ]
           ICMP helps diagnose network issues by sending error messages, such as "ping" requests, to check if a host is reachable and measure round-trip times.
           Ping command will be used by ICMP Protocal.
 
- > SOP : Standard Operating Procedure Document/Runbook/Wiki. Step By Step processer of incident investigation documentation, In this doc will provide procedure related what L1 team, has to do, What L2 team has to do & Other teams has to do.
+ > SOP : Standard Operating Procedure Document/Runbook/Wiki/PlayBook. Step By Step processer of incident investigation documentation, In this doc will provide procedure related what L1 team, has to do, What L2 team has to do & Other teams has to do.
 
  > NetFlowData : NetFlow is a network protocol developed by Cisco for collecting and monitoring network traffic information.
                  NetFlow data provides insights into network traffic patterns, aiding in traffic analysis, capacity planning, and identifying potential security threats.
