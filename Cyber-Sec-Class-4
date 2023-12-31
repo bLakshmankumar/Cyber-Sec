@@ -1,0 +1,19 @@
+OSI LAYER :  (Open Systems Interconnection) 
+===========================================
+   It was developed by the International Organization for Standardization (ISO), In 1984
+   Refers to a conceptual framework that standardizes the functions of a telecommunication or computing system into 7 abstraction layers. 
+   Each layer serves a specific purpose, and the framework helps guide the design and development of network protocols and systems.
+Example:
+--------
+   If a user cannot access a website, the OSI model allows systematic analysis. Is it an issue with the physical connection (Layer 1), the routing of data (Layer 3), or perhaps a problem with the web browser (Layer 7)?
+
+Layers : 
+========
+ Layer Num        Layer-name                            Description or Feature of the layer                                    PDU(Protocol Data Unit) or Data Format          Attacks
+
+    1           Application-layer         The top layer handles network services directly interacting with end-users.                           DATA                          OWASP TOP 10 ATTACKS    
+                                          It includes protocols for tasks like file transfer, email, and remote login.
+                                          It Uses for Provide or Get the information
+
+    2 
+    
