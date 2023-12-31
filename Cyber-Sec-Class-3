@@ -194,14 +194,17 @@ Abbrivations/Acronyms In Cyber-Security : [ Include Class- 3 & 4 & 5 ]
  > RARP : RARP stands for Reverse Address Resolution Protocol. Its purpose is to map a MAC address to an IP address, which is the reverse of what ARP does.
           Example: In diskless workstations that need an IP address to boot over a network, RARP can be used to obtain the IP address associated with the workstation's MAC address.
 
- > TCP : Transmission Control Protocol. Its purpose is to provide reliable, connection-oriented communication between devices over a network. It's works on Transport layer.
+ > TCP : (Transmission Control Protocol) is a connection-oriented protocol that ensures reliable and ordered delivery of data, making it suitable for applications like file transfer and web browsing. It's works on Transport layer.
          * It's a connection oriented protocal.
          * For Connection Establishment it uses the TCP 3 way Handshake.
          * For Connection Closer It uses the TCP 2 way handshake.
          Example: When you download a file from a server, TCP ensures that all parts of the file are received correctly, and if any packet is lost, it is retransmitted for complete and accurate data transfer.
 
- > UDP : User Datagram Protocol. UDP is designed for simplicity and efficiency, providing a lightweight, connectionless communication method that does not guarantee reliable delivery.
-         Example: Online gaming often uses UDP for its low-latency characteristics. In gaming, rapid communication of small packets is prioritized over guaranteed delivery, as a slight delay is preferable to a stalled game.
+ > UDP : User Datagram Protocol. it is a connectionless protocol that offers faster, but unreliable, data transmission, making it suitable for real-time applications like streaming and online gaming.
+         * It's a connectionless oriented protocal.
+         * Afetr TCP connection established it'll use udp protocal.
+         * For example if you want to download movie, first it'll establish connection to the browser usingt TCP, once Redirect to that page, when we try to download the file , it'll use UDP protocal.
+         * Downloading one of the file from any website, all those comes under download.
 
  > IP : Internet Protocal, It's a Label/Nemerical number assigned to each and every system in the organization. It's also called as logical address.
 
