@@ -299,7 +299,15 @@ Abbrivations/Acronyms In Cyber-Security : [ Include Class- 3 & 4 & 5 ]
 -----------------
      True Positive is ntg but a something really happenned and we have to take incident response. Why, Where, When, and how the incident got compromised and also we have to Provider IR(Incident Response).
 
+> SLA : Service Level Agreement. It is a formal agreement between a service provider and a customer that outlines the expected level of service in terms of performance, quality, and responsibilities.
+        SLAs are required to establish clear expectations, ensure accountability, manage risks, and promote a collaborative and transparent relationship between service providers and customers.
         
+        Incident Types : ( These priority depends on Customer/Business Impact)
+        ----------------
+           Critical : 4 Hours to close
+           HIgh     : 12 Hours to close
+           Medium   : 24 Hours to close
+           Low      : 48 Hours to close
 
    
 
