@@ -194,7 +194,7 @@ Abbrivations/Acronyms In Cyber-Security : [ Include Class- 3 & 4 & 5 ]
  > RARP : RARP stands for Reverse Address Resolution Protocol. Its purpose is to map a MAC address to an IP address, which is the reverse of what ARP does.
           Example: In diskless workstations that need an IP address to boot over a network, RARP can be used to obtain the IP address associated with the workstation's MAC address.
 
- > TCP : Transmission Control Protocol. Its purpose is to provide reliable, connection-oriented communication between devices over a network.
+ > TCP : Transmission Control Protocol. Its purpose is to provide reliable, connection-oriented communication between devices over a network. It's works on Transport layer.
          Example: When you download a file from a server, TCP ensures that all parts of the file are received correctly, and if any packet is lost, it is retransmitted for complete and accurate data transfer.
 
  > UDP : User Datagram Protocol. UDP is designed for simplicity and efficiency, providing a lightweight, connectionless communication method that does not guarantee reliable delivery.
