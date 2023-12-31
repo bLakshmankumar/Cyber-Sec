@@ -25,7 +25,8 @@ Layers :
                                                   It will convert data from one format to another format.                                                                                MAN IN THE MIDDLE ATTACK(MITM)
                                                   It ensures that data is presented in a readable format and handles data compression and encryption.
   
-    3           Session Layer (Layer 5)           Manages and establishes communication sessions between applications.                                    DATA 
+    3           Session Layer (Layer 5)           It'll Basically Manages and establishes communication sessions between applications.                    DATA 
+                                                  It'll also manages the Authentication and Authorization.
                                                   It sets up, maintains, and terminates connections, coordinating data exchange.
     
 
