@@ -309,6 +309,9 @@ Abbrivations/Acronyms In Cyber-Security : [ Include Class- 3 & 4 & 5 ]
            Medium   : 24 Hours to close
            Low      : 48 Hours to close
 
+ > MTTD : (Mean Time to Detect) is the Average time taken to identify a security incident. It is crucial for cybersecurity as a shorter MTTD allows prompt response to mitigate potential damage. 
+          For instance, reducing MTTD helps detect and neutralize a malware intrusion swiftly, minimizing its impact on a network.
+
    
 
 
