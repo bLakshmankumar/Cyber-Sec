@@ -11,15 +11,20 @@ Layers :
 ========
  Layer Num            Layer-name                                   Description or Feature of the layer                                    PDU(Protocol Data Unit) or Data Format             Attacks
 
-    1           Application-layer(LAYER-7)        The top layer handles network services directly interacting with end-users.                           DATA                            OWASP TOP 10 ATTACKS    
-                                                  It Uses for Provide or Get the information, Here we use https,http protocals
-                                                  Function: Provides network services directly to end-users or applications.
+    1           Application-layer(LAYER-7)        The top layer handles network services directly interacting with end-users.                           DATA                            OWASP TOP 10 ATTACKS 
+                                                  It Uses for Provide or Get the information, Here we use https,http protocals                                                          MAN IN THE MIDDLE ATTACK(MITM)
+                                                  Function: Provides network services directly to end-users or applications.                                                            SANS TOP 25
                                                   WEB-BROWSING PORTS :  HTTPS(443), HTTP(80),
                                                   MESSAGE PORTS: SMTP(25), FTP(21), POP3(POST-OFFICE-PROTOCALS)(110), IMAP(143).
-                                                  FILE TRANSFER PROTOCAL : We can sent a file from one server to another server by using FTP Ports(20 & 21).
+                                                  FILE TRANSFER PROTOCAL : We can sent a file from one server to another server by using SFTP Port 22 and FTP(20 & 21).
+                                                  DNS(53), DHCP(67 from laptop side & 68 from server side port). For assigning the Dynamic IP address DHCP server will use DORA Process.
+                                                  SSL/TLS(443).
                                                 
 
-    2           Presentation Layer (Layer-6)      Responsible for data translation and encryption/decryption.                                            DATA                              
-                                                  It ensures that data is presented in a readable format and
-                                                  handles data compression and encryption.
+    2           Presentation Layer (Layer-6)      Responsible for data translation and encryption/decryption also Encodeing and Decoding.                DATA                            OWASP TOP 10 ATTACKS                    
+                                                  It will convert data from one format to another format.                                                                                MAN IN THE MIDDLE ATTACK(MITM)
+                                                  It ensures that data is presented in a readable format and handles data compression and encryption.
+  
+    3           Session Layer (Layer 5)           Manages and establishes communication sessions between applications.                                    DATA 
+                                                  It sets up, maintains, and terminates connections, coordinating data exchange.
     
