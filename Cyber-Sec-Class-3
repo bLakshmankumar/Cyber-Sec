@@ -212,7 +212,7 @@ Abbrivations/Acronyms In Cyber-Security : [ Include Class- 3 & 4 & 5 ]
 
  > ICMP : (Internet Control Message Protocol) is a network layer protocol used for diagnostic and error-reporting purposes in IP networks. but it doesn't have any port numbers.
           ICMP helps diagnose network issues by sending error messages, such as "ping" requests, to check if a host is reachable and measure round-trip times.
-          It also communicates various error conditions, aiding in network troubleshooting.
+          Ping command will be used by ICMP Protocal.
 
  > NetFlowData : NetFlow is a network protocol developed by Cisco for collecting and monitoring network traffic information.
                  NetFlow data provides insights into network traffic patterns, aiding in traffic analysis, capacity planning, and identifying potential security threats.
