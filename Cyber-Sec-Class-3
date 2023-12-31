@@ -309,8 +309,13 @@ Abbrivations/Acronyms In Cyber-Security : [ Include Class- 3 & 4 & 5 ]
            Medium   : 24 Hours to close
            Low      : 48 Hours to close
 
- > MTTD : (Mean Time to Detect) is the Average time taken to identify a security incident. It is crucial for cybersecurity as a shorter MTTD allows prompt response to mitigate potential damage. 
+ > MTTD : (Mean Time to Detection) is the Average time taken to Detect a security incident. It is crucial for cybersecurity as a shorter MTTD allows prompt response to mitigate potential damage. 
           For instance, reducing MTTD helps detect and neutralize a malware intrusion swiftly, minimizing its impact on a network.
+
+ > MTTI : (Mean Time To Identification), is the Average time taken to identify a security incident.
+          MTTI comes into play after detection, focusing on the time it takes to thoroughly identify and understand the incident for an effective response.
+
+ > MTTR : (Mean Time To Recovery), is the Average time taken to restore normal operations or resolve an issue after its detection.
 
    
 
