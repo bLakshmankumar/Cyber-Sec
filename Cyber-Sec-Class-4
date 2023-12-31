@@ -25,11 +25,13 @@ Layers :
                                                   It will convert data from one format to another format.                                                                                MAN IN THE MIDDLE ATTACK(MITM)
                                                   It ensures that data is presented in a readable format and handles data compression and encryption.
   
-    3           Session Layer (Layer 5)           It'll Basically Manages and establishes communication sessions between applications.                    DATA 
-                                                  It'll also manages the Authentication and Authorization.
-                                                  It sets up, maintains, and terminates connections, coordinating data exchange.
+    3           Session Layer (Layer 5)           It'll Basically Manages and establishes communication sessions between applications.                    DATA                           OWASP TOP 10 ATTACKS 
+                                                  It'll also manages the Authentication and Authorization.                                                                               HIJACKING
+                                                  It sets up, maintains, and terminates connections, coordinating data exchange.                                                         
     
-
+    4           Transport Layer (Layer 4)         Manages end-to-end communication Without any error and data flow control.                               Segments/Datagrams              TCP, UDP, DDOS, DOS, ARP, SYN                                           
+                                                  It ensures reliable and error-checked delivery of data, 
+                                                  often through protocols like TCP (Transmission Control Protocol) or UDP (User Datagram Protocol).
 
 
 
