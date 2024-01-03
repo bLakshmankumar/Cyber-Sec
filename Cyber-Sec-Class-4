@@ -106,5 +106,8 @@ Interview Qns for OSI Layer :
       UDP does not require a three-way handshake, reducing initial delays, and is suitable for real-time applications where low latency is crucial, such as online gaming or live streaming.
       Also UDP has less protocol overhead compared to TCP, as it lacks features like flow control, error recovery, and acknowledgment, making it more lightweight.
 
+10) One of the server or one of the Server/protocal supports both TCP & UDP Connections/ Which Server/Protocal is using TCP & UDP Connectinons ?
+      DNS Server/Protocal
+
 
 
