@@ -42,6 +42,7 @@ Interview Qns for OSI Layer :
 =============================
 1) Data Encryption and decryption or encoding or decoding comes under which layer :
        ANS > Presentation Layer (Layer-6).
+
 2) What is DOS and DDOS :
        ANS > DOS(Distributed ) : A DoS attack aims to make a service, network, or website unavailable to its intended users by overwhelming it with a flood of traffic, disrupting normal functioning.
              Example :  Sending a large volume of traffic to a website, causing it to become slow or unresponsive, and denying service to legitimate users.
@@ -51,6 +52,7 @@ Interview Qns for OSI Layer :
                    Source of Attack:
                       * In a DoS attack, a single source overwhelms the target.
                       * In a DDoS attack, multiple sources (a botnet) coordinate the attack.
+
 3) what is tcp 3 way handshake with example ?
        ANS > The TCP (Transmission Control Protocol) three-way handshake is a process that establishes a reliable and orderly connection between two devices. 
               # 3 ways are : 
@@ -63,3 +65,22 @@ Interview Qns for OSI Layer :
              Client (A): Receives the SYN-ACK, sends a TCP segment with the ACK flag set to Server (B).
       The Client will initate the connection using SYNCORNIZING(SYNC) request, Server will respond back with SYNK+ACK and finaly client will respond back with acknoldegemnet.
       The Entire process is happening in 3 ways. That's why this is called tcp 3 way handshake.
+
+4) What is tcp 2-way hand-shake ?
+       ANS > TCP Two-way handshake in the context of TCP (Transmission Control Protocol) typically refers to a simplified interaction between a client and a server where they exchange acknowledgment messages.
+              Example of a TCP Two-Way Handshake:
+                 * Client Sends Request:
+                        The client sends a TCP segment with a request to the server. This request could be a simple message or a data packet.
+                 * Server Acknowledges:
+                        The server receives the request and sends back a TCP segment acknowledging the receipt of the client's message.
+                        This acknowledgment may not include a separate response; it merely confirms the successful reception of the client's data.
+
+     This two-way exchange is less common than the traditional three-way handshake used during the establishment of a TCP connection. 
+
+5) Difference Between TCP 3 Way & 2 Way Handshake :
+     The three-way handshake involves the following steps: SYN (synchronize), SYN-ACK (synchronize-acknowledge), and ACK (acknowledge).
+     The three-way handshake establishes a reliable connection and ensures both parties are ready to exchange data.
+     While the two-way handshake example provided is simplified and not a standard TCP connection setup, it illustrates a basic acknowledgment of communication between a client and a server. 
+     In real-world scenarios, the three-way handshake is the standard for establishing reliable connections in TCP.
+
+
