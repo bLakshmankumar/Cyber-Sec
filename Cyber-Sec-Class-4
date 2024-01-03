@@ -34,11 +34,14 @@ Layers :
                                                   Often through protocols like TCP (Transmission Control Protocol) or UDP (User Datagram Protocol).
                                                   Segmentation : Converting larger data into smaller data.
 
-    5           Network Layer (Layer 3)           Handles logical addressing and routing of data between devices on different networks.
-                                                  Key protocols include IP (Internet Protocol).          
+    5           Network Layer (Layer 3)          It'll provide path determination, Logical Address and Routing in between source and destination devices on different networks.
+                                                 Path Determination : Path determination refers to the process of finding the best route or path for transmitting data from the source to the destination across a network
+                                                 Logical Address : A logical address is a virtual address assigned to a network device in order to uniquely identify it within a network.  It is distinct from the physical address (MAC address) assigned to a network interface card (NIC).
+                                                
+                                                 Key protocols include IP (Internet Protocol). 
 
 
-Interview Qns for OSI Layer : 
+Interview Qns for OSI Layer :
 =============================
 1) Data Encryption and decryption or encoding or decoding comes under which layer :
        ANS > Presentation Layer (Layer-6).
@@ -108,6 +111,10 @@ Interview Qns for OSI Layer :
 
 10) One of the server or one of the Server/protocal supports both TCP & UDP Connections/ Which Server/Protocal is using TCP & UDP Connectinons ?
       DNS Server/Protocal
+
+11) Router will comes under which layer ? 
+      Router comes under Network layer.
+
 
 
 
