@@ -112,8 +112,8 @@ Interview Qns for OSI Layer :
 10) One of the server or one of the Server/protocal supports both TCP & UDP Connections/ Which Server/Protocal is using TCP & UDP Connectinons ?
       DNS Server/Protocal
 
-11) Router will comes under which layer ? 
-      Router comes under Network layer.
+11) Router and ARP will comes under which layer ? 
+      Router & ARP comes under Network layer.
 
 
 
