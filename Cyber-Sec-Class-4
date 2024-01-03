@@ -83,4 +83,9 @@ Interview Qns for OSI Layer :
      While the two-way handshake example provided is simplified and not a standard TCP connection setup, it illustrates a basic acknowledgment of communication between a client and a server. 
      In real-world scenarios, the three-way handshake is the standard for establishing reliable connections in TCP.
 
+6) What is TCP-5 way Handshake ?
+       Tcp 5-Way Handshake = TCP 3-Way Handshake + TCP 2-Way Handshake.
+
+
+
 
