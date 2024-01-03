@@ -29,13 +29,37 @@ Layers :
                                                   It'll also manages the Authentication and Authorization.                                                                               HIJACKING
                                                   It sets up, maintains, and terminates connections, coordinating data exchange.                                                         
     
-    4           Transport Layer (Layer 4)         Manages end-to-end communication Without any error and data flow control.                               Segments/Datagrams              TCP, UDP, DDOS, DOS, ARP, SYN                                           
+    4           Transport Layer (Layer 4)         It Manages end-to-end communication Without any error and data flow control.                            Segments/Datagrams              TCP, UDP, DDOS, DOS, ARP, SYN                                           
                                                   It ensures reliable and error-checked delivery of data, 
-                                                  often through protocols like TCP (Transmission Control Protocol) or UDP (User Datagram Protocol).
+                                                  Often through protocols like TCP (Transmission Control Protocol) or UDP (User Datagram Protocol).
+                                                  Segmentation : Converting larger data into smaller data.
 
+    5           Network Layer (Layer 3)           Handles logical addressing and routing of data between devices on different networks.
+                                                  Key protocols include IP (Internet Protocol).          
 
 
 Interview Qns for OSI Layer : 
 =============================
-1) Data Encryption and decryption or encoding or decoding comes under which layer : ANS > Presentation Layer (Layer-6).
-2) 
+1) Data Encryption and decryption or encoding or decoding comes under which layer :
+       ANS > Presentation Layer (Layer-6).
+2) What is DOS and DDOS :
+       ANS > DOS(Distributed ) : A DoS attack aims to make a service, network, or website unavailable to its intended users by overwhelming it with a flood of traffic, disrupting normal functioning.
+             Example :  Sending a large volume of traffic to a website, causing it to become slow or unresponsive, and denying service to legitimate users.
+             DDOS(Distributed Denial of Service): A DDoS attack is an amplified version of a DoS attack, involving multiple compromised devices (a botnet) to flood a target with traffic simultaneously.
+             Example : Coordinating a large number of infected computers to send massive amounts of traffic to a target, overwhelming its resources and causing a service outage.
+                Key Differences:
+                   Source of Attack:
+                      * In a DoS attack, a single source overwhelms the target.
+                      * In a DDoS attack, multiple sources (a botnet) coordinate the attack.
+3) what is tcp 3 way handshake with example ?
+       ANS > The TCP (Transmission Control Protocol) three-way handshake is a process that establishes a reliable and orderly connection between two devices. 
+              # 3 ways are : 
+               ------------
+                  SYN (Synchronize)
+                  SYN+ACK (Synchronize+Acknowledge)
+                  ACK (Acknowledge)
+             Client (A): Sends a TCP segment with the SYN flag set to Server (B).
+             Server (B): Receives the SYN, sends a TCP segment with both SYN and ACK flags set to Client (A).
+             Client (A): Receives the SYN-ACK, sends a TCP segment with the ACK flag set to Server (B).
+      The Client will initate the connection using SYNCORNIZING(SYNC) request, Server will respond back with SYNK+ACK and finaly client will respond back with acknoldegemnet.
+      The Entire process is happening in 3 ways. That's why this is called tcp 3 way handshake.
