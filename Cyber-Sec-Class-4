@@ -86,6 +86,24 @@ Interview Qns for OSI Layer :
 6) What is TCP-5 way Handshake ?
        Tcp 5-Way Handshake = TCP 3-Way Handshake + TCP 2-Way Handshake.
 
+7) Diff Between TCP & UDP ?
+                               TCP(Transmission Control Protocal)                                                                                                          UDP( User DataGram Protocal)
+
+  It's a Connection-Oriented Protocal that ensures reliable, ordered data delivery with a three-way handshake.                 It's Connectionless protocol that provides fast but unreliable data transmission without handshaking.
+  It's Guarantees data delivery, retransmitting lost packets, and ensuring ordered delivery.                                   It Does not guarantee delivery or order, making it suitable for real-time applications like video streaming. 
+  It's Suitable for applications requiring reliable and ordered data delivery, such as web browsing and email.                 It's Suitable for real-time applications, including video streaming, VoIP, and online gaming, where low latency is essential.
+  Here The data format is segment                                                                                              Here Data Format is DataGram
+  TCP is Slower than UDP                                                                                                       UDP is Faster then TCP
+
+8) Why UDP Scan is so difficult ?
+      Because it's a connectionless & Stateless protocal, it's not using any ping command, and it's not using any icmp protocal and so on.
+      Also UDP does not involve a three-way handshake, making it less susceptible to detection during a scan.
+      Also UDP does not provide acknowledgment of receipt. 
+      Scanners cannot rely on receiving a response from the target system, making it harder to confirm the state of a UDP port.
+  
+9) Why UDP is faster than TCP ?
+      UDP does not require a three-way handshake, reducing initial delays, and is suitable for real-time applications where low latency is crucial, such as online gaming or live streaming.
+      Also UDP has less protocol overhead compared to TCP, as it lacks features like flow control, error recovery, and acknowledgment, making it more lightweight.
 
 
 
