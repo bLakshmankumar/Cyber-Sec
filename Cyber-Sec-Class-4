@@ -164,3 +164,7 @@ Interview Qns for OSI Layer :
      Static routing involves manual configuration, It's a fixed Route. 
      Dynamic routing utilizes protocols to automate the exchange of route information, making it adaptable and scalable for larger and more dynamic networks.
    Note : Don't apply jobs if you see these details on job description, These Routings/Switchings work responsible by network engineering team, This is not at all security role.
+
+14) What is Router ?
+     Router will provide internet, Router will also provide vpn connectivity.
+     Router and Switch is an intelligent device and hub is not an intelligent device, It's a physical device.
