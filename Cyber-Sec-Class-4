@@ -229,4 +229,13 @@ Interview Qns for OSI Layer :
 20) What is MAC (Media Access Control) ?
        Definition: Media Access Control is a sublayer of the Data Link Layer (Layer 2) in the OSI model. 
        It is responsible for the unique addressing of network devices on a local network segment.
+
+21) Types of protocals ?
+       Network Layer Protocols : Network layer protocols operate in the network layer which is also known as the Layer 3 of the network  architecture. Network layer protocols are responsible for packet routing, forwarding and addressing of data packets throughout the network . IP and ICMP are the network layer protocols.
+       Transport layer Protocols : Transport layer protocols works in transport layer which provides end-to-end service ensuring data transfer across apps on different devices. TCP and UDP are the most popular transport layer protocols.
+       Application Layer Protocol : Application layer protocol working in the application layer of the network architecture provides communication between applications running on different devices. The application layer protocols enable cross-device communication. They format, exchange, and interpret application data. HTTP, FTP, and SMTP are examples.
+       Wireless Protocols : Wireless protocols basically used in wireless communication which enables data transfer through wireless networks. Bluetooth, Wi-Fi, and LTE protocols are examples.
+       Routing Protocols : Routing protocol establishes the best/optimal network pathways throughout the network for fastest data transmission. Routers share information to develop and maintain routing tables. RIP, OSPF, and BGP are examples.
+       Security Protocols : security protocol protects data confidentiality, integrity, and authenticity while transmission of data over the network. They include SSL and TLS, encryption methods, and authentication protocols for providing data security.
+
       
