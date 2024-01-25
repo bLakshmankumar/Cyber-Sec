@@ -46,7 +46,11 @@ Layers :
                                                  Attacks target the data link layer to manipulate or impersonate MAC addresses, leading to unauthorized access or network disruptions.
 
      7          Physical Layer (Layer-1)         Here End to End communication will happen through physical cables.(RJ45, optical fiber cable & etc)                                       Tampering, Eavesdropping(Attack-Type)
-                                                 Attacks at this layer involve physically accessing network cables or infrastructure to disrupt or intercept communications.              
+                                                 This layer comes under the category of Hardware Layers (since the hardware layer is responsible for all the physical connection establishment and processing too).
+                                                 It also provides a Switching mechanism wherein data packets can be forwarded from one port (sender port) to the leading destination port.
+                                                 Attacks at this layer involve physically accessing network cables or infrastructure to disrupt or intercept communications.
+                                                 Hubs, Ethernet, etc. device is used in this layer.
+
                                                  
                                                 
                                                 
