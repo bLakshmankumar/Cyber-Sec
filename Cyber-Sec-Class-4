@@ -39,7 +39,8 @@ Layers :
                                                  Path Determination : Path determination refers to the process of finding the best route or path for transmitting data from the source to the destination across a network
                                                  Logical Address : A logical address is a virtual address assigned to a network device in order to uniquely identify it within a network.  It is distinct from the physical address (MAC address) assigned to a network interface card (NIC).
 
-     6          Data Link Layer (Layer-2)        It'll Provide end to end communication using Media, Types of media(Air, Water(Cables), Fiber, Satelite(currently using).                 MAC Spoofing, ARP Spoofing(Attack types).
+     6          Data Link Layer (Layer-2)        It'll Provide end to end communication using Media,                                                        Frames(Frequency)             MAC Flood attack, RARP Spoofing, (Attack types).
+                                                 Types of media(Air, Water(Cables), Fiber, Satelite(currently using).                                                                
                                                  Attacks target the data link layer to manipulate or impersonate MAC addresses, leading to unauthorized access or network disruptions.
                                                  
                                                 
@@ -173,6 +174,32 @@ Interview Qns for OSI Layer :
      Router will also provide vpn connectivity.
      Router and Switch is an intelligent device and hub is not an intelligent device, It's a physical device.
      swith will support only If we want to connect together 2 lans/devices in same location.
+
+15) What are the different types of switches ?
+      3 Types of switches we have that any organaziation can use anything.
+       Access Switch, Distributed Switch, Core Switch.
+      Access Switch:
+         Purpose: The access layer is where end-user devices such as computers, printers, and IP phones connect to the network.
+         Access switches provide connectivity to these devices and enforce policies at the edge of the network.
+         How It Works:
+         Access switches operate at Layer 2 (data link layer) and are responsible for connecting end devices to the network.
+ 
+      Distribution Switch:
+         Purpose: The distribution layer aggregates the traffic from access layer switches and provides connectivity between different parts of the network.
+         It also enforces policies and filters traffic before it reaches the core layer.
+         How It Works:
+         Distribution switches operate at both Layer 2 and Layer 3, facilitating inter-VLAN routing and routing between different network segments.
+         They may implement access control lists (ACLs) and quality of service (QoS) policies to manage and control traffic between access layer switches and towards the core layer.
+         Distribution switches are responsible for providing redundancy and load balancing between multiple paths to the core layer.
+
+      Core-Switch:
+         Purpose: The core layer is the backbone of the network, providing high-speed and efficient transport of data between distribution layer switches. 
+         Core switches focus on high-speed forwarding and minimal packet processing.
+         How It Works:
+         Core switches operate at Layer 2 and are designed for fast and efficient packet switching.
+         They typically use protocols such as Rapid Spanning Tree Protocol (RSTP) to provide redundancy and ensure loop-free topology.
+         Core switches connect distribution layer switches and form the high-speed backbone of the network, facilitating fast and reliable data transfer between different parts of the network.
+
 
 15) Is it Possible to deploy firewall as a Router/L3(layer3)/NAT mode ?
      Yes, We can deploy firewall as router mode.
