@@ -40,7 +40,9 @@ Layers :
                                                  Logical Address : A logical address is a virtual address assigned to a network device in order to uniquely identify it within a network.  It is distinct from the physical address (MAC address) assigned to a network interface card (NIC).
 
      6          Data Link Layer (Layer-2)        It'll Provide end to end communication using Media,                                                        Frames(Frequency)             MAC Flood attack, RARP Spoofing, (Attack types).
-                                                 Types of media(Air, Water(Cables), Fiber, Satelite(currently using).                                                                
+                                                 Types of media(Air, Water(Cables), Fiber, Satelite(currently using).
+                                                 Data link layer contains 2 sub-layers : 
+                                                 1) LLC(Logical Link Control) , 2) MAC (Media Access Control).
                                                  Attacks target the data link layer to manipulate or impersonate MAC addresses, leading to unauthorized access or network disruptions.
                                                  
                                                 
