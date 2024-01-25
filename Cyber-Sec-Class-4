@@ -118,8 +118,46 @@ Interview Qns for OSI Layer :
       Router & ARP comes under Network layer.
 
 12) Purpose of Traceroute Command ?
-       It is used to trace the route that how packets take from a source to a destination on a network.
-       Ex : traceroute/tracert google.com 
-       In this example it'll list all available routers From my laptop to google.com(destination) with how much time each router will take to process the request between each router.
+      It is used to trace the route that how packets take from a source to a destination on a network.
+      Ex : traceroute/tracert google.com 
+      In this example it'll list all available routers From my laptop to google.com(destination) with how much time each router will take to process the request between each router.
 
+13) What are the routing protocals and purpose ?
+      Routing protocols are algorithms or sets of rules used by routers to determine the best paths for forwarding network traffic.
+      Different routing protocols serve specific purposes based on the network's requirements.
 
+      Routing Information Protocol (RIP):
+      ----------------------------------
+      Purpose: RIP is a distance-vector routing protocol used within small to medium-sized networks. It measures the distance to other routers in the network based on the number of hops.
+      
+      Open Shortest Path First (OSPF):
+      --------------------------------
+      Purpose: OSPF is a link-state routing protocol designed for larger, more complex networks. It calculates the shortest path to a destination based on the network's topology.
+
+      Border Gateway Protocol (BGP):
+      ------------------------------
+      Purpose: BGP is used for routing between autonomous systems (ASes) on the Internet. It focuses on policy-based routing and is essential for interconnecting different Internet Service Providers (ISPs).
+
+     Intermediate System to Intermediate System (IS-IS):
+     ---------------------------------------------------
+     Purpose: IS-IS is a link-state routing protocol similar to OSPF and is often used in larger service provider networks. It is also employed in some enterprise networks.
+
+     Enhanced Interior Gateway Routing Protocol (EIGRP):
+     --------------------------------------------------
+     Purpose: EIGRP is a Cisco proprietary routing protocol that combines features of both distance-vector and link-state protocols. It is suitable for medium to large-sized networks.
+
+     Routing Information Protocol Next Generation (RIPng):
+     -----------------------------------------------------
+     Purpose: RIPng is an extension of RIP designed for IPv6 networks. It uses similar principles to RIP but supports the IPv6 addressing scheme.
+
+     Interior Gateway Routing Protocol (IGRP):
+     -----------------------------------------
+     Purpose: IGRP was a Cisco proprietary routing protocol used in older networks. It has been largely replaced by EIGRP.
+   
+     Routing Table Maintenance Protocol (RTMP):
+     ------------------------------------------
+     Purpose: RTMP is a routing protocol used in AppleTalk networks. It facilitates the exchange of routing information between AppleTalk routers.
+
+     Routing Table Maintenance Protocol (RTMP):
+     ------------------------------------------
+     Purpose: RTMP is a routing protocol used in AppleTalk networks. It facilitates the exchange of routing information between AppleTalk routers.
