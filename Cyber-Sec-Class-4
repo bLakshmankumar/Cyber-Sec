@@ -119,5 +119,7 @@ Interview Qns for OSI Layer :
 
 12) Purpose of Traceroute Command ?
        It is used to trace the route that how packets take from a source to a destination on a network.
+       Ex : traceroute/tracert google.com 
+       In this example it'll list all available routers From my laptop to google.com(destination) with how much time each router will take to process the request.
 
 
