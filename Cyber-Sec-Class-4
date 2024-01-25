@@ -25,19 +25,22 @@ Layers :
                                                   It will convert data from one format to another format.                                                                                MAN IN THE MIDDLE ATTACK(MITM)
                                                   It ensures that data is presented in a readable format and handles data compression and encryption.
   
-    3           Session Layer (Layer 5)           It'll Basically Manages and establishes communication sessions between applications.                    DATA                           OWASP TOP 10 ATTACKS 
+    3           Session Layer (Layer-5)           It'll Basically Manages and establishes communication sessions between applications.                    DATA                           OWASP TOP 10 ATTACKS 
                                                   It'll also manages the Authentication and Authorization.                                                                               HIJACKING
                                                   It sets up, maintains, and terminates connections, coordinating data exchange.                                                         
     
-    4           Transport Layer (Layer 4)         It Manages end-to-end communication Without any error and data flow control.                            Segments/Datagrams              TCP, UDP, DDOS, DOS, ARP, SYN                                           
+    4           Transport Layer (Layer-4)         It Manages end-to-end communication Without any error and data flow control.                            Segments/Datagrams              TCP, UDP, DDOS, DOS, ARP, SYN                                           
                                                   It ensures reliable and error-checked delivery of data, 
                                                   Often through protocols like TCP (Transmission Control Protocol) or UDP (User Datagram Protocol).
                                                   Segmentation : Converting larger data into smaller data.
 
-    5           Network Layer (Layer 3)          Key protocols include IP (Internet Protocol).                                                             IP-Packets                    Ip Spooding(ARP spoofing, IP flooding , ARP Flooding)
+    5           Network Layer (Layer-3)          Key protocols include IP (Internet Protocol).                                                             IP-Packets                    Ip Spooding(ARP spoofing, IP flooding , ARP Flooding)
                                                  It'll provide path determination, Logical Address and Routing in between source and destination devices on different networks.
                                                  Path Determination : Path determination refers to the process of finding the best route or path for transmitting data from the source to the destination across a network
                                                  Logical Address : A logical address is a virtual address assigned to a network device in order to uniquely identify it within a network.  It is distinct from the physical address (MAC address) assigned to a network interface card (NIC).
+
+     6          Data Link Layer (Layer-2)        It'll Provide end to end communication using Media.                                                                                      MAC Spoofing, ARP Spoofing
+                                                 Attacks target the data link layer to manipulate or impersonate MAC addresses, leading to unauthorized access or network disruptions.
                                                  
                                                 
                                                 
