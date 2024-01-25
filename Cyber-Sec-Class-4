@@ -235,4 +235,17 @@ Interview Qns for OSI Layer :
        Routing Protocols : Routing protocol establishes the best/optimal network pathways throughout the network for fastest data transmission. Routers share information to develop and maintain routing tables. RIP, OSPF, and BGP are examples.
        Security Protocols : security protocol protects data confidentiality, integrity, and authenticity while transmission of data over the network. They include SSL and TLS, encryption methods, and authentication protocols for providing data security.
 
+
+ 22) Most Common OSI-Layer interview qns ?
+       Explain about OSI Layers ?
+       Encryption comes under which layer ?
+       What is Encryption ?
+       What is the defference between Encrytption & Hashing ?
+       Router will comes under which layer ? ( Network Layer)
+       Switch will comes under which layer ?
+       What is ARP & RARP ?
+       What is Data layer in each & every layer ?
+       What are the each & every layer attacks ?
+       One of the end user given google.com in the web-browser, So what is the backend process ? ( ans : It's follow the OSI Flow).
+
       
