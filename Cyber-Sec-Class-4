@@ -173,9 +173,12 @@ Interview Qns for OSI Layer :
      Router will provide internet, If we want to connect together 2 lans/devices in different locations Router is a mandatory device.
      Router will also provide vpn connectivity.
      Router and Switch is an intelligent device and hub is not an intelligent device, It's a physical device.
+    
+15) What is Switch ?
      swith will support only If we want to connect together 2 lans/devices in same location.
+     But switch will not provide internet, switch will not support for vpn services.
 
-15) What are the different types of switches ?
+16) What are the different types of switches ?
       3 Types of switches we have that any organaziation can use anything.
        Access Switch, Distributed Switch, Core Switch.
       Access Switch:
@@ -200,12 +203,12 @@ Interview Qns for OSI Layer :
          They typically use protocols such as Rapid Spanning Tree Protocol (RSTP) to provide redundancy and ensure loop-free topology.
          Core switches connect distribution layer switches and form the high-speed backbone of the network, facilitating fast and reliable data transfer between different parts of the network.
 
-
-16) Is it Possible to deploy firewall as a Router/L3(layer3)/NAT mode ?
+  
+17) Is it Possible to deploy firewall as a Router/L3(layer3)/NAT mode ?
      Yes, We can deploy firewall as router mode.
      99% of the cases all organizations will deploy firewall as a route/Layer3(L3)/NAT mode.
 
-17) Why we need to deploy firewall as router/L3(Layer3)/NAt mode ?
+18) Why we need to deploy firewall as router/L3(Layer3)/NAt mode ?
      Deploying a firewall in router or Layer 3 mode provides a holistic approach to network security by integrating routing and firewall capabilities.
      This allows for efficient traffic management, security policy enforcement, and protection against a range of cyber threats.
       
