@@ -213,4 +213,8 @@ Interview Qns for OSI Layer :
 18) Why we need to deploy firewall as router/L3(Layer3)/NAt mode ?
      Deploying a firewall in router or Layer 3 mode provides a holistic approach to network security by integrating routing and firewall capabilities.
      This allows for efficient traffic management, security policy enforcement, and protection against a range of cyber threats.
+
+16) Waht is LLC(Logic link control) ?
+       Logical Link Control plays a vital role in the Data Link Layer by providing addressing, control, and error handling mechanisms for data frames. 
+       It serves as a bridge between the network layer and the MAC sublayer, facilitating the reliable transmission of data over local area networks.
       
