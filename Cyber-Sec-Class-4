@@ -34,10 +34,11 @@ Layers :
                                                   Often through protocols like TCP (Transmission Control Protocol) or UDP (User Datagram Protocol).
                                                   Segmentation : Converting larger data into smaller data.
 
-    5           Network Layer (Layer 3)          Key protocols include IP (Internet Protocol).                                                            IP-Packets(Ip packet contains IP header & payload)
+    5           Network Layer (Layer 3)          Key protocols include IP (Internet Protocol).  
                                                  It'll provide path determination, Logical Address and Routing in between source and destination devices on different networks.
                                                  Path Determination : Path determination refers to the process of finding the best route or path for transmitting data from the source to the destination across a network
                                                  Logical Address : A logical address is a virtual address assigned to a network device in order to uniquely identify it within a network.  It is distinct from the physical address (MAC address) assigned to a network interface card (NIC).
+                                                 IP-Packets(Ip packet contains IP header & payload).
                                                 
                                                 
 
@@ -116,6 +117,7 @@ Interview Qns for OSI Layer :
 11) Router and ARP will comes under which layer ? 
       Router & ARP comes under Network layer.
 
-osilayer-2 = 54 min
+12) Purpose of Traceroute Command ?
+       It is used to trace the route that how packets take from a source to a destination on a network.
 
 
