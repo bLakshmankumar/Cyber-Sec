@@ -39,11 +39,13 @@ Layers :
                                                  Path Determination : Path determination refers to the process of finding the best route or path for transmitting data from the source to the destination across a network
                                                  Logical Address : A logical address is a virtual address assigned to a network device in order to uniquely identify it within a network.  It is distinct from the physical address (MAC address) assigned to a network interface card (NIC).
 
-     6          Data Link Layer (Layer-2)        It'll Provide end to end communication using Media,                                                        Frames(Frequency)             MAC Flood attack, RARP Spoofing, (Attack types).
+     6          Data Link Layer (Layer-2)        It'll Provide end to end communication using Media,                                                        Frames(Frequency)             MAC Flood attack, RARP Spoofing, (Attack-Type).
                                                  Types of media(Air, Water(Cables), Fiber, Satelite(currently using).
                                                  Data link layer contains 2 sub-layers : 
                                                  1) LLC(Logical Link Control) , 2) MAC (Media Access Control).
                                                  Attacks target the data link layer to manipulate or impersonate MAC addresses, leading to unauthorized access or network disruptions.
+
+     7          Physical Layer (Layer-1)         Attacks at this layer involve physically accessing network cables or infrastructure to disrupt or intercept communications.              Tampering, Eavesdropping(Attack-Type)
                                                  
                                                 
                                                 
