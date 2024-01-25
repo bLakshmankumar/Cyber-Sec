@@ -29,7 +29,7 @@ Layers :
                                                   It'll also manages the Authentication and Authorization.                                                                               HIJACKING
                                                   It sets up, maintains, and terminates connections, coordinating data exchange.                                                         
     
-    4           Transport Layer (Layer-4)         It Manages end-to-end communication Without any error and data flow control.                            Segments/Datagrams              TCP, UDP, DDOS, DOS, ARP, SYN                                           
+    4           Transport Layer (Layer-4)         It Manages end-to-end communication Without any error and data flow control.                            Segments/Datagrams              TCP, UDP, DDOS, DOS, ARP, SYN(Attack types)                                           
                                                   It ensures reliable and error-checked delivery of data, 
                                                   Often through protocols like TCP (Transmission Control Protocol) or UDP (User Datagram Protocol).
                                                   Segmentation : Converting larger data into smaller data.
@@ -39,7 +39,7 @@ Layers :
                                                  Path Determination : Path determination refers to the process of finding the best route or path for transmitting data from the source to the destination across a network
                                                  Logical Address : A logical address is a virtual address assigned to a network device in order to uniquely identify it within a network.  It is distinct from the physical address (MAC address) assigned to a network interface card (NIC).
 
-     6          Data Link Layer (Layer-2)        It'll Provide end to end communication using Media.                                                                                      MAC Spoofing, ARP Spoofing
+     6          Data Link Layer (Layer-2)        It'll Provide end to end communication using Media, Types of media(Air, Water(Cables), Fiber, Satelite(currently using).                 MAC Spoofing, ARP Spoofing(Attack types).
                                                  Attacks target the data link layer to manipulate or impersonate MAC addresses, leading to unauthorized access or network disruptions.
                                                  
                                                 
