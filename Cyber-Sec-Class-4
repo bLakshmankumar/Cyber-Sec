@@ -166,5 +166,6 @@ Interview Qns for OSI Layer :
    Note : Don't apply jobs if you see these details on job description, These Routings/Switchings work responsible by network engineering team, This is not at all security role.
 
 14) What is Router ?
-     Router will provide internet, Router will also provide vpn connectivity.
+     Router will provide internet, If we want to connect together 2 lans/devices in different locations Router is a mandatory device.
+     Router will also provide vpn connectivity.
      Router and Switch is an intelligent device and hub is not an intelligent device, It's a physical device.
