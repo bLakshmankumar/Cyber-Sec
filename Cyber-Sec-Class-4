@@ -192,7 +192,7 @@ Interview Qns for OSI Layer :
          They may implement access control lists (ACLs) and quality of service (QoS) policies to manage and control traffic between access layer switches and towards the core layer.
          Distribution switches are responsible for providing redundancy and load balancing between multiple paths to the core layer.
 
-      Core-Switch:
+      Core-Switch: ( Simply it'll maintain the entire traffic of the organization)
          Purpose: The core layer is the backbone of the network, providing high-speed and efficient transport of data between distribution layer switches. 
          Core switches focus on high-speed forwarding and minimal packet processing.
          How It Works:
@@ -201,11 +201,11 @@ Interview Qns for OSI Layer :
          Core switches connect distribution layer switches and form the high-speed backbone of the network, facilitating fast and reliable data transfer between different parts of the network.
 
 
-15) Is it Possible to deploy firewall as a Router/L3(layer3)/NAT mode ?
+16) Is it Possible to deploy firewall as a Router/L3(layer3)/NAT mode ?
      Yes, We can deploy firewall as router mode.
      99% of the cases all organizations will deploy firewall as a route/Layer3(L3)/NAT mode.
 
-16) Why we need to deploy firewall as router/L3(Layer3)/NAt mode ?
+17) Why we need to deploy firewall as router/L3(Layer3)/NAt mode ?
      Deploying a firewall in router or Layer 3 mode provides a holistic approach to network security by integrating routing and firewall capabilities.
      This allows for efficient traffic management, security policy enforcement, and protection against a range of cyber threats.
       
