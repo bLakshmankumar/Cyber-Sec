@@ -131,19 +131,21 @@ Interview Qns for OSI Layer :
       Purpose: RIP is a distance-vector routing protocol used within small to medium-sized networks. It measures the distance to other routers in the network based on the number of hops.
       It'll work if num of <15 hops only, if routers are >=15 between source and destination this protocal doesn't work.
       
+      Enhanced Interior Gateway Routing Protocol (EIGRP):
+      --------------------------------------------------
+      Purpose: EIGRP is a Cisco proprietary routing protocol that combines features of both distance-vector and link-state protocols. It is suitable for medium to large-sized networks.
+      It's Dedicated to single location, Ex if you are office is located on Bangalore it's work on that location only.
+
       Open Shortest Path First (OSPF):
       --------------------------------
       Purpose: OSPF is a link-state routing protocol designed for larger, more complex networks. It calculates the shortest path to a destination based on the network's topology.
+      If Ditributed(multiple) locations are there we usiing OSPF protocal.
+      Ex : If our office is located in mumbai, Hyderabad, Bangalore we will use OSPF protocal.
 
       Border Gateway Protocol (BGP):
       ------------------------------
       Purpose: BGP is used for routing between autonomous systems (ASes) on the Internet. It focuses on policy-based routing and is essential for interconnecting different Internet Service Providers (ISPs).
       BGP Protocal works for internet, Ex on my mobile i have jio and airtel sim, if my jio sim lost the network signals, my mobile will go for airtal network automatically.
-    
-     Enhanced Interior Gateway Routing Protocol (EIGRP):
-     --------------------------------------------------
-     Purpose: EIGRP is a Cisco proprietary routing protocol that combines features of both distance-vector and link-state protocols. It is suitable for medium to large-sized networks.
-     It's Dedicated to single location, Ex if you are office is located on Bangalore it's work on that location only.
 
      Routing Information Protocol Next Generation (RIPng):
      -----------------------------------------------------
@@ -159,5 +161,5 @@ Interview Qns for OSI Layer :
 
      Statis & Dynamic Router Protocals :
      -----------------------------------
-     Static routing involves manual configuration, making it suitable for smaller and more stable networks. 
+     Static routing involves manual configuration, It's a fixed Route. 
      Dynamic routing utilizes protocols to automate the exchange of route information, making it adaptable and scalable for larger and more dynamic networks.
