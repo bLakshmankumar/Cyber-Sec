@@ -214,8 +214,12 @@ Interview Qns for OSI Layer :
      Deploying a firewall in router or Layer 3 mode provides a holistic approach to network security by integrating routing and firewall capabilities.
      This allows for efficient traffic management, security policy enforcement, and protection against a range of cyber threats.
 
-16) Waht is LLC(Logic link control) ?
+19) Waht is LLC(Logic link control) ?
        Logical Link Control (LLC) is a sublayer of the Data Link Layer (Layer 2) in the OSI model of computer networking. 
        Logical Link Control plays a vital role in the Data Link Layer by providing addressing, control, and error handling mechanisms for data frames. 
        It serves as a bridge between the network layer and the MAC sublayer, facilitating the reliable transmission of data over local area networks.
+
+20) What is MAC (Media Access Control) ?
+       Definition: Media Access Control is a sublayer of the Data Link Layer (Layer 2) in the OSI model. 
+       It is responsible for the unique addressing of network devices on a local network segment.
       
