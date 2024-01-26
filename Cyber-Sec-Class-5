@@ -1,1 +1,14 @@
+IP addresses are classified based on their structure and the range of addresses they cover.
+There are two main classifications: 
+    IPv4 (Internet Protocol version 4)
+    IPv6 (Internet Protocol version 6)
+
+1. IPv4:
+Meaning: The fourth version of the Internet Protocol, used to identify and locate devices on a network. Additionally, within IPv4, there are three main classes of IP addresses: Class A, Class B, and Class C.
+Structure: Consists of 32 bits, typically represented as four decimal numbers separated by dots (e.g., 192.168.1.1).
+
+2. IPv6:
+Meaning: The sixth version of the Internet Protocol, designed to address the limitations of IPv4 and provide a larger address space.
+Structure: Consists of 128 bits, represented as hexadecimal numbers separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+
 
