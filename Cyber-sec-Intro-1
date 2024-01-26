@@ -89,9 +89,14 @@ Explanation :
 
 8) Cyber Security (SIEM, SOC) & VAPT:
 =====================================
-    Meaning: Cybersecurity involves protecting computer systems, networks, and data from cyber threats. Security Information and Event Management (SIEM), Security Operations Center (SOC), and Vulnerability Assessment and Penetration Testing (VAPT) are integral components.
+    Meaning: Cybersecurity involves protecting computer systems, networks, and data from cyber threats.
+      Relation between SIEM and SOC :
+      -------------------------------
+       A Security Operations Center (SOC) is a centralized unit responsible for monitoring, detecting, and responding to security incidents across an organization.
+       Security Information and Event Management (SIEM) is a technology used by a SOC to collect, analyze, and correlate log data from various sources to identify potential security threats.
+       VAPT (Vulnerability Assessment and Penetration Testing): It's Evaluates and identifies vulnerabilities in a system, network, or application through systematic testing, helping to proactively strengthen security.
     Purpose: Detecting, responding to, and mitigating cyber threats, as well as identifying and addressing vulnerabilities in systems.
-    Examples: SIEM tools, SOC monitoring, penetration testing, and security audits.
+    Examples: SIEM tools, SOC monitoring, penetration testing(Vapt), and security audits
 
 9) Infra Security:
 ==================
