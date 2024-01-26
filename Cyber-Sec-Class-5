@@ -13,7 +13,7 @@ Mac address bit number is 48bits (it's a combination of charectors & numbers). T
    NOTE : Binary = 2, Octa = 8, Decimal = 10, Hexa = 16.
    NOTE : Max capacity of an IP address is = 0 or 1
           1 octa - 2 power 8 = means 2*2*2*2*2*2*2*2 = 246
-   Command to get the ip : ipconfig 
+   Command to get the ip : ipconfig (linux)
 
 2) What is Subnet ?
 -------------------
@@ -75,7 +75,7 @@ Mac address bit number is 48bits (it's a combination of charectors & numbers). T
     Look back/Local address : 127.0.0.1
 
 8) Private IP Addresses ?
--------------------------
+--------------------------
    Class A : Range: 10.0.0.0 to 10.255.255.255
    Class B : Range: 172.16.0.0 to 172.31.255.255
    Class C : Range: 192.168.0.0 to 192.168.255.255
@@ -91,6 +91,8 @@ Mac address bit number is 48bits (it's a combination of charectors & numbers). T
 --------------------------------
    The hacking is hapenning from the external attackers or intruders or threat actors or adversary is called as external attack.
    Example attacks : Phishing emails, Malware category, OWASP TOP 10, Spoofing, Flooding & etc.
+
+
     
 
 
