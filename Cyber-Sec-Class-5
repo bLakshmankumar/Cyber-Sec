@@ -15,9 +15,13 @@ Mac address bit number is 48bits (it's a combination of charectors & numbers). T
           1 octa - 2 power 8 = means 2*2*2*2*2*2*2*2 = 246
    Command to get the ip : ipconfig 
 
-2) What is the subnetmask ?
+2) What is Subnet ?
+-------------------
+   A subnet is a logical subdivision of an IP network, while a subnet mask is a numeric representation that determines the division between the network and host portions of an IP address within that subnet.
+
+3) What is the subnetmask ?
 ---------------------------
-   
+   The subnet mask is a critical component of the subnetting process, as it defines how the IP address space is partitioned, making it possible to have multiple subnets within a larger network.
    IP Address : 10.10.10.0/27
    NetworkAddress : 10.10.10
    HostAddress : 0
@@ -40,12 +44,19 @@ Mac address bit number is 48bits (it's a combination of charectors & numbers). T
    Meaning: The sixth version of the Internet Protocol, designed to address the limitations of IPv4 and provide a larger address space.
    Structure: Consists of 128 bits, represented as hexadecimal numbers separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
 
-2) Why are we moving the IPV4 to IPV6 ?
+4) Why are we moving the IPV4 to IPV6 ?
 ---------------------------------------
      2 reasons for the migration from IPv4 to IPv6 
           1) Lack of IPV4 IPs : The transition from IPv4 to IPv6 is driven by the limitations of IPv4 and the need for a larger address space to accommodate the growing number of devices connected to the internet.
              IPv4 uses a 32-bit address scheme, providing approximately 4.3 billion unique addresses. With the exponential growth of internet-connected devices, including smartphones, IoT devices, and more, the available IPv4 addresses have become insufficient.
 
           2) Security : IPv6 incorporates built-in security features, such as IPsec, providing enhanced security capabilities compared to IPv4. This is particularly important for securing communications over the internet.
+
+ 5) Types of IP Addresses ?
+----------------------------
+      Public IP Addressses : Public address is accessable by everyone.
+      Private Ip address : Private Ip can be accessable by internal team.
+      These IP addresses are assigned by IANA = Internet assigned number authority.
+    
 
 
