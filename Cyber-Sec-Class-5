@@ -5,7 +5,7 @@ MAC (Media Access Control) Address : Every NIC Card has physical address. That p
     
 Mac address bit number is 48bits (it's a combination of charectors & numbers). To get your mac address > Go to command promt > execute getmac command.
 
-1) What is IP Address ?
+1) What is IP Address ? (Ex IP : 10.10.10.0)
 -----------------------
    IP address stands for Internet Protocol address. 
    It is a numerical label assigned to each device participating in a computer network that uses the Internet Protocol for communication in an organization.
@@ -13,6 +13,16 @@ Mac address bit number is 48bits (it's a combination of charectors & numbers). T
    NOTE : Binary = 2, Octa = 8, Decimal = 10, Hexa = 16.
    NOTE : Max capacity of an IP address is = 0 or 1
           1 octa - 2 power 8 = means 2*2*2*2*2*2*2*2 = 246
+   Command to get the ip : ipconfig 
+
+2) What is the subnetmask ?
+---------------------------
+   
+   IP Address : 10.10.10.0/27
+   NetworkAddress : 10.10.10
+   HostAddress : 0
+   Subnetmask : /27
+   It means the first 24 bits are reserved for the network (10.10.10), and the last 8 bits are for the host (0). In CIDR notation, this is represented as 10.10.10.0/27.
 
  > Classifications of IP Addresses : 
   ---------------------------------
