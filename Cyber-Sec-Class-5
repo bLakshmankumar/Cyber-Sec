@@ -83,7 +83,9 @@ Mac address bit number is 48bits (it's a combination of charectors & numbers). T
 
 9) What is insider threat/internal attack ?
 --------------------------------------------
-   If the hacking is hapenning from internal employ, that is called insider threat/internal attack.
+   If the hacking is hapenning from internal employee, that is called insider threat/internal attack.
+   Example attack : DLP(Data leak prevention), Removable devices from internal employees, or sending emails from office mail  to personal mail & etc.
+                    Social Engineering(Sharing confidential data in public like Passwords) & etc.
 
 10) What is an external atatck ?
 --------------------------------
