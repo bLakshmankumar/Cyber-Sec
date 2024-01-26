@@ -79,7 +79,7 @@ Explanation :
 ==================
     Meaning: Cloud security involves protecting data, applications, and infrastructure in cloud computing environments. It addresses the unique challenges and risks associated with cloud services.
     Purpose: Ensuring the security and privacy of data and resources in cloud environments.
-    Examples: Identity and access management (IAM), encryption, secure APIs, and cloud security posture management (CSPM).
+    Examples: Identity and access management (IAM), encryption, secure APIs, SG, NACL, WAF, Logging & Monitoring.
 
 7) Product Security :
 =====================
