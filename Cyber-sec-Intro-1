@@ -35,17 +35,32 @@ There are different types of security technologies we have.
 8. Cyber Security (SIEM, SOC) & VAPT (ATTACKER)-Black-Box, Grey, WhiteBox, SAST(Code reviews) And DAST.
 9. Infra Security.
 
-Information Security : (Collection of data)
-===========================================
-Information security, physical security, Endpoint security, Network Security these all are the lagacy securties. lagacy is ntg but a old technology means it's existing from long.
-> We have 4 sub-types inder Information security :
---------------------------------------------------
-1. GRC (Governance, Risk, Compliance).
-2. Implimentation of IS-ISO 27001 (IS - Information Security).
-3. Risk Management- Assesment, Risk mitigation, Risk Transfer(Insurance), Avoidance.
-4. Incident Response (BCP(Business continues planning) & DR (Disaster Recovery)). 
+Explanation :
+=============
+1) Information Security : (Collection of data)
+==============================================
+    Meaning: Information security, physical security, Endpoint security, Network Security these all are the lagacy securties. lagacy is ntg but a old technology means it's existing from long.
+ > We have 4 sub-types of Information security :
+ -----------------------------------------------
+    1. GRC (Governance, Risk, Compliance).
+    2. Implimentation of IS-ISO 27001 (IS - Information Security).
+    3. Risk Management- Assesment, Risk mitigation, Risk Transfer(Insurance), Avoidance.
+    4. Incident Response (BCP(Business continues planning) & DR (Disaster Recovery)). 
 
-22:00
+ > Examples :   Encryption, access controls, authentication mechanisms, and security policies.
+
+2) Physical Security :
+======================
+    Meaning: Physical security involves measures and mechanisms to protect physical assets, facilities, and resources from unauthorized access, damage, or harm. 
+    This can include security guards, surveillance cameras, access controls, and secure building designs.
+ > Examples: Surveillance systems, access control systems, security guards, and biometric access systems
+
+3) Endpoint Security:
+=====================
+    Meaning: Employee is the end user for every organization, he/she uses the organization devices, SO Endpoint security focuses on securing individual devices (endpoints) such as computers, laptops, and mobile devices. 
+    It involves antivirus software, firewalls, and other measures to protect endpoints from cyber threats.
+ > Examples: Antivirus software, endpoint detection and response (EDR), firewalls, and mobile device management (MDM) solutions & etc.
+
 
 
 
