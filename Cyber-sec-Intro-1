@@ -96,7 +96,7 @@ Explanation :
        Security Information and Event Management (SIEM) is a technology used by a SOC to collect, analyze, and correlate log data from various sources to identify potential security threats.
        VAPT (Vulnerability Assessment and Penetration Testing): It's Evaluates and identifies vulnerabilities in a system, network, or application through systematic testing, helping to proactively strengthen security.
     Purpose: Detecting, responding to, and mitigating cyber threats, as well as identifying and addressing vulnerabilities in systems.
-    Examples: SIEM tools, SOC monitoring, penetration testing(Vapt), and security audits
+    Examples: SIEM tools, SOC monitoring, penetration testing(Vapt), and security audits.
 
 9) Infra Security:
 ==================
