@@ -1,3 +1,9 @@
+NIC : Network interface card enables computers to connect to local area networks (LANs), wide area networks (WANs), or the internet.
+      Also it'll covert electrical signals into data signals.
+
+MAC (Media Access Control) Address : Every NIC Card has physical address. That physical address is called mac address.
+     Mac address bit number is 48 (it's a combination of charectors & numbers).
+
 IP addresses are classified based on their structure and the range of addresses they cover.
 There are two main classifications: 
     IPv4 (Internet Protocol version 4)
