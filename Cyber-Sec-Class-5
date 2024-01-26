@@ -79,6 +79,7 @@ Mac address bit number is 48bits (it's a combination of charectors & numbers). T
    Class A : Range: 10.0.0.0 to 10.255.255.255
    Class B : Range: 172.16.0.0 to 172.31.255.255
    Class C : Range: 192.168.0.0 to 192.168.255.255
+ Otherthan above ranges of ip addresses we can all it as public ip address.
     
 
 
