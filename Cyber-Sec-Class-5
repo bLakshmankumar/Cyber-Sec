@@ -5,24 +5,37 @@ MAC (Media Access Control) Address : Every NIC Card has physical address. That p
     
 Mac address bit number is 48bits (it's a combination of charectors & numbers). To get your mac address > Go to command promt > execute getmac command.
 
-What is IP Address ?
---------------------
-IP address stands for Internet Protocol address. 
-It is a numerical label assigned to each device participating in a computer network that uses the Internet Protocol for communication in an organization.
+1) What is IP Address ?
+-----------------------
+   IP address stands for Internet Protocol address. 
+   It is a numerical label assigned to each device participating in a computer network that uses the Internet Protocol for communication in an organization.
 
-Classifications of IP Addresses : 
----------------------------------
-IP addresses are classified based on their structure and the range of addresses they cover.
-There are two main classifications: 
-    IPv4 (Internet Protocol version 4)
-    IPv6 (Internet Protocol version 6)
+   NOTE : Binary = 2, Octa = 8, Decimal = 10, Hexa = 16.
+   NOTE : Max capacity of an IP address is = 0 or 1
+          1 octa - 2 power 8 = means 2*2*2*2*2*2*2*2 = 246
 
-1. IPv4:
-Meaning: The fourth version of the Internet Protocol, used to identify and locate devices on a network. Additionally, within IPv4, there are three main classes of IP addresses: Class A, Class B, and Class C.
-Structure: Consists of 32 bits, typically represented as four decimal numbers separated by dots (e.g., 192.168.1.1).
+ > Classifications of IP Addresses : 
+  ---------------------------------
+   IP addresses are classified based on their structure and the range of addresses they cover.
+   There are two main classifications: 
+      IPv4 (Internet Protocol version 4)
+      IPv6 (Internet Protocol version 6)
+   1. IPv4:
+    -------
+    Meaning: The fourth version of the Internet Protocol, used to identify and locate devices on a network. Additionally, within IPv4, there are three main classes of IP addresses: Class A, Class B, and Class C.
+    Structure: Consists of 32 bits, typically represented as four decimal numbers separated by dots (e.g., 192.168.1.1).
 
-2. IPv6:
-Meaning: The sixth version of the Internet Protocol, designed to address the limitations of IPv4 and provide a larger address space.
-Structure: Consists of 128 bits, represented as hexadecimal numbers separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+   2. IPv6:
+   --------
+   Meaning: The sixth version of the Internet Protocol, designed to address the limitations of IPv4 and provide a larger address space.
+   Structure: Consists of 128 bits, represented as hexadecimal numbers separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+
+2) Why are we moving the IPV4 to IPV6 ?
+---------------------------------------
+     2 reasons for the migration from IPv4 to IPv6 
+          1) Lack of IPV4 IPs : The transition from IPv4 to IPv6 is driven by the limitations of IPv4 and the need for a larger address space to accommodate the growing number of devices connected to the internet.
+             IPv4 uses a 32-bit address scheme, providing approximately 4.3 billion unique addresses. With the exponential growth of internet-connected devices, including smartphones, IoT devices, and more, the available IPv4 addresses have become insufficient.
+
+          2) Security : IPv6 incorporates built-in security features, such as IPsec, providing enhanced security capabilities compared to IPv4. This is particularly important for securing communications over the internet.
 
 
