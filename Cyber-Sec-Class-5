@@ -28,7 +28,7 @@ Mac address bit number is 48bits (it's a combination of charectors & numbers). T
    Subnetmask : /27
    It means the first 24 bits are reserved for the network (10.10.10), and the last 8 bits are for the host (0). In CIDR notation, this is represented as 10.10.10.0/27.
 
- > Classifications of IP Addresses : 
+ > Versions of IP Addresses : 
   ---------------------------------
    IP addresses are classified based on their structure and the range of addresses they cover.
    There are two main classifications: 
@@ -52,11 +52,33 @@ Mac address bit number is 48bits (it's a combination of charectors & numbers). T
 
           2) Security : IPv6 incorporates built-in security features, such as IPsec, providing enhanced security capabilities compared to IPv4. This is particularly important for securing communications over the internet.
 
- 5) Types of IP Addresses ?
+5) Types of IP Addresses ?
 ----------------------------
-      Public IP Addressses : Public address is accessable by everyone.
-      Private Ip address : Private Ip can be accessable by internal team.
-      These IP addresses are assigned by IANA = Internet assigned number authority.
+     Public IP Addressses : Public address is accessable by everyone.
+     Private Ip address : Private Ip can be accessable by internal team.
+     These IP addresses are assigned by IANA = Internet assigned number authority.
+
+6) How to identify public and private ip addresses ?
+----------------------------------------------------
+    Public and private IP addresses are distinguished based on specific address ranges defined by the Internet Assigned Numbers Authority (IANA).
+
+7) Classification of IP addresses(Public + Private) :
+-----------------------------------------------------
+   IP addresses are classified into five classes. These classes were part of the original design of the IPv4 addressing scheme, and they are defined based on the leading bits of the IP address. 
+   Each class has a different range of IP addresses for both network and host identification.
+   
+    Class A  : Range: 1.0.0.0 to 126.255.255.255    : Usage: Typically used for large organizations or ISPs with a vast number of hosts.
+    Class B  : Range: 128.0.0.0 to 191.255.255.255  : Usage: Suitable for medium-sized networks, such as universities or large companies.
+    Class C  : Range: 192.0.0.0 to 223.255.255.255  : Usage: Commonly used for smaller networks, like small businesses or local area networks (LANs).
+    Class D  : Range: 224.0.0.0 to 239.255.255.255  : Usage: Addresses in this range are used for multicasting/multitasking, where a single packet is sent to multiple recipients.
+    Class E  : Range: 240.0.0.0 to 255.255.255.255  : Usage: Addresses in this range are reserved for experimental and research purposes and are not intended for general use.
+    Look back/Local address : 127.0.0.1
+
+8) Private IP Addresses ?
+-------------------------
+   Class A : Range: 10.0.0.0 to 10.255.255.255
+   Class B : Range: 172.16.0.0 to 172.31.255.255
+   Class C : Range: 192.168.0.0 to 192.168.255.255
     
 
 
