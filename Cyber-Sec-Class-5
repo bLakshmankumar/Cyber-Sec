@@ -2,8 +2,16 @@ NIC : Network interface card enables computers to connect to local area networks
       Also it'll covert electrical signals into data signals.
 
 MAC (Media Access Control) Address : Every NIC Card has physical address. That physical address is called mac address.
-     Mac address bit number is 48bits (it's a combination of charectors & numbers).
+    
+Mac address bit number is 48bits (it's a combination of charectors & numbers). To get your mac address > Go to command promt > execute getmac command.
 
+What is IP Address ?
+--------------------
+IP address stands for Internet Protocol address. 
+It is a numerical label assigned to each device participating in a computer network that uses the Internet Protocol for communication in an organization.
+
+Classifications of IP Addresses : 
+---------------------------------
 IP addresses are classified based on their structure and the range of addresses they cover.
 There are two main classifications: 
     IPv4 (Internet Protocol version 4)
