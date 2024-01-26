@@ -62,8 +62,8 @@ Explanation :
     Purpose: Safeguarding the devices that connect to a network to prevent potential security breaches and the spread of threats.
     Examples: Antivirus software, endpoint detection and response (EDR), firewalls, Anti Malware, HIDS/HIPS, DLP(Data loss/leak prevention), and mobile device management (MDM) solutions & etc.
 
-4) Network Security:
-====================
+4) Network Security/Peremeter Security :
+========================================
     Meaning: Network security is the practice of securing a computer network infrastructure against unauthorized access, disruptions, or misuse.
     It involves the implementation of measures to protect data during transmission and prevent unauthorized access to the network.
     Purpose: Safeguarding the integrity, confidentiality, and availability of data as it travels across networks.
