@@ -67,7 +67,36 @@ Explanation :
     Meaning: Network security is the practice of securing a computer network infrastructure against unauthorized access, disruptions, or misuse.
     It involves the implementation of measures to protect data during transmission and prevent unauthorized access to the network.
     Purpose: Safeguarding the integrity, confidentiality, and availability of data as it travels across networks.
-    Examples: Firewalls, intrusion detection systems (IDS), virtual private networks (VPNs), and network segmentation.
+    Examples: Firewalls, intrusion detection systems (IDS), virtual private networks (VPNs), Proxy server, and NIDS/NIPS.
 
+5) Application Security:
+========================
+    Meaning: Application security focuses on securing software applications and systems from threats and vulnerabilities throughout the development lifecycle.
+    Purpose: Ensuring that applications are designed, developed, and maintained with security in mind to prevent exploitation by attackers.
+    Examples: Secure coding practices, code reviews, penetration testing, and web application firewalls (WAFs).
+
+6) Cloud Security:
+==================
+    Meaning: Cloud security involves protecting data, applications, and infrastructure in cloud computing environments. It addresses the unique challenges and risks associated with cloud services.
+    Purpose: Ensuring the security and privacy of data and resources in cloud environments.
+    Examples: Identity and access management (IAM), encryption, secure APIs, and cloud security posture management (CSPM).
+
+7) Product Security :
+=====================
+    Meaning: Product security is the process of designing, building, and maintaining products with security considerations. It involves ensuring that the products are resistant to attacks and vulnerabilities.
+    Purpose: Developing and delivering products that are secure by design, minimizing the risk of security breaches.
+    Examples: Secure development practices, security testing, and regular security updates.
+
+8) Cyber Security (SIEM, SOC) & VAPT:
+=====================================
+    Meaning: Cybersecurity involves protecting computer systems, networks, and data from cyber threats. Security Information and Event Management (SIEM), Security Operations Center (SOC), and Vulnerability Assessment and Penetration Testing (VAPT) are integral components.
+    Purpose: Detecting, responding to, and mitigating cyber threats, as well as identifying and addressing vulnerabilities in systems.
+    Examples: SIEM tools, SOC monitoring, penetration testing, and security audits.
+
+9) Infra Security:
+==================
+    Meaning: Infrastructure security focuses on securing the underlying IT infrastructure, including servers, databases, and networking components.
+    Purpose: Protecting critical components of the IT infrastructure to ensure the overall security and stability of systems and services.
+    Examples: Patch management, access controls, network monitoring, and security configuration.
 
 
