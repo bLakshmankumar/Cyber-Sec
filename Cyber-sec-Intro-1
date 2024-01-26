@@ -46,21 +46,28 @@ Explanation :
     2. Implimentation of IS-ISO 27001 (IS - Information Security).
     3. Risk Management- Assesment, Risk mitigation, Risk Transfer(Insurance), Avoidance.
     4. Incident Response (BCP(Business continues planning) & DR (Disaster Recovery)). 
-
- > Examples :   Encryption, access controls, authentication mechanisms, and security policies.
+    Purpose: Ensure that sensitive and valuable information is secure from unauthorized access or modifications, preserving the trust and reliability of data.
+    Examples : Encryption, access controls, authentication mechanisms, and security policies.
 
 2) Physical Security :
 ======================
     Meaning: Physical security involves measures and mechanisms to protect physical assets, facilities, and resources from unauthorized access, damage, or harm. 
     This can include security guards, surveillance cameras, access controls, and secure building designs.
- > Examples: Surveillance systems, access control systems, security guards, and biometric access systems
+    Examples: Surveillance systems, access control systems, security guards, and biometric access systems
 
 3) Endpoint Security:
 =====================
     Meaning: Employee is the end user for every organization, he/she uses the organization devices, SO Endpoint security focuses on securing individual devices (endpoints) such as computers, laptops, and mobile devices. 
     It involves antivirus software, firewalls, and other measures to protect endpoints from cyber threats.
- > Examples: Antivirus software, endpoint detection and response (EDR), firewalls, and mobile device management (MDM) solutions & etc.
+    Purpose: Safeguarding the devices that connect to a network to prevent potential security breaches and the spread of threats.
+    Examples: Antivirus software, endpoint detection and response (EDR), firewalls, Anti Malware, HIDS/HIPS, DLP(Data loss/leak prevention), and mobile device management (MDM) solutions & etc.
 
+4) Network Security:
+====================
+    Meaning: Network security is the practice of securing a computer network infrastructure against unauthorized access, disruptions, or misuse.
+    It involves the implementation of measures to protect data during transmission and prevent unauthorized access to the network.
+    Purpose: Safeguarding the integrity, confidentiality, and availability of data as it travels across networks.
+    Examples: Firewalls, intrusion detection systems (IDS), virtual private networks (VPNs), and network segmentation.
 
 
 
