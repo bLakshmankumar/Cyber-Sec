@@ -124,7 +124,7 @@ Top Ports & Protocals :
     Default Ports: DNS (53)
 13. LDAP (Lightweight Directory Access Protocol)
 ------------------------------------------------
-    Purpose: Access and maintain directory services information.
+    Purpose: Access and maintain Active directory(AD) services information.
     Port: 389
 14. RDP (Remote Desktop Protocol)
  -------------------------------
