@@ -237,3 +237,7 @@ NOTE :
        They are allocated dynamically by the operating system.
 
 Network Firewall Domain : https://fortigate.fortidemo.com/login?redir=%2F (we can configure firewalls).
+
+Install nmap(for port scanning) : https://nmap.org/download#windows ( Download the Latest stable release self-installer : Click on the latest link),
+                                  Once it downloaded > click on next, next, until it'll give a complete screen.
+
