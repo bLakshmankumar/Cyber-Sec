@@ -29,5 +29,47 @@ Relationship b/w Ports & Protocals :
   If you are accessing a secure website (HTTPS), your device communicates using the HTTPS protocol over port 443. The combination of the protocol and the port ensures that the data reaches the correct application on the server.
 
 Simply: 
--------
+=======
   Ports are specific endpoints on a device, and protocols are sets of rules governing how devices communicate. Ports are associated with protocols, and together they facilitate the effective exchange of data between devices on a network.
+
+Types of Ports:
+===============
+  In the context of networking and cybersecurity, "open ports" and "closed ports" refer to the state of accessibility of network ports on a device.   
+  We have Two types of Ports
+   1) Open Ports       2) Closed Ports
+
+    Open Ports:
+    -----------
+       Meaning: An open port refers to a network port on a device that is actively listening for incoming connections. 
+                It means that a service or application is running and ready to accept communication requests on that particular port.
+                Open ports are accessible to network traffic, and they allow communication with the associated service or application.
+                Services such as web servers, email servers, or file transfer services often require open ports to function properly.
+      Security Considerations:
+                While open ports are necessary for legitimate services, having unnecessary open ports can pose a security risk.
+                Unprotected services or misconfigurations might expose a system to potential attacks. It's important to regularly audit and monitor open ports for security purposes.
+    Closed Ports:
+    ------------- 
+      Meaning : A closed port is a network port on a device that is not actively listening for incoming connections.
+                It means that there is no service or application currently running and waiting for communication on that specific port.
+                Closed ports do not respond to incoming connection attempts. 
+                When a device receives a request on a closed port, it typically responds with a "Connection Refused" message, indicating that there is no service running on that port.
+     Security Considerations:
+                Closed ports, especially those that are not associated with necessary services, contribute to a more secure network environment. 
+                They reduce the attack surface and limit potential entry points for unauthorized access.
+
+How to Check Port Status:
+=========================
+    Port Scanning:
+    -------------
+      Network administrators often use port scanning tools to check the status of ports on a device. 
+        Port Scanning tools :
+        ---------------------
+           Include Nmap(Network mapper), Netcat, Kali Linux, Metaspolit or online port scanning services.
+
+   Firewall Configuration:
+   ----------------------
+      Firewalls play a crucial role in controlling which ports are open or closed. Configuring firewalls to allow only necessary traffic and closing unnecessary ports is a key security measure.
+
+   Network Monitoring:
+   -------------------
+      Continuous network monitoring helps identify unexpected changes in port status and potential security issues.
