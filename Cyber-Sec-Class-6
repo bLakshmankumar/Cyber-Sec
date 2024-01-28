@@ -189,3 +189,22 @@ Top Ports & Protocals :
 -------------------------------
     Purpose: Secure file transfer between hosts, often used with SSH.
     Default Port: 22
+
+NOTE : 
+=====
+   In networking, there are a total of 0-65,536 ports available for communication. These ports are categorized into three ranges:
+
+  1) Well-Known Ports (0-1023):
+  -----------------------------
+       The well-known ports are reserved for specific services and protocols that are widely recognized and standardized by the Internet Assigned Numbers Authority (IANA).
+       Examples include port 80 for HTTP, port 443 for HTTPS, and port 21 for FTP.
+
+  2) Registered Ports (1024-49151):
+  ---------------------------------
+       Registered ports are used by applications and services that have been registered with IANA but are not as universally recognized as well-known ports. 
+       They are typically used for more specific or less common services.
+
+ 3) Dynamic or Private Ports (49152-65535):
+ ------------------------------------------
+       Dynamic or private ports are often referred to as ephemeral ports. These ports are used by client applications for initiating communication with servers. 
+       They are allocated dynamically by the operating system.
