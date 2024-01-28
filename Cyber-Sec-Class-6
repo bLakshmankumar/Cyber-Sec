@@ -210,6 +210,8 @@ SNMP Versions:
 
  3) SNMPv3 (Simple Network Management Protocol version 3):
  ---------------------------------------------------------
+     SNMPv3 is more secure compared to SNMPv1 and SNMPv2c.
+     It addresses the security weaknesses of the earlier versions by implementing authentication, encryption, and access control.
      Addresses security shortcomings of previous versions.
      Provides message encryption, authentication, and access control.
      Uses a more robust security model compared to SNMPv1 and SNMPv2c.
