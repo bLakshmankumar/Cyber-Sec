@@ -73,3 +73,119 @@ How to Check Port Status:
    Network Monitoring:
    -------------------
       Continuous network monitoring helps identify unexpected changes in port status and potential security issues.
+
+Top Ports & Protocals :
+=======================
+
+1. HTTP (Hypertext Transfer Protocol)
+-------------------------------------
+   Purpose: Used for transferring hypertext documents on the World Wide Web.
+   Port: 80 (HTTP), 443 (HTTPS)
+2. HTTPS (Hypertext Transfer Protocol Secure)
+---------------------------------------------
+   Purpose: Secure version of HTTP, ensuring encrypted communication.
+   Port: 443
+3. FTP (File Transfer Protocol)
+-------------------------------
+   Purpose: Facilitates file transfer between a client and a server.
+   Port: 21 (Control), 20 (Data)
+4. SSH (Secure Shell)
+---------------------
+    Purpose: Provides secure remote access to systems.
+    Port: 22
+5. SMTP (Simple Mail Transfer Protocol)
+---------------------------------------
+     Purpose: Used for email transmission between servers.
+     Port: 25
+6. POP3 (Post Office Protocol version 3)
+----------------------------------------
+     Purpose: Retrieves emails from a mail server.
+     Port: 110
+7. IMAP (Internet Message Access Protocol)
+------------------------------------------
+     Purpose: Retrieves and manages emails on a mail server.
+     Port: 143
+8. DNS (Domain Name System)
+---------------------------
+     Purpose: Resolves domain names to IP addresses.
+     Port: 53
+9. DHCP (Dynamic Host Configuration Protocol)
+---------------------------------------------
+     Purpose: Automatically assigns IP addresses to devices on a network.
+     Port: 67 (Server), 68 (Client)
+10. SNMP (Simple Network Management Protocol)
+---------------------------------------------
+    Purpose: Manages and monitors network devices.
+    Port: 161 (SNMP), 162 (SNMP Trap)
+11. RADIUS (Remote Authentication Dial-In User Service):
+---------------------------------------------------------
+    Purpose: Authentication, authorization, and accounting protocol.
+    Default Ports: 1812 (UDP for authentication), 1813 (UDP for accounting)
+12. DNSSEC (Domain Name System Security Extensions):
+----------------------------------------------------
+    Purpose: Adds an additional layer of security to the DNS by signing DNS data with cryptographic signatures.
+    Default Ports: DNS (53)
+13. LDAP (Lightweight Directory Access Protocol)
+------------------------------------------------
+    Purpose: Access and maintain directory services information.
+    Port: 389
+14. RDP (Remote Desktop Protocol)
+ -------------------------------
+    Purpose: Allows remote control of a windows server.
+    Port: 3389
+15. FTP Secure (FTPS)
+---------------------
+    Purpose: Secure version of FTP, encrypting data during transfer.
+    Port: 990 (Control), 989 (Data)
+16. Telnet
+----------
+    Purpose: Provides command-line access to devices over a network.
+    Port: 23
+17. SFTP (SSH File Transfer Protocol)
+-------------------------------------
+    Purpose: Secure file transfer over SSH.
+    Port: 22
+18. ICMP (Internet Control Message Protocol)
+--------------------------------------------
+    Purpose: Used for network diagnostics, including ping.
+    Port: ICMP doesn't use ports in the traditional sense.
+19. IGMP (Internet Group Management Protocol)
+--------------------------------------------
+    Purpose: Manages multicast group memberships.
+    Port: IGMP doesn't use ports in the traditional sense.
+20. BGP (Border Gateway Protocol)
+--------------------------------
+    Purpose: Routing protocol for the Internet.
+    Port: 179
+21. Kerberos
+------------
+    Purpose: Provides secure authentication service.
+    Port: 88
+22. LDAPs Secure (LDAPS)
+------------------------
+    Purpose: Secure version of LDAP, encrypted communication.
+    Port: 636
+23. Syslog
+----------
+    Purpose: Collects and processes log data from various network devices.
+    Port: 514
+24. NetBIOS (Network Basic Input/Output System)
+-----------------------------------------------
+    Purpose: Provides communication services on a local network.
+    Ports: 137 (NetBIOS Name Service), 138 (NetBIOS Datagram Service), 139 (NetBIOS Session Service)
+25. RTP (Real-time Transport Protocol)
+--------------------------------------
+    Purpose: Manages real-time transmission of multimedia data.
+    Ports: Typically uses a range of ports, e.g., 16384-32767
+26. NTP (Network Transport Protocal)
+------------------------------------
+    Purpose: NTP is a protocol used to synchronize the clocks of devices on a network. Network Time Protocol (NTP) plays a crucial role in maintaining accurate time across networked devices.
+    Port: NTP typically uses UDP (User Datagram Protocol) for communication. The default NTP port is UDP port 123.
+27. SSL/TLS (Secure Sockets Layer/Transport Layer Security):
+------------------------------------------------------------
+    Purpose: Protocols for secure communication over a computer network, commonly used for securing web traffic.
+    Default Port: 443
+28. SCP (Secure Copy Protocol):
+-------------------------------
+    Purpose: Secure file transfer between hosts, often used with SSH.
+    Default Port: 22
