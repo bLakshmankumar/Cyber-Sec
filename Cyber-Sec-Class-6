@@ -1,2 +1,33 @@
-PORTS & PROTOCALS :
-==================
+Port :
+=====
+  It's a Software defined number associated to each and every protocal. Port can be used for send and recieve the communication.
+  It also helps to manage network traffic by directing data to the appropriate application or service running on a device.
+  Common ports include:
+    Port 80: Used for HTTP (Hypertext Transfer Protocol).
+    Port 443: Used for HTTPS (HTTP Secure).
+    Port 21: Used for FTP (File Transfer Protocol).
+    Port 22: Used for SSH (Secure Shell).
+    Port 25: Used for SMTP (Simple Mail Transfer Protocol).
+
+Protocal : 
+==========
+  A protocol is a set of rules and conventions that define how data is formatted, transmitted, and received in network communication.
+  Protocols provide a standardized way for devices to communicate with each other. They specify the format of data packets, the sequence of actions during communication, and error handling procedures.
+  Common protocols include:
+    TCP (Transmission Control Protocol): Ensures reliable, connection-oriented communication.
+    UDP (User Datagram Protocol): Offers fast, connectionless communication without error checking.
+    IP (Internet Protocol): Manages addressing and routing of data packets.
+    HTTP (Hypertext Transfer Protocol): Used for web page retrieval.
+    FTP (File Transfer Protocol): Used for transferring files between devices.
+
+Relationship b/w Ports & Protocals :
+====================================
+  A port number is often associated with a specific protocol. For example, HTTP typically uses port 80, and HTTPS uses port 443. The combination of a port number and a protocol allows devices to communicate effectively.
+
+ Examples:
+ --------
+  If you are accessing a secure website (HTTPS), your device communicates using the HTTPS protocol over port 443. The combination of the protocol and the port ensures that the data reaches the correct application on the server.
+
+Simply: 
+-------
+  Ports are specific endpoints on a device, and protocols are sets of rules governing how devices communicate. Ports are associated with protocols, and together they facilitate the effective exchange of data between devices on a network.
