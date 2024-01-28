@@ -91,7 +91,7 @@ Top Ports & Protocals :
    Port: 21 (Control), 20 (Data)
 4. SSH (Secure Shell)
 ---------------------
-    Purpose: Provides secure remote access to systems.
+    Purpose: Provides secure remote access to systems. Preferred for secure remote access and file transfer.
     Port: 22
 5. SMTP (Simple Mail Transfer Protocol)
 ---------------------------------------
@@ -134,9 +134,9 @@ Top Ports & Protocals :
 ---------------------
     Purpose: Secure version of FTP, encrypting data during transfer.
     Port: 990 (Control), 989 (Data)
-16. Telnet
-----------
-    Purpose: Provides command-line access to devices over a network.
+16. Telnet :(Telecommunication network)
+----------------------------------------
+    Purpose: If we wanna connect from one unix/linux system to another linux/unix system we can use telnet(putty). Not secure (plaintext transmission).
     Port: 23
 17. SFTP (SSH File Transfer Protocol)
 -------------------------------------
