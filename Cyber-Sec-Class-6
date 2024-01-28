@@ -124,11 +124,11 @@ Top Ports & Protocals :
     Default Ports: DNS (53)
 13. LDAP (Lightweight Directory Access Protocol)
 ------------------------------------------------
-    Purpose: Access and maintain Active directory(AD) services information.
+    Purpose: Access and maintain Active directory(AD) services information. It can be used for User or Systems Information
     Port: 389
 14. RDP (Remote Desktop Protocol)
  -------------------------------
-    Purpose: Allows remote control of a windows server.
+    Purpose: Allows remote control of a windows server. If we wanna connect from one windows server to other windows server we can use RDP protical.
     Port: 3389
 15. FTP Secure (FTPS)
 ---------------------
@@ -235,3 +235,5 @@ NOTE :
  ------------------------------------------
        Dynamic or private ports are often referred to as ephemeral ports. These ports are used by client applications for initiating communication with servers. 
        They are allocated dynamically by the operating system.
+
+Network Firewall Domain : https://fortigate.fortidemo.com/login?redir=%2F (we can configure firewalls).
