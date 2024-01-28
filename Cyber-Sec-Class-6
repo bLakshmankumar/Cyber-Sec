@@ -113,10 +113,7 @@ Top Ports & Protocals :
 ---------------------------------------------
      Purpose: Automatically assigns IP addresses to devices on a network.
      Port: 67 (Server), 68 (Client)
-10. SNMP (Simple Network Management Protocol)
----------------------------------------------
-    Purpose: Manages and monitors network devices.
-    Port: 161 (SNMP), 162 (SNMP Trap)
+10.
 11. RADIUS (Remote Authentication Dial-In User Service):
 ---------------------------------------------------------
     Purpose: Authentication, authorization, and accounting protocol.
@@ -189,6 +186,34 @@ Top Ports & Protocals :
 -------------------------------
     Purpose: Secure file transfer between hosts, often used with SSH.
     Default Port: 22
+29.  SNMP (Simple Network Management Protocol)
+---------------------------------------------
+    Purpose: Manages and monitors network devices. Its primary purpose is to enable the exchange of management information between network devices and a central management system.
+             SNMP allows administrators to monitor the performance, health, and status of network devices, such as routers, switches, servers, and printers.
+    Port: 161 (SNMP), 162 (SNMP Trap)
+   
+SNMP Versions:
+--------------
+    SNMP has different versions, with SNMPv1, SNMPv2c, and SNMPv3 being the most widely used.
+
+ 1) SNMPv1 (Simple Network Management Protocol version 1):
+ ---------------------------------------------------------
+     Original version of SNMP.
+     Limited security features.
+     Uses community strings for authentication, which are sent in plaintext, making it susceptible to eavesdropping.
+
+ 2) SNMPv2c (Simple Network Management Protocol version 2, Community-based):
+ --------------------------------------------------------------------------=
+     Improved upon SNMPv1.
+     Introduced the concept of SNMP communities.
+     Still lacked strong security features.
+
+ 3) SNMPv3 (Simple Network Management Protocol version 3):
+ ---------------------------------------------------------
+     Addresses security shortcomings of previous versions.
+     Provides message encryption, authentication, and access control.
+     Uses a more robust security model compared to SNMPv1 and SNMPv2c.
+     Recommended for secure network management.
 
 NOTE : 
 =====
