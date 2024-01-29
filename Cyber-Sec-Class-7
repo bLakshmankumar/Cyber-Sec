@@ -67,6 +67,8 @@ What is DORA Process :
         The DHCP server, upon receiving the Request message, acknowledges the client's request by sending a DHCP Acknowledge (or Ack) message. 
         This message confirms that the client can use the requested configuration parameters, including the assigned IP address. 
         The client now configures its network interface with the received settings.
+  
+     Here DHCP/DYNAMIC IP SERVER has a IPAM(IP address management) feature that'll taking care of list of ip's which are in use & which are in available.
    Simple Note of DORA Process :
    -----------------------------
      The DORA process ensures an organized and standardized way of dynamically assigning IP addresses and configuring other network parameters.
