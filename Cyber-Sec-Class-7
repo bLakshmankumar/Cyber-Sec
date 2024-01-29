@@ -10,6 +10,10 @@ Fixed IP which is allocated manually to a system/server is called a Static IP. E
    Go to COntrol Panel > Network and Internet > Network Connection > Right click on any option (Like Ethernet or Wifi) > choose Properties >  Choose Internet Protocal Version 4 (TCP/IPV4) > Click on below proeprties option,
    > If you choose the following IP Address option and enter the IP it'll add that ip as a static IP(ex : 10.10.10.0) > it'll automatically taken the subnet mask > zthen Choose the Prefered DNS Server & Altrernate DNS Server(It's for HA).
 
+ How to check IP address :
+ -----------------------
+   Windows(Command Prompt) : ipconfig, macOS(Terminal) : ifconfig or ipconfig getifaddr en0, Linux : ifconfig or ip addr show.
+
  Drawbacks of Static IP:
  =======================
    Manual Configuration and Maintenance:
@@ -34,4 +38,6 @@ Fixed IP which is allocated manually to a system/server is called a Static IP. E
    --------------
       Drawback: Static IP addresses may pose security risks if not managed properly, as they can be targeted by attackers.
       Example: An improperly configured firewall or mismanagement of IP address assignments might expose a device with a static IP to potential security threats.
+
+
 
