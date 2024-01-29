@@ -12,7 +12,7 @@ Fixed IP which is allocated manually to a system/server is called a Static IP. E
 
  How to check IP address :
  -----------------------
-   Windows(Command Prompt) : ipconfig, macOS(Terminal) : ifconfig or ipconfig getifaddr en0, Linux : ifconfig or ip addr show.
+   Windows(Command Prompt) : ipconfig or ipconfig /all, macOS(Terminal) : ifconfig or ipconfig getifaddr en0, Linux : ifconfig or ip addr show.
 
  Drawbacks of Static IP:
  =======================
