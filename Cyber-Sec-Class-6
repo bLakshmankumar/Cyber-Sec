@@ -113,7 +113,11 @@ Top Ports & Protocals :
 ---------------------------------------------
      Purpose: Automatically assigns IP addresses to devices on a network.
      Port: 67 (Server), 68 (Client)
-10.
+10. IP Sec(IP Security):
+ ------------------------
+     This IP Sec is used for VPN Connectivity.
+     Port : 500
+     EX : WFH option
 11. RADIUS (Remote Authentication Dial-In User Service):
 ---------------------------------------------------------
     Purpose: Authentication, authorization, and accounting protocol.
@@ -144,8 +148,15 @@ Top Ports & Protocals :
     Port: 22
 18. ICMP (Internet Control Message Protocol)
 --------------------------------------------
-    Purpose: Used for network diagnostics, including ping.
-    Port: ICMP doesn't use ports in the traditional sense.
+    Purpose: It is a network layer protocol (layer 3) that is part of the Internet Protocol (IP) suite. 
+             It is primarily used for diagnostics, error reporting, and network management.
+             It doesn't rely on port numbers for communication; instead, it utilizes specific message types and codes to convey information between devices.
+    Port: ICMP doesn't use ports it's a service.
+    ICMP Message Types : (https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml)
+    --------------------
+       ICMP (Internet Control Message Protocol) uses different message types to convey various information related to network communication.
+        Type 0: Echo Reply (Destinaction reachable).
+        Type 3: Destination Unreachable.
 19. IGMP (Internet Group Management Protocol)
 --------------------------------------------
     Purpose: Manages multicast group memberships.
@@ -186,7 +197,7 @@ Top Ports & Protocals :
 -------------------------------
     Purpose: Secure file transfer between hosts, often used with SSH.
     Default Port: 22
-29.  SNMP (Simple Network Management Protocol)
+29. SNMP (Simple Network Management Protocol)
 ---------------------------------------------
     Purpose: Manages and monitors network devices. Its primary purpose is to enable the exchange of management information between network devices and a central management system.
              SNMP allows administrators to monitor the performance, health, and status of network devices, such as routers, switches, servers, and printers.
@@ -216,25 +227,52 @@ Top Ports & Protocals :
              Provides message encryption, authentication, and access control.
              Uses a more robust security model compared to SNMPv1 and SNMPv2c.
              Recommended for secure network management.
- 30) SMB :
- ---------
-   SMB, which stands for Server Message Block, is a network protocol used for sharing files, printers, and other resources between devices on a local network.
-   SMB operates at the application layer of the OSI model and facilitates communication between computers over a network. 
-   The protocol has undergone various versions, with the most common being SMBv1, SMBv2, and SMBv3.
-   The SMB protocol uses TCP/IP (Transmission Control Protocol/Internet Protocol) for communication. The default port for SMB is 445.
-   How SMB Works :
-   ---------------
-       When a client device wants to access resources (files, printers, etc.) on a server, it initiates an SMB connection. 
-       The client sends a request to the server, and a negotiation process occurs to determine the version of SMB to be used.
-   Purpose of SMB: : 
-   -----------------
-       File Sharing, Printer Sharing, Resource Discovery & etc.
-   Security Considerations:
-   ------------------------
-       SMBv1 Vulnerabilities:
-       ----------------------
-       Older versions of SMB, especially SMBv1, have been associated with security vulnerabilities.
-       It is recommended to disable SMBv1 where possible and use more secure versions like SMBv2 or SMBv3.
+30) SMB :
+---------
+      SMB, which stands for Server Message Block, is a network protocol used for sharing files, printers, and other resources between devices on a local network.
+      SMB operates at the application layer of the OSI model and facilitates communication between computers over a network. 
+      The protocol has undergone various versions, with the most common being SMBv1, SMBv2, and SMBv3.
+      The SMB protocol uses TCP/IP (Transmission Control Protocol/Internet Protocol) for communication. 
+      The default port for SMB is 445.
+      If this port open attacker will try to compromise targeted systems using Ransomewhere.
+       How SMB Works :
+       ---------------
+         When a client device wants to access resources (files, printers, etc.) on a server, it initiates an SMB connection. 
+         The client sends a request to the server, and a negotiation process occurs to determine the version of SMB to be used.
+       Purpose of SMB: : 
+       -----------------
+         File Sharing, Printer Sharing, Resource Discovery & etc.
+       Security Considerations:
+       ------------------------
+          SMBv1 Vulnerabilities:
+          ----------------------
+            Older versions of SMB, especially SMBv1, have been associated with security vulnerabilities.
+            It is recommended to disable SMBv1 where possible and use more secure versions like SMBv2 or SMBv3.
+31) SIP (Session Initiation Protocol) :
+---------------------------------------
+    It's a signaling protocol used in Voice over IP (VoIP) communication to initiate, maintain, modify, and terminate real-time sessions involving video, voice, messaging, and other communications applications and services. 
+    SIP is an application-layer protocol that works in conjunction with other protocols to enable voice and multimedia sessions over IP networks.
+    
+    SIP Port :
+    ----------
+     PORT 5060 for non-secure (unencrypted) communication.
+     PORT 5061 For secure SIP over TLS (Transport Layer Security). 
+     These ports are used for signaling and control messages between SIP devices.
+32) MS SQL (Microsoft Structured Query Language) :
+--------------------------------------------------
+    Purpose: The primary purpose of the MS SQL port is to enable client applications to connect to the SQL Server database.
+             It acts as the communication endpoint through which SQL queries, commands, and data are exchanged between the client and the database server.
+    Port : 1433
+33) NetBIOS (Network Basic Input/Output System) :
+-------------------------------------------------
+    Purpose: Facilitates communication and resource sharing within a local network.
+    Ports:
+      Port 137: NetBIOS Name Service (NBNS/WINS)
+      Port 138: NetBIOS Datagram Service
+      Port 139: NetBIOS Session Service
+   Usage: Legacy protocol, widely used in earlier versions of Windows.
+   Security Best Practices: It is recommended to disable NetBIOS over TCP/IP in environments where it is not needed for compatibility reasons. 
+                            Additionally, organizations should implement secure alternatives and consider the use of firewalls and other security measures to control access to NetBIOS-related ports.
 NOTE : 
 =====
    In networking, there are a total of 0-65,536 ports available for communication. These ports are categorized into three ranges:
