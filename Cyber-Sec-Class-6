@@ -192,31 +192,49 @@ Top Ports & Protocals :
              SNMP allows administrators to monitor the performance, health, and status of network devices, such as routers, switches, servers, and printers.
     Port: 161 (SNMP), 162 (SNMP Trap)
    
-SNMP Versions:
---------------
-    SNMP has different versions, with SNMPv1, SNMPv2c, and SNMPv3 being the most widely used.
+       SNMP Versions:
+       --------------
+       SNMP has different versions, with SNMPv1, SNMPv2c, and SNMPv3 being the most widely used.
 
- 1) SNMPv1 (Simple Network Management Protocol version 1):
- ---------------------------------------------------------
-     Original version of SNMP.
-     Limited security features.
-     Uses community strings for authentication, which are sent in plaintext, making it susceptible to eavesdropping.
+         1) SNMPv1 (Simple Network Management Protocol version 1):
+         ---------------------------------------------------------
+             Original version of SNMP.
+             Limited security features.
+             Uses community strings for authentication, which are sent in plaintext, making it susceptible to eavesdropping.
 
- 2) SNMPv2c (Simple Network Management Protocol version 2, Community-based):
- --------------------------------------------------------------------------=
-     Improved upon SNMPv1.
-     Introduced the concept of SNMP communities.
-     Still lacked strong security features.
+         2) SNMPv2c (Simple Network Management Protocol version 2, Community-based):
+         ---------------------------------------------------------------------------
+             Improved upon SNMPv1.
+             Introduced the concept of SNMP communities.
+             Still lacked strong security features.
 
- 3) SNMPv3 (Simple Network Management Protocol version 3):
- ---------------------------------------------------------
-     SNMPv3 is more secure compared to SNMPv1 and SNMPv2c.
-     It addresses the security weaknesses of the earlier versions by implementing authentication, encryption, and access control.
-     Addresses security shortcomings of previous versions.
-     Provides message encryption, authentication, and access control.
-     Uses a more robust security model compared to SNMPv1 and SNMPv2c.
-     Recommended for secure network management.
-
+         3) SNMPv3 (Simple Network Management Protocol version 3):
+         ---------------------------------------------------------
+             SNMPv3 is more secure compared to SNMPv1 and SNMPv2c.
+             It addresses the security weaknesses of the earlier versions by implementing authentication, encryption, and access control.
+             Addresses security shortcomings of previous versions.
+             Provides message encryption, authentication, and access control.
+             Uses a more robust security model compared to SNMPv1 and SNMPv2c.
+             Recommended for secure network management.
+ 30) SMB :
+ ---------
+   SMB, which stands for Server Message Block, is a network protocol used for sharing files, printers, and other resources between devices on a local network.
+   SMB operates at the application layer of the OSI model and facilitates communication between computers over a network. 
+   The protocol has undergone various versions, with the most common being SMBv1, SMBv2, and SMBv3.
+   The SMB protocol uses TCP/IP (Transmission Control Protocol/Internet Protocol) for communication. The default port for SMB is 445.
+   How SMB Works :
+   ---------------
+       When a client device wants to access resources (files, printers, etc.) on a server, it initiates an SMB connection. 
+       The client sends a request to the server, and a negotiation process occurs to determine the version of SMB to be used.
+   Purpose of SMB: : 
+   -----------------
+       File Sharing, Printer Sharing, Resource Discovery & etc.
+   Security Considerations:
+   ------------------------
+       SMBv1 Vulnerabilities:
+       ----------------------
+       Older versions of SMB, especially SMBv1, have been associated with security vulnerabilities.
+       It is recommended to disable SMBv1 where possible and use more secure versions like SMBv2 or SMBv3.
 NOTE : 
 =====
    In networking, there are a total of 0-65,536 ports available for communication. These ports are categorized into three ranges:
