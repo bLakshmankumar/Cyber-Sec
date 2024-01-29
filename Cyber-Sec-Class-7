@@ -1,2 +1,6 @@
 # Resource Link : https://drive.google.com/drive/folders/1MlSX4UmzHLDJr5JURZqAVedqvYg50kxZ
   Dicussion : Explained Practical way to do the Port scanning using nmap/zmap tool & Static and Dynamnic IP Address.
+
+What is Static IP ?
+===================
+Fixed IP which is allocated manually to a system/server is called a Static IP. Ensures that a device has a fixed, known address for reliable and predictable communication.
