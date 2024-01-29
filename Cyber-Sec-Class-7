@@ -39,5 +39,44 @@ Fixed IP which is allocated manually to a system/server is called a Static IP. E
       Drawback: Static IP addresses may pose security risks if not managed properly, as they can be targeted by attackers.
       Example: An improperly configured firewall or mismanagement of IP address assignments might expose a device with a static IP to potential security threats.
 
+What is DynamicIP-DHCP :
+========================
+   Meaning : It"ll assign ip addresses automatically by a DHCP (Dynamic Host Configuration Protocol) server using DORA Process with specific period of time. The IP address can change periodically.
+   Purpose: Simplifies IP address management by automating the assignment process. Allows efficient utilization of IP addresses in large networks where devices may not be consistently connected.
+   Port of DHCP server : 67 & 68
+
+   Diff b/w StaticIP & DynamicIP:
+   ------------------------------
+    The choice between static and dynamic IP addresses depends on the specific requirements of the network and the devices connected to it. 
+    Static IPs provide stability and predictability, while dynamic IPs offer scalability and ease of management in larger and more dynamic network environments.
+
+What is DORA Process :
+======================
+    The DORA process refers to the four-step sequence in DHCP (Dynamic Host Configuration Protocol), which is used to dynamically assign IP addresses and other network configuration information to devices on a network. 
+    The acronym DORA stands for:
+      Discover:
+        In the Discover step, a client device sends out a broadcast message to discover DHCP servers on the network. 
+        This broadcast is usually in the form of a DHCP Discover message, indicating that the client is seeking an IP address and other configuration parameters.
+      Offer:
+        DHCP servers that receive the Discover message respond with a DHCP Offer. The Offer contains an IP address and other configuration parameters that the server is willing to assign to the client.
+        Multiple DHCP servers may respond, and the client typically chooses one of the offered configurations.
+      Request:
+        The client, having received one or more DHCP Offers, selects one of them and sends a DHCP Request message to the chosen server. 
+        This Request message formally requests the offered configuration parameters from the selected DHCP server.
+      Acknowledge:
+        The DHCP server, upon receiving the Request message, acknowledges the client's request by sending a DHCP Acknowledge (or Ack) message. 
+        This message confirms that the client can use the requested configuration parameters, including the assigned IP address. 
+        The client now configures its network interface with the received settings.
+   Simple Note of DORA Process :
+   -----------------------------
+     The DORA process ensures an organized and standardized way of dynamically assigning IP addresses and configuring other network parameters.
+     It allows for flexibility and efficiency in managing IP addresses in a network, especially in environments with a large number of devices that may come and go dynamically.
+   
+
+
+
+
+
+   
 
 
