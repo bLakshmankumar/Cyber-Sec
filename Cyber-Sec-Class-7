@@ -10,3 +10,28 @@ Fixed IP which is allocated manually to a system/server is called a Static IP. E
    Go to COntrol Panel > Network and Internet > Network Connection > Right click on any option (Like Ethernet or Wifi) > choose Properties >  Choose Internet Protocal Version 4 (TCP/IPV4) > Click on below proeprties option,
    > If you choose the following IP Address option and enter the IP it'll add that ip as a static IP(ex : 10.10.10.0) > it'll automatically taken the subnet mask > zthen Choose the Prefered DNS Server & Altrernate DNS Server(It's for HA).
 
+ Drawbacks of Static IP:
+ =======================
+   Manual Configuration and Maintenance:
+   -------------------------------------
+      Drawback: Assigning and maintaining static IP addresses requires manual intervention by network administrators.
+      Example: In a large network with numerous devices, manually configuring each device with a static IP address can be time-consuming and prone to errors.
+
+   Limited Scalability:
+   -------------------
+      Drawback: Static IP addresses may not scale well in dynamic environments with a frequently changing number of connected devices.
+      Example: In a rapidly growing organization where new devices are added regularly, managing static IP assignments for each new device becomes challenging.
+
+   Address Conflict Potential:
+   ---------------------------
+      Drawback: If an administrator assigns an IP address that is already in use on the network, it can lead to conflicts and connectivity issues.
+      Example: If two devices are manually assigned the same static IP address, it can result in network disruptions.
+   Reconfiguration Challenges:
+   ---------------------------
+      Drawback: Changing the IP address of a device or migrating to a new subnet can be cumbersome with static IPs.
+      Example: If there's a need to reorganize the network or merge with another network, updating static IP configurations across devices can be complex.
+   Security Risks:
+   --------------
+      Drawback: Static IP addresses may pose security risks if not managed properly, as they can be targeted by attackers.
+      Example: An improperly configured firewall or mismanagement of IP address assignments might expose a device with a static IP to potential security threats.
+
