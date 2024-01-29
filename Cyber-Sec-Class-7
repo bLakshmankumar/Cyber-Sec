@@ -8,4 +8,5 @@ Fixed IP which is allocated manually to a system/server is called a Static IP. E
  How to assign Static IP on Windows Laptop :
  -------------------------------------------
    Go to COntrol Panel > Network and Internet > Network Connection > Right click on any option (Like Ethernet or Wifi) > choose Properties >  Choose Internet Protocal Version 4 (TCP/IPV4) > Click on below proeprties option,
-   > If you choose the following IP Address option and enter the IP it'll add that ip as a static IP.
+   > If you choose the following IP Address option and enter the IP it'll add that ip as a static IP(ex : 10.10.10.0) > it'll automatically taken the subnet mask > zthen Choose the Prefered DNS Server & Altrernate DNS Server(It's for HA).
+
