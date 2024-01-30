@@ -43,7 +43,14 @@ DNS Records:
     CNAME (Canonical Name) Record: Provides an alias for another domain. It'll convert one form of web-browser into other-form of browser.
     MX (Mail Exchange) Record: Specifies mail servers responsible for receiving email.
     PTR Record : (Reverse Pointer) : PTR records will convert IPv4 or IPV6 IP addresses to domain names.
-    TXT Record : Record used to store arbitrary text data associated with a domain
+    TXT Record : Record used to store arbitrary text data associated with a domain.
+                 Every email contains couple of important parameters or features : SPF(Sender Policy Framework), DKIM(Domain key identification message), DK(Domain Keys)-(Public & Private).
+    HINFO Record : The HINFO (Host Information) record is a type of DNS (Domain Name System) record used to provide information about the hardware and operating system used by a particular host (computer) on the internet.
+                   EX : What is the CPU utilization of our DNS server, like RAM, HDD, SDD, Generation, ModelNumber.
+    SOA Record : The SOA record designates the primary authoritative DNS server for a specific DNS zone. It contains essential information about the management of the zone.
+                 It Contents details such as the primary master name server, the responsible party's email address, a serial number, and various timing intervals for zone maintenance (refresh, retry, expire, and minimum TTL).
+    NS Record :  The NS record specifies the authoritative DNS servers responsible for a domain. It indicates which DNS servers hold the authoritative information for resolving queries related to that domain.
+                 It directing DNS resolvers to the servers responsible for resolving queries related to that domain.
 
 Top DNS attacks and strategies to defend :
 ------------------------------------------
@@ -91,3 +98,5 @@ Top DNS attacks and strategies to defend :
 Interview qns :
 ---------------
  Which Protocal/Which server will support for both TCP/UDP Connections  : Ans > DNS (53).
+ What are the important parameters every email contains :  
+     Every email contains couple of important parameters or features : SPF(Sender Policy Framework), DKIM(Domain key identification message), DK(Domain Keys)-(Public & Private), Header-Analyser.
