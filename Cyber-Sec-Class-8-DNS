@@ -42,7 +42,8 @@ DNS Records:
     AAAA (IPv6 Address) Record: Maps a domain to an IPv6 address.
     CNAME (Canonical Name) Record: Provides an alias for another domain. It'll convert one form of web-browser into other-form of browser.
     MX (Mail Exchange) Record: Specifies mail servers responsible for receiving email.
-    PTR Record : (Reverse Pointer) : PTR records will convert IPv4 or IPV6 IP addresses to domain names
+    PTR Record : (Reverse Pointer) : PTR records will convert IPv4 or IPV6 IP addresses to domain names.
+    TXT Record : Record used to store arbitrary text data associated with a domain
 
 Top DNS attacks and strategies to defend :
 ------------------------------------------
