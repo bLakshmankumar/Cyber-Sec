@@ -6,6 +6,10 @@ What is DNS :
    DNS stands for Domain Name System, and it serves as a crucial component of the internet infrastructure. 
    Its primary purpose is to translate human-readable domain names into IP addresses, allowing computers to locate and communicate with each other over the internet.
 
+Protocal :
+----------
+   DNS Port no : 53 (It'll support for both tcp/udp connections).
+
 Purpose:
 -------
    Human-Readable Addresses: DNS allows us to use easily memorable domain names (like www.example.com) instead of dealing with numerical IP addresses (e.g., 192.168.1.1). This makes it simpler for users to navigate the internet.
@@ -31,3 +35,50 @@ DNS Records:
     AAAA (IPv6 Address) Record: Maps a domain to an IPv6 address.
     CNAME (Canonical Name) Record: Provides an alias for another domain.
     MX (Mail Exchange) Record: Specifies mail servers responsible for receiving email.
+
+Top DNS attacks and strategies to defend :
+------------------------------------------
+  DNS (Domain Name System) is a critical component of the internet, and it's a common target for various types of attacks.
+    1) DNS Spoofing (DNS Cache Poisoning):
+    --------------------------------------
+         Attack Description: Attackers attempt to insert malicious DNS records into the cache of a DNS resolver, redirecting legitimate traffic to malicious sites.
+         Defense: Use DNSSEC: DNS Security Extensions (DNSSEC) digitally signs DNS data, preventing the modification of DNS records and ensuring data integrity. 
+                  Regularly flush DNS caches to remove potentially poisoned entries.
+    2) DNS Amplification Attack:
+    ---------------------------
+         Attack Description: Attackers exploit misconfigured DNS servers to amplify a small DNS query into a larger response, overwhelming the target with traffic.
+         Defense: Implement Rate Limiting: Set up rate limiting on DNS servers to prevent abuse and limit the number of responses per second. 
+                  Validate and filter incoming DNS requests to identify and block suspicious queries.
+    3) DNS DDoS (Distributed Denial of Service):
+    --------------------------------------------
+         Attack Description: Overwhelm DNS servers with a massive volume of traffic, rendering them unavailable for legitimate users.
+         Defense: Use Anycast DNS: Distribute DNS services across multiple geographically dispersed servers using Anycast. This helps absorb DDoS traffic.
+                  Deploy DDoS mitigation services or appliances to identify and filter malicious traffic.
+    4) DNS Tunneling:
+    -----------------
+         Attack Description: Malicious actors use DNS queries and responses to create covert communication channels, bypassing traditional security measures.
+         Defense: Monitor DNS Traffic: Regularly inspect DNS traffic for unusual patterns and detect anomalies that might indicate tunneling activities.
+         Employ DNS filtering solutions to block known malicious domains and prevent tunneling attempts.
+    5) DNS Hijacking:
+    -----------------
+         Attack Description: Attackers gain unauthorized access to DNS records, redirecting traffic away from its intended destination.
+         Defense: Enable DNSSEC: DNSSEC helps protect against DNS hijacking by ensuring the authenticity and integrity of DNS responses.
+                  Use strong authentication mechanisms to prevent unauthorized access to DNS management interfaces.
+    6) Man-in-the-Middle (MitM) Attacks:
+    -----------------------------------
+         Attack Description: Interceptors position themselves between the user and DNS server, intercepting and manipulating DNS traffic.
+         Defense: Encrypt DNS Traffic: Implement DNS over HTTPS (DoH) or DNS over TLS (DoT) to encrypt DNS queries, making it difficult for attackers to intercept and manipulate.
+                  Monitor for unusual behavior and use network security tools to detect and prevent MitM attacks.
+   7) Domain Kiting and Domain Tasting:
+   ------------------------------------
+         Attack Description: Abusing domain registration grace periods to test and exploit domains without incurring costs.
+         Defense: Implement Rate Limiting: Apply rate limiting to domain registrations to prevent excessive registrations within short periods.
+         Monitor domain registrations and identify suspicious patterns.
+   8) Pharming:
+   ------------
+         Attack Description: Redirecting website traffic to a fraudulent site without the user's knowledge, often through DNS manipulation.
+         Defense: Monitor DNS responses for unexpected changes and anomalies. Use DNS filtering to block access to known phishing or fraudulent domains.
+
+Interview qns :
+---------------
+ Which Protocal/Which server will support for both TCP/UDP Connections  : Ans > DNS (53).
