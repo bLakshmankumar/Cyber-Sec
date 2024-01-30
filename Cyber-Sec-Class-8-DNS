@@ -1,5 +1,5 @@
-DNS Servers & Records :
-======================
+DNS Servers & Records : [https://drive.google.com/drive/folders/1MlSX4UmzHLDJr5JURZqAVedqvYg50kxZ]
+=======================
 
 What is DNS : 
 ------------
@@ -111,6 +111,10 @@ Types of DNS Servers :
     --------
        Public DNS Servers: Resolve domain names for the entire internet. Used for general internet access.
        Private DNS Servers: Resolve domain names within a private network. Used for internal services and resources.
+
+DDI Solutions : (DNS, DHCP, IPAM)
+---------------------------------
+   Example DDI tools in the market are Microsoft(40% market capture(2023), Infoblox(30% market capture(2023), HP, IBM.
 
 Interview qns :
 ---------------
