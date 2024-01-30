@@ -28,6 +28,13 @@ How It Works:
    Response: The authoritative server sends the IP address back to the resolver, which, in turn, communicates it to your device.
    Caching Again: The resolver often caches the obtained IP address to speed up future requests for the same domain.
 
+DNS Backend Process in simple : 
+-------------------------------
+   Once end user giving any domain name request to dns server, DNS server will validate whether it is blocklisted or whitelisted domain.
+   If it's block listed dns server will respond to internal user stating that domain name can't access.
+   If it's a whitelisted domain name, DNS server will validate in the cache of DNS server and if it's available it'll respond back to the end user, then end user is able to access the website/domain name.
+   If domain name is whitelisted but not existing in the Cache then DNS Server will forward the request to Backend authorativeserver and authoritative server will validate once again block listed.
+
 DNS Records:
 ------------
   DNS databases store information in records, each serving a specific purpose. Common types of DNS records include:
