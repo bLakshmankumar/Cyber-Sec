@@ -95,6 +95,23 @@ Top DNS attacks and strategies to defend :
          Attack Description: Redirecting website traffic to a fraudulent site without the user's knowledge, often through DNS manipulation.
          Defense: Monitor DNS responses for unexpected changes and anomalies. Use DNS filtering to block access to known phishing or fraudulent domains.
 
+Types of DNS Servers : 
+======================
+    We have 2 types DNS servers 1) Public DNS server  2) Private DNS Server
+    Public DNS server : 
+    -------------------
+       Purpose: Public DNS servers are designed to resolve domain names for everyone on the internet. 
+                They translate human-readable domain names (like www.example.com) into IP addresses so that users can access websites and online services.
+       Usage: Individuals, ISPs (Internet Service Providers), and organizations use public DNS servers to access content on the internet.
+    Private DNS Server :
+    --------------------
+       Purpose: Private DNS servers are used within private networks, such as corporate or organizational networks. They handle queries for internal domain names and resources that are not publicly accessible.
+       Usage: Organizations use private DNS servers to manage and resolve domain names within their internal networks. It's commonly used for intranet services and internal systems.
+    Simply :
+    --------
+       Public DNS Servers: Resolve domain names for the entire internet. Used for general internet access.
+       Private DNS Servers: Resolve domain names within a private network. Used for internal services and resources.
+
 Interview qns :
 ---------------
  Which Protocal/Which server will support for both TCP/UDP Connections  : Ans > DNS (53).
