@@ -1,0 +1,33 @@
+DNS Servers & Records :
+======================
+
+What is DNS : 
+------------
+   DNS stands for Domain Name System, and it serves as a crucial component of the internet infrastructure. 
+   Its primary purpose is to translate human-readable domain names into IP addresses, allowing computers to locate and communicate with each other over the internet.
+
+Purpose:
+-------
+   Human-Readable Addresses: DNS allows us to use easily memorable domain names (like www.example.com) instead of dealing with numerical IP addresses (e.g., 192.168.1.1). This makes it simpler for users to navigate the internet.
+   Hierarchical Structure: DNS organizes domain names in a hierarchical structure, making it scalable and easier to manage.
+                           It resembles a tree-like structure, with the root at the top, followed by top-level domains (TLDs), second-level domains, and so on.
+   Distributed Database: DNS acts as a distributed database, distributing the responsibility of storing and managing domain information across numerous DNS servers worldwide.
+
+How It Works:
+-------------
+   DNS Resolution: When you enter a domain name into your browser, your device initiates a DNS resolution process to find the corresponding IP address.
+   DNS Queries: The process begins with a DNS query. Your device sends a request to a local DNS resolver (usually provided by your Internet Service Provider - ISP).
+   Caching: The local resolver may have the IP address in its cache if the domain has been recently accessed. If not, it forwards the request to a series of DNS servers.
+   Root DNS Servers: The query starts at the root DNS servers, which direct the resolver to the TLD DNS servers (e.g., .com, .org).
+   TLD DNS Servers: The TLD servers then guide the resolver to the authoritative DNS servers for the specific domain.
+   Authoritative DNS Servers: These servers hold the accurate and up-to-date information about the domain's IP address.
+   Response: The authoritative server sends the IP address back to the resolver, which, in turn, communicates it to your device.
+   Caching Again: The resolver often caches the obtained IP address to speed up future requests for the same domain.
+
+DNS Records:
+------------
+  DNS databases store information in records, each serving a specific purpose. Common types of DNS records include:
+    A (Address) Record: Maps a domain to an IPv4 address.
+    AAAA (IPv6 Address) Record: Maps a domain to an IPv6 address.
+    CNAME (Canonical Name) Record: Provides an alias for another domain.
+    MX (Mail Exchange) Record: Specifies mail servers responsible for receiving email.
