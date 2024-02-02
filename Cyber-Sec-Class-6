@@ -273,6 +273,22 @@ Top Ports & Protocals :
    Usage: Legacy protocol, widely used in earlier versions of Windows.
    Security Best Practices: It is recommended to disable NetBIOS over TCP/IP in environments where it is not needed for compatibility reasons. 
                             Additionally, organizations should implement secure alternatives and consider the use of firewalls and other security measures to control access to NetBIOS-related ports.
+
+
+ Sender Policy Framework(SPF) : It is an email authentication Protocal  that helps prevent email spoofing and phishing attacks. 
+                                Its purpose is to verify the legitimacy of an email sender by allowing domain owners to publish authorized mail servers in DNS records. 
+ DMARK : Domain-based Message Authentication, Reporting, and Conformance (DMARC) is an email authentication protocol designed to enhance email security.
+         Its purpose is to prevent email spoofing and phishing by allowing domain owners to specify authentication mechanisms and receive reports on email activity.
+
+ Difference Between SPF & DMARK & DKIM: 
+ --------------------------------------
+      SPF (Sender Policy Framework): It focuses on specifying authorized mail servers for a domain, helping prevent email spoofing. It acts as a basic email authentication method.
+     
+      DMARC: It's is a more comprehensive protocol that builds upon SPF and DKIM. DMARC sets policies for handling unauthenticated emails, provides reporting, 
+      and enhances email security by allowing domain owners to control and monitor email authentication.
+      
+      DKIM : It's an email protocal, It will allow companies to take responsibility for transmitting of a message by signing certificate.  
+
 NOTE : 
 =====
    In networking, there are a total of 0-65,536 ports available for communication. These ports are categorized into three ranges:
