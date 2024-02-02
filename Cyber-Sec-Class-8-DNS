@@ -119,7 +119,15 @@ DDI Solutions : (DNS, DHCP, IPAM)
 Oher DNS Servers (Class-13 (https://drive.google.com/drive/folders/1MlSX4UmzHLDJr5JURZqAVedqvYg50kxZ)
 =====================================================================================================
 Active Directory : It's a directory for all users, systems, computers along with IP addresses. It's primary purpose is to facilitate the administration of user accounts, devices, and various other resources within a network. 
-Data Center 
+
+Domain Controller(DC) : It's primary purpose is to facilitate centralized authentication, authorization, and management of network resources.
+    Event ID :
+    ----------
+         It's a part of DC, Every activity in the window has unique id is called as Event ID.
+         We can see Events on windows > Event viewer > Windows Logs > we can see the events of each resoucres, Application, Security & more with Event ID's
+    EX : Events ID's
+    ----------------
+         4634 : Account was loggedoff, 4625 : Authentication Failure, 4624 : An account was successfully Logged on, 4672 : Special previllages assign to new log in.
 DNS
 DHCP
 File Server
