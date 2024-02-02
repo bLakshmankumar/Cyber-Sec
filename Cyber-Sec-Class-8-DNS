@@ -116,6 +116,19 @@ DDI Solutions : (DNS, DHCP, IPAM)
 ---------------------------------
    Example DDI tools in the market are Microsoft(40% market capture(2023), Infoblox(30% market capture(2023), HP, IBM.
 
+Oher DNS Servers (Class-13 (https://drive.google.com/drive/folders/1MlSX4UmzHLDJr5JURZqAVedqvYg50kxZ)
+=====================================================================================================
+Active Directory : It's a directory for all users, systems, computers along with IP addresses. It's primary purpose is to facilitate the administration of user accounts, devices, and various other resources within a network. 
+Data Center 
+DNS
+DHCP
+File Server
+SMTP Server
+DB Server
+App Server/ Web server
+Microsoft 
+Unix related servers and so on.
+
 Interview qns :
 ---------------
  Which Protocal/Which server will support for both TCP/UDP Connections  : Ans > DNS (53).
