@@ -153,4 +153,4 @@ Interview qns :
    Ans : [ Whenever Event came first we should verify IP range, Is in from internal Ip range or External IP.
    -----
       Event ID 4635 (Legitimate User = Internal employee) (10.0, 172.168, 192.168(If events comes from these ranges it means intenal employee, he might enter wrong passwd & etc.)).
-                     Illegitimate User = Attacker/Hacker
+                     Illegitimate User = Attacker/Hacker.
