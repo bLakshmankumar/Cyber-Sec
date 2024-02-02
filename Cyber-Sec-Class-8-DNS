@@ -121,13 +121,14 @@ Oher DNS Servers (Class-13 (https://drive.google.com/drive/folders/1MlSX4UmzHLDJ
 Active Directory : It's a directory for all users, systems, computers along with IP addresses. It's primary purpose is to facilitate the administration of user accounts, devices, and various other resources within a network. 
 
 Domain Controller(DC) : It's primary purpose is to facilitate centralized authentication, authorization, and management of network resources.
-    Event ID :
-    ----------
+    Event ID :(Very imp, learn more event id's from google as well)
+    ---------------------------------------------------------------
          It's a part of DC, Every activity in the window has unique id is called as Event ID.
          We can see Events on windows > Event viewer > Windows Logs > we can see the events of each resoucres, Application, Security & more with Event ID's
     EX : Events ID's
     ----------------
          4634 : Account was loggedoff, 4625 : Authentication Failure, 4624 : An account was successfully Logged on, 4672 : Special previllages assign to new log in.
+    Note : If we want to integrate any server logs to SIEM tool we will use collecter agent menthod. This method entails deploying specialized software agents on servers to collect and forward log data to the SIEM system. 
 DNS
 DHCP
 File Server
@@ -139,6 +140,16 @@ Unix related servers and so on.
 
 Interview qns :
 ---------------
- Which Protocal/Which server will support for both TCP/UDP Connections  : Ans > DNS (53).
+ Which Protocal/Which server will support for both TCP/UDP Connections : Ans > DNS (53).
+ -----------------------------------------------------------------------
  What are the important parameters every email contains :  
+ --------------------------------------------------------
      Every email contains couple of important parameters or features : SPF(Sender Policy Framework), DKIM(Domain key identification message), DK(Domain Keys)-(Public & Private), Header-Analyser.
+ Scenario based QN :
+ ------------------
+  In one day if you want to see how many windows events failures occured or else windows authentication failures will come ?
+  --------------------------------------------------------------------------------------------------------------------------
+   Ans : [ Whenever Event came first we should verify IP range, Is in from internal Ip range or External IP.
+   -----
+      Event ID 4635 (Legitimate User = Internal employee) (10.0, 172.168, 192.168(If events comes from these ranges it means intenal employee, he might enter wrong passwd & etc.)).
+                     Illegitimate User = Attacker/Hacker
