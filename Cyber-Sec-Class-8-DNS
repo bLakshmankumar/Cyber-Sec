@@ -129,11 +129,12 @@ Domain Controller(DC) : It's primary purpose is to facilitate centralized authen
     ----------------
          4634 : Account was loggedoff, 4625 : Authentication Failure, 4624 : An account was successfully Logged on, 4672 : Special previllages assign to new log in.
     Note : If we want to integrate any server logs to SIEM tool we will use collecter agent menthod. This method entails deploying specialized software agents on servers to collect and forward log data to the SIEM system. 
-DNS
-DHCP
-File Server
+
+DB Server : It'll maintain all the data of the organization ( Critical and Non Critical). 
+File Server : It's primary purpose is to facilitate file sharing and data storage for multiple users within an organization.
+DNS Server
+DHCP Server
 SMTP Server
-DB Server
 App Server/ Web server
 Microsoft 
 Unix related servers and so on.
