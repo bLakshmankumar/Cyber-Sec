@@ -322,7 +322,10 @@ Course-URL : https://drive.google.com/drive/folders/1MlSX4UmzHLDJr5JURZqAVedqvYg
 
  > NIC : Network interface card : It will convert electrical signals into data signals.
 
-   
+ > DK ( Domain Keys) : Public and Private, It's a part of DKIM, It's work In between Sender and Recipeint using trusted certificate authority using digital signature. 
+                       This signature was created using a private key held by the sender and could be verified by the recipient using a public key published in the Domain Name System (DNS) records of the sender's domain.
+
+ > Header analyser & Internet header : Entire email in the form HTML Language.
 
 
           
