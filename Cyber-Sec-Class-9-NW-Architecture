@@ -9,4 +9,13 @@
    DMZ/DMG                            (50:50)
    Untrust/External/Public/Internet (Hacker/Attackers are sit here).(0)
 
+> Attacker always try to compromise end user server or they want to compromise the company internal servers.
+
+> Company critical/internal servers are placed/sitting on Trust Zone, Non critical servers are sitting on DMZ/DMG Zone.
+
+> Critical / Non Critical security :
+------------------------------------
+   Server Security
+   Vulnerability assessment
+   Hardening
 
