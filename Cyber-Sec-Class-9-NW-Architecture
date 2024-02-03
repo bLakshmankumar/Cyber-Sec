@@ -13,9 +13,17 @@
 
 > Company critical/internal servers are placed/sitting on Trust Zone, Non critical servers are sitting on DMZ/DMG Zone.
 
-> Critical / Non Critical security :
-------------------------------------
-   Server Security
+> Critical / Non Critical server security :
+-------------------------------------------
+   For Critical and non-critical servers we should do Vulnerability assessment and hardening This is also called infra security.
    Vulnerability assessment
    Hardening
 
+> EndPoint/EndUser Security :
+ ---------------------------
+   We can protect All the end User systems and servers by using 
+    > AntiViruses/EDR.
+    > DLP 
+    > FIP : File Integrity Monitoring
+    > HIDS/HIPS : 
+    > Encryption : Data at rest(Disk protection)
