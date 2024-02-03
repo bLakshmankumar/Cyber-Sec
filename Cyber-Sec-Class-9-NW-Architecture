@@ -1,2 +1,12 @@
 # Added the Network Architecture diagram on Readme file
 # [ https://github.com/bLakshmankumar/cyber-sec/tree/main ]
+# https://drive.google.com/drive/folders/1MlSX4UmzHLDJr5JURZqAVedqvYg50kxZ
+
+> It's a graphical or pictorial representation how the network devices are deployed in the datacenter or else in the cloud.
+
+> 3 zones in the Networking concept
+   Internal/Trust                    (100)
+   DMZ/DMG                            (50:50)
+   Untrust/External/Public/Internet (Hacker/Attackers are sit here).(0)
+
+
