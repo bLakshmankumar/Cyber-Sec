@@ -67,7 +67,7 @@ NOTE : SIEM TOol : To monitor all of the network level(all applications, all DB'
     For example like as per Our network diagram First layer FW layer, Then proxy layer, Then NIDS/NIPS layer, Then cs layer, Then AS layer.
     Multiple controlls we will implement.
 
-> DMZ/DMG(Demilitarized Zone/Disk Image):
+> DMZ/DMG(Demilitarized Zone/Disk Image): [Simply DMZ/DMG will act as a borader between Trust zone and untrust zone].
 -----------------------------------------
  DMZ (Demilitarized Zone): 
     In the context of computer networking and cybersecurity, a DMZ refers to a network segment that is isolated and positioned between an organization's internal network (intranet) and an external network, typically the internet.
