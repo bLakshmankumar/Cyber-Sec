@@ -26,4 +26,54 @@
     > DLP 
     > FIP : File Integrity Monitoring
     > HIDS/HIPS : 
-    > Encryption : Data at rest(Disk protection)
+    > Encryption : Data at rest(Disk protection) (
+    For ex, if you carrying your office laptop and your laptop was stolen by someone, so he can detatch the harddrive and attach the harddrive into other system to stolen the data as well. 
+    So that reason we can use the data at rest option to secure the data, even system/server is stolen by attacker, he can't see the original data bcs of encryption.
+
+> Network Security/Perimeter Security/Firewall Security :
+---------------------------------------------------------
+  We can protect the firewall by using these below tools
+    > NIDS/NIPS
+    > Proxy (web gateway)
+
+> Application Security :
+------------------------
+   For application security we use this below solutions
+     > WAF ( WAF is a solution, It can prevent against owasp top 10, layer 7 application side attacks).
+     > SDLC (We can implement security solutions to all sdlc life cycle phases to provide more security to application).
+> Email Gateway : 
+-----------------
+  Email Gateway is act as a Bridge between Phishing email attacker world to Internal SMTP or Email Server
+  Email Gateway will deploy at perimeter level/DMz/DMG zone.
+
+NOTE : SIEM TOol : To monitor all of the network level(all applications, all DB's, all networking, all end user servers, all routers, all emails by 24/7. We can use SIEM TOOL.
+
+> What is inbound Traffic :
+---------------------------
+   The Traffic is coming untrust(google) to trust device(laptop) is called as inbound traffic.
+
+> What is Outbound Traffic :
+----------------------------
+   The traffic is going away from trust(laptop) to untrust(Google) is called as outbound traffic.
+
+> Net Flow :
+-------------
+   The Sum of Inbound Traffic and Out bound traffic is called as Net Flow data.
+
+> Defence in depth :
+---------------------
+    Defence in depth is a layers level security, Its's a layer approach, If one layer of security controll is bypassing, Second layer will prevent, If second layer will bypass, if third layer will prevent,
+    If third layer will bypassing and so on.
+    For example like as per Our network diagram First layer FW layer, Then proxy layer, Then NIDS/NIPS layer, Then cs layer, Then AS layer.
+    Multiple controlls we will implement.
+
+> DMZ/DMG(Demilitarized Zone/Disk Image):
+-----------------------------------------
+ DMZ (Demilitarized Zone): 
+    In the context of computer networking and cybersecurity, a DMZ refers to a network segment that is isolated and positioned between an organization's internal network (intranet) and an external network, typically the internet.
+    The DMZ is designed to host services that need to be accessible from both the internal and external networks, such as web servers, email servers, or public-facing applications.
+    The purpose of a DMZ is to enhance security by segregating external-facing services from the internal network, minimizing the potential impact of security breaches.
+ DMG (Disk Image):
+    A DMG file is a disk image file format used on macOS. It contains the contents and structure of a disk or storage device and is often used for distributing software or creating backups on Mac computers.
+    When a DMG file is opened, it typically mounts as a virtual disk on the user's system, allowing them to access the files within.
+    DMG files may be encrypted for added security, and they are commonly used for packaging macOS applications.
