@@ -1,10 +1,10 @@
-Network & Cyber Attacks :
+Network & Cyber Attacks : 
 ========================
  Cyber-Security Main course will start from this class.
  Will discuss about Cyber Attacks and preventuive mechanism.
 
 Before going to attacks we will discuss about two different types of processes.
-1) Cyber killChain process   2) Mitree framwork/Mitree att@ck
+1) Cyber killChain process   2) Mitree framwork/MITRE ATT&CK
 
  > 1) Cyber Kill chain Process : [ Added the image with details to main readme file ]
  -------------------------------------------------------------------------------------
@@ -20,13 +20,47 @@ Before going to attacks we will discuss about two different types of processes.
         Command and Control (C2): The attacker establishes communication channels to control the compromised system, enabling them to execute further actions, gather information, or escalate the attack.
         Actions on Objectives: The attacker pursues their ultimate goals, which could include data theft, system disruption, or other malicious activities.
 
- > 2) Mitree framwork/Mitree att@ck :
+ > 2) Mitree framwork/MITRE ATT&CK :
  ------------------------------------
-     It's a Offensive + Defensive Mechanism. The MITRE ATT&CK framework (MITRE ATT&CK) is a universally accessible, continuously updated knowledge base for modeling, detecting, preventing and fighting cybersecurity threats based on cybercriminals’ known adversarial behaviors.
+     It's a Offensive(Attacker) + Defensive Mechanism(Blue Team or SOC Team). The MITRE ATT&CK framework (MITRE ATT&CK) is a universally accessible, continuously updated knowledge base for modeling, detecting, preventing and fighting cybersecurity threats based on cybercriminals’ known adversarial behaviors.
+     It's a Centralized knowledge base, where atatacker will use tactics, techniques and procedures how to compromise the system, along with that mintree framework will provide preventive mechanisms or solutions as well.
+     this Framework will be used by Threat hunters, Malware analysts, Reverse Engineering Team, Blue Team, Read Team and Hacker.
      Att@ck Means :
      --------------
           A - adversary
           T - Tactics
           T - Techniques
           CK - Common Knowledge
-       
+
+     Key components of the MITRE ATT&CK framework include:
+     -----------------------------------------------------
+      Matrix: ATT&CK is presented in matrix form, categorizing adversary behavior into tactics and techniques. Tactics represent high-level objectives, while techniques detail specific methods adversaries use to achieve those objectives.
+      Tactics: There are several tactics, including Initial Access, Execution, Persistence, Privilege Escalation, Defense Evasion, Credential Access, Discovery, Lateral Movement, Collection, Exfiltration, and Impact.
+      Techniques: Each tactic consists of specific techniques that adversaries may employ. Techniques are more granular descriptions of the methods used in cyber attacks.
+      Procedures: MITRE ATT&CK also documents real-world examples of how adversaries have executed specific techniques, known as procedures. This information aids in understanding specific instances of attacks.
+      Mitigations: The framework includes recommended mitigations and defensive strategies to help organizations prevent, detect, and respond to attacks effectively.
+      The MITRE ATT&CK framework is valuable for organizations in enhancing their cybersecurity defenses by providing a common language for discussing cyber threats and enabling a proactive and informed approach to security.
+      It is regularly updated to incorporate new insights into adversary behavior and emerging threats.
+
+     Tactics : [ https://attack.mitre.org/tactics/enterprise/ ]
+     =========
+      Initial Access: Adversaries focus on gaining an initial foothold in the target environment, often through methods such as phishing, exploiting vulnerabilities, or other means.
+      Execution: Adversaries attempt to run malicious code on a target system, either to establish a presence or achieve specific objectives.
+      Persistence*: Adversaries aim to maintain access to systems over an extended period, often by utilizing techniques such as backdoors or scheduled tasks.
+      Privilege Escalation*: Adversaries seek to increase their level of access or control within the target environment, often by exploiting vulnerabilities or misconfigurations.
+      Defense Evasion*: Adversaries use various techniques to avoid detection and hinder defensive measures, such as disabling security tools or employing obfuscation.
+      Credential Access: Adversaries focus on obtaining account credentials to escalate privileges, move laterally within the network, or achieve other objectives.
+      Discovery: Adversaries aim to gather information about the target environment, including network topology, system configurations, and user accounts, to plan and execute further actions.
+      Lateral Movement*: Adversaries move through a network, expanding their presence and accessing additional systems or resources.
+      Collection: Adversaries gather data from target systems, often to fulfill their objectives, such as stealing sensitive information.
+      Exfiltration*: Adversaries transfer data from the target environment to an external location under their control.
+      Impact: Adversaries seek to disrupt, manipulate, or destroy systems and data within the target environment.
+      These tactics provide a structured framework for understanding and categorizing the various stages and objectives of a cyber attack.
+
+     Note : Mitree attack a website [ https://attack.mitre.org/ ] > Go to this website and check the all details and tactics > ex if you move your cursor to tactits option it'll display the Enterprise, Mobile, & ICS.
+
+      
+
+
+
+
