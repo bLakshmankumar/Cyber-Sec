@@ -1,7 +1,5 @@
-Network & Cyber Attacks : 
-========================
- Cyber-Security Main course will start from this class.
- Will discuss about Cyber Attacks and preventuive mechanism.
+# Cyber-Security Main course will start from this class.
+# Will discuss about Cyber Attacks and preventuive mechanism.
 
 Before going to attacks we will discuss about two different types of processes.
 1) Cyber killChain process   2) Mitree framwork/MITRE ATT&CK
@@ -64,8 +62,45 @@ Before going to attacks we will discuss about two different types of processes.
 
      Note : Mitree attack a website [ https://attack.mitre.org/ ] > Go to this website and check the all details and tactics > ex if you move your cursor to tactits option it'll display the Enterprise, Mobile, & ICS.
 
-      
 
+Network & Cyber Attacks : 
+========================
+   Network & Cyber Attacks Types : 
+   ===============================
+      * Malware
+      * Authentication Failure
+      * Spoofing
+      * Flooding
+      * Phishing Email
+      * OWASP TOP 10
+      * Unknown or Other category attacks.
+
+  > Malware:
+  ==========  
+    Description: It's a Malicious software designed to harm or exploit systems. This includes various types such as viruses, worms, trojans, and ransomware.
+    Objective: Gain unauthorized access, disrupt operations, or steal sensitive data.
+    Symptoms of Malware : Unusual System Behavior (such as programs crashing, freezing), Missing or Altered Files(Files or directories disappearing, being encrypted, or modified without user action).
+    Unrecognized Accounts or Users, High utilization of CPU and RAM.
+    Example: A user unknowingly downloads a seemingly innocent file that contains a hidden virus, leading to unauthorized access or data theft.
+
+      Types of Malwares :
+      -------------------
+        Worms:
+        ------
+        Description: Worms are self-replicating malicious programs that spread across networks without requiring user interaction.
+                     They can exploit vulnerabilities in operating systems or applications to propagate.
+        Example: The "Conficker" worm, which emerged in 2008, infected millions of computers by exploiting Windows vulnerabilities. It spread rapidly through network shares and removable media.
+
+        Trojans:
+        --------
+        Description: Trojans, or Trojan Horses, are deceptive software that disguises itself as legitimate but contains a hidden malicious payload. Unlike worms and viruses, trojans do not replicate independently.
+        Example: The "Zeus" Trojan, a notorious banking trojan, infiltrated systems by disguising itself as a legitimate program. Once installed, it could steal sensitive banking information and credentials.
+
+        Ransomware:
+        -----------
+        Description: Ransomware is a type of malicious software that encrypts a victim's files or entire system, rendering it inaccessible. 
+                     The attacker then demands a ransom, usually in cryptocurrency, in exchange for the decryption key.
+        Example: The "WannaCry" ransomware, which emerged in 2017, exploited a Windows vulnerability to rapidly infect systems worldwide. It encrypted files and demanded ransom payments for decryption keys.
 
 
 
