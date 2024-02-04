@@ -4,7 +4,7 @@ Network & Cyber Attacks :
  Will discuss about Cyber Attacks and preventuive mechanism.
 
 Before going to attacks we will discuss about two different types of processes.
-1) Cyber killChain process   2) Mitree framwork
+1) Cyber killChain process   2) Mitree framwork/Mitree att@ck
 
  > 1) Cyber Kill chain Process : [ Added the image with details to main readme file ]
  -------------------------------------------------------------------------------------
@@ -19,4 +19,14 @@ Before going to attacks we will discuss about two different types of processes.
         Installation: Malware or other malicious components are installed on the compromised system, allowing the attacker to establish a foothold and maintain access.
         Command and Control (C2): The attacker establishes communication channels to control the compromised system, enabling them to execute further actions, gather information, or escalate the attack.
         Actions on Objectives: The attacker pursues their ultimate goals, which could include data theft, system disruption, or other malicious activities.
-   
+
+ > 2) Mitree framwork/Mitree att@ck :
+ ------------------------------------
+     It's a Offensive + Defensive Mechanism. The MITRE ATT&CK framework (MITRE ATT&CK) is a universally accessible, continuously updated knowledge base for modeling, detecting, preventing and fighting cybersecurity threats based on cybercriminals’ known adversarial behaviors.
+     Att@ck Means :
+     --------------
+          A - adversary
+          T - Tactics
+          T - Techniques
+          CK - Common Knowledge
+       
