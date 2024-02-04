@@ -63,8 +63,8 @@ Before going to attacks we will discuss about two different types of processes.
      Note : Mitree attack a website [ https://attack.mitre.org/ ] > Go to this website and check the all details and tactics > ex if you move your cursor to tactits option it'll display the Enterprise, Mobile, & ICS.
 
 
-Network & Cyber Attacks : 
-========================
+# Network & Cyber Attacks : 
+  ========================
    Network & Cyber Attacks Types : 
    ===============================
       * Malware
@@ -90,6 +90,14 @@ Network & Cyber Attacks :
         Description: Worms are self-replicating malicious programs that spread across networks without requiring user interaction.
                      They can exploit vulnerabilities in operating systems or applications to propagate.
         Example: The "Conficker" worm, which emerged in 2008, infected millions of computers by exploiting Windows vulnerabilities. It spread rapidly through network shares and removable media.
+        Symptoms : Unusual network activity or traffic, Increased use of system resources, Degraded network performance.
+
+        Viruses:
+        --------
+        Description: Viruses are malicious code that attaches itself to legitimate executable files or documents. They require a host file to spread and execute when the infected file is opened. 
+                      Once the file is opened It'll do self replication with in a system(Producing of copies).
+        Example: The "Melissa" virus, discovered in 1999, spread through infected Microsoft Word documents sent via email. When opened, it replicated itself and sent copies to the first 50 contacts in the user's address book.
+        Symptoms: Unexplained file modifications or deletions, Slower system performance, Unexpected error messages or crashes.
 
         Trojans:
         --------
@@ -102,5 +110,56 @@ Network & Cyber Attacks :
                      The attacker then demands a ransom, usually in cryptocurrency, in exchange for the decryption key.
         Example: The "WannaCry" ransomware, which emerged in 2017, exploited a Windows vulnerability to rapidly infect systems worldwide. It encrypted files and demanded ransom payments for decryption keys.
 
+        BackDoor :
+        ----------
+        Description: Creates a hidden access point in a system, allowing unauthorized entry.
+        Example: The "NetCAT" backdoor exploited vulnerabilities in Intel server-grade processors to enable unauthorized network eavesdropping.
+
+        Botnet:
+        -------
+        Description: Network of compromised computers controlled by a central entity for malicious purposes.
+        Example: The "Mirai" botnet in 2016 infected Internet of Things (IoT) devices, launching massive DDoS attacks against websites.
+
+       Spyware:
+       --------
+       Description: Secretly monitors and collects user information without consent.
+       Example: "FinSpy" spyware targeted individuals and organizations, collecting sensitive data and facilitating espionage.
+
+       Logic Bomb:
+       -----------
+       Description: Code triggered by specific conditions, leading to malicious actions.
+       Example: An insider at a financial institution inserts a logic bomb that activates if they are terminated, deleting critical data.
+
+      Rootkit:
+      --------
+      Description: Conceals malware presence, providing persistent and undetected access.
+      Example: The "Sony BMG rootkit" in 2005, installed on CDs, had rootkit features and caused security concerns.
+
+      Adware:
+      -------
+      Description: Displays unwanted advertisements or redirects users to advertising sites.
+      Example: "CrossRider" adware delivered intrusive pop-up ads and collected user data from infected systems.
+
+All these above types of attacks will comes to SIEM tool and Once attack comes to SIEM tool as a Security analyst we have to identify weather it's a really happened or not.
+  > Sources Of Malware : 
+  ----------------------
+      * Phishing Email Attachments
+      * Drive by Downloads (Downloading files from unknown Sources).
+      * Removable Devices (Pendrive/Memorystick(Uk people call), External Harddisk.
+
+  > How Malware enter the organization :
+  --------------------------------------
+     Malware enter through files.
+
+     Different file categories :
+     ---------------------------
+     .pdf, .exe, .csv, .Rar*(dangeros), .7z*(dangeros), .dll*(dangeros,).xml & more
+NOTE : If something is Got compromised but unfortunatily alert is not recieved. it's called True Negative. It's a very importent this scenarios.
+
+Interview Qn :
+--------------
+   How can you do manual malware investigation ?
+   ---------------------------------------------
+         Verify the CPU and RAM and Unknown Files and etc.
 
 
