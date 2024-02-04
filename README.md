@@ -9,3 +9,10 @@ cybersec-notes
  [https://github.com/bLakshmankumar/cyber-sec/blob/main/Cyber-Sec-Class-9-NW-Architecture]
  
 ![Screenshot 2024-02-04 021244](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/621c3783-145f-4fda-ad71-6acc7939e4b1)  
+
+# Cyber-Security-Class-10 :
+===========================
+# Cyber kill chain process :
+-----------------------------
+
+ ![Screenshot 2024-02-04 153534](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/b64d0178-42cd-4014-810f-7ac8033caa89)
