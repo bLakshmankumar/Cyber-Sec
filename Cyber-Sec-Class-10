@@ -57,6 +57,11 @@ Before going to attacks we will discuss about two different types of processes.
       Impact: Adversaries seek to disrupt, manipulate, or destroy systems and data within the target environment.
       These tactics provide a structured framework for understanding and categorizing the various stages and objectives of a cyber attack.
 
+> Difference Between Cyber Kill Chain process & MITRE ATT&CK framework :
+  ----------------------------------------------------------------------
+    While the Cyber Kill Chain is more focused on the sequential stages of an attack, the MITRE ATT&CK framework provides a broader and more granular view of adversary behavior to inform defensive strategies. 
+    Combining both approaches can enhance an organization's overall cybersecurity posture.
+
      Note : Mitree attack a website [ https://attack.mitre.org/ ] > Go to this website and check the all details and tactics > ex if you move your cursor to tactits option it'll display the Enterprise, Mobile, & ICS.
 
       
