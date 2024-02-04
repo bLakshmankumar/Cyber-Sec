@@ -6,8 +6,10 @@ Network & Cyber Attacks :
 Before going to attacks we will discuss about two different types of processes.
 1) Cyber killChain process   2) Mintree framwork
 
- > 1) Cyber Kill chain Process :
- -------------------------------
+ > 1) Cyber Kill chain Process : [ Added the image with details to main readme file ]
+ -------------------------------------------------------------------------------------
+      # https://github.com/bLakshmankumar/cyber-sec/tree/main
+
      It's an offensive mechanism. It's a step by step or phase by phase approach of how attacker will do attack exploitation and also compromise.
      The process typically consists of the following stages :
         Reconnaissance: The attacker gathers information about the target to identify potential vulnerabilities and targets.
