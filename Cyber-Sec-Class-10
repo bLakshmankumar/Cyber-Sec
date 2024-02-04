@@ -83,8 +83,25 @@ Before going to attacks we will discuss about two different types of processes.
     Unrecognized Accounts or Users, High utilization of CPU and RAM.
     Example: A user unknowingly downloads a seemingly innocent file that contains a hidden virus, leading to unauthorized access or data theft.
 
-      Types of Malwares :
-      -------------------
+    > Sources Of Malware : 
+    ----------------------
+      * Phishing Email Attachments
+      * Drive by Downloads (Downloading files from unknown Sources).
+      * Removable Devices (Pendrive/Memorystick(Uk people call), External Harddisk.
+
+    > How Malware enter the organization :
+    --------------------------------------
+     Malware enter through files.
+
+     Different file categories :
+     ---------------------------
+    .pdf, .exe, .csv, .Rar*(dangeros), .7z*(dangeros), .dll*(dangeros,).xml & more
+ 
+     NOTE : If something is Got compromised but unfortunatily alert is not recieved. it's called True Negative. It's a very importent this scenarios.
+
+     
+    > Types of Malwares :
+     -------------------
         Worms:
         ------
         Description: Worms are self-replicating malicious programs that spread across networks without requiring user interaction.
@@ -141,21 +158,15 @@ Before going to attacks we will discuss about two different types of processes.
       Example: "CrossRider" adware delivered intrusive pop-up ads and collected user data from infected systems.
 
 All these above types of attacks will comes to SIEM tool and Once attack comes to SIEM tool as a Security analyst we have to identify weather it's a really happened or not.
-  > Sources Of Malware : 
-  ----------------------
-      * Phishing Email Attachments
-      * Drive by Downloads (Downloading files from unknown Sources).
-      * Removable Devices (Pendrive/Memorystick(Uk people call), External Harddisk.
-
-  > How Malware enter the organization :
-  --------------------------------------
-     Malware enter through files.
-
-     Different file categories :
-     ---------------------------
-     .pdf, .exe, .csv, .Rar*(dangeros), .7z*(dangeros), .dll*(dangeros,).xml & more
-NOTE : If something is Got compromised but unfortunatily alert is not recieved. it's called True Negative. It's a very importent this scenarios.
-
+ 
+Mitigation for Malware attacks :
+--------------------------------
+     * AntiVirus(AV)/EDR
+     * AM (Anti Malware)
+     * NGFW (Next Generation Firewall)
+     * Email Security Gateways for Proofpoint, Mimecast, Barracuda.
+     * Behavioral Analysis Tools (Example: Darktrace, Vectra AI, Cynet.)
+     * Malware analysis Tools
 Interview Qn :
 --------------
    How can you do manual malware investigation ?
