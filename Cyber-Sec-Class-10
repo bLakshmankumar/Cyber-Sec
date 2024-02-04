@@ -1,0 +1,20 @@
+Network & Cyber Attacks :
+========================
+ Cyber-Security Main course will start from this class.
+ Will discuss about Cyber Attacks and preventuive mechanism.
+
+Before going to attacks we will discuss about two different types of processes.
+1) Cyber killChain process   2) Mintree framwork
+
+ > 1) Cyber Kill chain Process :
+ -------------------------------
+     It's an offensive mechanism. It's a step by step or phase by phase approach of how attacker will do attack exploitation and also compromise.
+     The process typically consists of the following stages :
+        Reconnaissance: The attacker gathers information about the target to identify potential vulnerabilities and targets.
+        Weaponization: Malicious tools or exploits are created or acquired to be used in the attack. This stage involves combining the chosen exploit with a delivery mechanism.
+        Delivery: The attacker delivers the weaponized payload to the target system. This could occur through methods such as email attachments, infected websites, or other means.
+        Exploitation: The weaponized payload is executed, exploiting vulnerabilities in the target system. This stage often involves the initial compromise of the system.
+        Installation: Malware or other malicious components are installed on the compromised system, allowing the attacker to establish a foothold and maintain access.
+        Command and Control (C2): The attacker establishes communication channels to control the compromised system, enabling them to execute further actions, gather information, or escalate the attack.
+        Actions on Objectives: The attacker pursues their ultimate goals, which could include data theft, system disruption, or other malicious activities.
+   
