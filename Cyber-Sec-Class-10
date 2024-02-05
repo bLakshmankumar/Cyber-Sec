@@ -119,7 +119,10 @@ Before going to attacks we will discuss about two different types of processes.
 
         Trojans:
         --------
-        Description: Trojans, or Trojan Horses, are deceptive software that disguises itself as legitimate but contains a hidden malicious payload. Unlike worms and viruses, trojans do not replicate independently.
+        Description: Trojans is a type of malicious software  that disguises itself as legitimate software to deceive users into downloading and installing it. 
+                     Once inside a system, a Trojan can perform various malicious activities, often without the user's knowledge. 
+                     Unlike viruses and worms, Trojans do not replicate themselves but rely on social engineering to convince users to execute them.
+                     They may serve as a backdoor for attackers, facilitating unauthorized access, data theft, or other harmful actions. Unlike worms and viruses, trojans do not replicate independently.
         Example: The "Zeus" Trojan, a notorious banking trojan, infiltrated systems by disguising itself as a legitimate program. Once installed, it could steal sensitive banking information and credentials.
 
         Ransomware:
@@ -132,6 +135,7 @@ Before going to attacks we will discuss about two different types of processes.
         ----------
         Description: Creates a hidden access point in a system, allowing unauthorized entry. Bypassing the main authentication.
         Example: The "NetCAT" backdoor exploited vulnerabilities in Intel server-grade processors to enable unauthorized network eavesdropping.
+        Metigations : MFA, NGFW, AM.
 
         Botnet:
         -------
