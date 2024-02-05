@@ -131,7 +131,7 @@ Before going to attacks we will discuss about two different types of processes.
         Description: Ransomware is a type of malicious software that encrypts a victim's files or entire system, rendering it inaccessible. 
                      The attacker then demands a ransom, usually in cryptocurrency, in exchange for the decryption key.
         Example: The "WannaCry" ransomware, which emerged in 2017, exploited a Windows vulnerability to rapidly infect systems worldwide. It encrypted files and demanded ransom payments for decryption keys.
-        Top Attacks : Wanna Cry, Petya, Pegacus, kaseya.
+        Top Attacks : Wanna Cry, Petya(It's propagation(Comes) through Network and "Ps.exe", Pegacus, kaseya.
         Port num for this attack : 445 (Server Message Block).
         Mitigations : Regular Backups, Endpoint Protection, Patch Management, Least Privilege Principle (Assign the least privilege necessary for users and systems to perform their tasks), Network Segmentation.
 
@@ -140,6 +140,7 @@ Before going to attacks we will discuss about two different types of processes.
         Description: Creates a hidden access point in a system, allowing unauthorized entry. Bypassing the main authentication.
         Example: The "NetCAT" backdoor exploited vulnerabilities in Intel server-grade processors to enable unauthorized network eavesdropping.
         Mitigation Tools : MFA, NGFW, AM(anti malware).
+       
         Botnet:
         -------
         Description: Network of compromised computers controlled by a central entity for malicious purposes.
@@ -180,8 +181,11 @@ NOTE : If we compromise our system from malware attack, if you have any doubt, I
 Interview Qn :
 --------------
    How can you do manual malware investigation ?
-
    ---------------------------------------------
          Verify the CPU and RAM and Unknown Files and etc.
+
+  What is Eternal Blue or Eternal Romance ?
+ ------------------------------------------
+         It's a Hacking/Attacker Group
 
 
