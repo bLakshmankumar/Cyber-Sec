@@ -154,29 +154,37 @@ Before going to attacks we will discuss about two different types of processes.
        Example: "FinSpy" spyware targeted individuals and organizations, collecting sensitive data and facilitating espionage.
        Mitigations: Implement Network Security(Employ network security measures, such as Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS), to detect and prevent spyware-related activities).
       
-
        Logic Bomb:
        -----------
        Description: Code triggered by specific conditions, leading to malicious actions.
        Example: An insider at a financial institution inserts a logic bomb that activates if they are terminated, deleting critical data.
 
-      Rootkit:
-      --------
-      Description: Conceals malware presence, providing persistent and undetected access.
-      Example: The "Sony BMG rootkit" in 2005, Installed on CDs, had rootkit features and caused security concerns.
+       Rootkit: [Root=Highest level access in unix/linux] [Kit=tool]
+       --------
+       Description: A rootkit is a type of malicious software designed to gain unauthorized Root level access to a computer system or network.
+                    Once it's installed, a rootkit aims to conceal its presence and activities, allowing attackers to maintain privileged access and control over the compromised system.
+       Example: Once attacker will get the Root level access later he will change the Passwords, Add/Delete/Modify the files, Changing the keys & more. 
+       Mitigations : MFA, RBAC, MBR(Master Booter Record Scanning).[Whenever we install the EDR agent It'll scan Master Booter Record also].
 
-      Adware:
-      -------
-      Description: Displays unwanted advertisements or redirects users to advertising sites.
-      Example: "CrossRider" adware delivered intrusive pop-up ads and collected user data from infected systems.
+       Adware:
+       -------
+       Description: Attacker will use these malicious adware acripts or files in the websites. Whenver user clicking on those scripts it will install and execute and finally system will get compromise.
+                   It Displays unwanted advertisements or redirects users to advertising sites then Adware will occur based on the user actions.
+       Example: pop up's , "CrossRider" adware delivered intrusive pop-up ads and collected user data from infected systems.
+       Mitigations : AV/EDR, NGFW, PROXY, AM & etc.
 
-      Key Loggers or Key Strokers or key logging :
-      --------------------------------------------
-      Description: Attacker will inject key logger malware into the targeted system and then he will capture whatever keys are typing by end user.
-      Example : PII(Personal Identifiable Information) data like Credentials, Bank Information, Credit/Debit card details & etc.
-      Mitigations : AV, AM, NGFW, Malware analysis Tools.
+       Key Loggers or Key Strokers or key logging :
+       --------------------------------------------
+       Description: Attacker will inject key logger malware into the targeted system and then he will capture whatever keys are typing by end user.
+       Example : PII(Personal Identifiable Information) data like Credentials, Bank Information, Credit/Debit card details & etc.
+       Mitigations : AV, AM, NGFW, Malware analysis Tools.
+
+       Privilege Escalation :
+       ----------------------
+       Description : Privilege escalation is a cyberattack technique where an attacker gains unauthorized access to higher privileges by leveraging security flaws, weaknesses, and vulnerabilities in an organization’s system.
+       Mitigations : Use Strong Authentication(MFA), User Permissions(Assign the minimum level of access or permissions necessary for users).
  
-All these above types of attacks will comes to SIEM tool and Once attack comes to SIEM tool as a Security analyst we have to identify weather it's a really happened or not.
+   All these above types of attacks will comes to SIEM tool and Once attack comes to SIEM tool as a Security analyst we have to identify weather it's a really happened or not.
  
 Mitigation for Malware attacks :
 --------------------------------
