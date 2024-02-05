@@ -170,6 +170,12 @@ Before going to attacks we will discuss about two different types of processes.
       Description: Displays unwanted advertisements or redirects users to advertising sites.
       Example: "CrossRider" adware delivered intrusive pop-up ads and collected user data from infected systems.
 
+      Key Loggers or Key Strokers or key logging :
+      --------------------------------------------
+      Description: Attacker will inject key logger malware into the targeted system and then he will capture whatever keys are typing by end user.
+      Example : PII(Personal Identifiable Information) data like Credentials, Bank Information, Credit/Debit card details & etc.
+      Mitigations : AV, AM, NGFW, Malware analysis Tools.
+ 
 All these above types of attacks will comes to SIEM tool and Once attack comes to SIEM tool as a Security analyst we have to identify weather it's a really happened or not.
  
 Mitigation for Malware attacks :
@@ -186,6 +192,35 @@ NOTE : If we compromise our system from malware attack, if you have any doubt, I
 Some of the Main Cybersec Websites :
 ------------------------------------
     https://www.darkreading.com/ , https://www.csoonline.com/in/ , https://news.sophos.com/en-us/category/serious-security/ , https://cert-in.org.in/
+
+
+Some of the 
+-----------
+   IDA Pro:
+    Description: A disassembler and debugger widely used for reverse engineering and analyzing binary code.
+    Website: IDA Pro
+
+  Wireshark:
+    Description: A network protocol analyzer that allows detailed inspection of network traffic, aiding in the identification of malicious activities.
+    Website: Wireshark
+
+  Cuckoo Sandbox:
+    Description:  Cuckoo Sandbox is an open-source automated malware analysis system. 
+                  It allows analysts to submit suspicious files and observe their behavior in a controlled environment, providing insights into the malware's capabilities.
+    Website: Cuckoo Sandbox
+
+  F5 Silverline Threat Intelligence:
+    Description: F5 Silverline Threat Intelligence is a cloud-based security solution that provides threat intelligence, web application security, and DDoS protection.
+                 It helps organizations defend against various cyber threats, including malware.
+   
+  FireEye Threat Intelligence:
+    Description: FireEye offers a comprehensive suite of cybersecurity solutions, including threat intelligence, advanced threat detection, and incident response.
+                 FireEye's threat intelligence services provide insights into emerging threats and malware campaigns.
+  
+  Cisco Sourcefire (now part of Cisco Firepower):
+    Description: Cisco Firepower, which includes the Sourcefire technology, offers advanced threat detection and prevention capabilities. It uses a combination of intrusion prevention systems (IPS), malware analysis, and threat intelligence to enhance security.
+
+These tools cater to various aspects of malware analysis, from code disassembly and network traffic inspection to behavioral analysis and memory forensics. The selection of tools depends on the specific requirements of the analysis and the type of malware being investigated. 
 
 Interview Qn :
 --------------
