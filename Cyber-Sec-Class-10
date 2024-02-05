@@ -136,7 +136,7 @@ Before going to attacks we will discuss about two different types of processes.
         ----------
         Description: Creates a hidden access point in a system, allowing unauthorized entry. Bypassing the main authentication.
         Example: The "NetCAT" backdoor exploited vulnerabilities in Intel server-grade processors to enable unauthorized network eavesdropping.
-
+        Mitigation Tools : MFA, NGFW, AM(anti malware).
         Botnet:
         -------
         Description: Network of compromised computers controlled by a central entity for malicious purposes.
