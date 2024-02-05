@@ -119,7 +119,7 @@ Before going to attacks we will discuss about two different types of processes.
 
         Trojans:
         --------
-        Description: A Trojan, is a type of malware that disguises itself as legitimate software to deceive users into downloading and installing it.
+        Description: A Trojan, short for Trojan Horse, is a type of malware that disguises itself as legitimate software to deceive users into downloading and installing it.
                      Once inside a system, a Trojan can perform various malicious activities, often without the user's knowledge. 
                      Unlike viruses and worms, Trojans do not replicate themselves but rely on social engineering to convince users to execute them.
                      They may serve as a backdoor for attackers, facilitating unauthorized access, data theft, or other harmful actions.
