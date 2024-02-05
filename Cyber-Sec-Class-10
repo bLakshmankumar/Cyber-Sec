@@ -124,6 +124,7 @@ Before going to attacks we will discuss about two different types of processes.
                      Unlike viruses and worms, Trojans do not replicate themselves but rely on social engineering to convince users to execute them.
                      They may serve as a backdoor for attackers, facilitating unauthorized access, data theft, or other harmful actions.
         Example: The "Zeus" Trojan, a notorious banking trojan, infiltrated systems by disguising itself as a legitimate program. Once installed, it could steal sensitive banking information and credentials.
+        Mitigations: Be Cautious with Downloads: Only download software from trusted sources, Avoid opening unexpected or suspicious email attachments, Use Antivirus Software: Norton, McAfee, Bitdefender. 
 
         Ransomware:
         -----------
