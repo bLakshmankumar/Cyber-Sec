@@ -105,7 +105,7 @@ Before going to attacks we will discuss about two different types of processes.
         Worms:
         ------
         Description: Worms are self-replicating malicious programs that spread across networks without requiring user interaction.
-                     They can exploit vulnerabilities in operating systems or applications to propagate. It's more dangerous than virus.
+                     They can exploit vulnerabilities in operating systems or applications to propagate. It's more dangerous than virus. If one system is compromise, other systems also will compromise in a network.
         Example: The "Conficker" worm, which emerged in 2008, infected millions of computers by exploiting Windows vulnerabilities. It spread rapidly through network shares and removable media.
         Symptoms : Unusual network activity or traffic, Increased use of system resources, Degraded network performance.
 
