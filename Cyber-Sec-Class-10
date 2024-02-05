@@ -164,7 +164,7 @@ Before going to attacks we will discuss about two different types of processes.
        Description: A rootkit is a type of malicious software designed to gain unauthorized Root level access to a computer system or network.
                     Once it's installed, a rootkit aims to conceal its presence and activities, allowing attackers to maintain privileged access and control over the compromised system.
        Example: Once attacker will get the Root level access later he will change the Passwords, Add/Delete/Modify the files, Changing the keys & more. 
-       Mitigations : MFA, RBAC, MBR(Master Booter Record Scanning).[Whenever we install the EDR agent It'll scan Master Booter Record also].
+       Mitigations : MFA, RBAC, MBR(Master Booter Record Scanning).[Whenever we install the EDR agent It'll scan Master Booter Record also], TCP dump analysis, Memory dump analysis.
 
        Adware:
        -------
