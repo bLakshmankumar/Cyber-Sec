@@ -130,7 +130,7 @@ Before going to attacks we will discuss about two different types of processes.
 
         BackDoor :
         ----------
-        Description: Creates a hidden access point in a system, allowing unauthorized entry.
+        Description: Creates a hidden access point in a system, allowing unauthorized entry. Bypassing the main authentication.
         Example: The "NetCAT" backdoor exploited vulnerabilities in Intel server-grade processors to enable unauthorized network eavesdropping.
 
         Botnet:
