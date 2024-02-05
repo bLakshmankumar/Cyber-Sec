@@ -148,8 +148,12 @@ Before going to attacks we will discuss about two different types of processes.
 
        Spyware:
        --------
-       Description: Secretly monitors and collects user information without consent.
+       Description: Spyware is malicious software designed to secretly observe and collect information about a user's online activities without their knowledge or consent.
+                    This can include keystrokes, browsing habits, login credentials, and sensitive personal information. 
+                    Spyware often comes bundled with seemingly legitimate software or is downloaded unknowingly by the user.
        Example: "FinSpy" spyware targeted individuals and organizations, collecting sensitive data and facilitating espionage.
+       Mitigations: Implement Network Security(Employ network security measures, such as Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS), to detect and prevent spyware-related activities).
+      
 
        Logic Bomb:
        -----------
