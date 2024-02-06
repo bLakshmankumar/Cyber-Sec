@@ -173,6 +173,15 @@ Before going to attacks we will discuss about two different types of processes.
        Example: pop up's , "CrossRider" adware delivered intrusive pop-up ads and collected user data from infected systems.
        Mitigations : AV/EDR, NGFW, PROXY, AM & etc.
 
+       Zero Day Attack :
+       -----------------
+       Description: Zero-day vulnerabilities are called "zero-day" because they are exploited on the same day that the vulnerability is discovered by attackers, giving developers zero days to address and patch the issue.
+                     Since there is no available fix or patch, zero-day attacks pose significant risks to organizations and individuals.
+       Mitigations : Patch Management(Implement a robust patch management process to ensure that software, operating systems, and firmware are regularly updated with the latest security patches)
+                     Zero-Day Threat Intelligence (Subscribe to threat intelligence feeds and services to stay informed about emerging zero-day vulnerabilities and attacks, enabling proactive defense measures).
+                        Cisco Talos Intelligence : Cisco Talos Intelligence offers threat intelligence feeds and services that deliver actionable insights into threats, including zero-day vulnerabilities, malware, and botnets.
+                        IBM X-Force Exchange: It provides threat intelligence sharing, including data on vulnerabilities, malware, and security incidents. It offers both free and premium services. 
+       
        Key Loggers or Key Strokers or key logging :
        --------------------------------------------
        Description: Attacker will inject key logger malware into the targeted system and then he will capture whatever keys are typing by end user.
@@ -226,7 +235,8 @@ Some of the
                  FireEye's threat intelligence services provide insights into emerging threats and malware campaigns.
   
   Cisco Sourcefire (now part of Cisco Firepower):
-    Description: Cisco Firepower, which includes the Sourcefire technology, offers advanced threat detection and prevention capabilities. It uses a combination of intrusion prevention systems (IPS), malware analysis, and threat intelligence to enhance security.
+    Description: Cisco Firepower, which includes the Sourcefire technology, offers advanced threat detection and prevention capabilities.
+                 It uses a combination of intrusion prevention systems (IPS), malware analysis, and threat intelligence to enhance security.
 
 These tools cater to various aspects of malware analysis, from code disassembly and network traffic inspection to behavioral analysis and memory forensics. The selection of tools depends on the specific requirements of the analysis and the type of malware being investigated. 
 
