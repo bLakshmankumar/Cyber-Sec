@@ -176,11 +176,13 @@ Before going to attacks we will discuss about two different types of processes.
        Zero Day Attack :
        -----------------
        Description: Zero-day vulnerabilities are called "zero-day" because they are exploited on the same day that the vulnerability is discovered by attackers, giving developers zero days to address and patch the issue.
-                     Since there is no available fix or patch, zero-day attacks pose significant risks to organizations and individuals.
-       Mitigations : Patch Management(Implement a robust patch management process to ensure that software, operating systems, and firmware are regularly updated with the latest security patches)
-                     Zero-Day Threat Intelligence (Subscribe to threat intelligence feeds and services to stay informed about emerging zero-day vulnerabilities and attacks, enabling proactive defense measures).
-                        Cisco Talos Intelligence : Cisco Talos Intelligence offers threat intelligence feeds and services that deliver actionable insights into threats, including zero-day vulnerabilities, malware, and botnets.
-                        IBM X-Force Exchange: It provides threat intelligence sharing, including data on vulnerabilities, malware, and security incidents. It offers both free and premium services. 
+                    Since there is no available fix or patch, zero-day attacks pose significant risks to organizations and individuals.
+       Temorary Fix : Identify the business domains or business IP'S and only Whitelist the business domains or business IP'S, except these put everythiing on Blacklist.
+       Mitigations: Patch Management(Implement a robust patch management process to ensure that software, operating systems, and firmware are regularly updated with the latest security patches)
+                    Zero-Day Threat Intelligence (Subscribe to threat intelligence feeds and services to stay informed about emerging zero-day vulnerabilities and attacks, enabling proactive defense measures).
+                       Cisco Talos Intelligence : Cisco Talos Intelligence offers threat intelligence feeds and services that deliver actionable insights into threats, including zero-day vulnerabilities, malware, and botnets.
+                       IBM X-Force Exchange: It provides threat intelligence sharing, including data on vulnerabilities, malware, and security incidents. It offers both free and premium services. 
+                       Vulnerability Management : Conduct regular vulnerability assessments and penetration testing to identify and address potential security weaknesses before they can be exploited in zero-day attacks.
        
        Key Loggers or Key Strokers or key logging :
        --------------------------------------------
