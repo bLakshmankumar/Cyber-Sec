@@ -333,8 +333,36 @@ Before going to attacks we will discuss about two different types of processes.
 
 4 > Flooding Category Attacks : [https://www.geeksforgeeks.org/http-flood-attack/]
 ===============================
+    Description : Attacker will send a millions of requests to targeted system/server/application at a specific time. Finally System/server/appllication is not able to handle those requests, 
+                  Then sysstem/server will crashed and application will be unavailable.
     
+    > Types of Flooding Attacks :
+    -----------------------------
+       UDP Flood :
+       -----------
+         In a UDP flood attack, the attacker sends a large number of User Datagram Protocol (UDP) packets to a target server, consuming its bandwidth and resources.
+         Since UDP is connectionless and does not require a handshake, attackers can easily spoof the source IP addresses, making it difficult to trace the origin of the attack.
+       
+       TCP SYN Flood :
+       ---------------
+         A TCP SYN flood attack exploits the TCP three-way handshake process by sending a large number of SYN (synchronize) packets to a target server, but not completing the handshake by sending the final ACK (acknowledge) packet.
+         This results in the target server maintaining half-open connections and consuming resources, eventually leading to a denial of service for legitimate users.
+       
+       ICMP Flood (Ping Flood) :
+       -------------------------
+         In an ICMP flood or ping flood attack, the attacker sends a high volume of Internet Control Message Protocol (ICMP) echo request packets (ping requests) to a target server.
+         The server replies to each ping request, consuming its network bandwidth and processing power, ultimately leading to a denial of service.
+      
+       HTTP Flood:
+       -----------
+         An HTTP flood attack targets web servers by sending a large number of HTTP GET or POST requests to overwhelm the server's capacity to handle incoming connections and process requests. 
+         This can result in degraded performance or complete unavailability of the web server for legitimate users.
 
+       DNS Flood :
+       -----------
+         A DNS flood attack targets Domain Name System (DNS) servers by sending a high volume of DNS query requests, exhausting the server's resources and causing it to become unresponsive. 
+         This can disrupt access to legitimate websites and services that rely on DNS resolution.
+         
 NOTE : If we compromise our system from malware attack, if you have any doubt, If it's a windows laptop You can go to Task manager and verify which file has accupied by more memory and other things.
 
 Some of the Main Cybersec Websites :
