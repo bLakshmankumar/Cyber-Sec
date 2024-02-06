@@ -140,11 +140,6 @@ Before going to attacks we will discuss about two different types of processes.
         Description: Creates a hidden access point in a system, allowing unauthorized entry. Bypassing the main authentication.
         Example: The "NetCAT" backdoor exploited vulnerabilities in Intel server-grade processors to enable unauthorized network eavesdropping.
         Mitigation Tools : MFA, NGFW, AM(anti malware).
-       
-        Botnet:
-        -------
-        Description: Network of compromised computers controlled by a central entity for malicious purposes.
-        Example: The "Mirai" botnet in 2016 infected Internet of Things (IoT) devices, launching massive DDoS attacks against websites.
 
        Spyware:
        --------
@@ -191,7 +186,14 @@ Before going to attacks we will discuss about two different types of processes.
                     Once installed, the attacker gains full control of the infected system, allowing them to perform various malicious activities, such as spying on user activities, stealing sensitive information, or deploying additional malware.
        Mitigations: AV/AM, Regular Software Updates.
 
-       BotNet 
+       BotNet Attack :
+       ---------------
+       Description: A botnet attack occurs when a network of compromised computers, known as bots or zombies, is remotely controlled by an attacker, typically through a command and control (C&C) infrastructure.
+                    Attacker will send either malware attachments, or else phishing emails or else malicious urls to send the malware to the targeted system.
+                    Then whoever the user using those systems got compromised and attacker will control the systems remotely.
+       Bot Header : Who ever controlling the compromised system(bot or Zombie) called as bot header.
+       Bot/Zombie : Whaterver the System is compromised we can call that system as Bot/Zombie.
+       Mitigations : Anomaly Detection, AV & AM, Intrusion Detection/Prevention Systems (IDS/IPS)[Using IDS/IPS solutions to detect and block botnet-related activities, such as command and control communications and brute-force attacks].
 
        Key Loggers or Key Strokers or key logging :
        --------------------------------------------
