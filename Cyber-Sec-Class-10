@@ -195,6 +195,12 @@ Before going to attacks we will discuss about two different types of processes.
        Bot/Zombie : Whaterver the System is compromised we can call that system as Bot/Zombie.
        Mitigations : Anomaly Detection, AV & AM, Intrusion Detection/Prevention Systems (IDS/IPS)[Using IDS/IPS solutions to detect and block botnet-related activities, such as command and control communications and brute-force attacks].
 
+       Logic Bomb Attack:
+       ------------------
+       Description : A logic bomb is a type of malicious code or software that is intentionally inserted into a system or program to execute a harmful action when specific conditions are met.
+                     Unlike other types of malware that may immediately cause damage upon execution, logic bombs remain dormant until triggered by a predefined event, such as a certain date or time, a specific user action, or the occurrence of particular conditions within the system.
+       Mitigations : Code Review and Testing, Backup and Recovery, Access Control and Least Privilege.
+
        Key Loggers or Key Strokers or key logging :
        --------------------------------------------
        Description: Attacker will inject key logger malware into the targeted system and then he will capture whatever keys are typing by end user.
