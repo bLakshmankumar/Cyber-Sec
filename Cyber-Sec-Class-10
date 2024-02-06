@@ -338,31 +338,51 @@ Before going to attacks we will discuss about two different types of processes.
     
     > Types of Flooding Attacks :
     -----------------------------
-       UDP Flood :
-       -----------
+       UDP Flood Attack :
+       -----------------
          In a UDP flood attack, the attacker sends a large number of User Datagram Protocol (UDP) packets to a target server, consuming its bandwidth and resources.
          Since UDP is connectionless and does not require a handshake, attackers can easily spoof the source IP addresses, making it difficult to trace the origin of the attack.
        
-       TCP SYN Flood :
-       ---------------
+       TCP SYN Flood Attack :
+       ----------------------
          A TCP SYN flood attack exploits the TCP three-way handshake process by sending a large number of SYN (synchronize) packets to a target server, but not completing the handshake by sending the final ACK (acknowledge) packet.
          This results in the target server maintaining half-open connections and consuming resources, eventually leading to a denial of service for legitimate users.
-       
-       ICMP Flood (Ping Flood) :
-       -------------------------
+         Mitigation : Implement anti DOS or Anti DDOS tools in parallal ISP Router., Implemet NIDS/NIPS solutions, Impliment Rate limit or Throttling in Filrewall or WAF.
+
+       ICMP Flood (Ping Flood) Attack :
+       --------------------------------
          In an ICMP flood or ping flood attack, the attacker sends a high volume of Internet Control Message Protocol (ICMP) echo request packets (ping requests) to a target server.
          The server replies to each ping request, consuming its network bandwidth and processing power, ultimately leading to a denial of service.
       
-       HTTP Flood:
-       -----------
+       HTTP Flood Attack :
+       --------------------
          An HTTP flood attack targets web servers by sending a large number of HTTP GET or POST requests to overwhelm the server's capacity to handle incoming connections and process requests. 
          This can result in degraded performance or complete unavailability of the web server for legitimate users.
 
-       DNS Flood :
-       -----------
+       DNS Flood Attack:
+       -----------------
          A DNS flood attack targets Domain Name System (DNS) servers by sending a high volume of DNS query requests, exhausting the server's resources and causing it to become unresponsive. 
          This can disrupt access to legitimate websites and services that rely on DNS resolution.
-         
+      
+       DOS Flooding Attack : [https://www.geeksforgeeks.org/difference-between-dos-and-ddos-attack/]
+       --------------------
+         It's is a denial of service attack, in this attack a computer sends a massive amount of traffic to a victim’s computer and shuts it down. 
+         Dos attack is an online attack that is used to make the website unavailable for its users when done on a website. 
+         This attack makes the server of a website that is connected to the internet by sending a large number of traffic to it. 
+
+       DDOS Flood Attack :
+       -------------------
+         It means distributed denial of service, In this attack dos attacks are done from many different locations using many systems.
+
+       Note : "All flooding of the attacks will fall under application availability as per CIA Traid".
+
+Prevention Tips for flooding Attacks :
+--------------------------------------
+    WAF(WEB Access Firewalls).
+    Deploy Anti DOS/DDOS tools : [Tools Like Akkamai, Baracuda, Imperva, F5, Azure DDOS, AWS Shield]. These services often use a combination of traffic filtering, and other tactics to ensure only legitimate traffic reaches the target. 
+    Set up secondary DNS : If the primary DNS server becomes overwhelmed due to a flood attack, the secondary DNS server can continue to resolve domain names, ensuring that services remain accessible to legitimate users.
+    TTL Analysis: Investigate the TTL values on incoming packets. Abnormal TTLs can indicate potential malicious traffic.
+
 NOTE : If we compromise our system from malware attack, if you have any doubt, If it's a windows laptop You can go to Task manager and verify which file has accupied by more memory and other things.
 
 Some of the Main Cybersec Websites :
