@@ -230,8 +230,8 @@ Before going to attacks we will discuss about two different types of processes.
      * Behavioral Analysis Tools (Example: Darktrace, Vectra AI, Cynet.)
      * Malware analysis Tools (F5, Fire eye, Cisco Source fire)
 
-2 > Unkonwn or or Other category attacks : 
-------------------------------------------
+2 > Unkonwn or Other category attacks : 
+---------------------------------------
        Social Engineering(public) Attack :
        -----------------------------------
         Description : Sharing the Confidential Data in the pulic is called as social engineering attack.
@@ -272,8 +272,34 @@ Before going to attacks we will discuss about two different types of processes.
      Mitigations : Check the Sender's Email Address, Look for Spelling and Grammar Errors, Verify Requests for Sensitive Information, Avoid Unsolicited Attachments.
      Examples identifications : Fake Invoices requests, gifts, Password change, pdf attachments & Malicious url's& etc.
 
-     Types of Phishing Email Attacks : 
+     How does phishing work : 
+     ------------------------
+     Phishing starts with a fraudulent email or other communication that is designed to lure a victim. The message is made to look as though it comes from a trusted sender. 
+     If it fools the victim, he or she is coaxed into providing confidential information, often on a scam website. Sometimes malware is also downloaded onto the target’s computer.
+    
+     Types of Phishing Email Attacks : Ref-link to learn more [ https://us.norton.com/blog/online-scams/types-of-phishing ]
      ---------------------------------
+         Spear phishing attack :
+         -----------------------
+         Description : Spear phishing targets specific individuals instead of a wide group of people. An example of this would be a phishing email targeting an employee of a company by pretending to be their boss.
+                       In the email, the scammer may try to get the employee to give up private information that the scammer can later  use to their advantage. 
+         Prevention tip: Always double-check the sender's email address before responding.
+   
+         HTTPS phishing attack :
+         ----------------------
+          Description : HTTPS phishing is when a cybercriminal tricks you into giving up your personal information using a malicious  website. 
+                        To get you onto these sites, the phisher will hide the malicious link within an email, often masquerading  as a link to a legitimate site.
+          Example : For example, an HTTPS phishing scam could be an email asking you to log into Instagram to secure your account. In the email, it would look like you’re talking to an Instagram support member when in fact it is all a hoax. 
+                    When  you click the link, you’ll instead be taken to a fake website designed to steal your login credentials. 
+          Prevention tip: Always look closely at the URL of a site before logging in.
+
+         Whaling Attack :
+         ----------------
+         Description : When attackers go after a “big fish” like a CEO, it’s called whaling. 
+                       These attackers often spend considerable time profiling the target to find the opportune moment and means of stealing login credentials. 
+         Example : A high-level executive at your company might reach out about a financial crisis that they need your help with.
+                   To solve this problem, the phisher may ask for login information or a wire transfer of funds.
+         Prevention tip: If you receive a suspicious email from a coworker, reach out to them directly to confirm its legitimacy.
 
 NOTE : If we compromise our system from malware attack, if you have any doubt, If it's a windows laptop You can go to Task manager and verify which file has accupied by more memory and other things.
 
