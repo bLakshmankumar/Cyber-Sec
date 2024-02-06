@@ -201,6 +201,13 @@ Before going to attacks we will discuss about two different types of processes.
                      Unlike other types of malware that may immediately cause damage upon execution, logic bombs remain dormant until triggered by a predefined event, such as a certain date or time, a specific user action, or the occurrence of particular conditions within the system.
        Mitigations : Code Review and Testing, Backup and Recovery, Access Control and Least Privilege.
 
+       Data Exfiltration Attack:
+       -------------------------
+       Description : A data exfiltration attack, also known as data exfiltration or data theft, is a cyberattack where unauthorized parties steal sensitive or confidential data from a target system or network. 
+                     Attackers gain access to the data and transfer it outside the organization's network, often to their own servers or storage locations. 
+                     The stolen data can include personally identifiable information (PII), intellectual property, financial records, or other valuable assets.
+       Mitigations : Data Encryption, Endpoint Security[EDR (Endpoint Detection and Response), and EPP (Endpoint Protection Platforms)].
+
        Key Loggers or Key Strokers or key logging :
        --------------------------------------------
        Description: Attacker will inject key logger malware into the targeted system and then he will capture whatever keys are typing by end user.
