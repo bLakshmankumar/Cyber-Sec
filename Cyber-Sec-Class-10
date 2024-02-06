@@ -100,7 +100,7 @@ Before going to attacks we will discuss about two different types of processes.
      NOTE : If something is Got compromised but unfortunatily alert is not recieved. it's called True Negative. It's a very importent this scenarios.
 
      
-    > Types of Malwares :
+    > Types of Attacks :
      -------------------
         Worms:
         ------
@@ -183,7 +183,16 @@ Before going to attacks we will discuss about two different types of processes.
                        Cisco Talos Intelligence : Cisco Talos Intelligence offers threat intelligence feeds and services that deliver actionable insights into threats, including zero-day vulnerabilities, malware, and botnets.
                        IBM X-Force Exchange: It provides threat intelligence sharing, including data on vulnerabilities, malware, and security incidents. It offers both free and premium services. 
                        Vulnerability Management : Conduct regular vulnerability assessments and penetration testing to identify and address potential security weaknesses before they can be exploited in zero-day attacks.
-       
+
+       RAT Attack (Remote Access Trojan):
+       ----------------------------------
+       Description: A Remote Access Trojan (RAT) is a type of malware that provides remote access and control over a victim's computer without their knowledge or consent. 
+                    RATs are typically delivered through malicious email attachments, software downloads, or compromised websites.
+                    Once installed, the attacker gains full control of the infected system, allowing them to perform various malicious activities, such as spying on user activities, stealing sensitive information, or deploying additional malware.
+       Mitigations: AV/AM, Regular Software Updates.
+
+       BotNet 
+
        Key Loggers or Key Strokers or key logging :
        --------------------------------------------
        Description: Attacker will inject key logger malware into the targeted system and then he will capture whatever keys are typing by end user.
