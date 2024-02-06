@@ -220,7 +220,25 @@ Before going to attacks we will discuss about two different types of processes.
        Mitigations : Use Strong Authentication(MFA), User Permissions(Assign the minimum level of access or permissions necessary for users).
  
    All these above types of attacks will comes to SIEM tool and Once attack comes to SIEM tool as a Security analyst we have to identify weather it's a really happened or not.
- 
+
+Unkonwn Attcks : 
+----------------
+       Social Engineering(public) Attack :
+       -----------------------------------
+        Description : Sharing the Confidential Data in the pulic is called as social engineering attack.
+        Mitigations : MFA, Behavioral Sense.
+
+       Shoulder Surfing Attack : 
+       -------------------------
+        Descrption : Shoulder surfing is a type of social engineering attack where an unauthorized individual observes or captures sensitive information, such as passwords, PINs, or access codes, by watching over the victim's shoulder as they enter or access this information.
+                     This type of attack can occur in various settings, including ATMs, public spaces, and work environments, where individuals might inadvertently expose confidential information.
+        Mitigations : Behavioral Sense(Common sense).
+
+       Eavesdropping Attack: 
+       ---------------------
+        Description : Secretly listening other people conversation is called as Eavesdropping.
+        Mitigations : Behavioral Sense(Common sense), Security awareness.
+
 Mitigation for Malware attacks :
 --------------------------------
      * AntiVirus(AV)/EDR
