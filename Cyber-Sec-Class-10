@@ -75,7 +75,7 @@ Before going to attacks we will discuss about two different types of processes.
       * OWASP TOP 10
       * Unknown or Other category attacks.
 
-  > Malware:
+ 1 > Malware:
   ==========  
     Description: It's a Malicious software designed to harm or exploit systems. This includes various types such as viruses, worms, trojans, and ransomware.
     Objective: Gain unauthorized access, disrupt operations, or steal sensitive data.
@@ -100,8 +100,8 @@ Before going to attacks we will discuss about two different types of processes.
      NOTE : If something is Got compromised but unfortunatily alert is not recieved. it's called True Negative. It's a very importent this scenarios.
 
      
-    > Types of Attacks :
-     -------------------
+    > Types of Malware Attacks :
+     ---------------------------
         Worms:
         ------
         Description: Worms are self-replicating malicious programs that spread across networks without requiring user interaction.
@@ -221,8 +221,17 @@ Before going to attacks we will discuss about two different types of processes.
  
    All these above types of attacks will comes to SIEM tool and Once attack comes to SIEM tool as a Security analyst we have to identify weather it's a really happened or not.
 
-Unkonwn Attcks : 
-----------------
+   Mitigation for Malware attacks :
+   --------------------------------
+     * AntiVirus(AV)/EDR
+     * AM (Anti Malware)
+     * NGFW (Next Generation Firewall)
+     * Email Security Gateways for Proofpoint, Mimecast, Barracuda.
+     * Behavioral Analysis Tools (Example: Darktrace, Vectra AI, Cynet.)
+     * Malware analysis Tools (F5, Fire eye, Cisco Source fire)
+
+2 > Unkonwn or or Other category attacks : 
+------------------------------------------
        Social Engineering(public) Attack :
        -----------------------------------
         Description : Sharing the Confidential Data in the pulic is called as social engineering attack.
@@ -238,15 +247,33 @@ Unkonwn Attcks :
        ---------------------
         Description : Secretly listening other people conversation is called as Eavesdropping.
         Mitigations : Behavioral Sense(Common sense), Security awareness.
+      
+       Lateral Movement Attack:
+       ------------------------
+       Description : Attacker will first compromise one end system, Then from that system he will compromise other systems is called as lateral Movement attack.
+       Techniques : https://attack.mitre.org/tactics/TA0008/
+       Mitigations : Endpoint Detection and Response (EDR).
 
-Mitigation for Malware attacks :
---------------------------------
-     * AntiVirus(AV)/EDR
-     * AM (Anti Malware)
-     * NGFW (Next Generation Firewall)
-     * Email Security Gateways for Proofpoint, Mimecast, Barracuda.
-     * Behavioral Analysis Tools (Example: Darktrace, Vectra AI, Cynet.)
-     * Malware analysis Tools (F5, Fire eye, Cisco Source fire)
+       Persistence Attack : 
+       --------------------
+        Description : Even through defensive team is clearing the infection still some of the infection will be existing.
+                      A persistence attack refers to the techniques used by attackers to maintain access to a compromised system or network over an extended period. 
+                      After gaining initial access, attackers aim to ensure continued control and access, even after system reboots or security measures are implemented. 
+                      Persistence mechanisms allow attackers to maintain a foothold on the compromised system, enabling them to carry out malicious activities, exfiltrate data, or launch further attacks.
+        Issues : Device Access restarts, Changed Credentials, Other interption even after clearing the infection.
+        Techniques : https://attack.mitre.org/tactics/TA0003/
+        Mitigations : Regular Security Audits, NIPS/NIDS, 
+
+
+3 > Phishing Email Attacks :
+----------------------------
+     Description : A phishing email is a type of cyber attack in which an attacker sends a fraudulent email disguised as a legitimate communication from a reputable source, such as a trusted organization or individual. 
+                   The goal of a phishing email is to deceive recipients into taking specific actions, such as clicking on malicious links, downloading malicious attachments, or providing sensitive information, such as login credentials or financial details.
+     Mitigations : Check the Sender's Email Address, Look for Spelling and Grammar Errors, Verify Requests for Sensitive Information, Avoid Unsolicited Attachments.
+     Examples identifications : Fake Invoices requests, gifts, Password change, pdf attachments & Malicious url's& etc.
+
+     Types of Phishing Email Attacks : 
+     ---------------------------------
 
 NOTE : If we compromise our system from malware attack, if you have any doubt, If it's a windows laptop You can go to Task manager and verify which file has accupied by more memory and other things.
 
@@ -255,8 +282,8 @@ Some of the Main Cybersec Websites :
     https://www.darkreading.com/ , https://www.csoonline.com/in/ , https://news.sophos.com/en-us/category/serious-security/ , https://cert-in.org.in/
 
 
-Some of the 
------------
+Some of the malware tools
+--------------------------
    IDA Pro:
     Description: A disassembler and debugger widely used for reverse engineering and analyzing binary code.
     Website: IDA Pro
@@ -293,5 +320,9 @@ Interview Qn :
   What is Eternal Blue or Eternal Romance ?
  ------------------------------------------
          It's a Hacking/Attacker Group
+
+  What is mean by persistence as per cyber killchain process ?
+  -------------------------------------------------------------
+         Persistence will fall under exploitation and installation as per cyber killchain process.
 
 
