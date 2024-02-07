@@ -374,6 +374,17 @@ Before going to attacks we will discuss about two different types of processes.
        -------------------
          It means distributed denial of service, In this attack dos attacks are done from many different locations using many systems.
 
+       MAC flooding Attack : (media access control attack) [
+       ---------------------------------------------------
+         MAC flooding is a technique employed to compromise the security of network switches. Attacker will send a millions of dummy ethernet frames(requests) to switch,
+         And Switch can't handle those many requests, Then finally switch will becomde crashed or damages or outage or unavailable.
+         Prevention Tip : [https://www.geeksforgeeks.org/how-to-prevent-mac-flooding/]
+         ---------------
+         Use secure passwords.
+         Install and use antivirus software.
+         Update your operating system on a regular basis.
+         Install patches, updates, and other patches as soon as they are released by the manufacturer.
+
        Note : "All flooding of the attacks will fall under application availability as per CIA Traid".
 
 Prevention Tips for flooding Attacks :
