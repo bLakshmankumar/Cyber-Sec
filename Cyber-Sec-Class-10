@@ -402,9 +402,7 @@ Before going to attacks we will discuss about two different types of processes.
          A distributed denial-of-service (DDoS) attack is a DoS attack that uses multiple computers or machines to flood a targeted resource.
          Both types of attacks overload a server or web application with the goal of interrupting services. 
       
-
-Note : "All flooding of the attacks will fall under application availability as per CIA Traid".
-
+       Note : "All flooding of the attacks will fall under application availability as per CIA Traid".
 
 Prevention Tips for flooding Attacks :
 --------------------------------------
@@ -417,6 +415,38 @@ Prevention Tips for flooding Attacks :
     Install patches, updates, and other patches as soon as they are released by the manufacturer.
     Limit the number of ICMP messages and ping requests (for Ping/ICMP Flood Attack).
 
+5 > Authentication Failure Category Attacks :
+=============================================
+      Authentication failure attacks that are exploit weaknesses in authentication mechanisms to gain unauthorized access to systems, networks, or data.
+      These attacks target authentication processes, such as password authentication, multi-factor authentication (MFA), or authentication tokens, to bypass security controls and gain illegitimate access. 
+      Authentication failure attacks can lead to data breaches, account takeovers, or unauthorized access to sensitive information.
+      
+      > Types of Flooding Attacks :
+      -----------------------------
+          * Dictionary Attack 
+          * Brute Force Attack
+          * Password Spray Attack
+          * VPN Authentication Failure Attack
+          * Rainbow Table Attack
+          * Pass the hash Attack
+
+       * Dictionary Attack :
+       ---------------------
+           Description: In a dictionary attack, attackers use a predefined list of commonly used passwords or dictionary words to guess user credentials and gain unauthorized access.
+           Mitigations: Set up a Complex passwd(Combine letters, numbers, and symbols), implement account lockout policies(password Trying attempts), MFA, and Password Rotation.
+       
+       *Brute Force Attack : [ https://www.fortinet.com/resources/cyberglossary/brute-force-attack ]
+       ----------------------
+            Description: A brute force attack is a hacking method that uses trial and error to crack passwords, login credentials, and encryption keys. 
+                         It is a simple yet reliable tactic for gaining unauthorized access to individual accounts and organizations’ systems and networks.
+                         The hacker tries multiple usernames and passwords, often using a computer to test a wide range of combinations, until they find the correct login information.
+            Mitigations: Use multi-factor authentication (MFA), Limit login attempts, Use unique passwords for every account, Change your password periodically.
+
+       *Rainbow Table Attack: To Learn more about this attack [https://www.geeksforgeeks.org/understanding-rainbow-table-attack/]
+       ----------------------
+           Description: Rainbow table attacks involve precomputing hashes for a large number of possible passwords and using them to quickly crack hashed passwords obtained from compromised systems.
+           Mitigations: Use strong password hashing algorithms (e.g., bcrypt, Argon2), implement salting and key stretching techniques, and regularly update password hashes to protect against rainbow table attacks.
+      
 NOTE : If we compromise our system from malware attack, if you have any doubt, If it's a windows laptop You can go to Task manager and verify which file has accupied by more memory and other things.
 
 Some of the Main Cybersec Websites :
