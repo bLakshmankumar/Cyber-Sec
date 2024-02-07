@@ -374,18 +374,37 @@ Before going to attacks we will discuss about two different types of processes.
        -------------------
          It means distributed denial of service, In this attack dos attacks are done from many different locations using many systems.
 
-       MAC flooding Attack : (media access control attack) [
+       MAC flooding Attack : (media access control attack)
        ---------------------------------------------------
          MAC flooding is a technique employed to compromise the security of network switches. Attacker will send a millions of dummy ethernet frames(requests) to switch,
          And Switch can't handle those many requests, Then finally switch will becomde crashed or damages or outage or unavailable.
-         Prevention Tip : [https://www.geeksforgeeks.org/how-to-prevent-mac-flooding/]
-         ---------------
-         Use secure passwords.
-         Install and use antivirus software.
-         Update your operating system on a regular basis.
-         Install patches, updates, and other patches as soon as they are released by the manufacturer.
+      
+       Ping/ICMP Flood Attack : [https://www.geeksforgeeks.org/ping-flood-attack/]
+       -----------------------
+         Ping flood attack also commonly called ICMP attack (Internet Control Message Protocol Attack) is a form of DOS attack. In a Ping flood attack, the computing device is flooded with tons of Internet Control Message Protocol ping requests. 
+         ICMP requests are used to check for the health status of networking devices and the connectivity between devices. 
+         Here, the tons of requests, which flood the computing device, make the target unreachable. Ping flood requests flood the target continuously, leaving no time for the target to respond back to the requests. 
 
-       Note : "All flooding of the attacks will fall under application availability as per CIA Traid".
+       Ping of Death Attack : 
+       ----------------------
+         Attacker will send over sized packets of the bits to the system, Then the system is not able to handle that much packet size.
+         Ex: ping 8.8.8.8=32 bit, but attacker will send a more than 32 bits size packets so the system can't handle thsoe packet size and system will compromise.
+         The ping of death is a part of denial-of-service (DoS) attack that occurs when an attacker crashes, destabilizes, or freezes computers or services by targeting them with oversized data packets.
+       
+       Dos attack :
+       ------------
+         A denial-of-service (DoS) attack floods a server with traffic, making a website or resource unavailable. 
+         Single attacker will sends a large number of floodings of the requests to the targeted system/server/application, Then server will not available due to over flooding requests, 
+         Because of the illigitimate or unathorized attacker.
+
+       DDoS attack :
+       -------------
+         A distributed denial-of-service (DDoS) attack is a DoS attack that uses multiple computers or machines to flood a targeted resource.
+         Both types of attacks overload a server or web application with the goal of interrupting services. 
+      
+
+Note : "All flooding of the attacks will fall under application availability as per CIA Traid".
+
 
 Prevention Tips for flooding Attacks :
 --------------------------------------
@@ -393,6 +412,10 @@ Prevention Tips for flooding Attacks :
     Deploy Anti DOS/DDOS tools : [Tools Like Akkamai, Baracuda, Imperva, F5, Azure DDOS, AWS Shield]. These services often use a combination of traffic filtering, and other tactics to ensure only legitimate traffic reaches the target. 
     Set up secondary DNS : If the primary DNS server becomes overwhelmed due to a flood attack, the secondary DNS server can continue to resolve domain names, ensuring that services remain accessible to legitimate users.
     TTL Analysis: Investigate the TTL values on incoming packets. Abnormal TTLs can indicate potential malicious traffic.
+    Install and use antivirus software.
+    Update your operating system on a regular basis.
+    Install patches, updates, and other patches as soon as they are released by the manufacturer.
+    Limit the number of ICMP messages and ping requests (for Ping/ICMP Flood Attack).
 
 NOTE : If we compromise our system from malware attack, if you have any doubt, If it's a windows laptop You can go to Task manager and verify which file has accupied by more memory and other things.
 
