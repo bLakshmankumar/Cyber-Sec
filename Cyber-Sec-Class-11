@@ -47,22 +47,37 @@ Endpoint security solutions:
 ----------------------------
   * Endpoint Detection and Response(EDR): EDR solutions continuously monitor endpoint activities and behaviors to detect suspicious or malicious behavior indicative of cyber threats. 
                                           They provide real-time threat detection, investigation, and response capabilities to mitigate security incidents.
-  * Antivirus and Anti-malware Software : These solutions scan endpoint devices for known viruses, malware, spyware, and other malicious software. 
-                                          They use signature-based detection, heuristic analysis, and behavioral monitoring to identify and remove threats from endpoints.
-  * Endpoint Encryption: Encryption solutions encrypt data stored on endpoints and transmitted over networks to protect it from unauthorized access and interception. 
-                         They use encryption algorithms to secure sensitive information and prevent data breaches in case of device theft or loss.
-  * Patch Management: Patch management solutions automate the process of identifying, deploying, and managing software patches and updates on endpoints. 
-                      They ensure that operating systems and software applications are up-to-date with the latest security patches to mitigate vulnerabilities and reduce the risk of exploitation by attackers.
-  * Next-Generation Firewall (NGFW): A NGFW is a security appliance that processes network traffic and applies rules to block potentially dangerous traffic.
-                                     NGFWs evolve and expand upon the capabilities of traditional firewalls.They do all that firewalls do, but more powerfully and with additional features.
-  * File Integrity Monitoring (FIM) : FIM examines operating system files, Windows registries, application software, and Linux system files for changes that might indicate an attack.
-    Which files should I monitor? : Please Ref this Document [https://learn.microsoft.com/en-us/azure/defender-for-cloud/file-integrity-monitoring-overv].
-  * Data loss prevention (DLP): DLP is a set of tools and procedures that forms part of a company’s overall security strategy,
+    
+     NOTE : Below all are separete solutions for Endpoint securities, now *EDR Tool* is capable of all these below solutions.
+
+     * Antivirus and Anti-malware Software : These solutions scan endpoint devices for known viruses, malware, spyware, and other malicious software. 
+                                             They use signature-based detection, heuristic analysis, and behavioral monitoring to identify and remove threats from endpoints.
+   
+     * Endpoint Encryption: Encryption solutions encrypt data stored on endpoints and transmitted over networks to protect it from unauthorized access and interception. 
+                            They use encryption algorithms to secure sensitive information and prevent data breaches in case of device theft or loss.
+    
+     * Patch Management: Patch management solutions automate the process of identifying, deploying, and managing software patches and updates on endpoints. 
+                         They ensure that operating systems and software applications are up-to-date with the latest security patches to mitigate vulnerabilities and reduce the risk of exploitation by attackers.
+    
+     * Next-Generation Firewall (NGFW): A NGFW is a security appliance that processes network traffic and applies rules to block potentially dangerous traffic.
+                                        NGFWs evolve and expand upon the capabilities of traditional firewalls.They do all that firewalls do, but more powerfully and with additional features.
+     
+     * File Integrity Monitoring (FIM) : FIM examines operating system files, Windows registries, application software, and Linux system files for changes that might indicate an attack.
+          Which files should I monitor? : Please Ref this Document [https://learn.microsoft.com/en-us/azure/defender-for-cloud/file-integrity-monitoring-overv].
+     
+     * Data loss prevention (DLP): DLP is a set of tools and procedures that forms part of a company’s overall security strategy,
                                 and focuses on detecting and preventing the loss, leakage, or misuse of data through breaches, exfiltration transmissions, and unauthorized use.
-     REF DOC : https://www.crowdstrike.com/cybersecurity-101/data-loss-prevention-dlp/
-  * HIDS/HIPS : https://heimdalsecurity.com/blog/host-intrusion-detection-system-hids/
+                                REF DOC : https://www.crowdstrike.com/cybersecurity-101/data-loss-prevention-dlp/
+  
+     * HIDS/HIPS : https://heimdalsecurity.com/blog/host-intrusion-detection-system-hids/
 
 Difference between Traditional Firewall and Next Generation Firewall :
 ----------------------------------------------------------------------
 [https://www.geeksforgeeks.org/difference-between-traditional-firewall-and-next-generation-firewall/].
+
+
+Example Set up Microsoft Defender for Endpoint deployment : 
+===========================================================
+https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/production-deployment?view=o365-worldwide
+
 
