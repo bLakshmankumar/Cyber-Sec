@@ -502,10 +502,26 @@ Prevention Tips for flooding Attacks :
           2) Payload: The payload of the IP packet contains the actual data being transmitted, such as segments of a TCP or UDP stream, ICMP messages, or application-layer data. 
                       The payload size can vary depending on the type of data being transmitted and the maximum transmission unit (MTU) of the network.
 
-*IP Spoofing Attack :
+      *IP Spoofing Attack:
       ---------------------
-        Attacker will mask his original IP address using Spoofing and the he will send the request on behalf of the end/actual user. Then he will gain unauthorized access or sensitive data exposer.
-          
+         Description: Attacker will mask his original IP address using Spoofing and the he will send the request on behalf of the end/actual user. Then he will gain unauthorized access or sensitive data exposer.
+         Mitigation : Stateful inspection firewall, Deep packet inspection.
+     
+      *Email Spoofing Attack:
+      ------------------------
+         Description: Email spoofing attacks involve forging the sender's email address to impersonate a legitimate sender, tricking recipients into believing that the email is from a trusted source,
+                      and luring them into clicking on malicious links, divulging sensitive information, or downloading malware.
+         Prevention Tips: Implement email authentication protocols such as Proof point, Iron Port-Cisco, Also in SMTP server we have to configure : SPF, DKIM, and DMARC tools to detect and prevent email spoofing, 
+                          Use email filtering and anti-phishing solutions to detect and block spoofed emails, and educate users about recognizing phishing attempts.
+     
+      *ARP Spoofing (ARP Cache Poisoning): ARP Protocal it will convert/Map Layer3 IP Address to Layer2 Physical address that's called MAC address. It'll fall under network layer.
+      ------------------------------------
+         Description: ARP spoofing attacks manipulate the Address Resolution Protocol (ARP) to associate the attacker's MAC address with the IP address of a legitimate device, 
+                      intercepting and redirecting network traffic or launching man-in-the-middle attacks.
+                      ARP spoofing is a hacking method that causes network traffic to be redirected to a hacker. Sniffing out LAN addresses on both wired and wireless LAN networks is known as spoofing.
+                      The idea behind this sort of spoofing is to transmit false ARP communications to Ethernet LANs, which can cause traffic to be modified or blocked entirely.
+         Prevention Tips: Encryption, Packet filters, Deploy ARP spoofing detection tools or intrusion detection/prevention systems (IDS/IPS), 
+                          Use static ARP entries or dynamic ARP inspection (DAI) to prevent ARP cache poisoning, and implement network segmentation to limit the impact of ARP spoofing attacks.
 
 NOTE : If we compromise our system from malware attack, if you have any doubt, If it's a windows laptop You can go to Task manager and verify which file has accupied by more memory and other things.
 
