@@ -35,7 +35,7 @@ cybersec-notes
 
 ![Screenshot 2024-02-10 130032](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/b8cf5ad3-58f9-4e6e-a8f5-2722e0c54d13)
 
-   # A user attempts to access their online banking website by entering the domain name (e.g., www.bankexample.com) into their web browser.
+   # A user attempts to access their online banking website by entering the domain name (e.g., www.gitbank.com) into their web browser.
    # The attacker, who has infiltrated the network or compromised DNS servers, intercepts the DNS resolution process and responds to the user's request with a spoofed DNS response.
    # Instead of receiving the legitimate IP address of the bank's website, the user's device is directed to an attacker-controlled server hosting a fake banking website.
    # The user, unaware of the spoofing attack, enters their login credentials into the fake website, unwittingly providing them to the attacker.
