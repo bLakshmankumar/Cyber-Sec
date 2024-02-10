@@ -51,3 +51,10 @@ cybersec-notes
 ![Screenshot 2024-02-10 175908](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/caf1c928-daaa-40a4-bf32-a76664538456)
 
 ![Screenshot 2024-02-10 180322](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/63c5a892-803d-4f6e-acb3-a113abe4d32a)
+
+# Cyber-Security-Class-11 :
+===========================
+# Detection Methods for Endpoint Security.
+# We Will deploy Detection/Monitoring agents to the Endpoint with required policies and ports, Then the agent will start Detect the issues based on this agent backend methods.
+
+![Screenshot 2024-02-10 223347](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/19b067d2-ac60-4212-b68c-af34ba120746)
