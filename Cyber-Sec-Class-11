@@ -77,13 +77,14 @@ Endpoint security solutions:
 Vendors or Tools:
 -----------------
  Venders list: https://www.cybereason.com/blog/cybereason-named-a-leader-in-2022-gartner-magic-quadrant-for-endpoint-protection-platforms
- Note:    Most of the Companies use the tools which are on the *Leader list* on the above link.
-          * Microsoft Defender
-          * CrowdStrike
-          * Trend Micro
-          * Sophos
-          * SentinelOne
-          * Cybereason
+ Note:    Most of the Companies  prefer the tools which are on the *Leader list* on the above link, We can use other tools as well.
+          * Microsoft Defender    * Cisco
+          * CrowdStrike           * CarbonBlock
+          * Trend Micro           * Eset
+          * Sophos                * Fortinet 
+          * SentinelOne           * Kaspersky
+          * Cybereason            * Mcafee 
+          * TrendMicro            * Resolution one
 
 Policies in AV/EDR tool: 
 ------------------------
@@ -95,6 +96,13 @@ Detection Process:
     Whenever any abnormal/Malicious/Suspicious activity will happened in the endpoint level using drive by downloads, Phishing email attachments, Removable devices,
     Then the EDR Agent will communicate with AV/EDR tool, Based on the policies configured and detection methods, Either it'll BLOCK, ALLOW, or Clean or Quarentain.
 
+Alert Severity:
+---------------
+     Critical, High, Medium, Low, Info.
+
+AV/EDR Agent Status on servers: (Validate the agent health check status)
+------------------------------------------------------------------------
+    Active or  Inactive
 
 Backend Detection Methods of EDR tool for EndPoint security:
 =============================================================
