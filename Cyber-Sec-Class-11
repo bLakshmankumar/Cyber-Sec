@@ -111,6 +111,7 @@ Backend Detection Methods of EDR tool for EndPoint security:
       
       * Signature-based detection: It's a method used by security tools, including Endpoint Detection and Response (EDR) solutions, to identify known threats by comparing digital signatures or patterns of malicious code against a database of known signatures. 
 
+      * ML/AI Detections: MI/AI algorithms analyze the behavior of endpoint devices and users to establish baseline patterns of normal behavior.
 Deployment:
 -----------
    We have two types of deployments 1) On-premise(Datacenter) or Physical Hardware Device,  2) SAAS(Cloud)
