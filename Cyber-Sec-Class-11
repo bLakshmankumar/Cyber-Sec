@@ -45,8 +45,8 @@ Endpoint security best practices:
 
 Endpoint security solutions: 
 ----------------------------
-  * Endpoint Detection and Response(EDR): EDR solutions continuously monitor endpoint activities and behaviors to detect suspicious or malicious behavior indicative of cyber threats. 
-                                          They provide real-time threat detection, investigation, and response capabilities to mitigate security incidents.
+   * Endpoint Detection and Response(EDR): EDR solutions continuously monitor endpoint activities and behaviors to detect suspicious or malicious behavior indicative of cyber threats. 
+                                           They provide real-time threat detection, investigation, and response capabilities to mitigate security incidents.
     
      NOTE : Below all are separete solutions for Endpoint securities, now *EDR Tool* is capable of all these below solutions.
 
@@ -69,12 +69,43 @@ Endpoint security solutions:
                                 and focuses on detecting and preventing the loss, leakage, or misuse of data through breaches, exfiltration transmissions, and unauthorized use.
                                 REF DOC : https://www.crowdstrike.com/cybersecurity-101/data-loss-prevention-dlp/
   
-     * HIDS/HIPS : https://heimdalsecurity.com/blog/host-intrusion-detection-system-hids/
+     * HIDS/HIPS : https://heimdalsecurity.com/blog/host-intrusion-detection-system-hids/ (or) https://www.geeksforgeeks.org/intrusion-detection-system-ids/
 
-Difference between Traditional Firewall and Next Generation Firewall :
-----------------------------------------------------------------------
-[https://www.geeksforgeeks.org/difference-between-traditional-firewall-and-next-generation-firewall/].
+     * Difference between Traditional Firewall and Next Generation Firewall: [https://www.geeksforgeeks.org/difference-between-traditional-firewall-and-next-generation-firewall/].
+      ---------------------------------------------------------------------
 
+Vendors or Tools:
+-----------------
+ Venders list: https://www.cybereason.com/blog/cybereason-named-a-leader-in-2022-gartner-magic-quadrant-for-endpoint-protection-platforms
+ Note:    Most of the Companies use the tools which are on the *Leader list* on the above link.
+          * Microsoft Defender
+          * CrowdStrike
+          * Trend Micro
+          * Sophos
+          * SentinelOne
+          * Cybereason
+
+Policies in AV/EDR tool: 
+------------------------
+   These below policies we need to configure, these policies might be Differ from Vendor to Vendor.
+       * DLP, App Control, Web Control, Update management, Account Lockout, FIM, HIDS/HIPS.
+
+Detection Process:
+-------------------
+    Whenever any abnormal/Malicious/Suspicious activity will happened in the endpoint level using drive by downloads, Phishing email attachments, Removable devices,
+    Then the EDR Agent will communicate with AV/EDR tool, Based on the policies configured and detection methods, Either it'll BLOCK, ALLOW, or Clean or Quarentain.
+
+
+Backend Detection Methods of EDR tool for EndPoint security:
+=============================================================
+      * Behavioral Analysis: Behavioral analysis techniques analyze endpoint behaviors and activities to identify deviations from normal patterns or expected behavior.
+                             EDR tools monitor processes, system calls, registry changes, file activities, network connections, and other endpoint events to detect malicious activities such as fileless malware, lateral movement, and privilege escalation.
+      
+      * Signature-based detection: It's a method used by security tools, including Endpoint Detection and Response (EDR) solutions, to identify known threats by comparing digital signatures or patterns of malicious code against a database of known signatures. 
+
+Deployment:
+-----------
+   We have two types of deployments 1) On-premise(Datacenter) or Physical Hardware Device,  2) SAAS(Cloud)
 
 Example Set up Microsoft Defender for Endpoint security deployment : 
 ====================================================================
