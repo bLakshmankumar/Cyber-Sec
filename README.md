@@ -41,3 +41,11 @@ cybersec-notes
    # The user, unaware of the spoofing attack, enters their login credentials into the fake website, unwittingly providing them to the attacker.
    # The attacker captures the user's login credentials and may use them for unauthorized access to the user's bank account or for identity theft purposes.
    # In this example, the attacker successfully manipulated the DNS resolution process to redirect the user to a malicious website, exploiting their trust in the DNS infrastructure to carry out fraudulent activities.
+   
+# Cyber-Security-Class-11 :
+==============================
+# Roles & Responsibilities of a Cybersecurity as an interview point of view.
+
+![Screenshot 2024-02-10 175828](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/33edbe83-8d65-4b16-8053-946628b0427f)
+
+![Screenshot 2024-02-10 175908](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/caf1c928-daaa-40a4-bf32-a76664538456)
