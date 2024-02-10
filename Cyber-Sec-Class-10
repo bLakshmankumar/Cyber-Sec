@@ -520,10 +520,16 @@ Prevention Tips for flooding Attacks :
                       intercepting and redirecting network traffic or launching man-in-the-middle attacks.
                       ARP spoofing is a hacking method that causes network traffic to be redirected to a hacker. Sniffing out LAN addresses on both wired and wireless LAN networks is known as spoofing.
                       The idea behind this sort of spoofing is to transmit false ARP communications to Ethernet LANs, which can cause traffic to be modified or blocked entirely.
-         Prevention Tips: Encryption, Packet filters, Deploy ARP spoofing detection tools or intrusion detection/prevention systems (IDS/IPS), 
+         Prevention Tips: Encryption, Packet filters, Deploy ARP spoofing detection tools or intrusion detection/prevention systems (NIDS/NIPS), 
                           Use static ARP entries or dynamic ARP inspection (DAI) to prevent ARP cache poisoning, and implement network segmentation to limit the impact of ARP spoofing attacks.
-
          Backend process : [https://github.com/bLakshmankumar/cyber-sec/tree/main]
+
+      *DNS Spoofing (DNS Cache Poisoning): [https://www.geeksforgeeks.org/what-is-spoofing-in-cyber-security/]
+      ---------------------------------------------------------------------------------------------------------
+         Description: DNS spoofing attacks exploit vulnerabilities in the Domain Name System (DNS) to forge DNS responses, redirecting users to malicious websites or hijacking their internet traffic.
+         Prevention Tip : Deploy DNS Security Agent under DNS server, and threat intelligence services to detect and block malicious DNS requests, And Implement DNSSEC (DNS Security Extensions) to authenticate DNS responses and prevent DNS spoofing.
+                          WAF, NGFW, SIEM & etc.
+                          Make use of SSL/TLS encryption to minimize or mitigate the risk of a website being hacked via DNS spoofing.
 
 NOTE : If we compromise our system from malware attack, if you have any doubt, If it's a windows laptop You can go to Task manager and verify which file has accupied by more memory and other things.
 
