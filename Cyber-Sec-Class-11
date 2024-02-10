@@ -1,4 +1,4 @@
-# ENDPoint Protection (or) EndPoint Security :
+ # EndPoint Protection (or) EndPoint Security :
 # ============================================
 
 What is Endpoint : Please refer microsoft doc for detailed info -: [ https://www.microsoft.com/en-us/security/business/security-101/what-is-an-endpoint ]
@@ -57,9 +57,10 @@ Endpoint security solutions:
                                      NGFWs evolve and expand upon the capabilities of traditional firewalls.They do all that firewalls do, but more powerfully and with additional features.
   * File Integrity Monitoring (FIM) : FIM examines operating system files, Windows registries, application software, and Linux system files for changes that might indicate an attack.
     Which files should I monitor? : Please Ref this Document [https://learn.microsoft.com/en-us/azure/defender-for-cloud/file-integrity-monitoring-overv].
-  * Host-based Intrusion Detection System/Host-based Intrusion Prevention System (HIDS/HIPS): 
-
-* NGFW, FIM, HIDS/HIPS, DLP, 
+  * Data loss prevention (DLP): DLP is a set of tools and procedures that forms part of a company’s overall security strategy,
+                                and focuses on detecting and preventing the loss, leakage, or misuse of data through breaches, exfiltration transmissions, and unauthorized use.
+     REF DOC : https://www.crowdstrike.com/cybersecurity-101/data-loss-prevention-dlp/
+  * HIDS/HIPS : https://heimdalsecurity.com/blog/host-intrusion-detection-system-hids/
 
 Difference between Traditional Firewall and Next Generation Firewall :
 ----------------------------------------------------------------------
