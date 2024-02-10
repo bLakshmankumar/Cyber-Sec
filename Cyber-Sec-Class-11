@@ -53,7 +53,15 @@ Endpoint security solutions:
                          They use encryption algorithms to secure sensitive information and prevent data breaches in case of device theft or loss.
   * Patch Management: Patch management solutions automate the process of identifying, deploying, and managing software patches and updates on endpoints. 
                       They ensure that operating systems and software applications are up-to-date with the latest security patches to mitigate vulnerabilities and reduce the risk of exploitation by attackers.
-  * Next-Generation Firewall (NGFW): A traditional firewall provides stateful inspection of network traffic.
-                                     It allows or blocks traffic based on state, port, and protocol, and filters traffic based on administrator-defined rules.
-  * 
+  * Next-Generation Firewall (NGFW): A NGFW is a security appliance that processes network traffic and applies rules to block potentially dangerous traffic.
+                                     NGFWs evolve and expand upon the capabilities of traditional firewalls.They do all that firewalls do, but more powerfully and with additional features.
+  * File Integrity Monitoring (FIM) : FIM examines operating system files, Windows registries, application software, and Linux system files for changes that might indicate an attack.
+    Which files should I monitor? : Please Ref this Document [https://learn.microsoft.com/en-us/azure/defender-for-cloud/file-integrity-monitoring-overv].
+  * Host-based Intrusion Detection System/Host-based Intrusion Prevention System (HIDS/HIPS): 
+
 * NGFW, FIM, HIDS/HIPS, DLP, 
+
+Difference between Traditional Firewall and Next Generation Firewall :
+----------------------------------------------------------------------
+[https://www.geeksforgeeks.org/difference-between-traditional-firewall-and-next-generation-firewall/].
+
