@@ -1,4 +1,4 @@
- # EndPoint Protection (or) EndPoint Security :
+# EndPoint Protection (or) EndPoint Security :
 # ============================================
 
 What is Endpoint : Please refer microsoft doc for detailed info -: [ https://www.microsoft.com/en-us/security/business/security-101/what-is-an-endpoint ]
@@ -76,8 +76,8 @@ Difference between Traditional Firewall and Next Generation Firewall :
 [https://www.geeksforgeeks.org/difference-between-traditional-firewall-and-next-generation-firewall/].
 
 
-Example Set up Microsoft Defender for Endpoint deployment : 
-===========================================================
+Example Set up Microsoft Defender for Endpoint security deployment : 
+====================================================================
 https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/production-deployment?view=o365-worldwide
 
 
