@@ -1,3 +1,13 @@
 # ENDPoint Protection (or) EndPoint Security :
 # ============================================
 
+What is Endpoint :
+------------------
+Endpoint refers to the Employee devices, or endpoints, such as computers, laptops, smartphones, tablets, and servers(Windows,Linux).
+
+What is EndPoint Security:
+--------------------------
+Endpoint security refers to the protection of individual devices or endpoints, such as desktops, laptops, smartphones, and servers, from cybersecurity threats. 
+Endpoint security typically involves installing software agents or applications on endpoint devices to monitor and control incoming and outgoing network traffic, 
+detect and respond to security threats, and enforce security policies.
+It involves securing the endpoint devices themselves, as well as the networks and data they access, to prevent unauthorized access, data breaches, malware infections, and other cyber attacks.
