@@ -113,6 +113,10 @@ Backend Detection Methods of EDR tool for EndPoint security:
 
       * ML/AI Detections: MI/AI algorithms analyze the behavior of endpoint devices and users to establish baseline patterns of normal behavior.
                           ML or Deep Learning ia very usefull For new or Unknown category of attacks and Behavioural analysis.
+
+      * Hash Value Method: The backend hash value detection method used in EDR tools for endpoint security involves comparing cryptographic hash values of files or processes on endpoint devices against known good or malicious hash values stored in threat intelligence databases.
+
+
 Deployment:
 -----------
    We have two types of deployments 1) On-premise(Datacenter) or Physical Hardware Device,  2) SAAS(Cloud)
