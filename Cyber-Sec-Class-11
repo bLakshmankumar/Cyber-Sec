@@ -120,7 +120,13 @@ Backend Detection Methods of EDR tool for EndPoint security:
 
       * Baseline detection method: Every organization will define a Threshold value of CPU, Memory, RAM. Like If CPU or RAM Utilization is cross 70%, Whenever the enduser machine crossed that threshold value, Automatically alerts will trigger on EDR tool.
                                    Then we have to take the file which is consuming more Bandwidth, CPU, RAM, Then we should start investigation using virustotal.com or Sandboxing Environment.
-               
+
+      * heuristic approach: Heuristic analysis observes the behavior of files, processes, and system activities on endpoint devices to identify patterns or behaviors that deviate from normal or expected operations.
+                            This method is applicable to malicious scripts, If attacker is trying to injecting or sending malware scripts through phishing, or Drive Downloads or maybe removable devices. 
+                            EDR tool will scan and identify those malware scripts are present or not on the end user system.
+
+      * Sandboxing Environment: A sandboxing environment in endpoint security refers to an isolated and controlled environment where suspicious files, applications, or processes can be executed and analyzed safely to determine their behavior and potential threat level.
+                                Sandboxing helps prevent cyber attacks by allowing security analysts to inspect and assess potentially malicious content without risking damage to the production environment. 
 Deployment:
 -----------
    We have two types of deployments 1) On-premise(Datacenter) or Physical Hardware Device,  2) SAAS(Cloud)
