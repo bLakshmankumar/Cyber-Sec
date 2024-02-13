@@ -162,8 +162,81 @@ https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/produ
         Example For Data loss: An employee falls victim to a phishing email containing malware, which exfiltrates confidential customer information from their workstation. 
                                or Accidental Deletion: An employee inadvertently deletes critical customer data from a shared database during routine maintenance.
 
-           
+      Types of Data:
+      --------------
+         There are 2 Types of Data Types: 1) Critical Data  2) Non-Critical Data.
+      1)Critical Data:
+      ----------------
+         Critical data refers to information that is essential for the operation, continuity, and success of an organization.
+         This type of data is typically sensitive, confidential, and highly valuable, requiring strict protection and security measures.
+         Examples of critical data include:
+         ----------------------------------
+            Intellectual property (e.g., trade secrets, patents)
+            Financial records (e.g., payroll data, financial statements)
+            Personal identifiable information (PII) of customers or employees (e.g., social security numbers, credit card information)
+            Business continuity plans and disaster recovery procedures
+            Regulatory compliance data (e.g., GDPR, HIPAA, PCI DSS)
 
+      2)Non-Critical Data:
+      --------------------
+         Non-critical data, also known as routine or operational data, refers to information that is important for day-to-day operations but may not be as sensitive or essential as critical data.
+         While non-critical data still requires protection, the level of security and confidentiality measures may be less stringent compared to critical data.
+         Examples of non-critical data include:
+         --------------------------------------
+            Routine emails and communications
+            Publicly available marketing materials
+            General employee information (e.g., office locations, job titles)
+            Non-sensitive operational reports and documents
+            Non-sensitive research and reference materials
+   
+   3) How To classify which is Critical data and which is non-critical data ?
+   --------------------------------------------------------------------------
+        We should connect with all department leads to gather the informantion from eath team, bcs we are not sure what is the critical information on software code, and HR perspective.
+        We have to co-ordinate with each team(HR, Legal, Developer, Admin team, DevOps) & other Teams to get the information and classify the which is the critical data and non-critical data.
+   
+   4) Based on what parameters we have to classify the data ?
+   ----------------------------------------------------------
+        We can classify the data based on Confidentiality and sensitivity parameters.
+   
+   5) Data Clasisfications:
+   ------------------------
+        While we save/expose the data we can save/expose the data we will have 3 options.
+                        1) Public(anyone can access)      
+                        2)Internal(Employees can access with in the teams in a organization)  
+                        3)Confidential(No-one can access without requied previllages)
+   
+   6) What are all the different ways to data can be leaked:
+   ---------------------------------------------------------
+         Data can be leak in many ways like for example.
+             
+             1) Physical Theft or Loss: 
+             --------------------------
+                  Theft or loss of physical devices such as laptops, smartphones, USB drives, or paper documents containing sensitive information can result in data leakage if the devices are not properly secured or encrypted.
 
+             2) Removable Devices (USB Drives, External Hard Drives):
+             --------------------------------------------------------
+                  Employees may copy sensitive data onto USB drives, external hard drives, or other removable storage devices for convenience or to work remotely.
 
-  
+             3) Email Sharing:
+             -----------------
+                  Employees may share sensitive information via email attachments to their personal emails.
+
+             4) Misconfigured Cloud Services:
+             --------------------------------
+                  Improperly configured cloud storage, collaboration platforms, or web applications may inadvertently expose sensitive data to unauthorized users or the public internet.
+ 
+         Prevention tips for data leak or data loss :
+         ---------------------------------------------
+             1) Implement Data Classification Policies:
+             ------------------------------------------
+                  Classify data based on its sensitivity, importance, and regulatory requirements.
+                  Clearly define categories such as public, internal use only, confidential, and restricted access to guide employees on handling and protecting different types of data appropriately.
+             
+             2) Enforce Access Controls and Permissions:
+             -------------------------------------------
+                  Implement access controls and user permissions to restrict access to sensitive data based on the principle of least privilege.
+
+             3) Train and Educate Employees:
+             -------------------------------
+                  Provide comprehensive training and awareness programs to educate employees about the importance of data security and their role in preventing data leaks.
+                  Offer training on recognizing phishing emails, social engineering tactics, and best practices for securely handling sensitive information, including email communication and file sharing.
