@@ -63,6 +63,7 @@ Based on How many Endpoints we have, Each and every end-user machine we should d
 # Cyber-Security-Class-11 :
 ===========================
 # Detection Methods for Endpoint Security & Deployment Approach.
+# It's an Agent and Server based approach
 
 ![Screenshot 2024-02-10 223347](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/19b067d2-ac60-4212-b68c-af34ba120746)
 
