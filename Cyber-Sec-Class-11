@@ -138,12 +138,15 @@ Example Set up Microsoft Defender for Endpoint security deployment :
 ====================================================================
 https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/production-deployment?view=o365-worldwide
 
+====================================================================================================================================================================================================================
 
 *Exceptons & Exclusions:
 ========================
    Exceptions or Exclusions we have to do it on EDR admin tool.
    If you want to exclude the file from scanning Copy the file path (Ex: prgramfile/users/username/Test.txt). Even we can exclude the HASH value from EDR tool.
    Once we exclude the file/hash value on EDR tool, then anyone can download or access that file, there is no blocking from EDR tool for activity.
+
+====================================================================================================================================================================================================================
 
 *DLP Tool: [Data loss or Data leak prevention]
 ==============================================
@@ -240,3 +243,19 @@ https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/produ
              -------------------------------
                   Provide comprehensive training and awareness programs to educate employees about the importance of data security and their role in preventing data leaks.
                   Offer training on recognizing phishing emails, social engineering tactics, and best practices for securely handling sensitive information, including email communication and file sharing.
+   
+    7) DLP TOOLS or VENDORS :
+    -------------------------
+         These are the famous DLP tools or Vendors
+             1) Digital Gaurdian
+             2) Microsoft Defender
+             3) Symentic
+             4) Mcafee
+             5) Trend Micro & More
+
+    8) DLP Licencing:
+    -----------------
+         How can we get the DLP licencing on EndPoint Level ?
+         -----------------------------------------------------
+             Based on How many end-user machines are there all those machines we should deploy the DLP agent.
+  
