@@ -1,6 +1,13 @@
 Abbrivations/Acronyms In Cyber-Security : [ Include Definetion-Clasess- 3, 4, 5, & 6 ]
 ======================================================================================
 
+NOTE: Don't use 3rd party-tools like virustotal.com & etc. for analysing suspicious files, applications, or processes, Use Sandbox Environment.
+    
+      * Sandboxing Environment: It's a testing environment, every organization will maintain and also it'll feed threat intelligencies on daily basis. In real time we are not test malware files/Urls/emails on #rd party websites like virustootal.com & etc.
+                                because if attacker already compromise the virustotal.com and if we are upload any file/url/email then they can steal our information. So That every organization is using a internel testing envirnment for security.
+                                A sandboxing environment in endpoint security refers to an isolated and controlled environment where suspicious files, applications, or processes can be executed and analyzed safely to determine their behavior and potential threat level.
+                                Sandboxing helps prevent cyber attacks by allowing security analysts to inspect and assess potentially malicious content without risking damage to the production environment.
+
 Course-URL : https://drive.google.com/drive/folders/1MlSX4UmzHLDJr5JURZqAVedqvYg50kxZ
 
  Who is a hacker :
