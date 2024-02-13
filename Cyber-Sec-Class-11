@@ -102,7 +102,7 @@ Alert Severity:
 
 AV/EDR Agent Status on servers: (Validate the agent health check status)
 ------------------------------------------------------------------------
-    Active or  Inactive
+    Active or Inactive
 
 Backend Detection Methods of EDR tool for EndPoint security:
 =============================================================
