@@ -62,7 +62,9 @@ Based on How many Endpoints we have, Each and every end-user machine we should d
 
 # Cyber-Security-Class-11 :
 ===========================
-# Detection Methods for Endpoint Security.
-# We Will deploy Detection/Monitoring agents to the Endpoint with required policies and ports, Then the agent will start Detect the issues based on this agent backend methods.
+# Detection Methods for Endpoint Security & Deployment Approach.
 
 ![Screenshot 2024-02-10 223347](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/19b067d2-ac60-4212-b68c-af34ba120746)
+
+# We Will deploy Detection/Monitoring agents to Each and every Endpoint(end-user machine) with required policies and ports, Then the agent will start Detect the issues based on this agent backend methods/Policies.
+
