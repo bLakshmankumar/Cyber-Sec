@@ -50,7 +50,15 @@ cybersec-notes
 
 ![Screenshot 2024-02-10 175908](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/caf1c928-daaa-40a4-bf32-a76664538456)
 
-![Screenshot 2024-02-10 180322](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/63c5a892-803d-4f6e-acb3-a113abe4d32a)
+![Screenshot 2024-02-10 180322](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/63c5a892-803d-4f6e-acb3-a113abe4d32a
+
+
+# Licencing :
+==============
+
+![Screenshot 2024-02-13 201852](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/69012d39-5f13-4923-809b-90092b0dadbd)
+
+Based on How many Endpoints we have, Each and every end-user machine we should deploy the EDR and DLP agent.
 
 # Cyber-Security-Class-11 :
 ===========================
