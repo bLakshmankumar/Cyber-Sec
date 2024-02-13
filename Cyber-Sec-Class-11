@@ -139,9 +139,31 @@ Example Set up Microsoft Defender for Endpoint security deployment :
 https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/production-deployment?view=o365-worldwide
 
 
-Exceptons & Exclusions:
-=======================
-    Exceptions or Exclusions we have to do it on EDR admin tool.
-    If you want to exclude the file from scanning Copy the file path (Ex: prgramfile/users/username/Test.txt). Even we can exclude the HASH value from EDR tool.
-    once we exclude the file/hash value on EDR tool, then anyone can download or access that file, there is no blocking from EDR tool for activity.
+*Exceptons & Exclusions:
+========================
+   Exceptions or Exclusions we have to do it on EDR admin tool.
+   If you want to exclude the file from scanning Copy the file path (Ex: prgramfile/users/username/Test.txt). Even we can exclude the HASH value from EDR tool.
+   Once we exclude the file/hash value on EDR tool, then anyone can download or access that file, there is no blocking from EDR tool for activity.
 
+*DLP Tool: [Data loss or Data leak prevention]
+==============================================
+   1) Why we required a seperate DLP tool if we have EDR tool that capable of DLP ?
+   --------------------------------------------------------------------------------
+        Because Whatever EDR tool we are using those tools are doing the basic DLP only. It's not taking care of full-fledged DLP.
+
+   2) What is DLP ?
+   ----------------
+        Data leak or data loss refers to the unauthorized disclosure, exposure, or compromise of sensitive or confidential information, resulting in its unintended dissemination to unauthorized parties. 
+        Lossing the Data or Leak the Data (Ex: Employee sending data from professional Email to Personal Email It's a data leak). 
+        Example For Data leak: In a healthcare organization, an employee mistakenly emails a spreadsheet containing patient medical records to an unauthorized recipient outside the organization.
+                               The sensitive information, including names, addresses, and medical histories, is leaked without encryption or proper access controls, violating patient privacy regulations.
+                               As a result, the organization faces regulatory fines, reputational damage, and potential lawsuits for non-compliance and breach of confidentiality. 
+                               Implementing DLP solutions could have detected the sensitive data in transit and enforced policies to prevent its unauthorized disclosure, mitigating the risk of data loss and regulatory penalties.
+        Example For Data loss: An employee falls victim to a phishing email containing malware, which exfiltrates confidential customer information from their workstation. 
+                               or Accidental Deletion: An employee inadvertently deletes critical customer data from a shared database during routine maintenance.
+
+           
+
+
+
+  
