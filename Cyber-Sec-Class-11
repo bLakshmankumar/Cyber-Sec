@@ -115,8 +115,9 @@ Backend Detection Methods of EDR tool for EndPoint security:
                           ML or Deep Learning ia very usefull For new or Unknown category of attacks and Behavioural analysis.
 
       * Hash Value Method: The backend hash value detection method used in EDR tools for endpoint security involves comparing cryptographic hash values of files or processes on endpoint devices against known good or malicious hash values stored in threat intelligence databases.
-
-
+        Prevention : Every file has a Unique hash value, Take the Hash value from the file and go to EDR tool, and block using hash value method. In future if similar type of hash value of the file of the malware entering it'll block it automatically.
+        Where we can see the Hash-value of the file : For example we can check on virustotal.com and upload the file and you can see the Hash value of the file.
+               
 Deployment:
 -----------
    We have two types of deployments 1) On-premise(Datacenter) or Physical Hardware Device,  2) SAAS(Cloud)
