@@ -258,4 +258,8 @@ https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/produ
          How can we get the DLP licencing on EndPoint Level ?
          -----------------------------------------------------
              Based on How many end-user machines are there all those machines we should deploy the DLP agent.
-  
+    
+    9) DLP Designing or Deployment:
+    -------------------------------
+          It's an Agent and Server based approach, We can deploy the agents on The Cloud or an On-prem server.
+
