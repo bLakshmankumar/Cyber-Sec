@@ -143,5 +143,5 @@ Exceptons & Exclusions:
 =======================
     Exceptions or Exclusions we have to do it on EDR admin tool.
     If you want to exclude the file from scanning Copy the file path (Ex: prgramfile/users/username/Test.txt). Even we can exclude the HASH value from EDR tool.
-    once we exclude the file/hash value on EDR tool, then anyone can download or access that file, there is no blocking from EDR tool.
+    once we exclude the file/hash value on EDR tool, then anyone can download or access that file, there is no blocking from EDR tool for activity.
 
