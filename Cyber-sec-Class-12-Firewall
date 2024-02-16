@@ -79,6 +79,15 @@ Firewall Class :
        * DMZ or DMG
        * Untrust or External or Plublic or internet or WAN.
 
+
+# Some of the FW vendors : [ https://www.gartner.com/reviews/market/network-firewalls ]
+==========================
+    * Fortinet Firewall   * Paloalto Firewall
+    * Cisco Firewall      * Juniper Firewall
+    * SonicWall Firewall  * WatchGuard Firewall 
+    * Sophos Firewall     * Azure Firewall & more.
+
+
 # Network Address Translation (NAT) : [ https://www.geeksforgeeks.org/network-address-translation-nat/ ]
 ========================================================================================================
      *WHat is NAT :
@@ -95,9 +104,19 @@ Firewall Class :
                3) Port Address Translation (PAT) : Along with private internal IP If we are mapping with port number to public IP we can call PAT.
 
 # Security Profiles : [ https://docs.fortinet.com/document/fortigate/7.4.0/best-practices/889496/security-profiles, https://docs.aws.amazon.com/connect/latest/adminguide/connect-security-profiles.html]
----------------------
+=====================
      Security profiles are a fundamental component of the security infrastructure, playing a vital role in strengthening your network against a wide array of cyberthreats.
+     First we have to configure security profiles and Then we should implement on Firewall policies on inside the Policy & object option.
+     If we are not enable these security profiles then firewall will not block anything.
 
-   
+     > Top Security Profiles :
+     --------------------------
+         * AV                * URL Filtering 
+         * DNS Filtering     * File Blocking
+         * Proxy             * VOIP
+         * WIfI              * SSL/SSH Inspection
+         * App Control       * IPS/IDS
+         * WAF               * Video Filter
+      These all are the Security profiles we have to configure, After configuring these profiles We have to enble these on Policies.
 
 
