@@ -1,0 +1,42 @@
+Firewall Class :
+================
+
+# What is Firewall: [https://www.geeksforgeeks.org/introduction-of-firewall-in-computer-network/]
+===================
+    A firewall is a network security device, either hardware or software-based, which monitors all incoming and outgoing traffic and based on a defined set of security rules it accepts, rejects or drops that specific traffic.
+    Accept : allow the traffic Reject : block the traffic but reply with an “unreachable error” Drop : block the traffic with no reply A firewall establishes a barrier between secured internal networks and outside untrusted network, such as the Internet.
+
+# Genrations of the Firewall:
+=============================
+    Firewalls can be categorized based on their generation.
+        * Packet Filtering Firewall 
+        * Circuit level Gateway firewall
+        * Stateful Inspection Firewall
+        * Application Layer/Proxy Firewall
+        * Next Generation Firewalls (NGFW)
+
+# Packet Filtering Firewall :
+----------------------------
+     Description : Packet filtering firewall is used to control network access by monitoring outgoing and incoming packets and allowing them to pass or stop based on source and destination IP address, protocols, and ports.
+
+# Circuit level Gateway firewall :
+----------------------------------
+     Description: Focuses on monitoring TCP handshakes to determine whether a session is legitimate.And it ensures that network sessions are initiated with the expected protocols and security policies, 
+                  thereby helping to distinguish legitimate connections from potentially malicious ones.
+
+# Stateful Inspection Firewall :
+--------------------------------
+     Description: It's a combination of Packet filtering + circuit level gateway + State of the packet, It Keeps track of the state of an active connections and makes decisions based on the context of the traffic.
+                  Maintains a state table to track connections; operates at both the network and transport layers (Layers 3 and 4).
+
+# Application Layer Firewall(Proxy Firewalls) :
+-----------------------------------------------
+     Description: Application layer firewall can inspect and filter the packets on any OSI layer, up to the application layer. 
+                  It has the ability to block specific content, also recognize when certain application and protocols (like HTTP, FTP) are being misused.
+                  It will act as a Bridge or Gateway beetween end user machine and also to the targeted machine and based on the policies configured it will allow and deny the traffic.
+
+#  Types of Firewall:
+---------------------
+ Firewalls are generally of two types
+     * Host- based Firewalls
+     * Network-based Firewalls
