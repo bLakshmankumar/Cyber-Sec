@@ -15,42 +15,70 @@ Firewall Class :
         * Application Layer/Proxy Firewall
         * Next Generation Firewalls (NGFW)
 
-# Packet Filtering Firewall :
-----------------------------
+  *Packet Filtering Firewall :
+  ----------------------------
      Description : Packet filtering firewall is used to control network access by monitoring outgoing and incoming packets and allowing them to pass or stop based on source and destination IP address, protocols, and ports.
 
-# Circuit level Gateway firewall :
-----------------------------------
+  *Circuit level Gateway firewall :
+  ----------------------------------
      Description: Focuses on monitoring TCP handshakes to determine whether a session is legitimate.And it ensures that network sessions are initiated with the expected protocols and security policies, 
                   thereby helping to distinguish legitimate connections from potentially malicious ones.
 
-# Stateful Inspection Firewall :
---------------------------------
+  *Stateful Inspection Firewall :
+  --------------------------------
      Description: It's a combination of Packet filtering + circuit level gateway + State of the packet, It Keeps track of the state of an active connections and makes decisions based on the context of the traffic.
                   Maintains a state table to track connections; operates at both the network and transport layers (Layers 3 and 4).
 
-# Application Layer Firewall(Proxy Firewalls) :
------------------------------------------------
+  *Application Layer Firewall(Proxy Firewalls) :
+  -----------------------------------------------
      Description: Application layer firewall can inspect and filter the packets on any OSI layer, up to the application layer. 
                   It has the ability to block specific content, also recognize when certain application and protocols (like HTTP, FTP) are being misused.
                   It will act as a Bridge or Gateway beetween end user machine and also to the targeted machine and based on the policies configured it will allow and deny the traffic.
 
-# FW or UTM (Unified threat management) :
------------------------------------------
+  *FW or UTM (Unified threat management) :
+  -----------------------------------------
      Description: A firewall is a specific type of network security device or software that controls the flow of traffic based on predefined rules,
                   Unified Threat Management (UTM) is a broader concept that involves integrating multiple security functionalities into a unified and cohesive solution. 
                   It'll monitor inbound and outbound traffic based on the policies we configured either it'll allow the traffic or deny or block the traffic.
      Features : It's a combination of Packet filtering + Circuit level Gateway + Statefull Inspection + App level Gateway + AV+AM scanning + Basic network DLP + IDS/IPS + URL filtering or Web filtering or Bright cloud url filtering.
 
-# Next-Generation Firewalls (NGFW) :
-------------------------------------
+  *Next-Generation Firewalls (NGFW) :
+  ------------------------------------
      Description: Next Generation Firewalls are being deployed these days to stop modern security breaches like advance malware attacks and application-layer attacks. 
                   NGFW consists of Deep Packet Inspection, Application Inspection, SSL/SSH inspection and many functionalities to protect the network from these modern threats.
 
-     Features : Advance Threat Prevention(ATP), APT WIFI, Deep Packet Inspection, AV+Am, URL filtering, Stateful Inspection & mo
+     Features : Advance Threat Prevention(ATP), APT WIFI, Deep Packet Inspection, AV+Am, URL filtering, Stateful Inspection & more.
 
-#  Types of Firewall:
----------------------
+# Types of Firewall: [ https://networkinterview.com/perimeter-firewall-vs-internal-firewall/ ]
+=====================
  Firewalls are generally of two types
-     * Host- based Firewalls
-     * Network-based Firewalls
+        * Internet facing Firewall : 
+             Definition: It's An external firewall, also known as a perimeter firewall, Perimeter firewalls are external firewalls which are gateway to private networks as well as other public networks such as the Internet. 
+                         The external firewall monitors and protects the network from external malicious traffic, harmful programs, and intrusion attacks. 
+                         Perimeter firewalls come in a variety of capabilities like some are packet filtering firewalls they inspect contents of network packet and then allow/disallow based on access control lists.
+        
+        * Internal Firewall :
+             Definition: An internal firewall is a security solution designed to protect a network from attacks that have already gotten past the perimeter. 
+                         An internal firewall protects a network from attacks which have passed the perimeter by controlling network traffic between two internal devices such as workstations and servers. 
+                         An internal firewall has more complexity in terms of its application as a firewall and placed inside the internal network and employs a Zero Trust network access (ZTNA) to isolate insider attacks and reduce the impact of harm. 
+
+# Firewall Deployment Methods :
+===============================
+    Deploying a firewall involves implementing the firewall solution within a network to control and monitor incoming and outgoing network traffic based on predefined security rules. 
+    The specific deployment method depends on factors such as the type of firewall, network architecture, and security requirements. 
+    Here are common ways to deploy a firewall:
+    ------------------------------------------
+       Router/NAT/Layer3 Integration Mode :  This is internet purpose
+       Switch Mode or Layer2 Mode : This is Internal Purpose
+       Span or Mirror method : This is For POC.
+       High Availability Mode : This is For HA.
+
+ # Firewall Zones :
+ =================
+       * Trust or Internal
+       * DMZ or DMG
+       * Untrust or External or Plublic or internet or WAN.
+
+
+
+
