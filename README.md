@@ -59,6 +59,7 @@ cybersec-notes
 ![Screenshot 2024-02-13 201852](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/69012d39-5f13-4923-809b-90092b0dadbd)
 
 Based on How many Endpoints we have, Each and every end-user machine we should deploy the EDR and DLP agent.
+Licencing depends on Number of end-users, LAN bandwidth or Speed, Number of applications, Max number of sessions, Max num of VPN sessions * etc.
 
 # Cyber-Security-Class-11 :
 ===========================
