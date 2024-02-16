@@ -35,6 +35,20 @@ Firewall Class :
                   It has the ability to block specific content, also recognize when certain application and protocols (like HTTP, FTP) are being misused.
                   It will act as a Bridge or Gateway beetween end user machine and also to the targeted machine and based on the policies configured it will allow and deny the traffic.
 
+# FW or UTM (Unified threat management) :
+-----------------------------------------
+     Description: A firewall is a specific type of network security device or software that controls the flow of traffic based on predefined rules,
+                  Unified Threat Management (UTM) is a broader concept that involves integrating multiple security functionalities into a unified and cohesive solution. 
+                  It'll monitor inbound and outbound traffic based on the policies we configured either it'll allow the traffic or deny or block the traffic.
+     Features : It's a combination of Packet filtering + Circuit level Gateway + Statefull Inspection + App level Gateway + AV+AM scanning + Basic network DLP + IDS/IPS + URL filtering or Web filtering or Bright cloud url filtering.
+
+# Next-Generation Firewalls (NGFW) :
+------------------------------------
+     Description: Next Generation Firewalls are being deployed these days to stop modern security breaches like advance malware attacks and application-layer attacks. 
+                  NGFW consists of Deep Packet Inspection, Application Inspection, SSL/SSH inspection and many functionalities to protect the network from these modern threats.
+
+     Features : Advance Threat Prevention(ATP), APT WIFI, Deep Packet Inspection, AV+Am, URL filtering, Stateful Inspection & mo
+
 #  Types of Firewall:
 ---------------------
  Firewalls are generally of two types
