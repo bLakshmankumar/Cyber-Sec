@@ -106,8 +106,8 @@ Firewall Class :
 # Security Profiles : [ https://docs.fortinet.com/document/fortigate/7.4.0/best-practices/889496/security-profiles, https://docs.aws.amazon.com/connect/latest/adminguide/connect-security-profiles.html]
 =====================
      Security profiles are a fundamental component of the security infrastructure, playing a vital role in strengthening your network against a wide array of cyberthreats.
-     First we have to configure security profiles and Then we should implement on Firewall policies on inside the Policy & object option.
-     If we are not enable these security profiles then firewall will not block anything.
+     First we have to configure security profiles and Then we should implement these security profiles on Firewall policies/rules on inside the Policy & object option.
+     If we are not enable these security profiles then firewall will not allow/block anything.
 
      > Top Security Profiles :
      --------------------------
@@ -117,6 +117,6 @@ Firewall Class :
          * WIfI              * SSL/SSH Inspection
          * App Control       * IPS/IDS
          * WAF               * Video Filter
-      These all are the Security profiles we have to configure, After configuring these profiles We have to enble these on Policies.
+      These all are the Security profiles we have to configure, After configuring these profiles We have to enble these on Policies/rules on Policy & objects option.
 
 
