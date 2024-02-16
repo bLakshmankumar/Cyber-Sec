@@ -74,3 +74,13 @@ Licencing depends on Number of end-users, LAN bandwidth or Speed, Number of appl
 
 # We Will deploy Detection/Monitoring agents to Each and every Endpoint(end-user machine) with required policies and ports, Then the agent will start Detect the issues based on this agent backend methods/Policies.
 
+
+#  Cyber-Security-Class-12 :
+===========================
+   # >  Security Profiles : 
+   
+![Screenshot 2024-02-16 200405](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/ea90cf42-7370-4322-b474-4f6776e1a110)
+
+ # Security profiles refer to a set of security measures or configurations that are applied to network traffic or specific devices to enhance cybersecurity. 
+
+
