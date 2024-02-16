@@ -81,6 +81,7 @@ Licencing depends on Number of end-users, LAN bandwidth or Speed, Number of appl
    
 ![Screenshot 2024-02-16 200405](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/ea90cf42-7370-4322-b474-4f6776e1a110)
 
+ # First we have to configure security profiles and Then we should implement on Firewall policies
  # Security profiles refer to a set of security measures or configurations that are applied to network traffic or specific devices to enhance cybersecurity. 
 
 
