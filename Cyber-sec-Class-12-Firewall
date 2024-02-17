@@ -119,4 +119,27 @@ Firewall Class :
          * WAF               * Video Filter
       These all are the Security profiles we have to configure, After configuring these profiles We have to enble these on Policies/rules on Policy & objects option.
 
+# Firewall Policies & Rules :
+=============================
+       This Firewall Policy Validation is follows Top-Bottom or Top-Down approach.
+          What is Mean by Top-Bottom or Top-Down approach :
+          -------------------------------------------------
+             Whenever any request/packet is coming either as a inbound traffic or outbound traffic, security firewall validate that packet is satisfying the rules one by one from top to down rules, if the request packet is stisfying the rules then it'll allow the request.
+             By default all traffic will be deny when we purchase a Security firewall.
+         
+          Conigure a Firewall Policy : 
+          ----------------------------
+             Here first we have to configure our business related rules based on requirment. and last we can choose the implisit deny rule(default-rule).
+             If You want to block the entire application access (ex: www.facebookk.com) then we no need to configure any security-profiles, because we totally blcok that application on organization level, if someone try to access from org laptop it won't access so the employee can't perform any action.
+            
+           Rule ID,      Rule Name,                    SourceZone,           DestinationZone,    S.IP,    D.IP    SourceUser,  DestinUser,       Port, Protocal,  Application,         SecurityProfile,   Action,                        Log
+               1      Blocking of Facebook         Trust(employee laptop)     Untrust/External    any      any       any          any             443    https     Bittorento                 -            BLOCK        no need to config anything related to log
+               2      Blocking Phishing Email       Untrust zone(attacker)     Trust Zone        1.1.1.1   any       any      Internal-employee   25     smtp        Email                    -            BLOCK 
+               3      Allowing Social nw websites   Trust(employee laptop)     Untrust Zone        any     any       any          any             443    https     Social Media Category  Enable-all prof  ALLOW   
+
+         Explination :
+         =============
+             1 > In 1st scenario we want to block the facebook app/web to the internal employees/endusers, So whenever internal employee type facebok.com on his laptop, browser will not accessable, bcs we block the application on firewall.
+             2 > In 2nd scenario attacker was sent a phishing email to internal employee so after investigation as a temporary fix we block that attacker ip/ also will block the all other source ip's/source users for block other phiching attackers to protect all employess(D.Ip).
+             3 > In 3rd scenario we want to allow the social media networks to internal employees, whenever employee trying to access the youtube.com,linkdin he can able to access, so we allow access by configurig the All Security profiles.
 
