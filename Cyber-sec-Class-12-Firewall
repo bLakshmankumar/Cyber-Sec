@@ -192,6 +192,9 @@ Firewall Class :
          > While Performing the Server Upgardations, First we should break the primary and secondary connection, Then we should upgrade the primary server, Once Primary server uupgarded to latest version Then we should validating the service availability & performance for 2 days.
            Once everything is working as we expected after upgrading the primary firewall, Then only we should Upgrade the secondary firewall to the latest version.
          > If we dissconnect the cable/connection while upgrading the primary server, Then the secondary server will automatically act as a primary server.
+ 
+* Steps taken Before upgrading the Firewall version in simply :
+--------------------------------------------------------------- 
      * Disconnect the both firewall and High availability.
      * Make secondary firewall as primary and continue the business operations.
      * Upgrade the Disconnected firewall to latest version.
