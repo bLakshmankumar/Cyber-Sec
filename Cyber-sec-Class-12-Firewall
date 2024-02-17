@@ -172,7 +172,16 @@ Firewall Class :
               Firewall model numbers should be same on both Primary and secondary servers.
             * Both Firewall Model numbers should be same.
             * Both Firewall firm Versions should be same.
+    
+   NOTE : > How Firewall knows which one is primary server and which one is the secondary server ?
+   ------------------------------------------------------------------------------------------------
+            * Based on the Election settings firewall will act as a primary and secondary.
 
+          > What is mean by election settings ?
+          -------------------------------------
+             In the context of firewall High Availability (HA), the term "election settings" typically refers to the mechanism used by the HA cluster to determine which firewall unit will take on the active or primary role and which will act as the standby or secondary unit. 
+             The election process involves a set of criteria or parameters that help the firewalls in the cluster make a decision on which unit should be the active one. 
+             Alway Primary firewall score or election is greater than the secondary.
 
 # Firewall Upgrade :
 ====================
