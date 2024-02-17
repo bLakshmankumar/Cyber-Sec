@@ -189,10 +189,15 @@ Firewall Class :
      Frequent upgrades of firewalls are essential in cybersecurity to ensure ongoing protection against evolving threats and vulnerabilities. 
      Cyber adversaries constantly develop new attack techniques, exploits, and malware, requiring firewall vendors to release updates and patches to address these emerging risks.
      Ex: 7.1.1 to 7.1.2 (Major.Minor.Patch).
-     > While Performing the Server Upgardations, First we should break the primary and secondary connection, Then we should upgrade the primary server, Once Primary server uupgarded to latest version Then we should validating the service availability & performance for 2 days.
-     * Once everything is working as we expected after upgrading the primary firewall, Then only we should Upgrade the secondary firewall to the latest version.
-     > If we dissconnect the cable/connection while upgrading the primary server, Then the secondary server will automatically act as a primary server.
-
+         > While Performing the Server Upgardations, First we should break the primary and secondary connection, Then we should upgrade the primary server, Once Primary server uupgarded to latest version Then we should validating the service availability & performance for 2 days.
+           Once everything is working as we expected after upgrading the primary firewall, Then only we should Upgrade the secondary firewall to the latest version.
+         > If we dissconnect the cable/connection while upgrading the primary server, Then the secondary server will automatically act as a primary server.
+     * Disconnect the both firewall and High availability.
+     * Make secondary firewall as primary and continue the business operations.
+     * Upgrade the Disconnected firewall to latest version.
+     * Monitor the upgrded firewall for one or two days to verify performance related issues and also apllication compatability issues.
+     * Once everything working as expected then start upgrade the secondary firewall.
+     * Bringing it Back to HA.
 
 # What should we do if both HA servers were went down :
 =======================================================
