@@ -149,4 +149,19 @@ Firewall Class :
                         The rule was satisfied on 3rd step itself, so it won't go to 4th step to block. bcs the security fire-wall rule is following the top down approach.
             *5 > Implisit Deny is a default firewall rule, we should place this rule on bottom of the policies list only, bcs if we update this default policy on top, while any request is come it'll deny the access by default as it's following the Top Down approach.
 
-                    
+# High Availablity :
+====================
+     The primary goal of implementing high availability is to minimize downtime and ensure continuous service availability, especially for critical systems and services.
+     For HA Org Maintain Two seperate machines with same Configurations. If one server/machine will compromise by attacker, we can bring up our serveice by using other servers.
+     
+     Here we maintain two different servers :
+     -----------------------------------------
+       1) Primary/active Server            2) Secondary/Passive/backup server
+     Note: Please refer the NW Arch Diagram, On the network Architecture diagram where we can configure the HA.
+
+    > If we want to maintain HA between two different types of firewalls what are the types of conditions we have to follow :
+    -------------------------------------------------------------------------------------------------------------------------
+            * Both Primary and Secondary Servers/Firewall models and configurations Should be the same, If we choose both are different models it won't support for HA, bcs dependencies and configuations or different.
+              Firewall model numbers should be same on both Primary and secondary servers.
+            
+         
