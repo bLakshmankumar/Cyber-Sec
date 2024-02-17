@@ -89,7 +89,14 @@ Licencing depends on Number of end-users, LAN bandwidth or Speed, Number of appl
 
  # High-Availabilty-setup(HA):
  # ===========================
+ # We can set the primary and secondary firewall by providing the Device Priority.
+ 
  ![Screenshot 2024-02-17 192005](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/36ae4ca7-d746-459c-9d3b-293593c1ca8f)
+
+ ![Screenshot 2024-02-17 192301](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/8437ac6c-8c06-482c-a920-566129e7fb74)
+
+ # Note : Primary server Device priority should be higher than Secondary firewall server. 
+ 
  
 
 
