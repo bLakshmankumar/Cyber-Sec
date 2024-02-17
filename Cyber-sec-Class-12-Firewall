@@ -189,4 +189,7 @@ Firewall Class :
      Frequent upgrades of firewalls are essential in cybersecurity to ensure ongoing protection against evolving threats and vulnerabilities. 
      Cyber adversaries constantly develop new attack techniques, exploits, and malware, requiring firewall vendors to release updates and patches to address these emerging risks.
      Ex: 7.1.1 to 7.1.2 (Major.Minor.Patch).
+     > While Performing the Server Upgardations, First we should break the primary and secondary connection, Then we should upgrade one afetr one then re-establish the cable/connection, Then validating the service stability.
+
+       
          
