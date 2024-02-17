@@ -87,4 +87,9 @@ Licencing depends on Number of end-users, LAN bandwidth or Speed, Number of appl
  # If we are not enable these security profiles then firewall will not block anything.
  # Security profiles refer to a set of security measures or configurations that are applied to network traffic or specific devices to enhance cybersecurity. 
 
+ # High-Availabilty-setup(HA):
+ # ===========================
+ ![Screenshot 2024-02-17 192005](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/36ae4ca7-d746-459c-9d3b-293593c1ca8f)
+ 
+
 
