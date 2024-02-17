@@ -193,5 +193,13 @@ Firewall Class :
      * Once everything is working as we expected after upgrading the primary firewall, Then only we should Upgrade the secondary firewall to the latest version.
      > If we dissconnect the cable/connection while upgrading the primary server, Then the secondary server will automatically act as a primary server.
 
-       
+
+# What if both HA servers were went down :
+==========================================
+     * Handling a situation where both High Availability (HA) servers have gone down requires careful planning and consideration of disaster recovery measures.
+     * Determine whether the issue is with the servers themselves, the network, or other infrastructure components.
+     * Establish clear communication channels to keep relevant stakeholders informed about the situation.
+     * Identify the root cause of the simultaneous failure. This may involve examining logs, monitoring systems, and conducting a post-mortem analysis to understand what happened.
+     * If the primary High Availability servers are unrecoverable, activate the organization's Disaster Recovery (DR) plan. This may involve promoting backup servers, shifting operations to a secondary data center, or utilizing cloud-based resources.
+     * Restore from Backups:  If data is intact, initiate the process of restoring services from backups. This may involve reinstalling applications, configurations, and databases to bring systems back to a functional state.
          
