@@ -87,6 +87,13 @@ Firewall Class :
     * SonicWall Firewall  * WatchGuard Firewall 
     * Sophos Firewall     * Azure Firewall & more.
 
+# Firewall Licencing : (Licencing is ntg but a buying a product from vendor, These below are the different products that we can configure for our application security & etc).
+======================
+    * AV                  * DLP
+    * IPS                 * URL Filtering 
+    * Wifi                * Premium Support with vendor
+    * AP(Access Points)   * APP Controls
+
 
 # Network Address Translation (NAT) : [ https://www.geeksforgeeks.org/network-address-translation-nat/ ]
 ========================================================================================================
@@ -163,5 +170,14 @@ Firewall Class :
     -------------------------------------------------------------------------------------------------------------------------
             * Both Primary and Secondary Servers/Firewall models and configurations Should be the same, If we choose both are different models it won't support for HA, bcs dependencies and configuations or different.
               Firewall model numbers should be same on both Primary and secondary servers.
-            
+            * Both Firewall Model numbers should be same.
+            * Both Firewall firm Versions should be same.
+
+
+# Firewall Upgrade :
+====================
+     Regular firewall updates provide crucial patches, enhancements, and new features that strengthen defense mechanisms, ensuring the organization's resilience against emerging cyber risks.
+     Frequent upgrades of firewalls are essential in cybersecurity to ensure ongoing protection against evolving threats and vulnerabilities. 
+     Cyber adversaries constantly develop new attack techniques, exploits, and malware, requiring firewall vendors to release updates and patches to address these emerging risks.
+     Ex: 7.1.1 to 7.1.2 (Major.Minor.Patch).
          
