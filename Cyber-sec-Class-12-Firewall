@@ -322,10 +322,14 @@ Notes :
        ---------------
            Loginto any one Firewall or vpn logs or Network logs or Proxy logs or NIDS/NIPS or Loadbalancer
          (if you want to integrate the firewall loginto firewall, if you want to interate vpn loginto vpn, if you want to interateLB loginto Loadbalancer). 
-           Go to Logs settings tab
-           Clcik on syslog server
-           Then do below configuration
-                 SIEM-Tool-Name   SIEM-Tool-Ip-address  SIEM-Tool-Hostname   Protocal      Port     Logformat
-                    Splunk           
+          Below configurattions steps are for Firewall 
+             Go to Logs settings tab
+             Clcik on syslog server
+             Then do below configuration
+                      SIEM-Tool-Name   SIEM-Tool-Ip-address  SIEM-Tool-Hostname   Protocal         Port                Logforma
+Example SIEM Tool:      Splunk          Splunk-server-Ip      splunk.com          TCP/UDP     514(syslogportnum)     BSD, CSV, XML   
+ Note : SIEM to can't understand Different types of log formates so SIEM tool will convert all types of log formates into Common event format(CEF).
+ Note : If we are not getting logs on splunk After configuring the logs with SIEM tool, We should do the *Packet capturing(PC)* by using Wireshark Tool.
+         WireShark tool will do the network traffic analysis.
 
-
+     3) EDR will not support syslog server method, it supports only API Token management method. We have to generate api token then we have to Goto SIEM Tool and configure that api token.
