@@ -249,7 +249,7 @@ Firewall, NAT, VPN :
                          Provides a user interface for configuring connection settings and managing the VPN connection.
                       Example: Cisco AnyConnect, OpenVPN client, Microsoft VPN client.
     
-                  * VPN Portal : A VPN portal, also known as a WebVPN or SSL VPN portal, is a web-based interface that allows users to access the VPN services through a web browser.
+                  * VPN Portal : A VPN portal, also known as a WebVPN or SSL VPN portal, is a web-based interface that allows users to access the VPN services through a web browser. It contains the list of the Gateways or Routers Information.
                       Functionality:
                          Users log in to the VPN portal using a web browser.
                          The portal provides a gateway to various VPN services and resources.
