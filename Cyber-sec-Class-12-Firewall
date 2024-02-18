@@ -270,3 +270,43 @@ Firewall, NAT, VPN :
                          Hardware VPN Gateway: Dedicated hardware devices designed to handle VPN connections.
                          Software VPN Gateway: Software-based solutions running on general-purpose servers or appliances.
                       Example: Cisco ASA (Adaptive Security Appliance), Juniper Networks SRX Series, OpenVPN Server.
+
+          2. Site-to-site VPN : [https://www.paloaltonetworks.com/cyberpedia/what-is-a-site-to-site-vpn]
+          ---------------------
+            A site-to-site virtual private network (VPN) is a connection between two or more networks, such as a corporate network and a branch office network. 
+            Many organizations use site-to-site VPNs to leverage an internet connection for private traffic as an alternative to using private MPLS circuits.
+            Site-to-site VPNs are frequently used by companies with multiple offices in different geographic locations that need to access and use the corporate network on an ongoing basis. 
+            With a site-to-site VPN, a company can securely connect its corporate network with its remote offices to communicate and share resources with them as a single network.
+        
+             The backend process of how Site-to-Site VPNs work involves several key steps:
+
+               1. Identification and Authentication:
+                   Initiation: The VPN connection is initiated by one of the participating sites (usually the client or headquarters).
+                   Authentication: The initiating site sends an authentication request to the remote site. Authentication ensures that the sites are authorized to communicate with each other.
+               2. Tunnel Establishment:
+                   Tunnel Setup: Once authenticated, a secure tunnel is established between the two sites. This tunnel is the encrypted pathway through which data will be transmitted.
+                   Encryption: The data passing through the tunnel is encrypted to ensure confidentiality. Common encryption protocols used in Site-to-Site VPNs include IPsec (Internet Protocol Security).
+               3. Routing and Traffic Forwarding:
+                   Routing Configuration: Routing configurations are set up to define how traffic between the two sites should be directed. This includes specifying which subnets or IP ranges are accessible through the VPN.
+                   Traffic Forwarding: When a device at one site wants to communicate with a device at the other site, the traffic is encapsulated in the encrypted tunnel and forwarded through the internet.
+               4. Data Transmission:
+                   Data Transfer: Encrypted data packets are transmitted between the sites through the established tunnel. The data remains confidential and secure during transit.
+               5. Decryption and Delivery:
+                   Decryption: Upon reaching the destination site, the encrypted data packets are decrypted using the agreed-upon encryption keys.
+                   Delivery to Destination: The decrypted data is then delivered to the destination network or device within the receiving site.
+               6. Continuous Monitoring and Management:
+                   Monitoring: Continuous monitoring of the VPN connection is performed to ensure its health and reliability. This includes tracking the status of the tunnel, monitoring network performance, and detecting any potential issues.
+                   Management and Configuration: VPN settings, such as encryption algorithms and authentication methods, are regularly managed and configured as needed. Any changes to network infrastructure or security policies may require adjustments to the VPN configuration.
+
+# Firewall Based VPN vendors/tools :
+====================================
+     There are so many vendors are available in the market, here we can discuss few of the venders and their agents.
+          Vender Name                                  Agent(Agents we should deploy on each and every enduser/employee machines).
+           Fortigate                                      Forti Client
+           Palo alto                                      Global Protect
+           Cisco                                          Any Connect
+           Juniper                                        Pulse Secure
+
+# Dedicated VPN vendors/tools :
+===============================
+     Zscaler,   Akamai,   Citrix,  Pulse Secure.
