@@ -210,4 +210,9 @@ Firewall Class :
      * Identify the root cause of the simultaneous failure. This may involve examining logs, monitoring systems, and conducting a post-mortem analysis to understand what happened.
      * If the primary High Availability servers are unrecoverable, activate the organization's Disaster Recovery (DR) plan. This may involve promoting backup servers, shifting operations to a secondary data center, or utilizing cloud-based resources.
      * Restore from Backups:  If data is intact, initiate the process of restoring services from backups. This may involve reinstalling applications, configurations, and databases to bring systems back to a functional state.
-         
+
+# What is VPN [Virtual Private Network] : [ https://www.fortinet.com/resources/cyberglossary/what-is-a-vpn, https://www.kaspersky.com/resource-center/definitions/what-is-a-vpn]
+=========================================
+     VPN stands for "Virtual Private Network" and describes the opportunity to establish a protected network connection when using a public networks. VPNs encrypt your internet traffic and disguise your online identity. 
+     This makes it more difficult for third parties to track your activities online and steal data. The encryption takes place in real time.
+
