@@ -318,5 +318,14 @@ Notes :
 
    2) How can we intigratefirewall logs, VPN logs, Network logs, Proxy logs, NIDS/NIPS, Loadbalancer to SIEM tool ? 
          By using Syslog server method we can intigrate firewall logs, VPN logs, Network logs, Proxy logs, NIDS/NIPS, Loadbalancer to SIEM tool.
+       Practical steps:
+       ---------------
+           Loginto any one Firewall or vpn logs or Network logs or Proxy logs or NIDS/NIPS or Loadbalancer
+         (if you want to integrate the firewall loginto firewall, if you want to interate vpn loginto vpn, if you want to interateLB loginto Loadbalancer). 
+           Go to settings tab
+           Clcik on syslog server
+           Then do below configuration
+                 SIEM-Tool-Name   SIEM-Tool-Ip-address  SIEM-Tool-Hostname   Protocal      Port     Logformat
+                    Splunk 
 
 
