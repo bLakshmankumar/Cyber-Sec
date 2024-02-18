@@ -213,8 +213,60 @@ Firewall, NAT, VPN :
 
 # What is VPN [Virtual Private Network] : [ https://www.fortinet.com/resources/cyberglossary/what-is-a-vpn, https://www.kaspersky.com/resource-center/definitions/what-is-a-vpn]
 =========================================
-     VPN stands for "Virtual Private Network" and describes the opportunity to establish a protected network connection when using a public networks. VPNs encrypt your internet traffic and disguise your online identity. 
+     VPN stands for "Virtual Private Network" and describes the opportunity to establish a protected network connection when using a public networks. VPNs encrypt the internet traffic and disguise our online identity. 
      This makes it more difficult for third parties to track your activities online and steal data. The encryption takes place in real time.
+     VPN server or firewall uses the selfsighned certificate or Purchased CA. Certificate will be exchanged between firewall or vpn server to enduser machine(employee machine).
+
+   > How VPN Works in Bakend :
+    --------------------------
+       * Encryption:      When a user connects to a VPN, the data is encrypted before it travels over the internet. This encryption ensures that even if intercepted, the data remains secure and unreadable without the proper decryption key.
+       * Tunneling:       VPNs use a process called tunneling to encapsulate the data in a secure "tunnel" as it traverses the internet. This prevents unauthorized access and protects the data from potential threats.
+       * Authentication:  Users or devices connecting to the VPN must undergo an authentication process to verify their identity. This is typically done through usernames, passwords, or more secure methods like digital certificates.
+       * Secure Connection: Once authenticated, the user establishes a secure connection to the VPN server. This connection can be initiated using various protocols, each offering different levels of security and functionality.
+   
+   > VPN Port and Protocal :
+   --------------------------
+       * Port num of VPN = 500
+       * Protocal of VPN = IPsec(Internet protocal security).
 
    > Types of VPN : [ https://www.paloaltonetworks.com/cyberpedia/types-of-vpn ] 
    ================
+       There are two main types of VPN that people can use to securely connect to corporate networks. 
+          1. Remote Access VPN
+          2. Site-to-site VPN
+       > Explination :
+       ---------------
+          1. Remote Access VPN :
+          ----------------------
+          Allows individual users to connect to a private network from a remote location over the internet. Commonly used for remote workers accessing corporate resources.     
+             Remote Access VPN Contains Different Componenets those are : 
+               In a Remote Access VPN setup, several components work together to enable secure and private communication for remote users connecting to a corporate network. 
+                  * VPN Client : A VPN client is a software application or program installed on the device of a remote user/end user machine (such as a laptop, desktop, or mobile device). 
+                                 This software allows the user's device to establish a secure connection to the corporate network or VPN gateway.
+                      Functionality:
+                         The VPN client initiates the VPN connection.
+                         It handles the encryption and encapsulation of data before sending it over the internet.
+                         Provides a user interface for configuring connection settings and managing the VPN connection.
+                      Example: Cisco AnyConnect, OpenVPN client, Microsoft VPN client.
+    
+                  * VPN Portal : A VPN portal, also known as a WebVPN or SSL VPN portal, is a web-based interface that allows users to access the VPN services through a web browser.
+                      Functionality:
+                         Users log in to the VPN portal using a web browser.
+                         The portal provides a gateway to various VPN services and resources.
+                         Users may have access to a range of applications, files, and other network resources through the portal.
+                      Advantages :
+                         No need to install a dedicated VPN client on the user's device.
+                         Accessible from any device with a web browser.
+                         Simplifies user access to VPN services.
+                      Example: Cisco WebVPN, Juniper SSL VPN, Palo Alto Networks GlobalProtect.
+                  
+                  * VPN Gateway : A VPN gateway, also known as a VPN concentrator or VPN server, is the central component that manages and establishes secure connections between remote users and the corporate network.
+                      Functionality:
+                         Receives connection requests from VPN clients.
+                         Authenticates users and establishes a secure tunnel for data transmission.
+                         Routes encrypted traffic between remote users and the internal network.
+                         Manages encryption, decryption, and other security-related functions.
+                      Types:
+                         Hardware VPN Gateway: Dedicated hardware devices designed to handle VPN connections.
+                         Software VPN Gateway: Software-based solutions running on general-purpose servers or appliances.
+                      Example: Cisco ASA (Adaptive Security Appliance), Juniper Networks SRX Series, OpenVPN Server.
