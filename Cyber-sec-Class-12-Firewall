@@ -310,3 +310,10 @@ Firewall, NAT, VPN :
 # Dedicated VPN vendors/tools :
 ===============================
      Zscaler,   Akamai,   Citrix,  Pulse Secure.
+
+
+Notes : 
+=======
+   Which tool we use to intigrate the VPN Logs  :   SIEM Tool
+
+   How can we intigrate firewall logs or VPN logs or Network logs or Proxy logs to SIEM tool : By using Syslog server method we can intigrate firewall logs or VPN logs or Network logs or Proxy logs to SIEM tool.
