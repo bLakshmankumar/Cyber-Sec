@@ -9,7 +9,7 @@ cybersec-notes
  [https://github.com/bLakshmankumar/cyber-sec/blob/main/Cyber-Sec-Class-9-NW-Architecture]
  
 
-![Screenshot 2024-02-19 212742](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/6f484b28-7f49-4655-8c06-f6ae78491730)
+![Screenshot 2024-02-19 214556](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/467ff04c-4fd7-4df3-8e81-d49153369cdd)
 
 
 # NOTE : Access switches(AS) primarily connect end-user(Employee) devices, such as computers, printers, phones, to the local network. 
