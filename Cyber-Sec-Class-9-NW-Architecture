@@ -77,3 +77,39 @@ NOTE : SIEM TOol : To monitor all of the network level(all applications, all DB'
     A DMG file is a disk image file format used on macOS. It contains the contents and structure of a disk or storage device and is often used for distributing software or creating backups on Mac computers.
     When a DMG file is opened, it typically mounts as a virtual disk on the user's system, allowing them to access the files within.
     DMG files may be encrypted for added security, and they are commonly used for packaging macOS applications.
+
+
+
+# What is Access Switch & Core Switch :
+# ===================================== 
+     In a networking context, access switches and core switches serve different roles within a network infrastructure. Here's a simple explanation :
+     Access Switch:
+     --------------
+       Role: Access switches primarily connect end-user devices, such as computers, printers, and IP phones, to the local network.
+       Functionality: They provide connectivity at the network edge, delivering network access to devices within a specific physical location or network segment.
+       Features: Access switches often include features like Power over Ethernet (PoE) for powering connected devices, VLAN support for network segmentation, and basic Layer 2 switching capabilities.
+       Example Scenario: In an office building, access switches connect individual workstations, printers, and other devices to the local network.
+
+     Core Switch:
+     ------------
+       Role: Core switches, also known as backbone switches, form the central part of the network and facilitate communication between different parts of the network.
+       Functionality: They handle high-speed data traffic between various access switches and other core devices, such as routers and servers.
+       Features: Core switches are designed for high performance, low latency, and often support advanced routing and switching features. They provide the backbone for data transfer within the network.
+       Example Scenario: In a large enterprise network, core switches interconnect different departments or buildings, allowing for efficient data exchange between various parts of the organization.
+
+     In Summary:
+     -----------
+       Access Switch: Connects end-user devices to the local network, providing network access within a specific area or segment.
+       Core Switch: Forms the central part of the network, facilitating high-speed data traffic between various access switches and other core devices, ensuring efficient communication across the entire network.
+       Both access switches and core switches are integral components of a network, working together to enable effective and scalable communication within an organization. 
+       Access switches handle local connections, while core switches manage the backbone infrastructure, ensuring smooth data transfer across the entire network.
+
+# NIDS/NIPS : [ more information available on 
+=============
+      * NIDS focuses on network-level detection and alerting.
+      * NIPS adds active prevention capabilities at the network level.
+
+# Proxy (web gateway):
+----------------------
+         Role: A proxy server serves as a gateway or intermediary device between client devices and the internet.
+         Purpose: It helps control, secure, and optimize network traffic by managing the flow of information between clients and servers.
