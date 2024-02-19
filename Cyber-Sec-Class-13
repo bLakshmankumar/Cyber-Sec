@@ -21,7 +21,7 @@ It's continuetion class for Class-12-firewall: Concepts are PROXY or WEB-GATEWAY
 
   Explination :
   -------------
-     * Forward Prox :
+     * Forward Proxy :
      -----------------
      A forward proxy, also known as a regular proxy, is a server that sits between client devices (such as computers or smartphones) and the internet. 
      It serves as an intermediary that forwards requests from clients to the internet and returns the responses to clients. 
