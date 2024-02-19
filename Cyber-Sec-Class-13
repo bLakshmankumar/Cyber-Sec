@@ -79,6 +79,8 @@ It's continuetion class for Class-12-firewall: Here we discussing about the PROX
      Go to Settings Tab
      Click on syslog Server
      Then do below Configuration
+                     SIEM-Tool-Name   SIEM-Tool-Ip-address  SIEM-Tool-Hostname   Protocal         Port                Logformat
+ Example SIEM Tool:      Splunk          Splunk-server-Ip      splunk.com          TCP/UDP     514(syslogportnum)     BSD, CSV, XML 
 
 
 Note :
