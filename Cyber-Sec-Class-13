@@ -26,6 +26,8 @@ It's continuetion class for Class-12-firewall: Concepts are PROXY or WEB-GATEWAY
      A forward proxy, also known as a regular proxy, is a server that sits between client devices (such as computers or smartphones) and the internet. 
      It serves as an intermediary that forwards requests from clients to the internet and returns the responses to clients. 
      Forward proxies are commonly used to control access, enhance privacy, and optimize internet usage within an organization.
+     Simply : When the internal users(employees) trying to access external hosted applications called as forward proxy.
+     Example : Internal employee trying to access the google.com or fb.com or twitter.com
   
      Example Scenario:
      -----------------
