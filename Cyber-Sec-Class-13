@@ -140,6 +140,17 @@ It's continuetion class for Class-12-firewall: Here we discussing about the PROX
        HIPS adds active prevention capabilities at the host level.
        NIPS adds active prevention capabilities at the network level.
 
+    # How to purchase NIDS & NIPS Licencing :
+    ---------------------------------------
+       Purchase the licensing based on these below use-cases
+          * LAN BW or Speed
+          * Netflow data information
+          * Total Number of Users
+          * Total Number of Sessions
+
+    # How to deploy NIDS and NIPS :
+    -------------------------------
+         Deploy NIDS/NIPS by usning SPAN or Mirror Method. We deploy NIDS and NIPS inbeetween CS(core switch and Proxy).
  Note :
  ======
   > Which tool we can using to block the attacker IP-address ? on which tool ?
