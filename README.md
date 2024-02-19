@@ -18,6 +18,9 @@ cybersec-notes
 # Note : We can deploy n-number of NIDS/NIPS based on Traffic,  We can call like nx1 nx2 and etc.
 
 
+
+
+
 # Cyber-Security-Class-10 :
 ===========================
 # Cyber kill chain process :
