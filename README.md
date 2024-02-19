@@ -10,6 +10,9 @@ cybersec-notes
  
 ![Screenshot 2024-02-04 021244](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/621c3783-145f-4fda-ad71-6acc7939e4b1)  
 
+# NOTE : Access switches(AS) primarily connect end-user(Employee) devices, such as computers, printers, phones, to the local network. 
+#        CoreSwitch(CS) contains Entrire Organization of the Traffic.
+
 # Cyber-Security-Class-10 :
 ===========================
 # Cyber kill chain process :
