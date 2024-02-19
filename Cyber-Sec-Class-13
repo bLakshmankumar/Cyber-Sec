@@ -56,20 +56,52 @@ It's continuetion class for Class-12-firewall: Concepts are PROXY or WEB-GATEWAY
      > Max num of sessions
      > Max num of concurrent sessions
 
+# Tools :
+========
+  Here are the couple of proxy servers :
+     > ZSCALAR
+     > Open DNS - CISCO
+     > AKAMAI
+     > Citrix
+     > Fortinet
+
+# Detection methods of proxy :
+===============================
+    1) Signature based   : Here EDR will allow or deny based on the signature matching.
+    2) ML or Deep Learning or AI : By using this method it'll alert or allow or Block.
+
+# How to intigrate Proxy logs to SIEM tool :
+============================================
+    By using syslog-server method we can intigrate proxy logs to SIEM Tool.
 
 Note :
 ======
-  > Where we can block the attacker IP-address ? on which tool ?
-  --------------------------------------------------------------
-       We can block the IP address on Firewall tool.
+  > Which tool we can using to block the attacker IP-address ? on which tool ?
+  ------------------------------------------------------------------------------
+    We can block the IP address by using Firewall tool.
 
-  > Where we can block the attacker Web Url ? on which tool ?
-  ------------------------------------------------------------
-    We can block the attacker Web Url on Web Proxy, NGFW, EDR tool.
+  > Which tool we can using to block the attacker Web Url ?
+  ----------------------------------------------------------
+    We can block the attacker Web Url by using Web Proxy, NGFW, EDR tool.
  
-  > Where we can Blocking or Port Number or allowing port number ?
-  ----------------------------------------------------------------
-    We can Blocking or Port Number or allowing port number on Firewall tool.
-    
-     
+  > Which tool we can using to Blocking or Port Number or allowing port number ?
+  ------------------------------------------------------------------------------
+    We can Block Port Number or allowing port number by using Firewall tool.
+
+  > Which tool we can using to block the hash value ?
+  ---------------------------------------------------
+    Every file or passwrd has the unique hash values, We can block the suspicious Hash values by using EDR tool.
+
+  > Which tool we can using to block the Domain name ?
+  ---------------------------------------------------
+    We can Block Domain name by using Proxy or DNS or Firewall.
+
+  > Where we should deploy the proxy ?
+  ------------------------------------
+    Should deploy the proxy In Between NIDS/NIPS and FW by using inline or promiscous Method.
+
+  > Detection methods of suspicious activity :
+  --------------------------------------------
+    1) Signature based   : Here EDR will allow or deny based on the signature matching.
+    2) ML or Deep Learning or AI : By using this method it'll alert or allow or Block.
      
