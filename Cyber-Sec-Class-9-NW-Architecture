@@ -73,11 +73,11 @@ NOTE : SIEM TOol : To monitor all of the network level(all applications, all DB'
     In the context of computer networking and cybersecurity, a DMZ refers to a network segment that is isolated and positioned between an organization's internal network (intranet) and an external network, typically the internet.
     The DMZ is designed to host services that need to be accessible from both the internal and external networks, such as web servers, email servers, or public-facing applications.
     The purpose of a DMZ is to enhance security by segregating external-facing services from the internal network, minimizing the potential impact of security breaches.
+
  DMG (Disk Image):
     A DMG file is a disk image file format used on macOS. It contains the contents and structure of a disk or storage device and is often used for distributing software or creating backups on Mac computers.
     When a DMG file is opened, it typically mounts as a virtual disk on the user's system, allowing them to access the files within.
     DMG files may be encrypted for added security, and they are commonly used for packaging macOS applications.
-
 
 
 # What is Access Switch & Core Switch :
@@ -104,12 +104,12 @@ NOTE : SIEM TOol : To monitor all of the network level(all applications, all DB'
        Both access switches and core switches are integral components of a network, working together to enable effective and scalable communication within an organization. 
        Access switches handle local connections, while core switches manage the backbone infrastructure, ensuring smooth data transfer across the entire network.
 
-# NIDS/NIPS : [ more information available on 
+# NIDS/NIPS : [ More information available on Cyber-sec-class-13 ]
 =============
       * NIDS focuses on network-level detection and alerting.
       * NIPS adds active prevention capabilities at the network level.
 
-# Proxy (web gateway):
+# Proxy (web gateway): [ More information available on Cyber-sec-class-13 ]
 ----------------------
          Role: A proxy server serves as a gateway or intermediary device between client devices and the internet.
          Purpose: It helps control, secure, and optimize network traffic by managing the flow of information between clients and servers.
