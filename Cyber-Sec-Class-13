@@ -73,6 +73,13 @@ It's continuetion class for Class-12-firewall: Here we discussing about the PROX
 # How to intigrate Proxy logs to SIEM tool :
 ============================================
     By using syslog-server method we can intigrate proxy logs to SIEM Tool.
+    Steps:
+    ------
+     Loginto Proxy Tool server
+     Go to Settings Tab
+     Click on syslog Server
+     Then do below Configuration
+
 
 Note :
 ======
