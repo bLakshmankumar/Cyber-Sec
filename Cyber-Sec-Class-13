@@ -46,4 +46,30 @@ It's continuetion class for Class-12-firewall: Concepts are PROXY or WEB-GATEWAY
      -----------------
      Consider a scenario where a company hosts multiple web servers behind a reverse proxy. The reverse proxy distributes incoming requests among the web servers, providing load balancing(like nginx). 
      It also serves as a security layer, hiding the internal web servers' details and protecting them from direct exposure to the internet.
+
+# Licencing :
+=============
+   How many num of end-users :
+   ---------------------------
+     > How many num of applications or websites or URL's
+     > How many num of concurrent applications can be accessess
+     > Max num of sessions
+     > Max num of concurrent sessions
+
+
+Note :
+======
+  > Where we can block the attacker IP-address ? on which tool ?
+  --------------------------------------------------------------
+       We can block the IP address on Firewall tool.
+
+  > Where we can block the attacker Web Url ? on which tool ?
+  ------------------------------------------------------------
+    We can block the attacker Web Url on Web Proxy, NGFW, EDR tool.
+ 
+  > Where we can Blocking or Port Number or allowing port number ?
+  ----------------------------------------------------------------
+    We can Blocking or Port Number or allowing port number on Firewall tool.
+    
+     
      
