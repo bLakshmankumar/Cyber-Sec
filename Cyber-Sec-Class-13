@@ -1,7 +1,7 @@
 It's continuetion class for Class-12-firewall: Here we discussing about the PROXY or WEB-GATEWAY and NIDS/NIPS concepts
 ========================================================================================================================
 
-# PROXY or WEB-GATEWAY : 
+#1 PROXY or WEB-GATEWAY : 
 =======================
    A proxy acts as an intermediary between client devices (such as computers or smartphones) and the internet. It receives requests from clients and forwards those requests to the web servers on behalf of the clients. 
    The response from the internet/web server is then sent back to the proxy, which, in turn, delivers it to the clients.
@@ -81,6 +81,27 @@ It's continuetion class for Class-12-firewall: Here we discussing about the PROX
      Then do below Configuration
                      SIEM-Tool-Name   SIEM-Tool-Ip-address  SIEM-Tool-Hostname   Protocal         Port                Logformat
  Example SIEM Tool:      Splunk          Splunk-server-Ip      splunk.com          TCP/UDP     514(syslogportnum)     BSD, CSV, XML 
+
+========================================================================================================================================================================================
+
+#2 NIDS/NIPS :
+==============
+   Before going to discuss about NIDS/NIPS First of all, what is an IDS or an IPS? 
+   --------------------------------------------------------------------------------
+    Intrusion Detection System (IDS): A security solution that detects security-related events in your environment but does not block them. 
+                                      This type of security solution may send you an alert, such as an email or text message, or log that a security event has occurred.
+    Intrusion Prevention System (IPS): IPS security solution identifies a threat and blocks it so the attack cannot occur. 
+                                       An IPS goes beyond the capabilities of an IDS by actively blocking or preventing identified threats in real-time.
+                                       It uses similar detection mechanisms as an IDS but takes immediate action to stop or mitigate ongoing attacks.
+                                       IPS can be deployed at various points in the network, including at the perimeter, between network segments, or on individual hosts.
+    Comparison:
+    -----------
+     Detection vs Prevention: 
+     ------------------------
+         * IDS focuses on detecting and alerting on potential security incidents.
+         * IPS not only detects but actively prevents or mitigates identified threats in real-time.
+
+
 
 
 Note :
