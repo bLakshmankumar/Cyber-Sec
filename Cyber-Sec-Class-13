@@ -99,13 +99,49 @@ It's continuetion class for Class-12-firewall: Here we discussing about the PROX
      Detection vs Prevention: 
      ------------------------
          * IDS focuses on detecting and alerting on potential security incidents.
-         * IPS not only detects but actively prevents or mitigates identified threats in real-time.
+         * IPS not only detects but actively prevents or mitigates malicious or abnormal or suspecious threats in real-time.
 
+     Types of IDS and IPS :
+     ----------------------
+        Host     : HIDS & HIPS (This concept already Discussed on EDR tool concept, When we deploy EDR tool, Bydefault EDR tool has HIDS & HIPS Capabilities, No need to deploy any additional tools to monitor.
+        Network  : NIDS & NIPS 
+        Wifi     : WIDS & WIPS
+     
+     Explanation :
+     --------------
+     HIDS (Host-Based Intrusion Detection System):
+       Purpose: Monitors and analyzes activities on a specific computer or host to detect signs of malicious or unauthorized behavior. 
+       Functionality: Provides alerts and notifications when suspicious activities are identified on an individual host.
+       Action: Primarily focuses on detection and reporting, allowing administrators to investigate and respond to potential security incidents at the host level.
+       Example Scenario: Notifies administrators when it detects an unusual login attempt or unauthorized file access on a specific server.
 
+     HIPS (Host-Based Intrusion Prevention System):
+       Purpose: Similar to HIDS, but with an additional capability to actively prevent or block identified threats on a specific computer or host.
+       Functionality: In addition to detecting and alerting, takes immediate actions to stop or mitigate ongoing security threats at the host level.
+       Action: Actively intervenes to block malicious activities in real-time, preventing potential security breaches on a specific host.
+       Example Scenario: Automatically blocks network connections or specific processes associated with a known attack on a host.
+     
+     NIDS (Network Intrusion Detection System):
+       Purpose: Monitors and analyzes network traffic to detect signs of malicious or unauthorized behavior at the network level.
+       Functionality: Provides alerts and notifications when suspicious network activities are identified.
+       Action: Focuses on detection at the network layer, making administrators aware of potential threats affecting the entire network.
+       Example Scenario: Generates an alert when it detects a pattern indicative of a known attack, such as a network scan or a specific type of malicious traffic.
+ 
+     NIPS (Network Intrusion Prevention System):
+       Purpose: Monitors and analyzes network traffic to actively prevent or block identified threats at the network level.
+       Functionality: Combines network-level detection and prevention, actively intervening to stop malicious activities before they reach their target.
+       Action: Actively blocks or prevents malicious network activities, providing a proactive defense at the network layer.
+       Example Scenario: Automatically blocks network connections or filters out malicious packets before they reach the intended target within the network.
 
+    In Summary:
+    -----------
+       HIDS focuses on host-level detection and alerting.
+       NIDS focuses on network-level detection and alerting.
+       HIPS adds active prevention capabilities at the host level.
+       NIPS adds active prevention capabilities at the network level.
 
-Note :
-======
+ Note :
+ ======
   > Which tool we can using to block the attacker IP-address ? on which tool ?
   ------------------------------------------------------------------------------
     We can block the IP address by using Firewall tool.
