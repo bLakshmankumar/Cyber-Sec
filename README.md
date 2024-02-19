@@ -18,7 +18,7 @@ cybersec-notes
 # Note : We can deploy n-number of NIDS/NIPS based on Traffic,  We can call like nx1 nx2 and etc.
 # NX meaning is : N = Network , X = ModelNumber, NX1 = N1000, NX2 = N4000, NX3 = N3000 & etc.
 # As this above models NX2 = N4000 is the highest model num, so It'll act as our main tool, remaining NX1 and NX3 and others we will monitor from NX2.
-
+# This is called distributed deployment, In single location we will deploy multiple NIDS/NIPS devices.
 
 
 # Cyber-Security-Class-10 :
