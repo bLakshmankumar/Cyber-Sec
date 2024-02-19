@@ -8,10 +8,11 @@ cybersec-notes
 
  [https://github.com/bLakshmankumar/cyber-sec/blob/main/Cyber-Sec-Class-9-NW-Architecture]
  
-![Screenshot 2024-02-04 021244](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/621c3783-145f-4fda-ad71-6acc7939e4b1)  
+![Screenshot 2024-02-19 212742](https://github.com/bLakshmankumar/cyber-sec/assets/109284987/6f484b28-7f49-4655-8c06-f6ae78491730)
 
 # NOTE : Access switches(AS) primarily connect end-user(Employee) devices, such as computers, printers, phones, to the local network. 
 #        CoreSwitch(CS) contains Entrire Organization of the Traffic. That entire traffic we can call it as netflow data.
+#        NIDS is a copy of CS or copying of all organization traffic flow data.
 
 # Cyber-Security-Class-10 :
 ===========================
