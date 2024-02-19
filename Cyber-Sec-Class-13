@@ -155,7 +155,18 @@ It's continuetion class for Class-12-firewall: Here we discussing about the PROX
     
     # How to Deploy NIPS :
     ----------------------
-        Deploy NIDS/NIPS by usning .
+        Deploy NIDS/NIPS by usning Inline or Promiscous.
+        It facing the real-time or Active Traffic.
+        If NIPS will go down so impact will be there. Attacker may compromise the servers.
+
+    # Vendors for NIDS/NIPS :
+    -------------------------
+        * Trend Micro - Tipping Point
+        * Source Fire - Cisco
+        * Foritnet 
+        * Symentec
+        * MCafee - MCafe NSM (Network Security Manager)
+        * Vectra
  Note :
  ======
   > Which tool we can using to block the attacker IP-address ? on which tool ?
