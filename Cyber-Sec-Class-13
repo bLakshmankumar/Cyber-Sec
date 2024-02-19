@@ -39,6 +39,8 @@ It's continuetion class for Class-12-firewall: Concepts are PROXY or WEB-GATEWAY
      A reverse proxy is a server that sits between client devices and web servers, handling requests on behalf of the web servers. 
      When clients request resources, the reverse proxy forwards those requests to the appropriate web servers and returns the servers' responses to clients. 
      Reverse proxies are commonly used for load balancing, security, and to optimize web server performance.
+     Simply : When the external users or public if they are trying to access internal facing website is called a Reverse Proxy.
+     Example : External user wants to apply a job in wipro.com, for wipro company we are the external users.
     
      Example Scenario:
      -----------------
