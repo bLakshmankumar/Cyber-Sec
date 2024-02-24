@@ -167,6 +167,61 @@ It's continuetion class for Class-12-firewall: Here we discussing about the PROX
         * Symentec
         * MCafee - MCafe NSM (Network Security Manager)
         * Vectra
+
+     # Policies to be configure for NIDS/NIPS :
+     ------------------------------------------
+         * Malware         * Flooding of the attack
+         * DOS             * Spoofing Category
+         * DDOS            * C2C Server Communication.
+
+
+
+# Differences Between true positive (TP), true negative (TN), false positive (FP), and false negative (FN) :
+============================================================================================================
+    In networking and network security, terms like true positive (TP), true negative (TN), false positive (FP), 
+    and false negative (FN) are often associated with intrusion detection systems, firewall configurations, and other security mechanisms. 
+    These terms are used in the context of evaluating the accuracy of these systems in identifying or blocking network traffic.
+
+    True Positive (TP):
+    -------------------
+      Definition: A true positive occurs when a security system correctly identifies or allows through legitimate traffic that matches the defined criteria as positive (e.g., allowing legitimate users through a firewall).
+      Example: A firewall correctly allows access to a user who is authorized to access a specific network service.
+
+    True Negative (TN):
+    -------------------
+      Definition: A true negative occurs when a security system correctly identifies that the observed activity is negative, meaning it correctly recognizes non-malicious traffic as such.
+      Example: A network intrusion detection system correctly determines that a network packet is not part of a known attack pattern and does not trigger an alert.
+
+    False Positive (FP):
+    --------------------
+      Definition: A false positive occurs when a security system incorrectly identifies normal, benign activity as malicious or positive.
+      Example: A firewall mistakenly blocks a legitimate user from accessing a network service, thinking the user's activity resembles malicious behavior.
+
+    False Negative (FN):
+    --------------------
+      Definition: A false negative occurs when a security system fails to detect or block malicious activity, incorrectly classifying it as negative or benign.
+      Example: An intrusion detection system fails to identify a known attack pattern, allowing malicious traffic to pass through undetected.
+
+    Practical Scenario Example:
+    ===========================
+      Let's consider an intrusion detection system that aims to detect and block malicious web requests:
+      Scenario 1 (True Positive):
+      ---------------------------
+         A user tries to execute a SQL injection attack on a web application, and the intrusion detection system correctly identifies and blocks the attack, marking it as a positive detection.
+
+      Scenario 2 (True Negative):
+      --------------------------
+         A user accesses a website and performs standard actions that do not trigger any alarms in the intrusion detection system. The system correctly recognizes this as a non-malicious activity.
+
+      Scenario 3 (False Positive):
+      ----------------------------
+         A user attempts to access a legitimate web service, but the intrusion detection system, due to a misconfiguration or false heuristic, mistakenly identifies the activity as malicious and blocks it.
+
+      Scenario 4 (False Negative):
+      ----------------------------
+         A sophisticated attacker employs a novel evasion technique that the intrusion detection system is not yet programmed to recognize. As a result, the system fails to detect the attack, leading to a false negative.
+         
+
  Note :
  ======
   > Which tool we can using to block the attacker IP-address ? on which tool ?
