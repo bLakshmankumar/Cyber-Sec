@@ -28,3 +28,40 @@ Here are some key reasons why information security is important:
     * Availability    – means information must be available when needed. For example if one needs to access information of a particular employee to check whether employee has outstanded the number of leaves, in that case it requires collaboration from different organizational teams like network operations, development operations, incident response and policy/change management. 
      
     * Note : Denial of service attack is one of the factor that can hamper the availability of information.
+
+
+# There are 4 types of Information security :
+=============================================
+        * GRC             * Implementation of ISO/IEC 27001
+        * Risk Management * BCP & DR (Business continuity Planning and Disastor Recovery)
+
+  > Explanation :
+  ---------------
+       * GRC (Governance, Risk, and Compliance) :
+       -------------------------------------------
+         Purpose:
+         --------
+          Governance: Establishes the framework, policies, and processes to ensure that information security aligns with business objectives and meets regulatory requirements.
+          Risk Management: Identifies, assesses, and manages risks to information assets, ensuring that security measures align with the organization's risk appetite.
+          Compliance: Ensures that the organization complies with relevant laws, regulations, and industry standards related to information security.
+
+         Scenario:
+         ---------
+          Challenge: Lack of clear governance and compliance standards.
+          Solution: Implementing GRC frameworks to establish policies, assess risks, and ensure compliance.
+          Example: An organization in the financial sector adopts GRC to align its information security practices with industry regulations, mitigating the risk of non-compliance and associated penalties.
+
+       * Implementation of ISO/IEC 27001:
+       -----------------------------------
+         Purpose:
+         --------
+          Provides a systematic approach to establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS).
+          Focuses on risk management and incorporates best practices for information security.
+
+         Scenario :
+         ----------
+         Challenge: Lack of a standardized approach to information security.
+         Solution: Implement ISO/IEC 27001 to establish an ISMS and align information security practices with international standards.
+         Example: A global organization adopts ISO/IEC 27001 to standardize its information security practices across subsidiaries, improving consistency and reducing security risks. 
+
+
