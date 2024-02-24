@@ -1,2 +1,30 @@
-# Information Security :
+# Information Security : [ https://www.geeksforgeeks.org/what-is-information-security/ ]
 ========================
+   Information security is the practice of protecting information by mitigating information risks. It involves the protection of information systems and the information processed, stored and transmitted by these systems from unauthorized access, use, disclosure, disruption, modification or destruction. 
+   This includes the protection of personal information, financial information, and sensitive or confidential information stored in both digital and physical forms. 
+   Effective information security requires a comprehensive and multi-disciplinary approach, involving people, processes, and technology.
+   Information Security is not only about securing information from unauthorized access. Information Security is basically the practice of preventing unauthorized access, use, disclosure, disruption, modification, inspection, recording or destruction of information. 
+   Information can be a physical or electronic one. Information can be anything like Your details or we can say your profile on social media, your data on mobile phone, your biometrics etc. 
+   Thus Information Security spans so many research areas like Cryptography, Mobile Computing, Cyber Forensics, Online Social Media, etc. 
+ 
+# Why we use Information Security :
+===================================
+   We use information security to protect valuable information assets from a wide range of threats, including theft, espionage, and cybercrime. 
+   Information security is necessary to ensure the confidentiality, integrity, and availability of information, whether it is stored digitally or in other forms such as paper documents.
+Here are some key reasons why information security is important:
+----------------------------------------------------------------
+   * Protecting sensitive information: Information security helps protect sensitive information from being accessed, disclosed, or modified by unauthorized individuals. This includes personal information, financial data, and trade secrets, as well as confidential government and military information.
+   * Mitigating risk: By implementing information security measures, organizations can mitigate the risks associated with cyber threats and other security incidents. This includes minimizing the risk of data breaches, denial-of-service attacks, and other malicious activities.
+   * Compliance with regulations: Many industries and jurisdictions have specific regulations governing the protection of sensitive information. Information security measures help ensure compliance with these regulations, reducing the risk of fines and legal liability.
+   * Protecting reputation: Security breaches can damage an organization’s reputation and lead to lost business. Effective information security can help protect an organization’s reputation by minimizing the risk of security incidents.
+   * Ensuring business continuity: Information security helps ensure that critical business functions can continue even in the event of a security incident. This includes maintaining access to key systems and data, and minimizing the impact of any disruptions.
+
+
+# Information Security programs are build around 3 objectives, commonly known as CIA – Confidentiality, Integrity, Availability. 
+---------------------------------------------------------------------------------------------------------------------------------
+    * Confidentiality – means information is not disclosed to unauthorized individuals, entities and process. For example if we say I have a password for my Gmail account but someone saw while I was doing a login into Gmail account. In that case my password has been compromised and Confidentiality has been breached.
+    * Integrity       – means maintaining accuracy and completeness of data. This means data cannot be edited in an unauthorized way. For example if an employee leaves an organisation then in that case data for that employee in all departments like accounts, should be updated to reflect status to JOB LEFT so that data is 
+                        complete and accurate and in addition to this only authorized person should be allowed to edit employee data.
+    * Availability    – means information must be available when needed. For example if one needs to access information of a particular employee to check whether employee has outstanded the number of leaves, in that case it requires collaboration from different organizational teams like network operations, development operations, incident response and policy/change management. 
+     
+    * Note : Denial of service attack is one of the factor that can hamper the availability of information.
