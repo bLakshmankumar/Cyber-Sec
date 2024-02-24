@@ -85,20 +85,7 @@ Here are some key reasons why information security is important:
                Purpose: Distinguish between the governance of information security and the day-to-day management activities, ensuring clear accountability and responsibilities.
                Implementation: Establish clear roles and responsibilities for information security governance and management. Define governance structures, set policies, and ensure that management activities align with governance objectives.
 
-     2) Implementation of ISO/IEC 27001:
-     -----------------------------------
-         Purpose:
-         --------
-          Provides a systematic approach to establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS).
-          Focuses on risk management and incorporates best practices for information security.
-
-         Scenario :
-         ----------
-         Challenge: Lack of a standardized approach to information security.
-         Solution: Implement ISO/IEC 27001 to establish an ISMS and align information security practices with international standards.
-         Example: A global organization adopts ISO/IEC 27001 to standardize its information security practices across subsidiaries, improving consistency and reducing security risks. 
-
-     3) Risk Management:
+     2) Risk Management:
      ------------------
         Purpose:
         --------
@@ -110,6 +97,19 @@ Here are some key reasons why information security is important:
          Challenge: Lack of awareness about potential information security risks.
          Solution: Implementing a risk management framework to identify, assess, and manage risks systematically.
          Example: An e-commerce company conducts regular risk assessments to identify vulnerabilities in its online platform, enabling proactive measures to protect customer data.
+
+     3) Implementation of ISO/IEC 27001: [ https://advisera.com/27001academy/what-is-iso-27001/ ]
+     -----------------------------------
+         Purpose:
+         --------
+          Provides a systematic approach to establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS).
+          Focuses on risk management and incorporates best practices for information security.
+
+         Scenario :
+         ----------
+         Challenge: Lack of a standardized approach to information security.
+         Solution: Implement ISO/IEC 27001 to establish an ISMS and align information security practices with international standards.
+         Example: A global organization adopts ISO/IEC 27001 to standardize its information security practices across subsidiaries, improving consistency and reducing security risks. 
 
      4) BCP & DR (Business Continuity Planning and Disaster Recovery):
        ----------------------------------------------------------------
