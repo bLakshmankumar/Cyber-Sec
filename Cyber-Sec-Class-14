@@ -165,11 +165,16 @@ Here are some key reasons why information security is important:
          For example, healthcare organizations must comply with laws like HIPAA that protect patients' privacy.   
 
          Following rules and regulations with legally, state , Statutory and regulatory and central level :
-            ISO 27001 : Implimentation of Information Security
-            PCI DSS   : Payment card industry data security standards.
-            GDPR      : General data protection and regulation
-            SOX       : Sarbanes-Oxley Act
-            ISO 9001  : Standards related to quality management systems, as published by ISO, It's a globally recognized standard for quality management.
+            ISO 27001    : Implimentation of Information Security
+            PCI DSS      : Payment card industry data security standards.
+            GDPR         : General data protection and regulation
+            SOX          : Sarbanes-Oxley Act
+            ISO 9001     : Standards related to quality management systems, as published by ISO, It's a globally recognized standard for quality management.
+            CIS          : Center for Internet Security
+            OWASP Top 10 : The Open web application security project.
+            HIPPA        : Health Insurance Portability and Accountability
+            ITIL         : Information Technology Infrastructure Library
+            NIST         : National Institute of Standards and Technology
 
      4) Implementation of ISO/IEC 27001: [ https://advisera.com/27001academy/what-is-iso-27001/ ]
      -----------------------------------
