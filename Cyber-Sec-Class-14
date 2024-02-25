@@ -141,9 +141,22 @@ Here are some key reasons why information security is important:
              Focus: Healthcare industry, compliance with the Health Insurance Portability and Accountability Act (HIPAA).
              Key Features: Developed by the U.S. Department of Health and Human Services, it provides a tool to assist organizations in conducting risk assessments related to the protection of electronic protected health information.
 
-     # Risk Analysis :
-     -----------------
+       # Risk Analysis :
+       -----------------
         Determine the scope of the security assessment (internal) : [ https://sprinto.com/blog/security-assessment-guide/ ]
+
+       # Risk Mitigations : 
+       --------------------
+         https://www.ibm.com/topics/risk-mitigation 
+         * Identify the risk     * Perform a risk assessment
+         * Prioritize the risk   * Track risks
+         * Implement risk mitigation plan
+
+       # Risk mitigation strategies : 
+       -------------------------------
+         * Risk avoidance        * Risk reduction
+         * Risk transference     * Risk acceptance
+
 
      3) Implementation of ISO/IEC 27001: [ https://advisera.com/27001academy/what-is-iso-27001/ ]
      -----------------------------------
