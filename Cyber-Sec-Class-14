@@ -41,10 +41,10 @@ Here are some key reasons why information security is important:
      -------------------------------------------
         Purpose:
         --------
-          Governance: Establishes the framework, policies, and processes to ensure that information security aligns with business objectives and meets regulatory requirements.
-          Risk Management: Businesses face different types of risks, including financial, legal, strategic, and security risks. Proper risk management helps businesses identify these risks and find ways to remediate any that are found.
-                           Companies use an enterprise risk management program to predict potential problems and minimize losses. For example, you can use risk assessment to find security loopholes in your computer system and apply a fix. 
-          Compliance: Ensures that the organization complies with relevant laws, regulations, and industry standards related to information security.
+          * Governance: Establishes the framework, policies, and processes to ensure that information security aligns with business objectives and meets regulatory requirements.
+          * Risk Management: Businesses face different types of risks, including financial, legal, strategic, and security risks. Proper risk management helps businesses identify these risks and find ways to remediate any that are found.
+                             Companies use an enterprise risk management program to predict potential problems and minimize losses. For example, you can use risk assessment to find security loopholes in your computer system and apply a fix. 
+          * Compliance: Ensures that the organization complies with relevant laws, regulations, and industry standards related to information security.
 
         Scenario:
         ---------
