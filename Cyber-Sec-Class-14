@@ -204,6 +204,73 @@
             * Impact: The potential harm or damage that could result from the occurrence of the risk.
             * Vulnerability: The weaknesses or gaps in the organization's defenses that could be exploited.
 
+
+     # What are the 14 clusses are there under ISO 27001 and under those 14 clausses how many complaince are there and can you give any 4 examples :
+     ------------------------------------------------------------------------------------------------------------------------------------------------
+    ISO 27001 is structured around 14 clauses, each addressing specific aspects of an information security management system (ISMS). These clauses are organized in a framework that follows the Plan-Do-Check-Act (PDCA) cycle. 
+    Each clause contributes to the establishment, implementation, maintenance, and continuous improvement of the ISMS. Here is an overview of the 14 clauses:
+
+    1) Context of the Organization (Clause 4):
+    ------------------------------------------
+       Understanding the organization and its context.
+       Understanding the needs and expectations of interested parties.
+    2) Leadership (Clause 5):
+   ---------------------------
+       Leadership and commitment.
+       Policy.
+       Organizational roles, responsibilities, and authorities.
+    3) Planning (Clause 6):
+    ------------------------
+       Actions to address risks and opportunities.
+       Information security objectives and planning to achieve them.
+    4) Support (Clause 7):
+    ----------------------
+       Resources.
+       Competence.
+       Awareness.
+       Communication.
+       Documented information.
+    5) Operation (Clause 8):
+    ------------------------
+       Operational planning and control.
+       Information security risk assessment.
+       Information security risk treatment.
+    6) Performance Evaluation (Clause 9):
+    -------------------------------------
+       Monitoring, measurement, analysis, and evaluation.
+       Internal audit.
+       Management review.
+    7) Improvement (Clause 10):
+    ---------------------------
+       Nonconformity and corrective action.
+       Continual improvement.
+
+   # Compliance Requirements:
+   --------------------------
+      Within these clauses, there are various compliance requirements that organizations need to meet to achieve and maintain ISO 27001 certification. Compliance requirements are often articulated as controls. The standard provides Annex A, which contains a set of 114 controls organized into 14 sections.
+      Here are four examples of compliance requirements (controls) from Annex A:
+
+      1) A.5 Information Security Policies:
+      -------------------------------------
+         Control A.5.1.1: Information Security Policy
+         Control A.5.1.2: Review of the Information Security Policy
+      2) A.9 Access Control:
+      ----------------------
+         Control A.9.1.2: Access to Networks and Network Services
+         Control A.9.2.1: User Registration and De-registration
+      3) A.12 Operations Security:
+      ----------------------------
+         Control A.12.1.1: Documented Operating Procedures
+         Control A.12.3.1: Information Backup
+      4) A.14 System Acquisition, Development, and Maintenance:
+      ---------------------------------------------------------
+         Control A.14.1.2: Secure Development Policy
+         Control A.14.2.1: Secure Development Environment
+
+      These controls cover a wide range of topics, including policies, access control, operations security, and system development, to ensure a comprehensive and effective information security management system. 
+      Organizations need to implement these controls based on their risk assessment and business context to meet the requirements of ISO 27001.
+
+
      5) BCP & DR (Business Continuity Planning and Disaster Recovery):
      ----------------------------------------------------------------
         Purpose:
