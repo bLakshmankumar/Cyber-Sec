@@ -164,33 +164,48 @@
          In GRC, compliance involves implementing procedures to ensure that business activities comply with the respective regulations. 
          For example, healthcare organizations must comply with laws like HIPAA that protect patients' privacy.   
 
-         Following rules and regulations with legally, state , Statutory and regulatory and central level :
+         Following rules and regulations with legally, state, Statutory and regulatory and central level that companies follows based on their requireents :
+         Note : Every company should have this certificates which we marked as "*".
           * ISO 27001    : Implimentation of Information Security [ It's Mandatory for every organization ]
-            PCI DSS      : Payment card industry data security standards.
-            GDPR         : General data protection and regulation
-            SOX          : Sarbanes-Oxley Act
-            ISO 9001     : Standards related to quality management systems, as published by ISO, It's a globally recognized standard for quality management.
-            CIS          : Center for Internet Security
-            OWASP Top 10 : The Open web application security project.
-            HIPPA        : Health Insurance Portability and Accountability
+          * PCI DSS      : Payment card industry data security standards. [ Every financial transaction companies should have this certificate ex : Gpay, Phonepe & etc ].
+          * GDPR         : General data protection and regulation
+          * SOX          : Sarbanes-Oxley Act
+          * ISO 9001     : Standards related to quality management systems, as published by ISO, It's a globally recognized standard for quality management.
+          * ISO 14001    : EMS (Environmental management system)
+          * SOC-1 & SOC-2: Cloud 
+          * OWASP Top 10 : The Open web application security project.
+          * HIPPA        : Health Insurance Portability and Accountability
             ITIL         : Information Technology Infrastructure Library
             NIST         : National Institute of Standards and Technology
+            FIPS 140-2   : Cryptography Controls
 
-     4) Implementation of ISO/IEC 27001: [ https://advisera.com/27001academy/what-is-iso-27001/ ]
+    *4) Implementation of ISO/IEC 27001: [ https://advisera.com/27001academy/what-is-iso-27001/ ]
      -----------------------------------
-         Purpose:
-         --------
-          Provides a systematic approach to establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS).
-          Focuses on risk management and incorporates best practices for information security.
+         > What is ISO 27001 and what is the risk score and what is risk management framework an organization level :
+         ------------------------------------------------------------------------------------------------------------
+           ISO 27001 is an international standard for information security management systems (ISMS). Published by the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC), 
+           ISO 27001 provides a framework for organizations to establish, implement, maintain, and continually improve an information security management system. 
+           The standard is designed to ensure the confidentiality, integrity, and availability of information within an organization.
 
-         Scenario :
-         ----------
-         Challenge: Lack of a standardized approach to information security.
-         Solution: Implement ISO/IEC 27001 to establish an ISMS and align information security practices with international standards.
-         Example: A global organization adopts ISO/IEC 27001 to standardize its information security practices across subsidiaries, improving consistency and reducing security risks. 
+         > Key elements of ISO 27001 include:
+         ------------------------------------
+          Risk Management: ISO 27001 places a strong emphasis on risk management, requiring organizations to systematically assess and treat information security risks. This involves identifying assets, evaluating threats and vulnerabilities, and implementing controls to mitigate or manage risks.
+          Control Objectives and Controls: The standard defines a set of control objectives and controls to address various aspects of information security. These controls cover areas such as access control, cryptography, physical security, incident management, and more.
+          Continuous Improvement: ISO 27001 follows the Plan-Do-Check-Act (PDCA) cycle, promoting a process of continuous improvement. Organizations are expected to regularly review and update their information security management system to adapt to changes in the risk landscape and business environment.
+          Certification: Organizations can undergo a certification process to demonstrate their compliance with ISO 27001. This involves an independent audit by a certification body to verify that the organization's ISMS conforms to the requirements of the standard.
+
+         > Risk Score: [ Max Risk Score in ISO 27001 = 25% ]
+         -------------
+          A risk score is a quantitative or qualitative measure assigned to a specific risk to assess its severity or impact. 
+          In the context of information security and risk management, organizations often use risk scores to prioritize and address potential threats. 
+          The risk score is typically determined by considering the likelihood of a risk event occurring and the potential impact if it does.
+          Risk scores can be calculated using various methods, and organizations may have their own frameworks for assigning scores based on factors such as:
+            * Likelihood: The probability of a risk event occurring.
+            * Impact: The potential harm or damage that could result from the occurrence of the risk.
+            * Vulnerability: The weaknesses or gaps in the organization's defenses that could be exploited.
 
      5) BCP & DR (Business Continuity Planning and Disaster Recovery):
-       ----------------------------------------------------------------
+     ----------------------------------------------------------------
         Purpose:
         --------
          Business Continuity Planning (BCP): Ensures that critical business functions continue to operate during and after a disruption.
