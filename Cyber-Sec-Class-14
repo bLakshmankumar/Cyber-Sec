@@ -46,8 +46,8 @@
                              Companies use an enterprise risk management program to predict potential problems and minimize losses. For example, you can use risk assessment to find security loopholes in your computer system and apply a fix. 
           * Compliance: Ensures that the organization complies with relevant laws, regulations, and industry standards related to information security.
 
-        Scenario:
-        ---------
+        Scenario :
+        ----------
           Challenge: Lack of clear governance and compliance standards.
           Solution: Implementing GRC frameworks to establish policies, assess risks, and ensure compliance.
           Example: An organization in the financial sector adopts GRC to align its information security practices with industry regulations, mitigating the risk of non-compliance and associated penalties.
