@@ -402,3 +402,16 @@
                   Private keys leaving or entering the system must also be encrypted before they can be moved to or from the system
        - Level 4- The most secure level of FIPS 140-2 uses the same requirements of level 3 and desires that the compliant device be able to be tamper-active and that the contents of the device be able to be erased if certain environmental attacks are detected. 
                   Another focus of FIPS 140-2 level 4 is that the Operating Systems being used by the cryptographic module must be more secure than earlier levels. If multiple users are using a system, the OS is held to an even higher standard.
+
+13 > SABSA and TOGAF :
+======================
+     SABSA (Sherwood Applied Business Security Architecture) and TOGAF (The Open Group Architecture Framework) are both enterprise architecture frameworks, but they have different focuses and applications within the field of information security and IT architecture.
+    
+     SABSA (Sherwood Applied Business Security Architecture):
+     ----------------------------------------------------------
+       Focus on Security: SABSA is specifically designed for addressing security architecture and risk management. It provides a framework for integrating security into the broader enterprise architecture, ensuring that security is an integral part of business processes.
+    
+     TOGAF (The Open Group Architecture Framework):
+     ----------------------------------------------
+      Comprehensive Enterprise Architecture: TOGAF is a comprehensive framework for enterprise architecture, encompassing various aspects such as business architecture, data architecture, application architecture, and technology architecture. It provides a methodology for developing and managing enterprise architecture.
+     
