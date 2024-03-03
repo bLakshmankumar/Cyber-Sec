@@ -150,10 +150,11 @@
         --------------------------------------------------------------------------------------
           Establishes the right for individuals to seek legal remedies in case of a violation of their rights under GDPR.
 
-   # PCI DSS :
-   ===========
-       PCI DSS stands for Payment Card Industry Data Security Standard. It is a set of security standards designed to ensure that all companies that accept, process, store, or transmit credit card information maintain a secure environment. 
-       The standard is a collaborative effort of major credit card companies, including Visa, MasterCard, American Express, Discover, and JCB, to protect sensitive cardholder data.
+
+2 > PCI DSS :
+=============
+    PCI DSS stands for Payment Card Industry Data Security Standard. It is a set of security standards designed to ensure that all companies that accept, process, store, or transmit credit card information maintain a secure environment. 
+    The standard is a collaborative effort of major credit card companies, including Visa, MasterCard, American Express, Discover, and JCB, to protect sensitive cardholder data.
 
        Key components of PCI DSS compliance include:
        ----------------------------------------------
@@ -182,7 +183,7 @@
            Maintain a policy that addresses information security for all personnel.
 
 
-2 > SOX ( Sarbanes-Oxley Act ) : [ https://www.ibm.com/topics/sox-compliance ]
+3 > SOX ( Sarbanes-Oxley Act ) : [ https://www.ibm.com/topics/sox-compliance ]
 ================================
      SOX compliance is the act of adhering to the financial reporting, information security and auditing requirements of the Sarbanes-Oxley (SOX) Act, a US law that aims to prevent corporate fraud.
 
@@ -269,5 +270,6 @@
      - User activity      - Tracking what users are doing within the system. Creating, Modifying, Deleting.
      - Information access - controlling and tracking who has access to what information. It ensures that sensitive or confidential data is only accessible to those who are authorized to view or modify it.
 
-   
-   
+4 > HIPPA 
+---------
+   HIPAA laws are a series of federal regulatory standards outlining the lawful use and disclosure of protected health information in the United States. HIPAA compliance is regulated by the Department of Health and Human Services (HHS) and enforced by the Office for Civil Rights (OCR).
