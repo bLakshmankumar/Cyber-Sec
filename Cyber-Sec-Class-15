@@ -184,5 +184,77 @@
 
 2 > SOX ( Sarbanes-Oxley Act ) : 41:50
 ================================
+     SOX compliance is the act of adhering to the financial reporting, information security and auditing requirements of the Sarbanes-Oxley (SOX) Act, a US law that aims to prevent corporate fraud.
 
+     To be SOX compliant, public companies doing business in the US must: 
+       - Implement internal controls to protect financial data from tampering.
+       - File regular reports with the Securities and Exchange Commission (SEC) attesting to the effectiveness of security controls and the accuracy of financial disclosures. 
+       - Pass an annual independent audit of their financial statements and controls. 
+     The SOX Act also sets rules for the accounting firms that audit public companies and the analysts who publish research on securities. The act imposes significant fines and criminal sentences for fraudulent financial activities and certain forms of noncompliance.  
+     While SOX is a financial regulation, stakeholders from throughout the organization are involved in achieving compliance. IT departments and cybersecurity teams have become particularly important as organizations increasingly turn to technology solutions to protect financial information in complex enterprise networks.  
+     According to a 2023 report by consulting firm Protiviti (link resides outside ibm.com), more than half of companies say SOX compliance takes longer to achieve now. The average organization spends more than USD 1 million on SOX compliance efforts every year.  
 
+  # How it Works : 
+  ----------------
+     The Sarbanes-Oxley Act (SOX) works by establishing a framework of rules and regulations to enhance the accuracy and reliability of financial reporting, increase transparency, and hold corporate executives and auditors accountable for their actions.
+     Here's an overview of how SOX works:
+     -------------------------------------
+      * Establishment of the Public Company Accounting Oversight Board (PCAOB):
+      --------------------------------------------------------------------------
+        SOX created the PCAOB as an oversight body responsible for overseeing the audits of public companies. The PCAOB sets auditing standards, conducts inspections of auditing firms, and enforces compliance with SOX.
+
+      * Internal Control Requirements:
+      --------------------------------
+        SOX Section 404 requires companies to assess and report on the effectiveness of their internal controls over financial reporting. This includes the documentation of processes and controls, as well as regular testing to ensure they are functioning as intended.
+
+      * CEO and CFO Certification:
+      ----------------------------
+        CEOs and CFOs of public companies are required to certify the accuracy of their company's financial statements. This certification includes affirmations that they have reviewed the financial statements, that they are accurate and complete, and that they fairly present the financial condition of the company.
+
+      * Prohibition of Certain Activities:
+      ------------------------------------
+        SOX prohibits certain activities that could compromise the independence and objectivity of auditors. For example, it restricts the types of non-audit services that audit firms can provide to their clients to prevent conflicts of interest.
+
+      * Whistleblower Protection:
+      ---------------------------
+        SOX includes provisions to protect whistleblowers who report potential violations of the law by their employers. Companies are prohibited from retaliating against employees who come forward with information about fraudulent activities or violations of securities laws.
+
+      * Enhanced Financial Disclosure:
+      --------------------------------
+        The act requires companies to provide more comprehensive and timely financial disclosures, including information on off-balance-sheet transactions and other potential risks.
+
+      * Penalties and Enforcement:
+      -----------------------------
+        SOX imposes severe penalties for non-compliance. Individuals who willfully certify false financial statements can face fines, imprisonment, or both. Additionally, companies that violate SOX provisions may be subject to fines and other legal consequences.
+
+      * Board Composition and Independence:
+      -------------------------------------
+        SOX establishes rules for the composition and independence of corporate boards, particularly audit committees. It ensures that audit committees are comprised of independent directors who oversee the financial reporting process and the external audit.
+
+      * Record Retention and Document Integrity:
+      ------------------------------------------
+        SOX mandates that companies maintain accurate and reliable records, including electronic communications and documents, for a specified period. This helps ensure the integrity and transparency of financial reporting.
+
+      * Continuous Compliance and Reporting:
+      --------------------------------------
+        Companies must continuously comply with SOX requirements and report on their compliance in their annual reports filed with the Securities and Exchange Commission (SEC). Non-compliance can lead to regulatory actions and potential legal consequences.
+
+  # Who does SOX apply to?  
+  =========================
+    SOX applies to all publicly traded companies doing business in the US and their wholly owned subsidiaries. It also applies to securities analysts and the accounting firms that audit public companies.
+    While private companies and nonprofits are not generally bound by SOX, there are some exceptions. Private companies preparing to go public through an initial public offering are subject to SOX when they file a registration statement with the SEC.
+    Whistleblowers at private companies that provide services for public companies are protected by SOX when reporting on the misconduct of their public clients.
+    SOX makes it illegal for any organization—public, private or nonprofit—to destroy or falsify financial records to obstruct a federal investigation.
+    While SOX is a US regulation, it does have repercussions for organizations outside the country. Public companies headquartered outside the US must abide by SOX requirements if they do business in the US. 
+    The passage of SOX also inspired other countries to adopt their own laws combatting financial fraud, such as Canada’s Keeping the Promise for a Strong Economy Act (also called “C-SOX”) and Japan’s Financial Instruments and Exchange Act (also called “J-SOX”).
+    In Europe, many have noted significant overlap between SOX compliance and General Data Protection Regulation (GDPR) compliance. In particular, many of the same security controls and data protection processes that enable SOX compliance also support GDPR compliance. 
+    The European Union has implemented its own SOX-like rules surrounding the independence of financial auditors as well.
+
+  # SOX compliance requirements : 
+  ===============================
+    At the core, SOX compliance means that all of an organization's financial disclosures are entirely accurate and that the organization has controls and documentation to back up its financial statements. 
+    However, the process of reaching SOX compliance can be complex. SOX does not exhaustively outline every control a company needs or every step auditors must take. Different organizations reach SOX compliance in different ways.   
+    At a high level, SOX has three broad requirements: 
+      - Filing accurate financial reports certified by corporate executives
+      - Implementing appropriate internal controls
+      - Passing regular audits   
