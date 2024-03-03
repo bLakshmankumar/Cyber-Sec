@@ -182,7 +182,7 @@
            Maintain a policy that addresses information security for all personnel.
 
 
-2 > SOX ( Sarbanes-Oxley Act ) : 41:50
+2 > SOX ( Sarbanes-Oxley Act ) : [ https://www.ibm.com/topics/sox-compliance ]
 ================================
      SOX compliance is the act of adhering to the financial reporting, information security and auditing requirements of the Sarbanes-Oxley (SOX) Act, a US law that aims to prevent corporate fraud.
 
@@ -258,3 +258,16 @@
       - Filing accurate financial reports certified by corporate executives
       - Implementing appropriate internal controls
       - Passing regular audits   
+
+  # What is our role :
+  ====================
+    We should gather all these below information evidences
+     - Internal Controls  - measures and processes your organization has in place to ensure everything is running smoothly, securely, and in compliance with rules and regulations.
+     - Network activity   - How information moves across your organization's network.
+     - Database activity  - Who is accessing your organization's databases. It ensures that only authorized individuals or systems can interact with and retrieve information from your databases.
+     - Login activity     - Who is accessing your organization's databases. It ensures that only authorized individuals or systems can interact with and retrieve information from your databases.
+     - User activity      - Tracking what users are doing within the system. Creating, Modifying, Deleting.
+     - Information access - controlling and tracking who has access to what information. It ensures that sensitive or confidential data is only accessible to those who are authorized to view or modify it.
+
+   
+   
