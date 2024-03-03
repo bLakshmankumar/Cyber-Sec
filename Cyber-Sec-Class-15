@@ -371,7 +371,23 @@
           - International Organization for Standardization and the International Electrotechnical Commission 27001:2013
           - NIST SP 800-53 Rev.4
         The NIST CSF does not tell how to inventory the physical devices and systems or how to inventory the software platforms and applications; it merely provides a checklist of tasks to complete. An organization can choose its own method on how to perform the inventory.
+        If an organization needs further guidance, it can refer to the informative references to related controls in other complementary standards. There is plenty of freedom in the CSF to select the tools that best suit the cybersecurity risk management needs of an organization.
 
-If an organization needs further guidance, it can refer to the informative references to related controls in other complementary standards. There is plenty of freedom in the CSF to select the tools that best suit the cybersecurity risk management needs of an organization.
+8 > ITIL (Information technology and Infrastructure Library): [ https://www.coursera.org/articles/what-is-itil ]
+============================================================
+     Information Technology Infrastructure Library, is a set of best practices for IT service management (ITSM) that focuses on aligning IT services with the needs of the business. ITIL compliance refers to the adoption and implementation of these best practices within an organization to enhance the quality, efficiency, and effectiveness of its IT services. 
+     The primary purpose of ITIL is to improve IT service management processes and contribute to overall business success.
 
+9 > QMS (ISO (9001): [ https://advisera.com/9001academy/knowledgebase/quality-management-system-what-is-it/ ]
+====================
+     A Quality Management System, often called a QMS, is a set of internal rules that are defined by a collection of policies, processes, documented procedures, and records. This system defines how a company will achieve the creation and delivery of the products and services they provide to their customers. When implemented in your company, the QMS needs to be specific for the product or service you provide, so it is important to tailor it to your needs. 
+     However, in order to help ensure that you do not miss elements of a good system, some general guidelines exist in the form of ISO 9001:2015 (Quality Management System – Requirements), which are intended to help standardize how a QMS is designed.
+
+10 > EMS ( ISO 14001) : [ https://asq.org/quality-resources/environmental-management-system ]
+=======================
+     This compliance will explain about how to keep environment safe and secure.
+
+11 > SOC 1 & SOC 2 : [ https://secureframe.com/blog/soc-1-vs-soc-2 ]
+=====================
+     If we wanna deploy or migrate the applications to Cloud or if we wanna deploy applications freshly on the cloud those companies has to follow SOC 1 & SOC 2 Compliances.
 
