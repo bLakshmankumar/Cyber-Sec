@@ -340,3 +340,38 @@
       CIS Hardened Images are securely configured virtual machine images based on CIS Benchmarks hardened to either a Level 1 or Level 2 CIS benchmark profile. 
       Hardening is a process that helps protect against unauthorized access, denial of service, and other cyberthreats by limiting potential weaknesses that make systems vulnerable to cyberattacks.
 
+6 > OWASP top 10 : (Open web application security project) [ https://www.cloudflare.com/learning/security/threats/owasp-top-10/ ]
+==========================================================
+    The OWASP Top 10 is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications.
+    It's an Organization or Institute it will provide the top 10 layer 7 Attacks( Application layer).
+
+7 > NIST Framework : 
+====================
+    The NIST (National Institute of Standards and Technology) Cybersecurity Framework (NIST CSF) provides comprehensive guidance and best practices that private sector organizations can follow to improve information security and cybersecurity risk management.
+
+  # NIST Cybersecurity Framework core structure
+  ----------------------------------------------
+    NIST Cybersecurity Framework includes functions, categories, subcategories and informative references. 
+    Functions give a general overview of security protocols of best practices. Functions are not intended to be procedural steps but are performed “concurrently and continuously to form an operational culture that addresses the dynamic cybersecurity risk.” 
+    Categories and subcategories provide more concrete action plans for specific departments or processes within an organization. 
+
+    Examples of NIST functions and categories include:
+    ---------------------------------------------------
+      - Identify: To protect against cyberattacks, the cybersecurity team needs a thorough understanding of the organization's most important assets and resources. The identify function includes categories such as asset management, business environment, governance, risk assessment, risk management strategy and supply chain risk management.
+      - Protect: The protect function covers much of the technical and physical security controls for developing and implementing appropriate safeguards and protecting critical infrastructure. These categories are identity management and access control, awareness and training, data security, information protection processes and procedures, maintenance and protective technology.
+      - Detect: The detect function implements measures that alert an organization to cyberattacks. Detect categories include anomalies and events, security, continuous monitoring and detection processes.
+      - Respond: The respond function categories ensure the appropriate response to cyberattacks and other cybersecurity events. Specific categories include response planning, communications, analysis, mitigation and improvements.
+      - Recover: Recovery activities implement plans for cyber resilience and ensure business continuity in the event of a cyberattack, security breach or other cybersecurity event. The recovery functions are recovery planning improvements and communications.
+      - The NIST CSF's informative references draw a direct correlation between the functions, categories, subcategories and the specific security controls of other frameworks. These frameworks include:
+
+        The Center for Internet Security (CIS) Controls®
+          - COBIT 5
+          - International Society of Automation (ISA) 62443-2-1:2009
+          - ISA 62443-3-3:2013
+          - International Organization for Standardization and the International Electrotechnical Commission 27001:2013
+          - NIST SP 800-53 Rev.4
+        The NIST CSF does not tell how to inventory the physical devices and systems or how to inventory the software platforms and applications; it merely provides a checklist of tasks to complete. An organization can choose its own method on how to perform the inventory.
+
+If an organization needs further guidance, it can refer to the informative references to related controls in other complementary standards. There is plenty of freedom in the CSF to select the tools that best suit the cybersecurity risk management needs of an organization.
+
+
