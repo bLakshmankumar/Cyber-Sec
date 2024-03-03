@@ -391,3 +391,14 @@
 =====================
      If we wanna deploy or migrate the applications to Cloud or if we wanna deploy applications freshly on the cloud those companies has to follow SOC 1 & SOC 2 Compliances.
 
+12 > FIPS 140-2 : [ https://www.encryptionconsulting.com/education-center/what-is-fips/ ]
+=================
+     This compliance will applicable to Cryptography controls by using Strong cyphers ( Cypher means Bit number or Block size).
+     FIPS 140-2 is a standard which handles cryptographic modules and the ones that organizations use to encrypt data-at-rest and data-in-motion.
+     FIPS 140-2 has 4 levels of security, with level 1 being the least secure, and level 4 being the most secure:
+       - Level 1- Level 1 has the simplest requirements. It requires production-grade equipment, and atleast one tested encryption algorithm. This must be a working encryption algorithm, not one that has not been authorized for use.
+       - Level 2- Level 2 raises the bar slightly, requiring all of level 1’s requirements along with role-based authentication and tamper evident physical devices to be used. It should also be run on an Operating System that has been approved by Common Criteria at EAL2.
+       - Level 3- FIPS 140-2 level 3 is the level the majority of organizations comply with, as it is secure, but not made difficult to use because of that security. This level takes all of level 2’s requirements and adds tamper-resistant devices, a separation of the logical and physical interfaces that have “critical security parameters” enter or leave the system, and identity-based authentication. 
+                  Private keys leaving or entering the system must also be encrypted before they can be moved to or from the system
+       - Level 4- The most secure level of FIPS 140-2 uses the same requirements of level 3 and desires that the compliant device be able to be tamper-active and that the contents of the device be able to be erased if certain environmental attacks are detected. 
+                  Another focus of FIPS 140-2 level 4 is that the Operating Systems being used by the cryptographic module must be more secure than earlier levels. If multiple users are using a system, the OS is held to an even higher standard.
