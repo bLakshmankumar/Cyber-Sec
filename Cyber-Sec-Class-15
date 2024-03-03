@@ -321,3 +321,22 @@
    - Audit reports or tracking logs that record activity on hardware and software.
   Other technical policies for HIPAA compliance include implementing integrity controls or measures to confirm that electronic patient health information (ePHI) is not altered or destroyed.
   IT disaster recovery and offsite backup are vital components that ensure electronic media errors and failures are quickly remedied so that patient health information is recovered accurately and intact.
+
+5 > CIS Hardening Benchmark : [ https://www.algosec.com/resources/cis-compliance/ ]
+=============================
+     A CIS (Center for Internet Security) Hardening Benchmark is a set of best practices and security configuration guidelines developed by the Center for Internet Security to secure computer systems and networks. 
+     These benchmarks provide organizations with specific recommendations for configuring various software components and systems to enhance their security posture and reduce the risk of cyber threats.
+     CIS benchmarks are configuration baselines and best practices for securely configuring a system. Each of the guidance recommendations references one or more CIS controls that were developed to help organizations improve their cyberdefense capabilities.
+     CIS controls map to many established standards and regulatory frameworks, including the NIST Cybersecurity Framework (CSF) and NIST SP 800-53, the ISO 27000 series of standards, PCI DSS, HIPAA, and others.
+    
+     Each benchmark undergoes two phases of consensus review. The first occurs during initial development when experts convene to discuss, create, and test working drafts until they reach consensus on the benchmark.
+     During the second phase, after the benchmark has been published, the consensus team reviews the feedback from the internet community for incorporation into the benchmark.
+
+    CIS benchmarks provide two levels of security settings:
+    -------------------------------------------------------
+      Optional  - Level 1 recommends essential basic security requirements that can be configured on any system and should cause little or no interruption of service or reduced functionality.
+      Mandatory - Level 2 recommends security settings for environments requiring greater security that could result in some reduced functionality.
+
+      CIS Hardened Images are securely configured virtual machine images based on CIS Benchmarks hardened to either a Level 1 or Level 2 CIS benchmark profile. 
+      Hardening is a process that helps protect against unauthorized access, denial of service, and other cyberthreats by limiting potential weaknesses that make systems vulnerable to cyberattacks.
+
