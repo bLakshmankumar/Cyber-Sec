@@ -1,0 +1,62 @@
+# Here we will discuss about what is the Process of Incident Investigation :
+============================================================================
+
+1) ITIL Framework (Information Technology Infrastructure Library) :
+-----------------------------------------------------------------
+     Focuses on IT service management and aligning IT services with business needs.
+     This process is commonly used by service or consulting based companies. 
+     EX : Infosys, TCS, HCL & etc.
+
+     ITIL focuses on the entire IT service lifecycle, from the initial strategy and design to transition, operation, and continual improvement. 
+     The primary goal is to ensure that IT services meet the business requirements and contribute to overall business success.
+
+  > Different trypes of processes falls under ITIL :
+  --------------------------------------------------
+    Within the ITIL framework, various processes are defined to address different aspects of IT service management. 
+    Some of the key processes include:
+      - Incident Lifecycle management process : Focuses on the timely resolution of incidents (unplanned interruptions or reductions in quality) to minimize the impact on business operations.
+      - Change Management Process             : Aims to control and manage changes to the IT environment in a systematic and efficient manner, reducing the risk of service disruptions.
+      - Problem Statement                     : Focuses on identifying and addressing the root causes of recurring incidents to prevent them from happening in the future.
+      - Solution statement                    : Encompasses the broader set of processes and activities related to delivering and managing IT services, including project delivery, service transition, and overall service operation.
+      - Project Delivery or service delivery
+  
+2) NIST Frameworks (National Institute of Standards and Technology) :
+--------------------------------------------------------------------
+     NIST primarily focuses on cybersecurity risk management and resilience, providing standards and guidelines for enhancing the security and competitiveness of organizations.
+     It is widely used across various sectors, including both product-based and service-based companies.
+     Ex : Google, Facebook, IBM & TCS, Infosys & etc.
+  
+  > Different trypes of processes falls under NIST :
+  --------------------------------------------------
+      - RMF (Risk Management Framework)
+      ----------------------------------
+          Definition: RMF is a structured process designed to manage and improve the cybersecurity posture of an organization. It provides a framework for managing information security risks and is applicable to both federal and non-federal organizations.
+          Key Steps in RMF:
+            Prepare: Establish the context, priorities, and resources for the risk management process.
+            Categorize: Identify and classify information systems and the information processed based on impact levels.
+            Select: Choose appropriate security controls for the identified risks.
+            Implement: Implement the selected security controls.
+            Assess: Evaluate the effectiveness of the security controls.
+            Authorize: Grant or deny authorization to operate based on the risk assessment.
+            Monitor: Continuously monitor and respond to changes in the risk environment.
+      
+      - Incident life cycle management process :
+      ------------------------------------------
+          Definition: This process focuses on managing the entire lifecycle of cybersecurity incidents. It includes identification, containment, eradication, recovery, and lessons learned.
+          Key Stages in Incident Lifecycle Management:
+            Identification: Detecting and recognizing potential incidents.
+            Containment: Taking actions to prevent the incident from spreading.
+            Eradication: Removing the root cause of the incident.
+            Recovery: Restoring affected systems and services.
+            Lessons Learned: Analyzing the incident to improve future incident response.
+      
+      - Fips Compliances (Federal Information Processing Standards) :
+      ---------------------------------------------------------------
+          Definition: FIPS are a set of standards developed by NIST for use in computer systems by non-military government agencies and government contractors. FIPS compliance ensures that systems and processes meet specific security and interoperability standards.
+          Key Aspects of FIPS Compliance:
+            Cryptography: Specifies cryptographic algorithms and protocols.
+            Security Requirements: Defines security requirements for various systems and components.
+            Interoperability: Ensures that systems can work together seamlessly.
+            Physical Security: Addresses physical security controls.
+ 
+    
