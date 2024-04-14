@@ -112,7 +112,19 @@ Explanation :
     ==========================
       WAF has capable to detect the threats by using Both
       * Signature Method and * Mechine Learning/AI.
-      Based on these methods it'll detect and send the alert to their respective teams.
+      Based on these methods it'll detect and send an alert to their respective teams.
+
+   WAF Tools : 
+   ===========
+      AKAMAI, IMPERVA, F5, AWS WAF, AZURE APPLICATION GATEWAY.
+
+  Best tools for Vunlerability scanning :
+  =======================================
+  * Nessus  :  It can scan networks, systems, and applications for a wide range of vulnerabilities, misconfigurations, and compliance issues. Nessus offers both free and commercial versions, with the latter providing more advanced features and support. 
+  * AWS Inspector from amazon side
+  * Azure Inspector from Azure side
+
+
 
 
 
