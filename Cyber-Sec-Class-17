@@ -99,10 +99,8 @@ Explanation :
                         > Grey box testing combines elements of both black box and white box testing. Testers have partial knowledge of the internal workings of the system, such as architecture or design, but they don't have access to the source code.  
                    * White Box penetration testing  : 
                         > White box testing, also known as clear box or glass box testing, involves full access to the internal workings of the target system, including source code, architecture diagrams, and other sensitive information.
-
-                     
+                 
   * Release      : Security Sign off, After all tests are passed then the code will release to the customer.
-
 
 2. WAF(Web Application Firewall) :
 ==================================
