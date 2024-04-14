@@ -90,7 +90,14 @@ Indepth Explanation of SSDLC Lifecycle :
                       * Black duck.
                    These two tools will helps to identify the vulnerabilities and also these tools will helps to identify the latest versions(example java-7 deprecated, So it'll identify and create a jira to the team.
  
-  * Testing      : 
+  * Testing      : Security testing side Most of the organizations will do 3 types of testings.
+                   * Block Box penetration testing  :
+                        > In black box testing, the tester has no prior knowledge of the target system's architecture, design, or source code. It simulates an outsider's perspective, where the attacker has no internal knowledge of the system.
+                   * Grey Box  penetration testing  :
+                        > Grey box testing combines elements of both black box and white box testing. Testers have partial knowledge of the internal workings of the system, such as architecture or design, but they don't have access to the source code.  
+                   * White Box penetration testing  : 
+                        > White box testing, also known as clear box or glass box testing, involves full access to the internal workings of the target system, including source code, architecture diagrams, and other sensitive information.
+
                      
                    
 
