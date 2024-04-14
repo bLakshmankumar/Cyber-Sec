@@ -1,0 +1,46 @@
+# Here we will discuss about Application Security :
+===================================================
+
+Waht is Application Security :
+==============================
+  Application security refers to the practice of protecting software applications from threats and vulnerabilities throughout the entire development lifecycle. 
+  It involves implementing security measures and best practices to ensure that applications are secure against unauthorized access, data breaches, and other cyber threats.
+
+Topics under Application Security :
+-----------------------------------
+  1. SDLC and SSDLC Life cycle
+  2. WAF
+  3. OWASP TOP 10
+  4. Cryptography 
+
+Explanation :
+============
+  1. SDLC LifeCycle :
+  -------------------
+     SDLC stands for Software Development Lifecycle. It's a structured process for developing software applications that ensures high quality and reliability while managing costs and time effectively. 
+    
+     Phases on SDLC LifeCycle:
+     -------------------------
+        The SDLC typically consists of several phases, each with its own set of activities and deliverables:
+           Requirements Gathering: This phase involves gathering and analyzing requirements from stakeholders to understand what the software needs to accomplish.
+           Planning: In this phase, project goals, timelines, resources, and risks are identified and a plan is created outlining how the project will be executed.
+           Design: The design phase involves creating detailed technical specifications based on the requirements gathered earlier. This includes architecture design, database design, user interface design, etc.
+           Implementation (Coding): During this phase, the actual code for the software is written based on the design specifications. Developers follow coding standards and best practices to ensure code quality and maintainability.
+           Testing: Testing is an essential phase where the software is thoroughly tested to identify and fix defects. This includes unit testing, integration testing, system testing, and user acceptance testing.
+           Deployment: Once testing is complete and the software is deemed ready for release, it is deployed to the production environment where users can access it.
+           Maintenance: After deployment, the software enters the maintenance phase where it is monitored, updated, and patched to fix any issues that arise and to add new features or enhancements.
+
+  2. SSDLC LifeCycle :
+  --------------------
+     SSDLC, or Secure Software Development Lifecycle, is a variation of the traditional SDLC that incorporates security practices and considerations throughout the software development process. SSDLC aims to build security into the software from the ground up rather than addressing it as an afterthought. 
+
+     Phases on SSDLC LifeCycle:
+     ---------------------------
+       It typically includes the following security-focused activities integrated into each phase of the SDLC:
+          Security Requirements: In the requirements gathering phase, security requirements are identified and documented alongside functional requirements. This ensures that security considerations are taken into account from the outset.
+          Threat Modeling: During the design phase, threat modeling is performed to identify potential security threats and vulnerabilities in the software architecture. This helps inform design decisions and prioritize security controls.
+          Secure Coding Practices: In the implementation phase, developers follow secure coding practices to mitigate common security vulnerabilities such as injection flaws, authentication issues, and insecure cryptographic practices.
+          Security Testing: Security testing is integrated into the testing phase to identify and remediate security vulnerabilities such as SQL injection, cross-site scripting (XSS), and security misconfigurations.
+          Security Review: Before deployment, the software undergoes a security review or audit to ensure that security requirements have been adequately addressed and that the software meets security standards and best practices.
+          Security Monitoring: After deployment, the software is continuously monitored for security threats and vulnerabilities, and proactive measures are taken to mitigate risks and protect against attacks.
+
