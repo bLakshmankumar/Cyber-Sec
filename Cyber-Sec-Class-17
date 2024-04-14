@@ -15,7 +15,9 @@ Topics under Application Security :
 
 Explanation :
 ============
-  1. SDLC LifeCycle :
+1. SDLC and SSDLC Life cycle :
+==============================
+  *. SDLC LifeCycle :
   -------------------
      SDLC stands for Software Development Lifecycle. It's a structured process for developing software applications that ensures high quality and reliability while managing costs and time effectively. 
     
@@ -30,7 +32,7 @@ Explanation :
            Deployment: Once testing is complete and the software is deemed ready for release, it is deployed to the production environment where users can access it.
            Maintenance: After deployment, the software enters the maintenance phase where it is monitored, updated, and patched to fix any issues that arise and to add new features or enhancements.
 
-  2. SSDLC LifeCycle :
+  *. SSDLC LifeCycle :
   --------------------
      SSDLC, or Secure Software Development Lifecycle, is a variation of the traditional SDLC that incorporates security practices and considerations throughout the software development process. SSDLC aims to build security into the software from the ground up rather than addressing it as an afterthought. 
 
@@ -44,8 +46,8 @@ Explanation :
           Security Review: Before deployment, the software undergoes a security review or audit to ensure that security requirements have been adequately addressed and that the software meets security standards and best practices.
           Security Monitoring: After deployment, the software is continuously monitored for security threats and vulnerabilities, and proactive measures are taken to mitigate risks and protect against attacks.
 
-Indepth Explanation of SSDLC Lifecycle :
-========================================
+# Indepth Explanation of SSDLC Lifecycle :
+==========================================
    * Requirement : Security team will understand the requirement whatever the feature we are going to deliver.
    * Design      : In the Design phase security team will take care of Threat modeling.
                    Threat modeling meaning means : 
@@ -99,7 +101,19 @@ Indepth Explanation of SSDLC Lifecycle :
                         > White box testing, also known as clear box or glass box testing, involves full access to the internal workings of the target system, including source code, architecture diagrams, and other sensitive information.
 
                      
-                   
+  * Release      : Security Sign off, After all tests are passed then the code will release to the customer.
+
+
+2. WAF(Web Application Firewall) :
+==================================
+    A Web Application Firewall (WAF) is a security tool designed to protect web applications by filtering and monitoring HTTP traffic between a web application and the Internet. 
+    WAf it will prevent aginst layer number 7 (applcation layer attacks), as per OSI layers and also it will block OWASP top 10 category of the attacks(application layer attacks).
+    Its purpose is to detect and prevent various types of attacks targeting web applications, such as SQL injection, cross-site scripting (XSS), cross-site request forgery (CSRF), and other common vulnerabilities.
+
+
+3. 
+
+
 
 
 
