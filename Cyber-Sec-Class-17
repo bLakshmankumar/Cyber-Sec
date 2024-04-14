@@ -85,7 +85,7 @@ Indepth Explanation of SSDLC Lifecycle :
                      2. Commercial  (RMQ, NGINX, Keyvault, Postgresql & etc).
 
                    TPS(Third party Software) tools :
-                   --------------------------------
+                   ---------------------------------
                       * White source.
                       * Black duck.
                    These two tools will helps to identify the vulnerabilities and also these tools will helps to identify the latest versions(example java-7 deprecated, So it'll identify and create a jira to the team.
