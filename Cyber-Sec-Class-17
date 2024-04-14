@@ -44,4 +44,56 @@ Explanation :
           Security Review: Before deployment, the software undergoes a security review or audit to ensure that security requirements have been adequately addressed and that the software meets security standards and best practices.
           Security Monitoring: After deployment, the software is continuously monitored for security threats and vulnerabilities, and proactive measures are taken to mitigate risks and protect against attacks.
 
-34 classes completed
+Indepth Explanation of SSDLC Lifecycle :
+========================================
+   * Requirement : Security team will understand the requirement whatever the feature we are going to deliver.
+   * Design      : In the Design phase security team will take care of Threat modeling.
+                   Threat modeling meaning means : 
+                     Threat modeling is a structured approach used to identify and prioritize potential threats and vulnerabilities associated with a system, application, or organization. 
+                     It is a proactive process that helps organizations understand their security risks and make informed decisions about how to mitigate them.
+                     
+                   Most of the organizations follows the MICROSOFT STRIDE for identify and categorize potential security threats and vulnerabilities in software systems as part of Threat modeling.
+                   MICROSOFT STRIDE :
+                   ------------------
+                     Here's a brief overview of the STRIDE model and its purpose:
+                       Spoofing Identity      : This category refers to threats where an attacker attempts to impersonate a legitimate user or system entity to gain unauthorized access to resources or perform malicious actions.
+                                                The purpose of addressing spoofing identity threats is to ensure that systems can accurately verify the identity of users and entities and prevent unauthorized access.
+                       Tampering with Data    : This category involves threats where an attacker attempts to modify, delete, or insert data to disrupt system operations, steal sensitive information, or gain unauthorized privileges.
+                                                The purpose of addressing tampering with data threats is to ensure the integrity and confidentiality of data within the system.
+                       Repudiation            : Repudiation threats occur when an attacker denies performing a specific action or transaction, making it difficult to hold them accountable for their actions. 
+                                                The purpose of addressing repudiation threats is to implement measures that provide accountability and non-repudiation, such as auditing and logging mechanisms.
+                       Information Disclosure : Information disclosure threats involve unauthorized access to sensitive information, such as personal data, financial records, or intellectual property.
+                                                The purpose of addressing information disclosure threats is to implement controls that protect sensitive information from unauthorized access or disclosure.
+                       Denial of Service (DoS): Denial of service threats involve attacks that aim to disrupt or degrade the availability of a system or service, making it inaccessible to legitimate users. 
+                                                The purpose of addressing denial of service threats is to implement measures that mitigate the impact of such attacks and ensure the availability and reliability of the system.
+                       Elevation of Privilege : Elevation of privilege threats occur when an attacker gains unauthorized access to higher levels of privilege or permissions within a system, allowing them to perform actions they are not authorized to do. 
+                                                The purpose of addressing elevation of privilege threats is to implement strong access control mechanisms and least privilege principles to limit the scope of potential attacks.
+
+  * Development  : On the develepment side whatever the code developed by developer we will test the code level security agianst OWASP top 10 by using multiple tools, SAST(Static application security testing) also called a SCA(Static composition analysis) it's like a code scanning.
+
+                  # Note Below whatever the tools we have discussed all these tools will works under code level vulnerability/security scan only, It's not for phishing, spoofing, flooding, Authentication, Malware scanning tool.
+                  
+                   Some of the SAST(Static application security testing) also called a SCA(Static composition analysis) code scanning tools : 
+                   ------------------------------------------------------------------------------------------------------------------------
+                     IBM App Scan, HP fortify, Checkmarx, Veracode & etc.
+                     Whenever we run the scan, The scan will run againist OWASP top 10 and Generates a reports on html, pdf, json formats, If any vulnarubility is there then will create a JIRA to the development team to fix that Security defects.
+
+                   TPS(Third party Software) :
+                   ---------------------------
+                     Mostly every organization is using 2 types of 3rd party softwares
+                     1. Open Source (Java, Apache, Tomcat, OpenJDK, Angular)
+                     2. Commercial  (RMQ, NGINX, Keyvault, Postgresql & etc).
+
+                   TPS(Third party Software) tools :
+                   --------------------------------
+                      * White source.
+                      * Black duck.
+                   These two tools will helps to identify the vulnerabilities and also these tools will helps to identify the latest versions(example java-7 deprecated, So it'll identify and create a jira to the team.
+ 
+  * Testing      : 
+                     
+                   
+
+
+
+
