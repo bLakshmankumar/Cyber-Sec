@@ -108,8 +108,12 @@ Explanation :
     WAf it will prevent aginst layer number 7 (applcation layer attacks), as per OSI layers and also it will block OWASP top 10 category of the attacks(application layer attacks).
     Its purpose is to detect and prevent various types of attacks targeting web applications, such as SQL injection, cross-site scripting (XSS), cross-site request forgery (CSRF), and other common vulnerabilities.
 
+    Detection Methods of WAF :
+    ==========================
+      WAF has capable to detect the threats by using Both
+      * Signature Method and * Mechine Learning/AI.
+      Based on these methods it'll detect and send the alert to their respective teams.
 
-3. 
 
 
 
