@@ -39,8 +39,8 @@ Explanation :
        It typically includes the following security-focused activities integrated into each phase of the SDLC:
           Security Requirements: In the requirements gathering phase, security requirements are identified and documented alongside functional requirements. This ensures that security considerations are taken into account from the outset.
           Threat Modeling: During the design phase, threat modeling is performed to identify potential security threats and vulnerabilities in the software architecture. This helps inform design decisions and prioritize security controls.
-          Secure Coding Practices: In the implementation phase, developers follow secure coding practices to mitigate common security vulnerabilities such as injection flaws, authentication issues, and insecure cryptographic practices.
-          Security Testing: Security testing is integrated into the testing phase to identify and remediate security vulnerabilities such as SQL injection, cross-site scripting (XSS), and security misconfigurations.
+          Secure Coding Practices: In the implementation phase, developers follow secure coding practices to mitigate common security vulnerabilities such as injection flaws, authentication issues, and insecure cryptographic practices By using tools like snyk and other open sources tools.
+          Security Testing: Security testing is integrated into the testing phase to identify and remediate security vulnerabilities such as SQL injection, cross-site scripting (XSS), and security misconfigurations by doing penetration testing & others.
           Security Review: Before deployment, the software undergoes a security review or audit to ensure that security requirements have been adequately addressed and that the software meets security standards and best practices.
           Security Monitoring: After deployment, the software is continuously monitored for security threats and vulnerabilities, and proactive measures are taken to mitigate risks and protect against attacks.
 
