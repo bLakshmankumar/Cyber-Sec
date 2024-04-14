@@ -10,8 +10,8 @@ Topics under Application Security :
 -----------------------------------
   1. SDLC and SSDLC Life cycle
   2. WAF
-  3. OWASP TOP 10
-  4. Cryptography 
+  3. Cryptography 
+  4. OWASP TOP 10
 
 Explanation :
 ============
@@ -124,13 +124,20 @@ Explanation :
   * AWS Inspector from amazon side
   * Azure Inspector from Azure side
 
+3. Cryptography :
+=================
+    Cryptography enables the encryption of data to ensure that only authorized parties can access and decipher it. Encryption transforms plaintext (readable data) into ciphertext (unreadable data) using mathematical algorithms and keys.
+    Secure communication channels, such as Virtual Private Networks (VPNs), Secure Sockets Layer/Transport Layer Security (SSL/TLS) protocols, and encrypted messaging applications, rely on cryptography to protect sensitive information from eavesdropping and interception by malicious actors.
+
+  Examples of Cryptography :
+  =========================
+     * Encryption 
+     * Decryption
+
+  Types of Cryptography :
+  =======================
+     * Symentric 
+     * Asymentric
+     * Hybrid
+
 35 classes Completed.
-
-
-
-
-
-
-
-
-
