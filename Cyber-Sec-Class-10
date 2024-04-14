@@ -255,6 +255,18 @@ Before going to attacks we will discuss about two different types of processes.
        Techniques : https://attack.mitre.org/tactics/TA0008/
        Mitigations : Endpoint Detection and Response (EDR).
 
+       Buffer Overflow Attack:
+       =======================
+       Description : A buffer overflow attack occurs when a program writes more data to a buffer (a temporary storage area in computer memory) than it was allocated to hold.
+                     This can lead to the overflowed data overwriting adjacent memory locations, potentially causing the program to behave unpredictably or allowing an attacker to execute arbitrary code.
+       Ref-Doc     : https://www.geeksforgeeks.org/buffer-overflow-attack-with-example/
+
+       CSRF Attack (Cross-Site Request Forgery): 
+       =========================================
+       Description : A CSRF attack occurs when a malicious website or application tricks a user's web browser into making an unintended request to a different website where the user is authenticated. 
+                     This attack exploits the trust that a website has in a user's browser to perform actions on behalf of the user without their consent.
+       Ref-Doc     : https://owasp.org/www-community/attacks/csrf or https://www.geeksforgeeks.org/what-is-cross-site-request-forgery-csrf/
+
        Persistence Attack : 
        --------------------
         Description : Even through defensive team is clearing the infection still some of the infection will be existing.
