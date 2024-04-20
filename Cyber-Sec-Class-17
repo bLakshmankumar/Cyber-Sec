@@ -202,3 +202,22 @@ Major differences between Symmetric Cryptography and Asymmetric Cryptography :
       Asymmetric Cryptography: Simplifies key distribution as only public keys need to be distributed openly, while private keys remain secret.
       Hybrid Cryptography: Hybrid cryptography addresses the key distribution problem of symmetric cryptography by using asymmetric encryption to securely exchange symmetric keys.
 
+
+# Interview Qns :
+=================
+1. What is SSL/TLS mutual authentication ? 
+      SSL/TLS mutual authentication, also known as two-way authentication or client authentication, is a security mechanism that allows both the server and the client to authenticate each other during the SSL/TLS handshake process. 
+      In traditional SSL/TLS communication, only the server is authenticated to the client, ensuring that the client is connecting to the intended server. However, in mutual authentication, the client also presents a digital certificate to the server, allowing the server to verify the client's identity.
+2. How SSL/TLS mutual authentication works:
+      Let's consider a scenario where SSL/TLS mutual authentication is used between a client (such as a web browser) and a server (such as a web server).
+      Here's how the process would typically unfold:
+        Client Request:  A client, let's say a web browser, initiates a connection to a server (e.g., an online banking website) by sending a request.
+        Server Response: The server responds to the client's request by presenting its digital certificate, which includes its public key and identifying information. This certificate is signed by a trusted Certificate Authority (CA), establishing the server's identity.
+        Client Authentication Request:  In a typical SSL/TLS handshake, the client verifies the server's certificate against its list of trusted CAs. However, in mutual authentication, the server also requests the client to present its own digital certificate.
+        Client Certificate Presentation: The client responds to the server's request by presenting its digital certificate, which contains its public key and identifying information. This certificate is also signed by a trusted CA, establishing the client's identity.
+        Server Certificate Verification: The server verifies the client's certificate against its list of trusted CAs to ensure the client's authenticity. This verification involves checking the certificate's signature and validating its authenticity.
+        Client Certificate Verification: Similarly, the client verifies the server's certificate against its list of trusted CAs to ensure the server's authenticity. This verification process involves checking the server's certificate signature and validating its authenticity.
+        Establishment of Secure Connection: If both the server and the client successfully authenticate each other's identities, a secure connection is established between them. This secure connection is encrypted using symmetric encryption algorithms, and communication can proceed securely.
+        Secure Communication: With the secure connection established, the client and the server can exchange sensitive information (such as login credentials, financial transactions, etc.) over the encrypted channel with confidence that they are communicating with trusted entities.
+   
+
