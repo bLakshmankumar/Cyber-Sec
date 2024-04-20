@@ -220,4 +220,8 @@ Major differences between Symmetric Cryptography and Asymmetric Cryptography :
         Establishment of Secure Connection: If both the server and the client successfully authenticate each other's identities, a secure connection is established between them. This secure connection is encrypted using symmetric encryption algorithms, and communication can proceed securely.
         Secure Communication: With the secure connection established, the client and the server can exchange sensitive information (such as login credentials, financial transactions, etc.) over the encrypted channel with confidence that they are communicating with trusted entities.
    
+ 3. Differrence Between Encryption and Hashing ?
+      Encryption is a 2 way function, Reverse can be possible(Decryption).
+      Digital representing of a file is calling as a Hashing value, and Hashing is a 1 way function only, So reverse can't be possible.
+
 
