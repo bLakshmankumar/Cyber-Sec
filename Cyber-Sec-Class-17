@@ -224,4 +224,15 @@ Major differences between Symmetric Cryptography and Asymmetric Cryptography :
       Encryption is a 2 way function, Reverse can be possible(Decryption).
       Digital representing of a file is calling as a Hashing value, and Hashing is a 1 way function only, So reverse can't be possible.
 
+ 4. Types of Hashing algorithms : 
+      SHA-1 (Secure Hash Algorithm 1)  : SHA-1 is a cryptographic hash function that produces a 160-bit (20-byte) hash value. It was widely used for digital signatures, SSL/TLS certificates, and other security applications. However, SHA-1 is now considered weak due to vulnerabilities that allow for collision attacks.
+      SHA-3 (Secure Hash Algorithm 3)  : SHA-3 is the latest member of the Secure Hash Algorithm family, standardized by the National Institute of Standards and Technology (NIST) in 2015. It provides hash values of various lengths, including SHA-3-256 (producing 256-bit hash values), SHA-3-384, and SHA-3-512. 
+                                         SHA-3 is designed to provide increased security and resistance against cryptanalytic attacks compared to earlier hash functions. 
+      MD5 (Message Digest Algorithm 5) : MD5 is a widely used hash function that produces a 128-bit (16-byte) hash value. It was developed in 1991 and has been extensively used for various applications, including checksums, digital signatures, and password storage.
+                                         However, MD5 is now considered weak due to vulnerabilities that allow for collision attacks, where two different inputs produce the same hash value.
+      SHA-256 (Secure Hash Algorithm 256-bit) : SHA-256 is a widely used cryptographic hash function that produces a 256-bit (32-byte) hash value. It belongs to the SHA-2 family of hash functions and is considered secure for various cryptographic applications, including digital signatures and data integrity verification.
+                                                SHA-256 is commonly used in blockchain technology, digital certificates, and SSL/TLS protocols.
+
+5. What is Birthday(Birday) attack ?
+     If two diff files has same hash value then confilcts will occur, Those conflicts we will call it as Birthday attacks.
 
