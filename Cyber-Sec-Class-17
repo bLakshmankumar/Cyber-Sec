@@ -165,3 +165,40 @@ Explincation :
    In application security, these cryptographic techniques play crucial roles in ensuring the confidentiality, integrity, and authenticity of sensitive data and communications. 
    They are essential components of secure communication protocols, data encryption mechanisms, and authentication systems used to protect against various threats such as eavesdropping, data tampering, and identity impersonation.
 
+Major differences between Symmetric Cryptography and Asymmetric Cryptography :
+===============================================================================
+  * Key Management:
+   ----------------
+      Symmetric Cryptography: Requires secure distribution of the secret key between communicating parties. Key management can be more challenging, especially when dealing with a large number of keys.
+      Asymmetric Cryptography: Uses a pair of keys (public and private). The public key can be freely distributed, while the private key must be kept secret. Asymmetric cryptography simplifies key management as only the public keys need to be distributed.
+      Hybrid Cryptography: Hybrid cryptography combines symmetric and asymmetric techniques. Symmetric encryption is used for data encryption, while asymmetric encryption is used for securely exchanging the symmetric key. 
+                           Key management involves securely distributing the public keys and managing the symmetric keys for each communication session.
+  * Speed and Efficiency:
+  ------------------------
+      Symmetric Cryptography: Typically faster and more efficient than asymmetric cryptography, especially for encrypting large amounts of data.
+      Asymmetric Cryptography: Slower and less efficient compared to symmetric cryptography due to complex mathematical operations involved, especially for key generation and decryption.
+      Hybrid Cryptography: Hybrid cryptography combines the efficiency of symmetric encryption with the security benefits of asymmetric encryption, offering a balance between speed and security.
+
+  * Security Strength:
+  --------------------
+      Symmetric Cryptography: The security strength depends solely on the length and randomness of the secret key. Longer keys provide higher security.
+      Asymmetric Cryptography: The security strength depends on the mathematical complexity of the algorithm and the length of the keys. Typically, longer key lengths are required for equivalent security compared to symmetric cryptography.
+      Hybrid Cryptography: Hybrid cryptography combines the security strengths of both symmetric and asymmetric cryptography. Symmetric encryption provides efficient bulk data encryption, while asymmetric encryption ensures secure key exchange. 
+                           This combination offers strong security without sacrificing performance.
+  * Use Cases:
+  -------------
+      Symmetric Cryptography: Ideal for encrypting large amounts of data efficiently, such as bulk data encryption, file encryption, and disk encryption.
+      Asymmetric Cryptography: Primarily used for key exchange, digital signatures, and secure communication over insecure channels, such as secure email, SSL/TLS, and SSH.
+      Hybrid Cryptography: Hybrid cryptography is used in scenarios where both efficiency and security are required, such as in SSL/TLS protocols, secure messaging applications, and secure file transfer protocols.
+
+  * Resource Requirements:
+  ------------------------
+      Symmetric Cryptography: Requires less computational resources (e.g., processing power, memory) compared to asymmetric cryptography.
+      Asymmetric Cryptography: Demands more computational resources due to the complexity of mathematical operations involved, which can be a consideration in resource-constrained environments.
+
+  * Key Distribution:
+  --------------------
+      Symmetric Cryptography: Involves the challenge of securely distributing and managing secret keys among communicating parties.
+      Asymmetric Cryptography: Simplifies key distribution as only public keys need to be distributed openly, while private keys remain secret.
+      Hybrid Cryptography: Hybrid cryptography addresses the key distribution problem of symmetric cryptography by using asymmetric encryption to securely exchange symmetric keys.
+
