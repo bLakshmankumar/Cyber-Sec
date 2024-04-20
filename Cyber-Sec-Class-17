@@ -140,4 +140,28 @@ Explanation :
      * Asymentric
      * Hybrid
 
-35 classes Completed.
+Explincation :
+=============
+ Cryptography is the science and art of secure communication in the presence of adversaries. Here's a brief overview of the types of cryptography you mentioned along with their meanings, purposes, and examples of how they work in application security:
+ 1. Symmetric Cryptography:
+ --------------------------
+    Meaning: Symmetric cryptography, also known as secret key cryptography, involves the use of a single key for both encryption and decryption. This means that both the sender and the recipient share the same secret key.
+    Purpose: The main purpose of symmetric cryptography is to ensure confidentiality and integrity of data. It is typically used for encrypting large amounts of data efficiently.
+    Example: The Advanced Encryption Standard (AES) is a widely used symmetric encryption algorithm. In application security, AES is commonly employed to encrypt sensitive data such as passwords, credit card numbers, and other personal information stored in databases or transmitted over networks.
+ 2. Asymmetric Cryptography:
+ ---------------------------
+    Meaning: Asymmetric cryptography, also known as public key cryptography, involves the use of a pair of keys: a public key and a private key. The public key is used for encryption, while the private key is used for decryption.
+    Purpose: The main purpose of asymmetric cryptography is to provide secure communication over insecure channels and to authenticate the identities of communicating parties.
+    Example: The RSA algorithm is a popular asymmetric encryption algorithm used for secure communication and digital signatures. In application security, RSA is commonly used to establish secure connections (e.g., HTTPS) between clients and servers, as well as for secure email communication and digital signatures.
+ 3. Hybrid Cryptography:
+ -----------------------
+    Meaning: Hybrid cryptography combines the strengths of both symmetric and asymmetric cryptography. In hybrid cryptography, symmetric encryption is used to encrypt the actual data, while asymmetric encryption is used to securely exchange the symmetric encryption key.
+    Purpose: The purpose of hybrid cryptography is to address the key distribution problem inherent in symmetric cryptography while benefiting from its efficiency.
+    Example: In SSL/TLS (Secure Sockets Layer/Transport Layer Security) protocol used for secure communication over the internet, hybrid cryptography is employed. 
+             The symmetric encryption algorithm (e.g., AES) is used to encrypt the data transmitted between client and server, while asymmetric encryption (e.g., RSA) is used during the initial handshake to securely exchange the symmetric encryption key.
+
+  Summary :
+  ---------
+   In application security, these cryptographic techniques play crucial roles in ensuring the confidentiality, integrity, and authenticity of sensitive data and communications. 
+   They are essential components of secure communication protocols, data encryption mechanisms, and authentication systems used to protect against various threats such as eavesdropping, data tampering, and identity impersonation.
+
