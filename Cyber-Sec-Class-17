@@ -203,7 +203,7 @@ Major differences between Symmetric Cryptography and Asymmetric Cryptography :
       Hybrid Cryptography: Hybrid cryptography addresses the key distribution problem of symmetric cryptography by using asymmetric encryption to securely exchange symmetric keys.
 
 
-# Interview Qns :
+# Interview Qns : [ https://interviewprep.org/application-security-interview-questions/ ]
 =================
 1. What is SSL/TLS mutual authentication ? 
       SSL/TLS mutual authentication, also known as two-way authentication or client authentication, is a security mechanism that allows both the server and the client to authenticate each other during the SSL/TLS handshake process. 
