@@ -236,3 +236,7 @@ Major differences between Symmetric Cryptography and Asymmetric Cryptography :
 5. What is Birthday(Birday) attack ?
      If two diff files has same hash value then confilcts will occur, Those conflicts we will call it as Birthday attacks.
 
+6. What is Mean by HMAC(Hash Message Authentication Code) ?
+
+36th class at 45 min.
+
