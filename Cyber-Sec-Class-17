@@ -248,7 +248,8 @@ Major differences between Symmetric Cryptography and Asymmetric Cryptography :
        HMAC is commonly used in various security protocols, such as TLS (Transport Layer Security), IPsec (Internet Protocol Security), and in applications requiring message authentication, like in APIs or digital signatures. 
        It provides a way to verify both the integrity and authenticity of a message, ensuring that it has not been altered and that it originated from the expected sender.
 
-7. What is digital signature ? How it works
+7. What is digital signature ? How it works ?
+     Digital signature is depends on SSL/TLS certificates.
      A digital signature is a cryptographic technique used to ensure the authenticity, integrity, and non-repudiation of a digital message or document. It's essentially the digital equivalent of a handwritten signature or a seal on a physical document.
         Here's how it typically works:
            Message Digest: First, a hash function is applied to the message or document to generate a unique fixed-size string of characters called a message digest or hash value. This digest is essentially a digital fingerprint of the original message.
@@ -261,6 +262,36 @@ Major differences between Symmetric Cryptography and Asymmetric Cryptography :
            Integrity: Any alteration to the signed message, no matter how minor, would result in a completely different hash value when recalculated. Thus, digital signatures ensure that the message has not been tampered with.
            Non-repudiation: Since the signature is unique to the sender's private key, the sender cannot later deny sending the message. This property is crucial in legal and contractual situations.
            Digital signatures are widely used in various applications, including electronic transactions, digital contracts, secure communications, and software distribution. They play a fundamental role in ensuring the security and authenticity of digital communications and transactions.
+        Standard of the certificate : x.509v4 certificate
+
+8. Types of SSL/TLS Versions ?
+     The Secure Sockets Layer (SSL) protocol has evolved over time, with multiple versions released to address security vulnerabilities and improve cryptographic algorithms. 
+       Here are the main versions of SSL:
+         SSL 1.0: This version was never publicly released due to security flaws discovered during development.
+         SSL 2.0: Released in 1995, SSL 2.0 was the first public version of SSL. However, it had several security vulnerabilities, including weaknesses in the handshake protocol and the use of weak cryptographic algorithms. 
+                  It's considered insecure and obsolete, and support for SSL 2.0 has been largely discontinued.
+         SSL 3.0: Introduced in 1996, SSL 3.0 addressed many of the security flaws in SSL 2.0. It added support for new cryptographic algorithms and strengthened the handshake protocol.
+                  However, SSL 3.0 is also considered insecure due to vulnerabilities like the POODLE attack (Padding Oracle On Downgraded Legacy Encryption), which led to its deprecation.
+
+       After SSL 3.0, the industry moved towards the development and adoption of the Transport Layer Security (TLS) protocol, which is the successor to SSL.
+       However, TLS versions are often referred to as SSL for historical reasons. Here are the TLS versions:
+         TLS 1.0: Released in 1999, TLS 1.0 is very similar to SSL 3.0 but with some modifications for improved security. However, it still has some vulnerabilities, including the BEAST attack (Browser Exploit Against SSL/TLS).
+         TLS 1.1: Published in 2006, TLS 1.1 addressed some security weaknesses present in TLS 1.0, such as adding protection against the BEAST attack by implementing a new cipher suite.
+         TLS 1.2: Introduced in 2008, TLS 1.2 further enhanced security by introducing stronger cryptographic algorithms and improving resistance to various attacks. It is currently widely supported and considered secure for most applications.
+         TLS 1.3: Published in 2018, TLS 1.3 is the latest version of the TLS protocol. It offers significant improvements in terms of security, performance, and privacy. 
+                  TLS 1.3 reduces latency by minimizing the number of round trips required during the handshake process and mandates the use of modern cryptographic algorithms.
+  
+   NOTE : It's important to note that support for older versions like SSL 3.0 and TLS 1.0/1.1 is being phased out due to security concerns, and organizations are encouraged to upgrade to newer, more secure versions such as TLS 1.2 and TLS 1.3.
+
+9. Difference between SSl & TLS ?
+     SSL (Secure Sockets Layer) and TLS (Transport Layer Security) are cryptographic protocols used to secure communication over networks. TLS is the successor to SSL, offering improved security and flexibility.
+     While both protocols encrypt data to prevent eavesdropping, TLS incorporates stronger cryptographic algorithms and enhanced handshake protocols.
+     TLS also supports backward compatibility with SSL, ensuring seamless transition and interoperability.
+
+
+
+
+
 
 
 
