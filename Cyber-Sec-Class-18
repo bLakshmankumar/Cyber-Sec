@@ -131,6 +131,11 @@ Other Imp Attacks :
      Execution: Once the malicious script is injected, it gets served to other users visiting the affected page. When the victim's browser renders the page, it executes the injected script within the context of the web application.
      Exploitation: The executed script can perform various actions depending on the attacker's goals. This may include stealing session cookies, redirecting users to phishing sites, defacing the website, or performing actions on behalf of the victim.
 
+    Where attacker data will store : 
+    --------------------------------
+     Attacker will inject a malicious data script on application level and once the end user is clicking after logging into account whatever the data the he is provided at the time of signup all the data will go and store in the command and control server database.
+     In such a way attacker will gain an unauthorised access or sensitive data exposur.
+
     Now, let's discuss mitigation techniques with a real-time example:
     ------------------------------------------------------------------
      Input Validation and Sanitization: Validate and sanitize all user inputs to ensure they do not contain malicious scripts. This can include filtering out or escaping special characters that could be used in XSS attacks.
