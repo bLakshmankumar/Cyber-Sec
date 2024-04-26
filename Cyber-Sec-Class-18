@@ -19,7 +19,7 @@ OWASP Conducted a survey on :
          Example: If an application stores passwords in plain text or uses weak encryption algorithms, it is vulnerable to cryptographic failures. 
                  would involve securely hashing passwords using algorithms like bcrypt and ensuring sensitive data is encrypted properly.
 
-    A03:2021-Injection Flaw attack :
+  * A03:2021-Injection Flaw attack :
          Definition: Injection vulnerabilities occur when untrusted data is inserted into a command or query, allowing attackers to execute malicious code or commands.
                      94% of the applications were tested for some form of injection with a max incidence rate of 19%, an average incidence rate of 3.37%,
                      and the 33 CWEs mapped into this category have the second most occurrences in applications with 274k occurrences. Cross-site Scripting is now part of this category in this edition.
@@ -32,39 +32,39 @@ OWASP Conducted a survey on :
          Mitigation: Conduct thorough threat modeling and utilize secure design patterns and principles. Define security requirements early in the development process and ensure they are followed throughout.
          Example: If an application lacks proper authentication and authorization mechanisms from the beginning, it is vulnerable to insecure design. Mitigation involves redesigning the application architecture to incorporate secure authentication and authorization mechanisms.
 
-   A05:2021-Security Misconfiguration :
+    A05:2021-Security Misconfiguration :
          Definition: Security Misconfiguration occurs when security settings are improperly configured, leaving vulnerabilities exposed. This can include default configurations, unnecessary features enabled, or missing security patches.
          Mitigation: Follow security best practices for configuring servers, frameworks, and applications. Regularly audit configurations and apply security patches promptly.
          Example: Leaving default passwords unchanged or exposing sensitive information in error messages are examples of security misconfigurations. Mitigation involves changing default passwords and configuring error messages to reveal minimal information.
 
-   A06:2021-Vulnerable and Outdated Components :
+    A06:2021-Vulnerable and Outdated Components :
          Definition: Vulnerable and Outdated Components refer to the usage of third-party libraries or software components with known security vulnerabilities.
          Mitigation: Regularly update and patch third-party components. Use automated tools to scan for vulnerabilities in dependencies and remove or replace outdated components.
          Example: Using an outdated version of a web framework with known security vulnerabilities exposes the application to potential exploits. Mitigation involves updating to the latest version of the framework or replacing it with a more secure alternative.
 
-   A07:2021-Identification and Authentication Failures : 
+    A07:2021-Identification and Authentication Failures : 
          Definition: Identification and Authentication Failures occur when authentication mechanisms fail to properly identify and authenticate users, leading to unauthorized access.
          Mitigation: Implement strong authentication mechanisms such as multi-factor authentication (MFA) and enforce proper credential management practices.
          Example: Weak password policies or lack of multi-factor authentication can lead to identification and authentication failures. Mitigation involves enforcing strong password policies and implementing MFA.
 
-   A08:2021-Software and Data Integrity Failures :
+    A08:2021-Software and Data Integrity Failures :
          Definition: Software and Data Integrity Failures occur when assumptions related to software updates, critical data, or CI/CD pipelines are made without verifying integrity, leading to potential compromises.
          Mitigation: Implement integrity checks for software updates, critical data, and CI/CD pipelines. Verify the integrity of all components before deploying them.
          Example: If a malicious actor compromises a CI/CD pipeline and injects malicious code into the production environment, it results in software and data integrity failures. Mitigation involves implementing strong controls to prevent unauthorized changes to critical components.
 
-   A09:2021-Security Logging and Monitoring Failures :
+    A09:2021-Security Logging and Monitoring Failures :
         Definition: Security Logging and Monitoring Failures occur when logging and monitoring mechanisms are insufficient, making it challenging to detect and respond to security incidents effectively.
         Mitigation: Implement comprehensive logging and monitoring solutions. Ensure logs are generated for all security-relevant events and establish real-time alerting mechanisms.
         Example: If an application fails to log failed authentication attempts or unusual access patterns, it becomes difficult to detect potential security breaches. Mitigation involves implementing logging for all security-relevant events and establishing real-time alerts for suspicious activities.
 
-   A10:2021-Server-Side Request Forgery :
+    A10:2021-Server-Side Request Forgery :
        Definition: Server-Side Request Forgery (SSRF) occurs when an attacker can make the web server send requests to arbitrary destinations controlled by the attacker.
        Mitigation: Implement input validation and sanitization to prevent attackers from manipulating server-side requests. Use whitelisting to restrict the destinations the server can access.
        Example: If an application allows users to specify a URL for server-side processing and does not validate the input properly, it is vulnerable to SSRF attacks. Mitigation involves validating and sanitizing input to prevent attackers from controlling server-side requests.
 
 Other Imp Attacks : 
 ====================
-   Cross-Site Request Forgery (CSRF):
+ * Cross-Site Request Forgery (CSRF):
    ----------------------------------
      Definition: Cross-Site Request Forgery (CSRF) is a type of attack where an attacker tricks a user into unknowingly executing malicious actions on a web application in which the user is authenticated.
      How it Works: Attackers exploit CSRF vulnerabilities by tricking victims into visiting a malicious website or clicking on a malicious link that performs actions on a target website where the victim is authenticated. The attacker leverages the victim's active session to execute unauthorized actions without their consent.
@@ -115,7 +115,7 @@ Other Imp Attacks :
        Example Mitigation: 
          Implementing session tokens with short expiration times and regularly rotating them can limit the window of opportunity for attackers to hijack sessions. For example, a web application may generate a new session token for each login and invalidate old tokens after a short period of inactivity.
 
-   Cross-Site Scripting (XSS) :  
+ * Cross-Site Scripting (XSS) :  
    ----------------------------
      Cross-Site Scripting (XSS) is a type of security vulnerability typically found in web applications. It occurs when an attacker injects malicious scripts into web pages viewed by other users. 
      These scripts can execute within the victim's browser, leading to unauthorized access to cookies, session tokens, or other sensitive information, as well as the ability to perform actions on behalf of the victim.
