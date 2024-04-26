@@ -115,6 +115,36 @@ Other Imp Attacks :
        Example Mitigation: 
          Implementing session tokens with short expiration times and regularly rotating them can limit the window of opportunity for attackers to hijack sessions. For example, a web application may generate a new session token for each login and invalidate old tokens after a short period of inactivity.
 
+   Cross-Site Scripting (XSS) :  
+   ----------------------------
+     Cross-Site Scripting (XSS) is a type of security vulnerability typically found in web applications. It occurs when an attacker injects malicious scripts into web pages viewed by other users. 
+     These scripts can execute within the victim's browser, leading to unauthorized access to cookies, session tokens, or other sensitive information, as well as the ability to perform actions on behalf of the victim.
+    There are mainly three types of XSS attacks:
+    --------------------------------------------
+      Reflected XSS: In this type of attack, the malicious script is injected into the web application and then reflected off the web server to the victim's browser. This often happens through URLs or form inputs where the injected script is part of the request and gets executed by the victim's browser.
+      Stored XSS: Also known as persistent XSS, in this attack, the injected script is permanently stored on the target server, such as in a database. When a user visits the affected page, the script is served from the server and executed in the victim's browser.
+      DOM-based XSS: This type of XSS occurs when the vulnerability exists in the client-side code rather than on the server. The attacker manipulates the Document Object Model (DOM) environment in the victim's browser to execute the malicious script.
+
+    Now, let's see how XSS attacks work:
+    ------------------------------------
+     Injection: The attacker identifies a vulnerability in a web application that allows them to inject malicious scripts. This could be through input fields, URL parameters, or other entry points where user-controlled data is not properly sanitized.
+     Execution: Once the malicious script is injected, it gets served to other users visiting the affected page. When the victim's browser renders the page, it executes the injected script within the context of the web application.
+     Exploitation: The executed script can perform various actions depending on the attacker's goals. This may include stealing session cookies, redirecting users to phishing sites, defacing the website, or performing actions on behalf of the victim.
+
+    Now, let's discuss mitigation techniques with a real-time example:
+    ------------------------------------------------------------------
+     Input Validation and Sanitization: Validate and sanitize all user inputs to ensure they do not contain malicious scripts. This can include filtering out or escaping special characters that could be used in XSS attacks.
+     Content Security Policy (CSP): Implement CSP headers to restrict the sources from which the browser can load content, including scripts. This can help prevent XSS attacks by limiting the execution of scripts to trusted sources.
+     Output Encoding: Encode user-generated content before displaying it in web pages. This helps prevent the browser from interpreting the content as executable scripts.
+     Session Management: Use secure session management practices, such as HTTPOnly cookies, to prevent XSS attacks from stealing session tokens.
+     Security Testing: Regularly perform security testing, including vulnerability scanning and penetration testing, to identify and address XSS vulnerabilities before they can be exploited.
+   Real-Time Example:
+   ------------------
+     Suppose you have a web application that allows users to post comments on a forum. Without proper input validation and sanitization, an attacker could inject a malicious script into a comment.
+     When other users visit the page and view the comment, their browsers would execute the injected script, potentially compromising their accounts or stealing their session tokens.
+     To mitigate this, the web application should validate and sanitize all user inputs, including comments, to ensure they do not contain malicious scripts. Additionally, implementing CSP headers and output encoding can provide additional layers of defense against XSS attacks. 
+     Regular security testing should also be conducted to identify and address any vulnerabilities in the application.
+
 # How Owasp organization identify the top 10 attacks ?
 =======================================================
      Owasp organization identify the top 10 attacks based on CWE and CVE Scores.
