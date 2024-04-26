@@ -50,3 +50,56 @@ OWASP Conducted a survey on :
        Definition: Server-Side Request Forgery (SSRF) occurs when an attacker can make the web server send requests to arbitrary destinations controlled by the attacker.
        Mitigation: Implement input validation and sanitization to prevent attackers from manipulating server-side requests. Use whitelisting to restrict the destinations the server can access.
        Example: If an application allows users to specify a URL for server-side processing and does not validate the input properly, it is vulnerable to SSRF attacks. Mitigation involves validating and sanitizing input to prevent attackers from controlling server-side requests.
+
+Other Imp Attacks : 
+====================
+   Cross-Site Request Forgery (CSRF):
+   ----------------------------------
+     Definition: Cross-Site Request Forgery (CSRF) is a type of attack where an attacker tricks a user into unknowingly executing malicious actions on a web application in which the user is authenticated.
+     How it Works: Attackers exploit CSRF vulnerabilities by tricking victims into visiting a malicious website or clicking on a malicious link that performs actions on a target website where the victim is authenticated. The attacker leverages the victim's active session to execute unauthorized actions without their consent.
+     Example Attack: An attacker crafts a malicious HTML page containing hidden form fields that mimic legitimate requests to a banking website. The attacker then lures the victim into visiting this page, causing their browser to automatically submit the form and transfer funds from their account to the attacker's account.
+    Mitigation:
+      Implement anti-CSRF tokens or nonces (unique, unpredictable values) in forms and requests to validate the origin of requests and prevent unauthorized actions.
+      Use SameSite cookies to restrict cookie scope and prevent CSRF attacks originating from third-party websites.
+      Educate users about the risks of clicking on unfamiliar links or visiting suspicious websites and encourage them to log out of sensitive accounts when not in use.
+    Example Mitigation:
+      Web developers can include CSRF tokens in forms and AJAX requests to validate the origin of requests and reject those that do not include a valid token. 
+      For example, a banking website may include a hidden CSRF token in each form submission, which is validated on the server side before processing the request.
+  
+   Man-in-the-Middle (MitM):
+   -------------------------
+     Definition: Man-in-the-middle (MitM) is a type of attack where an attacker intercepts and possibly alters communications between two parties without their knowledge.
+     How it Works: Attackers insert themselves between the communication flow of two parties, intercepting and potentially modifying the data being exchanged.
+                  This can occur in various scenarios, such as insecure Wi-Fi networks, compromised routers, or malicious software.
+     Example Attack: An attacker sets up a rogue Wi-Fi access point with a legitimate-sounding name in a public area. When unsuspecting users connect to this access point, the attacker can intercept their traffic, including sensitive information like login credentials or financial data.
+       Mitigation:
+         Use secure communication protocols like HTTPS, SSH, or VPNs to encrypt data in transit and prevent interception.
+         Employ techniques like certificate pinning and mutual authentication to verify the identities of communicating parties and detect MitM attacks.
+         Educate users about the risks of connecting to untrusted networks and encourage them to use trusted connections and security best practices.
+       Example Mitigation: 
+         Organizations can implement strict firewall rules to block unauthorized network traffic and detect and log suspicious activities indicative of MitM attacks.
+         For example, network intrusion detection systems (NIDS) can be configured to alert administrators when unusual network traffic patterns are detected.
+
+   Buffer Overflow:
+   ----------------
+     Definition: Buffer overflow is a type of vulnerability where a program writes more data to a buffer (temporary storage area) than it can hold, leading to memory corruption and potential execution of malicious code.
+     How it Works: Attackers exploit buffer overflow vulnerabilities by sending specially crafted input data to a program, causing it to overwrite adjacent memory locations with malicious code. This code can then be executed to gain unauthorized access or control over the system.
+     Example Attack: An attacker may exploit a buffer overflow vulnerability in a web server by sending a carefully crafted HTTP request containing excessive data. This can overwrite critical memory structures, leading to a crash or arbitrary code execution.
+      Mitigation:
+        Use programming languages that provide memory safety features, such as bounds checking.
+        Implement input validation and sanitization to ensure that only expected data is accepted.
+        Employ techniques like address space layout randomization (ASLR) and stack canaries to make it harder for attackers to exploit buffer overflow vulnerabilities.
+      Example Mitigation:
+        Update vulnerable software with patches provided by vendors to fix known buffer overflow vulnerabilities. For example, if a web server software is found to have a buffer overflow vulnerability, the vendor may release a patch to address the issue.
+
+   Session Hijacking:
+   ------------------
+     Definition: Session hijacking is a type of attack where an attacker intercepts and takes over an active session between a user and a web application, allowing them to impersonate the user and perform actions on their behalf.
+     How it Works: Attackers can hijack sessions by stealing session identifiers, such as session cookies, through various means like packet sniffing, session fixation, or cross-site scripting (XSS) attacks. Once obtained, the attacker can use these identifiers to impersonate the victim and gain unauthorized access to their account.
+     Example Attack: An attacker intercepts network traffic between a user and a web application using a tool like Wireshark. They identify and capture the session cookie sent by the application during login. With this cookie, the attacker can then impersonate the user and access sensitive information or perform malicious actions.
+       Mitigation:
+         Implement secure session management practices, such as using HTTPS to encrypt traffic and secure cookies with flags like Secure and HttpOnly.
+         Employ mechanisms like session expiration, re-authentication for sensitive actions, and IP address verification to detect and prevent session hijacking attempts.
+         Use techniques like session token rotation and cryptographic measures to make session identifiers resistant to theft and replay attacks.
+       Example Mitigation: 
+         Implementing session tokens with short expiration times and regularly rotating them can limit the window of opportunity for attackers to hijack sessions. For example, a web application may generate a new session token for each login and invalidate old tokens after a short period of inactivity.
