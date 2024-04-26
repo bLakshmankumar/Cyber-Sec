@@ -122,7 +122,8 @@ Other Imp Attacks :
     There are mainly three types of XSS attacks:
     --------------------------------------------
       Reflected XSS: In this type of attack, the malicious script is injected into the web application and then reflected off the web server to the victim's browser. This often happens through URLs or form inputs where the injected script is part of the request and gets executed by the victim's browser.
-      Stored XSS: Also known as persistent XSS, in this attack, the injected script is permanently stored on the target server, such as in a database. When a user visits the affected page, the script is served from the server and executed in the victim's browser.
+      Stored XSS: Also known as persistent XSS, in this attack, the injected script is permanently stored on the target server, such as in a command and control server database. When a user visits the affected page, the script is served from the server and executed in the victim's browser. 
+                  In such a way attacker will gain an unauthorised access or sensitive data exposur.
       DOM-based XSS: This type of XSS occurs when the vulnerability exists in the client-side code rather than on the server. The attacker manipulates the Document Object Model (DOM) environment in the victim's browser to execute the malicious script.
 
     Now, let's see how XSS attacks work:
@@ -130,11 +131,6 @@ Other Imp Attacks :
      Injection: The attacker identifies a vulnerability in a web application that allows them to inject malicious scripts. This could be through input fields, URL parameters, or other entry points where user-controlled data is not properly sanitized.
      Execution: Once the malicious script is injected, it gets served to other users visiting the affected page. When the victim's browser renders the page, it executes the injected script within the context of the web application.
      Exploitation: The executed script can perform various actions depending on the attacker's goals. This may include stealing session cookies, redirecting users to phishing sites, defacing the website, or performing actions on behalf of the victim.
-
-    Where attacker data will store : 
-    --------------------------------
-     Attacker will inject a malicious data script on application level and once the end user is clicking after logging into account whatever the data the he is provided at the time of signup all the data will go and store in the command and control server database.
-     In such a way attacker will gain an unauthorised access or sensitive data exposur.
 
     Now, let's discuss mitigation techniques with a real-time example:
     ------------------------------------------------------------------
