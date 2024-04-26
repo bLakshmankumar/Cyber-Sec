@@ -103,3 +103,29 @@ Other Imp Attacks :
          Use techniques like session token rotation and cryptographic measures to make session identifiers resistant to theft and replay attacks.
        Example Mitigation: 
          Implementing session tokens with short expiration times and regularly rotating them can limit the window of opportunity for attackers to hijack sessions. For example, a web application may generate a new session token for each login and invalidate old tokens after a short period of inactivity.
+
+# How Owasp organization identify the top 10 attacks ?
+=======================================================
+     Owasp organization identify the top 10 attacks based on CWE and CVE Scores.
+      CWE : Common Weakness Enumeration  ( On application side will use CWE)
+      CVE : Common Vulnerabilities and Exposures ( Server side we will use CVE)
+
+# Diff between CWE and CVE ?
+-----------------------------
+    CWE (Common Weakness Enumeration) and CVE (Common Vulnerabilities and Exposures) are both used in the realm of cybersecurity, but they serve different purposes and can be applied to different aspects of security, including both server-side and application-side vulnerabilities:
+      CWE (Common Weakness Enumeration):
+      ----------------------------------
+        Usage: CWE is primarily used during the development and testing phases of software to identify, understand, and mitigate common weaknesses or vulnerabilities in code.
+        Application: CWE is applicable to both server-side and application-side vulnerabilities. It helps developers and security professionals classify and categorize weaknesses in software, regardless of whether they occur on the server or client side.
+        Example: CWE might be used to identify and address issues like buffer overflows, SQL injection, cross-site scripting (XSS), or insecure authentication mechanisms in server-side code (e.g., web server applications) or application-side code (e.g., web browsers or mobile apps).
+
+    CVE (Common Vulnerabilities and Exposures):
+    -------------------------------------------
+        Usage: CVE is primarily used to track and reference publicly known vulnerabilities in software systems, hardware devices, or network infrastructure.
+        Application: CVE is applicable to vulnerabilities discovered in various components of IT systems, including server-side software, application-side software, operating systems, network devices, and firmware.
+        Example: CVE might be assigned to vulnerabilities like remote code execution in a web server application, SQL injection in a database management system, XSS in a web application, or buffer overflow in a network protocol implementation.
+
+    In summary:
+    -----------
+       CWE is used to classify and describe weaknesses or vulnerabilities in software during the development and testing phases, applicable to both server-side and application-side code.
+       CVE is used to uniquely identify and track publicly known vulnerabilities in various components of IT systems, including server-side software, application-side software, and other infrastructure components.
