@@ -238,3 +238,11 @@ Other Imp Attacks :
      > Application Server/Web-server Logs
      > FW Logs
 
+* What is Logs and Events :
+---------------------------
+   Logs : ANy computer recorded activity or action applications, or devices.
+   Events : Abnormal change of log is called as event.
+   Alert : Notification of an event called as an alert.
+   Incident : It will give a negetive impact of CIA triad so that it will cause business outage or business disruptions.
+
+
