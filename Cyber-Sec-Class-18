@@ -146,6 +146,33 @@ Other Imp Attacks :
      To mitigate this, the web application should validate and sanitize all user inputs, including comments, to ensure they do not contain malicious scripts. Additionally, implementing CSP headers and output encoding can provide additional layers of defense against XSS attacks. 
      Regular security testing should also be conducted to identify and address any vulnerabilities in the application.
 
+* Server-Side Request Forgery (SSRF) :
+--------------------------------------
+     It is a type of security vulnerability found in web applications that allows attackers to send arbitrary requests from the vulnerable server. This can lead to unauthorized access to internal systems, data theft, or other malicious actions. 
+     SSRF attacks typically exploit functionalities that allow the application to make HTTP requests to other resources, such as APIs or internal systems.
+   Here's how SSRF attacks work:
+   -----------------------------
+      Identifying Vulnerability: The attacker identifies a SSRF vulnerability in the target web application. This could be through analyzing the application's functionality or by using automated scanning tools.
+      Exploiting the Vulnerability: The attacker crafts a malicious request, often by providing a URL as input to the application. This URL points to a resource that the attacker wants to access, such as an internal server or a cloud metadata endpoint.
+      Sending the Request: The attacker submits the malicious request to the vulnerable application. The application processes the request and sends a request to the specified URL, typically unaware that it is controlled by the attacker.
+      Exploiting the Response: Depending on the response from the targeted resource, the attacker can gather sensitive information, manipulate internal systems, or escalate the attack further.
+
+   Now, let's discuss mitigation techniques with a real-time example:
+   ------------------------------------------------------------------
+   Mitigation Techniques:
+   ----------------------
+     Input Validation: Validate and sanitize all user-controlled input to prevent attackers from providing malicious URLs that can be used in SSRF attacks. This includes checking input formats, whitelisting allowed domains, and blocking requests to internal or sensitive resources.
+     Restricting Access: Limit the network access of the application to only necessary resources and endpoints. Use firewalls, network segmentation, and access controls to prevent unauthorized access to internal systems.
+     URL Whitelisting: Maintain a whitelist of allowed URLs or domains that the application can access. Block requests to URLs outside of the whitelist to prevent attackers from exploiting SSRF vulnerabilities.
+     Use of Secure APIs: If the application needs to make requests to external resources, use secure APIs with proper authentication and authorization mechanisms. Avoid using user-controlled input directly in requests without proper validation.
+     Monitoring and Logging: Monitor outgoing requests from the application for unusual or suspicious behavior. Log and analyze all requests made by the application to detect and investigate potential SSRF attacks.
+
+   Real-Time Example:
+   ------------------
+     Suppose you have a web application that allows users to upload images and provides a feature to resize images by fetching them from a URL. Without proper input validation and access controls, an attacker could exploit this functionality to perform an SSRF attack.
+     To mitigate this, the application should validate and sanitize all user-controlled inputs, including URLs provided for image resizing. Additionally, restrict the application's access to only necessary resources and endpoints, and use URL whitelisting to block requests to unauthorized domains.
+     Regular monitoring and logging of outgoing requests can also help detect and prevent SSRF attacks in real-time.
+
 # How Owasp organization identify the top 10 attacks ?
 =======================================================
      Owasp organization identify the top 10 attacks based on CWE and CVE Scores.
