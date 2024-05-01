@@ -233,6 +233,8 @@ Other Imp Attacks :
 * Log sources to get alert notification in the SIEM Tool :
 ----------------------------------------------------------
      > Application Logs  
+     > DB Logs
      > WAF Logs
      > Application Server/Web-server Logs
+     > FW Logs
 
