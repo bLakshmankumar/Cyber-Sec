@@ -1,6 +1,20 @@
-# Started the CyberSecurity Classes :
+# Started the CyberSecurity & SOC:
 =====================================
 Definition : 
 ------------
   Cybersecurity is a field focused on protecting computer systems, networks, and data from unauthorized access, breaches, attacks, and other cyber threats. 
   Its purpose is to ensure the confidentiality, integrity, and availability of information and computing resources.
+
+SOC : 
+-----
+It's a dedicated site or room where security analysts will sit and will monitor and whenever any incidents will come, SOC team will take care of incident investigation or Forignsic analysis.
+
+Soc another names :
+--------------------
+  CERT : Computer Emergency Response Team
+  CSIRT : CyberSecurity Incident Response Team
+  SIRT : Security Incident Response Team
+  Cyber Defence Center
+  Blue Team 
+  
+
