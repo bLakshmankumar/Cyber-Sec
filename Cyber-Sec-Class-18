@@ -229,3 +229,10 @@ Other Imp Attacks :
         
         These are some of the most common types of injection flaws, each with its own attack vectors, objectives, and potential impact on the security of web applications and underlying systems.
         Mitigating injection flaws requires implementing proper input validation, parameterized queries, and other security best practices to prevent malicious input from being executed by the application.
+
+* Log sources to get alert notification in the SIEM Tool :
+----------------------------------------------------------
+     > Application Logs  
+     > WAF Logs
+     > Application Server/Web-server Logs
+
